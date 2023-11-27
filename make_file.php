@@ -13,7 +13,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            min-height: 100vh; /* 수정된 부분: 최소 높이를 100vh로 지정 */
+            min-height: 100vh; 
         }
 
         form {
@@ -24,7 +24,7 @@
             width: 100%;
             text-align: center;
             overflow: auto;
-            position: relative; /* 수정된 부분: position을 relative로 변경 */
+            position: relative;
         }
 
 
@@ -67,7 +67,7 @@
             cursor: pointer;
             border: none;
             border-radius: 4px;
-            padding: 0px 0px; /* 적절한 패딩 설정 */
+            padding: 0px 0px; 
             text-align: center;
             justify-content: center;
         }
@@ -146,6 +146,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $month = $_POST["month_$i"];
             $number = $_POST["number_$i"];
 
+            //CRUD: R
             $sql = "SELECT passage, interpret FROM exam_texts WHERE year = $year AND grade = $grade AND month = $month AND number = '$number'";
             $result = $conn->query($sql);
 
@@ -189,8 +190,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $passagesData = $_SESSION['passagesData'];
             // 데이터를 파일에 쓰기
             foreach ($passagesData as $data) {
-                fwrite($file, $data['passage'] . "\n\n\n");
-                fwrite($file, $data['interpret'] . "\n\n");
+                fwrite($file, $data['passage'] . "\n\n");
+                fwrite($file, $data['interpret'] . "\n\n\n");
             }
         
             // 파일 닫기
@@ -202,24 +203,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if ($newFile1 === false) {
                 die('Error opening file for writing');
             }
+
+            
             $sentences = [];
-            foreach ($passagesData as $data) {
+            foreach ($passagesData as $index => $data) {
                 $paragraphs = explode("\n", $data['passage']); // 문장을 \n으로 나누어 배열에 저장
+                shuffle($paragraphs); // 각 지문의 문장을 셔플
+
+                // 각 지문의 번호를 초기화
+                $sentenceNumber = 1;
+
                 foreach ($paragraphs as $paragraph) {
                     if (!empty(trim($paragraph))) {
-                        $sentences[] = $paragraph . "\n"; // 각 문장을 배열에 저장
+                        $sentences[] = '(' . $sentenceNumber . ') ' . $paragraph . "\n"; // 각 문장을 배열에 저장
+                        $sentenceNumber++;
                     }
                 }
+                $sentences[] = "\n\n";
             }
-
-            shuffle($sentences);
 
             // 번호를 붙여서 파일에 쓰기
-            $sentenceNumber = 1;
             foreach ($sentences as $sentence) {
-                fwrite($newFile1, '(' . $sentenceNumber . ') ' . $sentence);
-                $sentenceNumber++;
+                fwrite($newFile1, $sentence);
             }
+            
             fclose($newFile1);
 
             // 두 번째 새 파일 생성 ($_POST['filename'] . '단어빈칸.txt')
@@ -254,6 +261,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         fwrite($newFile2, $interpretParagraph . "\n");
                     }
                 }
+                fwrite($newFile2, "\n\n");
             }
             fclose($newFile2);
             // teacher.php로 리다이렉션

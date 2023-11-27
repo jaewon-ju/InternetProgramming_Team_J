@@ -68,10 +68,6 @@
         background-color: #0056b3;
     }
 </style>
-
-
-
-
 </head>
 <body>
 
@@ -102,7 +98,7 @@ $sql_create_exam_texts = "CREATE TABLE IF NOT EXISTS exam_texts (
 )";
 $conn->query($sql_create_exam_texts);
 
-// 폼에서 데이터를 받아와서 모의고사 지문 추가 처리
+// 폼에서 데이터를 받아와서 모의고사 지문 추가 또는 업데이트 처리
 if ($_SERVER["REQUEST_METHOD"] == "POST" &&
     isset($_POST['year']) &&
     isset($_POST['month']) &&
@@ -118,15 +114,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" &&
     $passage = $_POST['passage'];
     $interpret = $_POST['interpret'];
 
-    // 모의고사 지문 추가
-    $stmt = $conn->prepare("INSERT INTO exam_texts (year, month, grade, number, passage, interpret) VALUES (?, ?, ?, ?, ?, ?)");
-    $stmt->bind_param("iiisss", $year, $month, $grade, $number, $passage, $interpret);
+    // 중복 여부 확인을 위한 쿼리
+    $checkDuplicateQuery = "SELECT COUNT(*) as count FROM exam_texts WHERE year = $year AND grade = $grade AND month = $month AND number = '$number'";
+    $duplicateResult = $conn->query($checkDuplicateQuery);
+    $duplicateCount = $duplicateResult->fetch_assoc()['count'];
 
-    if ($stmt->execute() === TRUE) {
-        // 추가된 지문에 대한 알림 창
-        echo "<script>alert('" . $year . "년 고" . $grade . " " . $month . "월 모의고사 " . $number . "번이 데이터베이스에 추가되었습니다.');</script>";
+    if ($duplicateCount > 0) {
+        // 중복된 경우 UPDATE 쿼리 수행
+        $stmt = $conn->prepare("UPDATE exam_texts SET passage = ?, interpret = ? WHERE year = ? AND grade = ? AND month = ? AND number = ?");
+        $stmt->bind_param("ssiiis", $passage, $interpret, $year, $grade, $month, $number);
+        $stmt->execute();
+        echo "<script>alert('중복된 지문이 업데이트되었습니다.');</script>";
     } else {
-        echo "<p>Error adding exam text: " . $conn->error . "</p>";
+        // 중복이 아닌 경우 INSERT 쿼리 수행
+        $stmt = $conn->prepare("INSERT INTO exam_texts (year, month, grade, number, passage, interpret) VALUES (?, ?, ?, ?, ?, ?)");
+        $stmt->bind_param("iiisss", $year, $month, $grade, $number, $passage, $interpret);
+        $stmt->execute();
+        echo "<script>alert('" . $year . "년 고" . $grade . " " . $month . "월 모의고사 " . $number . "번이 데이터베이스에 추가되었습니다.');</script>";
     }
     $stmt->close();
 }
