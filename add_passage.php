@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Passage</title>
     <style>
+    html{
+        height: 100%;
+    }
     body {
         font-family: 'Arial', sans-serif;
         background-color: #f4f4f4;
         margin: 0;
         padding: 0;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        overflow: auto;
+        height: 100%;
     }
 
     .form-container {
         position: relative;
+        overflow: auto;
     }
 
     form {
@@ -34,11 +40,6 @@
         font-size: 70px;
         text-align: center;
         color: #333;
-        position: absolute;
-        top: -140px; /* h2의 높이만큼 위로 이동 */
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 0 10px;
     }
 
     label {
@@ -67,6 +68,17 @@
     input[type="submit"]:hover {
         background-color: #0056b3;
     }
+
+    footer {
+            width : 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px; /* 수정된 부분: margin-top 추가 */
+            position: absolute;
+            bottom: 0;
+        }
 </style>
 </head>
 <body>
@@ -120,12 +132,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" &&
     $duplicateCount = $duplicateResult->fetch_assoc()['count'];
 
     if ($duplicateCount > 0) {
+        //CRUD: U
         // 중복된 경우 UPDATE 쿼리 수행
         $stmt = $conn->prepare("UPDATE exam_texts SET passage = ?, interpret = ? WHERE year = ? AND grade = ? AND month = ? AND number = ?");
         $stmt->bind_param("ssiiis", $passage, $interpret, $year, $grade, $month, $number);
         $stmt->execute();
         echo "<script>alert('중복된 지문이 업데이트되었습니다.');</script>";
     } else {
+        //CRUD: C
         // 중복이 아닌 경우 INSERT 쿼리 수행
         $stmt = $conn->prepare("INSERT INTO exam_texts (year, month, grade, number, passage, interpret) VALUES (?, ?, ?, ?, ?, ?)");
         $stmt->bind_param("iiisss", $year, $month, $grade, $number, $passage, $interpret);
@@ -163,5 +177,11 @@ $conn->close();
     <input type="submit" value="추가">
 </form>
 </div>
+
+<footer>
+    <p>개인정보처리 방침 | 연락처 | 이름 등등</p>
+    <a href="teacher.php" style = "color: white">처음으로 돌아가기</a>
+    <p>&copy; 2023 Your Website</p>
+</footer>
 </body>
 </html>

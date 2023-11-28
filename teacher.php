@@ -11,15 +11,10 @@
             margin: 0;
             padding: 0;
             display: flex;
-            flex-direction : column;
+            flex-direction: row;
             align-items: center;
             justify-content: center;
             height: 100vh;
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
         }
 
         form {
@@ -28,40 +23,56 @@
             margin-top: 20px;
         }
 
-        input[type="submit"] {
-            background-color: #007BFF;
-            color: #fff;
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .data-control-button, .make-file-button {
+            width: 200px;
+            height: 200px;
+            color: black;
             cursor: pointer;
-            padding: 10px 20px;
-            font-size: 16px;
+            font-size: 30px;
+            font-weight: bolder;
             border: none;
             border-radius: 4px;
             margin: 0 10px;
+            display: flex; /* 추가: 세로 정렬을 위해 flex 속성 추가 */
+            flex-direction: column; /* 추가: 세로 방향으로 정렬 */
+            align-items: center; /* 추가: 가로 방향으로 중앙 정렬 */
+            transition: transform 0.3s, box-shadow 0.3s;
         }
 
-        input[type="submit"]:hover {
-            background-color: #0056b3;
+        .data-control-button {
+            background: url('image1.png') no-repeat;
+            background-size: contain;
+        }
+
+        .make-file-button {
+            background: url('image2.jpg') no-repeat;
+            background-size: contain;
+        }
+
+        .data-control-button:hover, .make-file-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
     </style>
 </head>
 <body>
 
-    <h2>Teacher 페이지</h2>
+    <div class="button-container">
+        <!-- 데이터 관리 버튼 -->
+        <form action="data_control.php" method="post">
+            <input class="data-control-button" type="submit" value="데이터 관리">
+        </form>
 
-<!-- DB에 지문 추가 버튼 -->
-<form action="add_passage.php" method="post">
-    <input type="submit" value="DB에 지문 추가">
-</form>
-
-<!-- 자료 제작 버튼 -->
-<form action="make_file.php" method="post">
-    <input type="submit" value="자료 제작">
-</form>
-
-<!-- 게시판 글쓰기 버튼 -->
-<form action="write_post.php" method="post">
-    <input type="submit" value="게시판 글쓰기">
-</form>
+        <!-- 자료 제작 버튼 -->
+        <form action="make_file.php" method="post">
+            <input class="make-file-button" type="submit" value="자료 제작">
+        </form>
+    </div>
 
 </body>
 </html>
