@@ -1,41 +1,95 @@
-<?php
-//MariaDB에 txt 데이터를 삽입할 수 있는지 확인하는 코드입니다. 
+<!-- board_test.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
 
-$servername = "localhost";
-$username = "phpadmin";
-$password = "phpadmin";
-$dbname = "goods";
+        h1 {
+            color: #333;
+        }
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
 
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
 
-// 파일 읽기
-$fileContent = file_get_contents('테스트용 지문TEXT.txt');
+        th {
+            background-color: #f2f2f2;
+        }
 
-$sql_create_table = "
-CREATE TABLE IF NOT EXISTS test_TABLE (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    file_data LONGBLOB
-)";
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
 
-if ($conn->query($sql_create_table) != TRUE) {
-    echo "테이블 생성 오류: " . $conn->error;
-}
+        a:hover {
+            text-decoration: underline;
+        }
 
-// 파일 내용을 데이터베이스에 삽입
-$sql = "INSERT INTO test_TABLE (file_data) VALUES (?)";
-$stmt = $conn->prepare($sql);
-$stmt->bind_param("s", $fileContent);
+        tr:hover {
+            cursor: pointer;
+            background-color: #ccc;
+        }
 
-if ($stmt->execute()) {
-    echo "파일이 성공적으로 데이터베이스에 삽입되었습니다.";
-} else {
-    echo "오류: " . $stmt->error;
-}
+    </style>
+    <title>게시판</title>
+</head>
+<body>
+    <h1>게시판</h1>
 
-$stmt->close();
-$conn->close();
-?>
+    <?php
+    $servername = "localhost";
+    $username = "phpadmin";
+    $password = "phpadmin";
+    $dbname = "goods";
+
+    // 데이터베이스 연결
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $conn->set_charset("utf8mb4");
+    // 연결 확인
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    // 쿼리 작성 및 실행
+    $sql = "SELECT id, author, title, content, file_path FROM board_table";
+    $result = $conn->query($sql);
+
+    // 결과가 있는 경우에만 출력
+    if ($result->num_rows > 0) {
+        echo "<table>";
+        echo "<tr><th>제목</th><th>작성자</th><th>내용</th><th>첨부 파일</th></tr>";
+        
+        while ($row = $result->fetch_assoc()) {
+            echo "<tr onclick='location.href=\"board.php?id=" . $row['id'] . "\";'>";
+            echo "<td>" . $row['title'] . "</td>";
+            echo "<td>" . $row['author'] . "</td>";
+            echo "<td>" . (mb_strlen($row['content'], 'UTF-8') > 20 ? mb_substr($row['content'], 0, 20, 'UTF-8') . "..." : $row['content']) . "</td>";
+            echo "<td>" . ($row['file_path'] ? "있음" : "없음") . "</td>";
+            echo "</tr>";
+        }
+
+        echo "</table>";
+    } else {
+        echo "게시물이 없습니다.";
+    }
+
+    // 연결 종료
+    $conn->close();
+    ?>
+</body>
+</html>
