@@ -11,24 +11,18 @@ $conn->set_charset("utf8mb4");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-if (isset($_POST['add_word']) && !isset($_SESSION['form_processed'])) {
+if (isset($_POST['add_word'])) {
     // 단어를 데이터베이스에 추가하는 코드를 여기에 작성하세요.
     $newWord = $_POST['new_word'];
-        $meaning = $_POST['meaning'];
+    $meaning = $_POST['meaning'];
 
-        $insertQuery = "INSERT INTO english_word (word, meaning) VALUES ('$newWord', '$meaning')";
+    $insertQuery = "INSERT INTO english_word (word, meaning) VALUES ('$newWord', '$meaning')";
     
-        if ($conn->query($insertQuery) === TRUE) {
-            echo "단어 추가 완료";
-        } else {
-            echo "Error: " . $insertQuery . "<br>" . $conn->error;
-        }
-    // 폼이 처리되었음을 표시하기 위해 세션 변수 설정
-    $_SESSION['form_processed'] = true;
-
-    // 단어 추가 후, 반복적인 제출을 방지하기 위해 같은 페이지로 리디렉션
-    header("Location: {$_SERVER['REQUEST_URI']}");
-    exit(); // 리디렉션 후 스크립트 종료
+    if ($conn->query($insertQuery) === TRUE) {
+        echo "";
+    } else {
+        echo "Error: " . $insertQuery . "<br>" . $conn->error;
+    }
 }
 // Count the total number of words in the table
 $countQuery = "SELECT COUNT(*) as total_words FROM english_word";
