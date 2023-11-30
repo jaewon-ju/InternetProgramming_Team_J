@@ -149,13 +149,9 @@
                 echo "검색 결과가 없습니다.";
             }
 
-            // 연결 종료
-            $conn->close();
-            ?>
-        </table>
-        <input type="submit" name="delete_selected" id="deleteButton" value="선택한 항목 삭제">
-    </form>
-
+    // 연결 종료
+    $conn->close();
+    ?>
 </body>
 
 </html>
