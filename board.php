@@ -26,7 +26,7 @@
             display: flex; /* 추가: flex container로 설정 */
             flex-direction: column; /* 추가: 세로 방향으로 요소 배치 */
             text-align: center; /* content를 중앙에 배치하기 위해 추가 */
-            height: 80%;
+            overflow: auto;
         }
 
         .header {
@@ -48,8 +48,10 @@
         }
 
         h2 {
+            padding: 0px;
             font-size: 55px;
             color: #333;
+            margin: 0px;
             text-align: center; /* title을 중앙에 배치하기 위해 추가 */
         }
 
@@ -57,13 +59,12 @@
             margin: 5px 0;
         }
 
-        .info-container {
+        .title {
             background-color: whitesmoke; /* 배경 색 변경 */
             color: #fff;
-            padding: 10px;
+            padding: 0px;
+            
             border-radius: 8px; /* border-radius 추가 */
-            display: flex; /* flexbox를 사용하여 내부 요소를 가로 정렬 */
-            flex-direction: column;
             justify-content: space-between; /* 내부 요소를 좌우에 배치 */
         }
 
@@ -77,7 +78,6 @@
         }
 
         .content {
-            min-height: 100%;;
             background-color: #f2f2f2; /* 배경 색 변경 */
             padding: 10px;
             border-radius: 8px; /* border-radius 추가 */
@@ -132,14 +132,14 @@
                 $row = $result->fetch_assoc();
 
                 echo "<div class='post'>";
-                echo "<div class='info-container'>";
+                echo "<div class='title'>";
                 echo "<h2>" . $row['title'] . "</h2>";
                 echo "</div>";
                 echo "<div class='content'>";
                 echo "<p>" . $row['content'] . "</p>";
                 echo "</div>";
                 echo "<p class='author'> 작성자: " . $row['author'] . "</p>";
-                echo "<p class='file-download'>" . ($row['file_path'] ? "<a href='download.php?file=" . $row['file_path'] . "'>다운로드</a>" : "없음") . "</p>";
+                echo "<p class='file-download'>" . ($row['file_path'] ? "<a href='download.php?file=" . $row['file_path'] . "'>첨부파일 다운로드</a>" : "없음") . "</p>";
                 echo "</div>";
             } else {
                 echo "게시물이 없습니다.";

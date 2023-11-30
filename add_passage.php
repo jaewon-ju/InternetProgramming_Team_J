@@ -18,7 +18,6 @@
         align-items: center;
         justify-content: center;
         overflow: auto;
-        height: 100%;
     }
 
     .form-container {
@@ -76,7 +75,6 @@
             text-align: center;
             padding: 10px;
             margin-top: 20px; /* 수정된 부분: margin-top 추가 */
-            position: absolute;
             bottom: 0;
         }
 </style>
