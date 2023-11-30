@@ -54,7 +54,7 @@ if (isset($_POST['delete_word_btn'])) {
     $wordIdToDelete = $_POST['delete_word_id'];
     $deleteQuery = "DELETE FROM english_word WHERE turn = '$wordIdToDelete'";
     if ($conn->query($deleteQuery) === TRUE) {
-        echo "<p class='mt-4'>단어가 삭제되었습니다: $wordIdToDelete</p>";
+        echo "<p class='mt-4'>단어가 삭제되었습니다. 새로고침을 눌러주세요.</p>";
     } else {
         echo "Error: " . $deleteQuery . "<br>" . $conn->error;
     }
@@ -82,7 +82,7 @@ $conn->close();
 
 <script>
     function goBack() {
-        window.history.back();
+        window.location.href = 'control_word.php';
     }
 
     function closeModal() {
