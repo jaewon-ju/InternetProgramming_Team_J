@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teacher 페이지</title>
+    <title>Data Control</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -28,33 +28,21 @@
             justify-content: center;
         }
 
-        .data-control-button, .make-file-button {
-            width: 200px;
+        .control-word-button, .control-passage-button {
+            width: 300px;
             height: 200px;
             color: black;
             cursor: pointer;
             font-size: 30px;
             font-weight: bolder;
             border: none;
-            border-radius: 4px;
-            margin: 0 10px;
-            display: flex; /* 추가: 세로 정렬을 위해 flex 속성 추가 */
-            flex-direction: column; /* 추가: 세로 방향으로 정렬 */
+            border-radius: 4px; 
+            margin: 0px 30px;
             align-items: center; /* 추가: 가로 방향으로 중앙 정렬 */
             transition: transform 0.3s, box-shadow 0.3s;
         }
 
-        .data-control-button {
-            background: url('image1.png') no-repeat;
-            background-size: contain;
-        }
-
-        .make-file-button {
-            background: url('image2.jpg') no-repeat;
-            background-size: contain;
-        }
-
-        .data-control-button:hover, .make-file-button:hover {
+        .control-word-button:hover, .control-passage-button:hover {
             transform: scale(1.1);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
@@ -63,14 +51,14 @@
 <body>
 
     <div class="button-container">
-        <!-- 데이터 관리 버튼 -->
-        <form action="control_data.php" method="post">
-            <input class="data-control-button" type="submit" value="데이터 관리">
+        <!-- 영단어 관리 버튼 -->
+        <form action="control_word.php" method="post">
+            <input class="control-word-button" type="submit" value="영단어 관리">
         </form>
 
-        <!-- 자료 제작 버튼 -->
-        <form action="make_file.php" method="post">
-            <input class="make-file-button" type="submit" value="자료 제작">
+        <!-- 모의고사 지문 관리 버튼 -->
+        <form action="control_passage.php" method="post">
+            <input class="control-passage-button" type="submit" value="모의고사 지문 관리">
         </form>
     </div>
 

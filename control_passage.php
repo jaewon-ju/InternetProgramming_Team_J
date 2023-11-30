@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>데이터 관리</title>
+    <title>모의고사 지문 관리</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
