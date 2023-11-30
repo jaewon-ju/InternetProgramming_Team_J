@@ -49,7 +49,7 @@
         if (isset($_GET['reset_count']) && $_GET['reset_count'] === 'true') {
             $_SESSION['quiz_count'] = 0;
         }
-        
+        //users테이블 이용해서 id, username(이름) --> 동명이인
         echo "<div class='user-information'>유저정보 출력란(공백), 로그아웃 기능도?</div>";        
         ?>
         <style>
