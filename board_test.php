@@ -65,12 +65,16 @@
 
     <!-- 검색 폼 추가 -->
     <div class="search-container">
-        <form method="get" action="">
-            <input type="text" name="search" class="search-input" placeholder="검색어를 입력하세요">
-            <button type="submit" class="search-button">검색</button>
-        </form>
-    </div>
-
+    <form method="get" action="">
+        <select name="search_type" class="search-dropdown">
+            <option value="title">제목</option>
+            <option value="author">작성자</option>
+            <option value="content">내용</option>
+        </select>
+        <input type="text" name="search" class="search-input" placeholder="검색어를 입력하세요">
+        <button type="submit" class="search-button">검색</button>
+    </form>
+</div>
     <?php
     $servername = "localhost";
     $username = "phpadmin";
@@ -118,5 +122,26 @@
     // 연결 종료
     $conn->close();
     ?>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const tableRows = document.querySelectorAll("table tr");
+
+    tableRows.forEach(row => {
+        row.addEventListener("click", function() {
+            const searchType = document.querySelector(".search-dropdown");
+            const searchTermInput = document.querySelector(".search-input");
+
+            const columnToSearch = this.cells[searchType.selectedIndex].textContent.trim();
+            searchTermInput.value = columnToSearch;
+
+            // 정확한 폼을 찾아서 submit
+            const form = this.closest("form");
+            if (form) {
+                form.submit();
+            }
+        });
+    });
+});
+</script>
 </body>
 </html>
