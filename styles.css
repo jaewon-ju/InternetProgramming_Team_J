@@ -1,54 +1,78 @@
+/* General styling */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    min-height: 100vh;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.header,
-.footer {
-    background-color: #333;
-    color: #fff;
+/* Styles for your list items, buttons, forms, etc. */
+.list-group {
+    list-style: none;
+    padding: 0;
+}
+
+.list-group-item {
+    margin-bottom: 5px;
     padding: 10px;
-    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    background-color: #f9f9f9;
 }
 
-.left-panel {
-    flex: 0.25;
-    padding: 20px;
-    height: auto;
-    overflow: hidden;
+.btn {
+    padding: 8px 12px;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.login-form {
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15% auto;
     padding: 20px;
-    border-radius: 8px;
-    height: 900px;
+    border-radius: 5px;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.right-panel {
-    flex: 1;
-    padding: 20px;
-    height: auto;
-    overflow: hidden;
-}
-
-.board-container {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    border-radius: 8px;
-    height: 900px;
-}
-
-.footer {
-    margin-top: auto; /* Footer를 페이지 하단에 고정하기 위한 스타일 */
-}
+/* Additional styling as needed */
