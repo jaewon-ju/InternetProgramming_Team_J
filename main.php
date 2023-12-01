@@ -1,3 +1,16 @@
+<?php
+// 세션 시작
+session_start();
+
+// 세션에 저장된 역할을 확인
+$role = isset($_SESSION['role']) ? $_SESSION['role'] : '';
+
+// 함수: 선생님 여부 확인
+function isTeacher() {
+    return isset($_SESSION['role']) && $_SESSION['role'] === 'teacher';
+}
+
+?>
 <!DOCTYPE html>
 <html lang="kr">
 <head>
@@ -22,9 +35,11 @@
                 <div class = "quiz_button">
                     <button onclick="location.href='./word_quiz_main.php'"></button>
                 </div>
+                <?php if(isTeacher())  : ?>
                 <div class = "teacher_button">
                     <button type="button" class="btn" onclick="location.href='./teacher.php'">Teacher</button>
                 </div>
+                <?php endif; ?>
             </div>
         </div>
         <div class="right-panel">
@@ -110,9 +125,11 @@
                 <button type="submit" name="delete_selected" id="deleteButton">선택한 항목 삭제</button>
                 </form>
             </div>
+            <?php if(isTeacher())  : ?>
             <div class="write_button">
                 <button type="button" class="btn" onclick="location.href='./write.php'">글쓰기</button>
             </div>
+            <?php endif; ?>
             </div>
             
     </div>
