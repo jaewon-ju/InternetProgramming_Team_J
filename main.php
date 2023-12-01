@@ -184,6 +184,7 @@
         </form>
         </div>
             <div class="board-container">
+            <form method="post" action="">
                 <table>
                     <tr>
                         <th></th>
@@ -223,11 +224,6 @@
                             // 선택된 항목을 삭제
                             $selectedItems = implode(',', $_POST['delete_ids']);
                             $sql_delete_data = "DELETE FROM board WHERE id IN ($selectedItems)";
-                            if ($conn->query($sql_delete_data) === TRUE) {
-                                echo "<p>선택된 게시글이 삭제되었습니다.</p>";
-                            } else {
-                                echo "<p>삭제 중 오류가 발생했습니다: " . $conn->error . "</p>";
-                            }
                         } else {
                             echo "<p>선택된 게시글이 없습니다.</p>";
                         }
@@ -256,6 +252,7 @@
                     ?>
                 </table>
                 <button type="submit" name="delete_selected" id="deleteButton">선택한 항목 삭제</button>
+                </form>
             </div>
             <div class="custom-btn btn-4">
                 <button type="button" class="btn" onclick="location.href='./write.php'">글쓰기</button>
