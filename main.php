@@ -182,7 +182,7 @@
             <input type="text" name="search" class="search-input" placeholder="검색어를 입력하세요">
             <button type="submit" class="search-button">검색</button>
         </form>
-    </div>
+        </div>
             <div class="board-container">
                 <table>
                     <tr>
@@ -212,7 +212,7 @@
                     $searchTerm = isset($_GET['search']) ? $_GET['search'] : '';
         
                     // 쿼리 작성 및 실행
-                    $sql = "SELECT id, author, title, content, file_path FROM board_table";
+                    $sql = "SELECT id, author, title, content, file_path FROM board";
                     if (!empty($searchTerm)) {
                         $sql .= " WHERE title LIKE '%$searchTerm%' OR author LIKE '%$searchTerm%' OR content LIKE '%$searchTerm%'";
                     }
@@ -222,7 +222,7 @@
                         if (isset($_POST['delete_ids']) && !empty($_POST['delete_ids'])) {
                             // 선택된 항목을 삭제
                             $selectedItems = implode(',', $_POST['delete_ids']);
-                            $sql_delete_data = "DELETE FROM board_table WHERE id IN ($selectedItems)";
+                            $sql_delete_data = "DELETE FROM board WHERE id IN ($selectedItems)";
                             if ($conn->query($sql_delete_data) === TRUE) {
                                 echo "<p>선택된 게시글이 삭제되었습니다.</p>";
                             } else {
