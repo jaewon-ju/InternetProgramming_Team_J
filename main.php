@@ -6,90 +6,82 @@
     <link rel="stylesheet" href="styles.css">
     <title>홈페이지</title>
     <style>
-        html {
+        html, body {
             height: 100%;
+            margin: 0;
+            padding: 0;
         }
 
         body {
             font-family: 'Arial', sans-serif;
-            
-            background-color: #333;
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-
-        .container {
-            display: flex;
-            height: 100vh; /* 뷰포트 높이를 전체 컨테이너에 적용 */
-        }
-
-        .left-panel {
-            width: 20%;
-            height: 80%;
             background-color: #333;
             color: #fff;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header {
+            text-align: center;
+            background-color: #333;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0px 0px;
+            padding: 0px 0px;
+        }
+
+        .left-panel {
+            width: 20%;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             padding: 20px;
+            height: 100vh;
+            box-sizing: border-box;
         }
 
         .login-form {
             text-align: center;
+            width: 100%;
         }
 
         .user-info h2 {
             margin-bottom: 20px;
         }
 
-        .board-container {
-            background-color: #fff;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            height: 80%;
-        }
-
-        .right-panel {
-            background-color: #333;
-            color: #fff;
-            flex: 1;
-            padding: 20px;
-        }
-
-        .btn {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            cursor: pointer;
+        .quiz_button,
+        .teacher_button {
             width: 100%;
-            padding: 10px;
-            border-radius: 5px;
             margin-top: 10px;
         }
 
-        .btn:hover {
-            background-color: #0056b3;
-        }
-
-        .teacher_button, .quiz_button {
-            height: 15%;
-            background-color: transparent;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 10px;
+        .right-panel {
+            flex: 1;
+            padding: 20px;
             background-color: #333;
-            color: #fff;
-            bottom: 0;
-            width: 100%;
         }
+
+        .search-container {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .search-dropdown,
+        .search-input,
+        .search-button {
+            margin-right: 10px;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
@@ -122,22 +114,41 @@
             background-color: #ccc;
         }
 
-        .search-container {
-            margin-bottom: 20px;
-        }
-
-        .search-input {
-            width: 200px;
-        }
-
-        .search-button {
-            margin-left: 10px;
-        }
         #deleteButton {
             float: right;
             margin-top: 10px;
         }
-        </style>
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+        }
+
+        .custom-btn {
+            width: 100%;
+        }
+
+        .btn-1, .btn-4 {
+            margin-top: 10px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <div class="header">
