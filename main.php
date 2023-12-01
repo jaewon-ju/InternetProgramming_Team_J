@@ -28,6 +28,10 @@ function isTeacher() {
             <div class="login-form">
                 <div class="user-info">
                     <h2>내 정보</h2>
+                    <p><?php 
+                    if($_SESSION['role']=="teacher") echo "선생님";
+                    else echo "학생"; ?></p>
+                    <p><?php echo $_SESSION['username']; ?> (<?php echo $_SESSION['user_id']; ?>) 님</p>
                     <div class="custom-btn btn-1">
                         <button type="button" class="btn" onclick="location.href='./logout.php'">Logout</button>
                     </div>
