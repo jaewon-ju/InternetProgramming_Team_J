@@ -13,12 +13,14 @@
         <div class="button-container">
             <!-- 데이터 관리 버튼 -->
             <form action="control_data.php" method="post">
-                <input class="data-control-button" type="submit" value="데이터 관리">
+                <input class="data-control-button" type="submit" value="">
+                <div class="button-text">데이터베이스 관리</div>
             </form>
 
             <!-- 자료 제작 버튼 -->
             <form action="make_file.php" method="post">
-                <input class="make-file-button" type="submit" value="자료 제작">
+                <input class="make-file-button" type="submit" value="">
+                <div class="button-text">자료 제작</div>
             </form>
         </div>
     <div class="footer">

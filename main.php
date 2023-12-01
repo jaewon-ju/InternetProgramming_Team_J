@@ -1,3 +1,16 @@
+<?php
+// 세션 시작
+session_start();
+
+// 세션에 저장된 역할을 확인
+$role = isset($_SESSION['role']) ? $_SESSION['role'] : '';
+
+// 함수: 선생님 여부 확인
+function isTeacher() {
+    return isset($_SESSION['role']) && $_SESSION['role'] === 'teacher';
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,82 +19,6 @@
     <link rel="stylesheet" href="styles.css">
     <title>홈페이지</title>
     <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #333;
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .header {
-            text-align: center;
-            background-color: #333;
-            padding: 10px;
-            width: 100%;
-        }
-
-        .container {
-            display: flex;
-            flex: 1;
-            width: 100%;
-            max-width: 1200px;
-            margin: 0px 0px;
-            padding: 0px 0px;
-        }
-
-        .left-panel {
-            width: 20%;
-            background-color: #333;
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            height: 100vh;
-            box-sizing: border-box;
-        }
-
-        .login-form {
-            text-align: center;
-            width: 100%;
-        }
-
-        .user-info h2 {
-            margin-bottom: 20px;
-        }
-
-        .quiz_button,
-        .teacher_button {
-            width: 100%;
-            margin-top: 10px;
-        }
-
-        .right-panel {
-            flex: 1;
-            padding: 20px;
-            background-color: #333;
-        }
-
-        .search-container {
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-        }
-
-        .search-dropdown,
-        .search-input,
-        .search-button {
-            margin-right: 10px;
-        }
-
         table {
             width: 100%;
             border-collapse: collapse;
@@ -113,41 +50,6 @@
             cursor: pointer;
             background-color: #ccc;
         }
-
-        #deleteButton {
-            float: right;
-            margin-top: 10px;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-            width: 100%;
-        }
-
-        .custom-btn {
-            width: 100%;
-        }
-
-        .btn-1, .btn-4 {
-            margin-top: 10px;
-        }
-
-        .btn {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        .btn:hover {
-            background-color: #0056b3;
-        }
     </style>
 </head>
 <body>
@@ -166,9 +68,14 @@
                 <div class = "quiz_button">
                     <button type="button" class="btn" onclick="location.href='./word_quiz_main.php'">Quiz</button>
                 </div>
-                <div class = "teacher_button">
-                    <button type="button" class="btn" onclick="location.href='./teacher.php'">Teacher</button>
-                </div>
+                <?php if(isTeacher()) : ?>
+                    <div class = "teacher_button">
+                        <button type="button" class="btn" onclick="location.href='./teacher.php'">Teacher</button>
+                    </div>
+                    <div class="write_button">
+                        <button type="button" class="btn" onclick="location.href='write.php'">글쓰기</button>
+                    </div>
+                <?php endif; ?>
             </div>
         </div>
         <div class="right-panel">
@@ -211,21 +118,43 @@
         
                     // 검색어 가져오기
                     $searchTerm = isset($_GET['search']) ? $_GET['search'] : '';
-        
+                    $searchType = isset($_GET['search_type']) ? $_GET['search_type'] : '';
+
                     // 쿼리 작성 및 실행
                     $sql = "SELECT id, author, title, content, file_path FROM board";
                     if (!empty($searchTerm)) {
-                        $sql .= " WHERE title LIKE '%$searchTerm%' OR author LIKE '%$searchTerm%' OR content LIKE '%$searchTerm%'";
+                        $sql .= " WHERE";
+                    
+                        // 각 검색 유형에 대한 OR 조건 추가
+                        $conditions = [];
+                        switch ($searchType) {
+                            case 'title':
+                                $conditions[] = "title LIKE '%$searchTerm%'";
+                                break;
+                            case 'author':
+                                $conditions[] = "author LIKE '%$searchTerm%'";
+                                break;
+                            case 'content':
+                                $conditions[] = "content LIKE '%$searchTerm%'";
+                                break;
+                        }
+                    
+                        // 조건들을 OR로 연결
+                        $sql .= " " . implode(" OR ", $conditions);
                     }
                     $result = $conn->query($sql);
         
-                    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete_selected'])) {
+                    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete_selected']) && !isset($_POST['refreshed'])) {
                         if (isset($_POST['delete_ids']) && !empty($_POST['delete_ids'])) {
                             // 선택된 항목을 삭제
                             $selectedItems = implode(',', $_POST['delete_ids']);
                             $sql_delete_data = "DELETE FROM board WHERE id IN ($selectedItems)";
                             if ($conn->query($sql_delete_data) === TRUE) {
                                 echo "<p>선택된 게시글이 삭제되었습니다.</p>";
+                    
+                                // Redirect to the same page after successful deletion
+                                header("Location: ".$_SERVER['PHP_SELF']);
+                                exit();
                             } else {
                                 echo "<p>삭제 중 오류가 발생했습니다: " . $conn->error . "</p>";
                             }
@@ -238,9 +167,9 @@
                     // 결과가 있는 경우에만 출력
                     if ($result->num_rows > 0) {
                         while ($row = $result->fetch_assoc()) {
-                            echo "<tr>";
+                            echo "<tr style='cursor: pointer;' onclick='if(event.target.type !== \"checkbox\") location.href=\"board.php?id=" . $row['id'] . "\";'>";
                             echo "<td><input type='checkbox' name='delete_ids[]' value='" . $row['id'] . "'></td>";
-                            echo "<td onclick='location.href=\"board.php?id=" . $row['id'] . "\";'>" . $row['title'] . "</td>";
+                            echo "<td>" . $row['title'] . "</td>";
                             echo "<td>" . $row['author'] . "</td>";
                             $content = $row['content'];
                             $changedContent = strip_tags($content);
@@ -248,21 +177,16 @@
                             echo "<td>" . $changedStr . "</td>";
                             echo "<td>" . ($row['file_path'] ? "있음" : "없음") . "</td>";
                             echo "</tr>";
-                        }                    
-                    
+                        }
                         echo "</table>";
-                    } else {
-                        echo "검색 결과가 없습니다.";
                     }
-
                     ?>
                 </table>
+                <?php if(isTeacher())  : ?>
                 <button type="submit" name="delete_selected" id="deleteButton">선택한 항목 삭제</button>
-            </div>
+                <?php endif; ?>
+                </div>
                 </form>
-            <div class="custom-btn btn-4">
-                <button type="button" class="btn" onclick="location.href='./write.php'">글쓰기</button>
-            </div>
             </div>
             
     </div>

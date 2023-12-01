@@ -1,68 +1,87 @@
-.header {
-    text-align: center;
-    background-color: #333;
-    padding: 10px;
-    width: 100%;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.footer {
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.header, .footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
     color: #fff;
     width: 100%;
 }
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
 
 form {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
+.button-text {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
 .button-container {
+    background-color: white;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    border-radius: 10px;
 }
 
-.data-control-button, .make-file-button {
+.data-control-button, .make-file-button, .control-word-button, .control-passage-button {
     width: 200px;
     height: 200px;
     color: black;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bolder;
     border: none;
-    border-radius: 4px;
-    margin: 0 10px;
-    display: flex; /* 추가: 세로 정렬을 위해 flex 속성 추가 */
-    flex-direction: column; /* 추가: 세로 방향으로 정렬 */
-    align-items: center; /* 추가: 가로 방향으로 중앙 정렬 */
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center-align text */
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.data-control-button, .make-file-button {
+    background-size: cover;
+}
+
+.data-control-button:hover, .make-file-button:hover, .control-word-button:hover, .control-passage-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .data-control-button {
-    background: url('image1.png') no-repeat;
-    background-size: contain;
+    background-image: url('image1.png');
 }
 
 .make-file-button {
-    background: url('image2.jpg') no-repeat;
-    background-size: contain;
+    background-image: url('image2.jpg');
 }
 
-.data-control-button:hover, .make-file-button:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.control-word-button {
+    background: url('english_word.jpeg') center/cover no-repeat;
+}
+
+.control-passage-button {
+    background: url('image3.jpg') center/cover no-repeat;
 }

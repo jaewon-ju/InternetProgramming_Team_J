@@ -13,11 +13,29 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = $_POST['u_id'];
-    $password = $_POST['pwd'];
+$tableCreationSQL = "
+CREATE TABLE IF NOT EXISTS users (
+    id VARCHAR(255) PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    student_number INT(20),
+    password VARCHAR(255) NOT NULL,
+    role ENUM('student', 'teacher') DEFAULT 'student'
+)";
 
-    $sql = "SELECT id, username, password, role FROM users WHERE username = '$username'";
+// 테이블 생성 쿼리 실행
+if ($conn->query($tableCreationSQL) === TRUE) {
+    echo "테이블이 성공적으로 생성되었습니다.";
+} else {
+    echo "테이블 생성 오류: " . $conn->error;
+}
+
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $id = $_POST['u_id'];
+    $password = $_POST['pwd'];
+    $role = $_POST['role'];
+
+    $sql = "SELECT id, username, password, role FROM users WHERE id = '$id' AND role = '$role'";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -27,14 +45,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['username'] = $row['username'];
             $_SESSION['role'] = $row['role'];
 
-            // 사용자 역할에 따라 리다이렉트
             header("Location: main.php");
             exit();
         } else {
-            echo "비밀번호가 일치하지 않습니다.";
+            $_SESSION['login-err'] = 1;
+            header("location:login.php");
         }
     } else {
-        echo "사용자가 존재하지 않습니다.";
+        $_SESSION['login-err'] = 2;
+        echo "<script>alert('사용자가 존재하지 않습니다.');</script>";
+        header("location:login.php");
     }
 }
 
@@ -48,8 +68,8 @@ $conn->close();
 <body>
     <h2>로그인</h2>
     <form action="login.php" method="post">
-        <label for="username">아이디:</label>
-        <input type="text" id="username" name="username" required><br>
+        <label for="id">아이디:</label>
+        <input type="text" id="id" name="id" required><br>
         <label for="password">비밀번호:</label>
         <input type="password" id="password" name="password" required><br>
 

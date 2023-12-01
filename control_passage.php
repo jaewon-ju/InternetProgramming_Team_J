@@ -4,23 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>모의고사 지문 관리</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
-        }
-
         table {
             margin-top: 20px;
             border-collapse: collapse;
@@ -45,7 +30,6 @@
             flex-direction: column;
             justify-content: center;
         }
-
         /* 버튼 위치 조정 */
         .fixed-buttons {
             position: fixed;
@@ -69,16 +53,6 @@
 
         .fixed-buttons input[type="submit"]:hover {
             background-color: #0056b3;
-        }
-
-        /* Footer 스타일 */
-        footer {
-            width : 100%;
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px; /* 수정된 부분: margin-top 추가 */
         }
     </style>
 </head>
