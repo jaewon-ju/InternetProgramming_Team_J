@@ -32,8 +32,15 @@ function isTeacher() {
                     if($_SESSION['role']=="teacher") echo "선생님";
                     else echo "학생"; ?></p>
                     <p><?php echo $_SESSION['username']; ?> (<?php echo $_SESSION['user_id']; ?>) 님</p>
-                    <div class="custom-btn btn-1">
-                        <button type="button" class="btn" onclick="location.href='./logout.php'">Logout</button>
+                    <?php if(isTeacher())  : ?>
+                    <div class = "user-info-buttons">
+                        <div class = "teacher_view_button">
+                            <button type="button" class="btn" onclick="location.href='./teacher_view.php'">Students Info</button>
+                        </div>
+                        <?php endif; ?>
+                        <div class="logout_button">
+                            <button type="button" class="btn" onclick="location.href='./logout.php'">Logout</button>
+                        </div>
                     </div>
                 </div>
                 <div class = "quiz_button">
