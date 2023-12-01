@@ -1,154 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>홈페이지</title>
-    <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #333;
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .header {
-            text-align: center;
-            background-color: #333;
-            padding: 10px;
-            width: 100%;
-        }
-
-        .container {
-            display: flex;
-            flex: 1;
-            width: 100%;
-            max-width: 1200px;
-            margin: 0px 0px;
-            padding: 0px 0px;
-        }
-
-        .left-panel {
-            width: 20%;
-            background-color: #333;
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            height: 100vh;
-            box-sizing: border-box;
-        }
-
-        .login-form {
-            text-align: center;
-            width: 100%;
-        }
-
-        .user-info h2 {
-            margin-bottom: 20px;
-        }
-
-        .quiz_button,
-        .teacher_button {
-            width: 100%;
-            margin-top: 10px;
-        }
-
-        .right-panel {
-            flex: 1;
-            padding: 20px;
-            background-color: #333;
-        }
-
-        .search-container {
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-        }
-
-        .search-dropdown,
-        .search-input,
-        .search-button {
-            margin-right: 10px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        th,
-        td {
-            border: 1px solid #ccc;
-            padding: 10px;
-            text-align: left;
-            color: black;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        tr:hover {
-            cursor: pointer;
-            background-color: #ccc;
-        }
-
-        #deleteButton {
-            float: right;
-            margin-top: 10px;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-            width: 100%;
-        }
-
-        .custom-btn {
-            width: 100%;
-        }
-
-        .btn-1, .btn-4 {
-            margin-top: 10px;
-        }
-
-        .btn {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        .btn:hover {
-            background-color: #0056b3;
-        }
-    </style>
 </head>
 <body>
     <div class="header">
@@ -164,7 +20,7 @@
                     </div>
                 </div>
                 <div class = "quiz_button">
-                    <button type="button" class="btn" onclick="location.href='./word_quiz_main.php'">Quiz</button>
+                    <button onclick="location.href='./word_quiz_main.php'"></button>
                 </div>
                 <div class = "teacher_button">
                     <button type="button" class="btn" onclick="location.href='./teacher.php'">Teacher</button>
@@ -254,7 +110,7 @@
                 <button type="submit" name="delete_selected" id="deleteButton">선택한 항목 삭제</button>
                 </form>
             </div>
-            <div class="custom-btn btn-4">
+            <div class="write_button">
                 <button type="button" class="btn" onclick="location.href='./write.php'">글쓰기</button>
             </div>
             </div>

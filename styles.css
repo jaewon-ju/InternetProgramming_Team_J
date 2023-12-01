@@ -1,21 +1,35 @@
 /* General styling */
-body {
-    font-family: Arial, sans-serif;
+/* Styles for your list items, buttons, forms, etc. */
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
-.container {
-    width: 80%;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Styles for your list items, buttons, forms, etc. */
+.header {
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+
 .list-group {
     list-style: none;
     padding: 0;
@@ -27,13 +41,6 @@ body {
     border: 1px solid #ccc;
     border-radius: 0;
     background-color: #f9f9f9;
-}
-
-.btn {
-    padding: 8px 12px;
-    border-radius: 0px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 .btn-primary {
@@ -74,5 +81,142 @@ body {
     width: 60%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+
+.container {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.left-panel {
+    width: 20%;
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+    margin: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.right-panel {
+    flex: 1;
+    margin: 5px 5px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.login-form {
+    text-align: center;
+    width: 100%;
+}
+
+.user-info h2 {
+    margin-bottom: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-dropdown,
+.search-input,
+.search-button {
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    color: black;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+tr:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+/* 버튼 스타일 모음*/
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.quiz_button,
+.teacher_button {
+    width: 100%;
+    margin-top: 10px;
+}
+.quiz_button button {
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 5px;
+    background: url('english_word.jpeg') center/cover no-repeat;
+    height: 60px; /* Set a fixed height for the button */
+    cursor: pointer;
+}
+
+.write_button {
+    float: right;
+}
+
+
+#deleteButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.search-button:hover, #deleteButton:hover {
+    background-color: #218838; /* Darker green color on hover */
+    color: #fff; /* Text color on hover */
+}
+
 
 /* Additional styling as needed */
