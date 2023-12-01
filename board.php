@@ -124,7 +124,7 @@
             echo "게시물 ID가 유효하지 않습니다.";
         } else {
             // 쿼리 작성 및 실행
-            $sql = "SELECT id, author, title, content, file_path FROM board_table WHERE id = $postId";
+            $sql = "SELECT id, author, title, content, file_path FROM board WHERE id = $postId";
             $result = $conn->query($sql);
 
             // 결과가 있는 경우에만 출력

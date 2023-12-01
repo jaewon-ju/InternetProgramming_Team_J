@@ -78,19 +78,43 @@
     }
 </script>
 
-<?php
-// (미구현)세션으로 홈페이지에서 (선생님)이름 가져와서 '작성자'에 default값으로 기록되게 
-$servername = "localhost";
-$username = "phpadmin";
-$password = "phpadmin";
-$dbname = "goods";
+    <?php
+    // (미구현)세션으로 홈페이지에서 (선생님)이름 가져와서 '작성자'에 default값으로 기록되게 
+    $servername = "localhost";
+    $username = "phpadmin";
+    $password = "phpadmin";
+    $dbname = "goods";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
-if ($conn->connect_error) {
-    die("연결 실패: " . $conn->connect_error);
-}
+    if ($conn->connect_error) {
+        die("연결 실패: " . $conn->connect_error);
+    }
+    // 20231201 update: db에 테이블 없을시 자동 생성하는 코드 추가 + 한국어 encoding 코드 추가.
+    // 제 노트북에서는 1) '파일 첨부'를 하지 않고 게시물 업로드시 게시물이 업로드 되지 않는 오류
+    // 2) 파일 여러개 올렸을 시 오류
+    // 2가지 오류가 발생합니다. 2번째 오류는 파일을 여러개 올린 경우 처리를 board.php에서 해줘야 하는데, 제가 파일을 하나만 올린다 가정하고 board.php 코드를 작성해서 오류가 나는 것 같습니다.
 
+    mysqli_set_charset($conn, "utf8mb4");
+
+    $tableCheckQuery = "SHOW TABLES LIKE 'board'";
+    $tableCheckResult = $conn->query($tableCheckQuery);
+
+    if ($tableCheckResult->num_rows == 0) {
+        // 'board' table does not exist, create it
+        $createTableQuery = "
+        CREATE TABLE board (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            author VARCHAR(255) NOT NULL,
+            title VARCHAR(255) NOT NULL,
+            content LONGTEXT NOT NULL,
+            file_path VARCHAR(255)
+        )";
+
+        if ($conn->query($createTableQuery) === FALSE) {
+            echo "Error creating table: " . $conn->error;
+        }
+    }
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $author = $_POST['author'];
     $title = $_POST['title'];
