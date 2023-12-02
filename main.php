@@ -50,6 +50,38 @@ function isTeacher() {
             cursor: pointer;
             background-color: #ccc;
         }
+        .btn{
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            transition: background-color 0.3s;
+            background-color: #45a049; /* Start button color */
+        }
+
+        .btn:hover {
+            background-color: #FF6347;
+        }
+        .search-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 8px;
+            transition-duration: 0.4s;
+        }
+        .search-button:hover {
+            background-color: #45a049;
+        }
     </style>
 </head>
 <body>
