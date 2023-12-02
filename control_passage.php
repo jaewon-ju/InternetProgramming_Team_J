@@ -135,12 +135,10 @@ $conn->close();
 </div>
 </table>
 
-<!-- Footer 추가 -->
-<footer>
-    <p>개인정보처리 방침 | 연락처 | 이름 등등</p>
-    <a href="teacher.php" style = "color: white">처음으로 돌아가기</a>
-    <p>&copy; 2023 Your Website</p>
-</footer>
+        <footer>
+            <a href="teacher.php" style="color: white">관리자 페이지로</a>
+            <p>&copy; 2023 홈페이지. All rights reserved.</p>
+        </footer>
 
 </body>
 </html>

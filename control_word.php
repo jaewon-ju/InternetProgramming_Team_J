@@ -40,6 +40,7 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./CSS/choose_button_style.css">
     <title>영어 단어 관리</title>
     <style>
         body {
@@ -47,9 +48,11 @@ $conn->close();
             margin: 20px;
         }
         h1 {
-            color: #333;
+            color: white;
         }
+
         form {
+            width: 80%;
             margin-bottom: 20px;
         }
         input[type="text"], button {
@@ -65,11 +68,24 @@ $conn->close();
         button:hover {
             background-color: #0056b3;
         }
+        .container {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            width: 80%;
+        }
+        footer {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
+    <div class = "all">
     <h1>영어 단어 관리</h1>
-
+    <div class = "container">
     <h2>단어 검색 (총 단어 개수: <?php echo $totalWords; ?>개)</h2>
     <form method="get" action="control_word_search.php">
         <input type="text" name="search_word" placeholder="검색할 단어 또는 뜻">
@@ -86,7 +102,12 @@ $conn->close();
     <form method="post" action="control_data.php">
         <input type="submit" value="관리" style="padding: 8px 15px; background-color: #28a745; color: white; border: none; cursor: pointer;">
     </form>
-
+    </div>
+    <footer>
+            <a href="main.php" style="color: white">메인으로</a>
+            <p>&copy; 2023 홈페이지. All rights reserved.</p>
+    </footer>
+    </div>
 
 
 </body>

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./CSS/choose_button_style.css">
 </head>
 <body>
+    <div class = "all">
     <div class="header">
         <h1>관리자 페이지</h1>
     </div>
@@ -26,5 +27,6 @@
     <div class="footer">
             <p>&copy; 2023 홈페이지. All rights reserved.</p>
     </div>
+</div>
 </body>
 </html>

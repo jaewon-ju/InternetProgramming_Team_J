@@ -5,8 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teacher 페이지</title>
     <link rel="stylesheet" href="./CSS/choose_button_style.css">
+    <style>
+    footer {
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        border-radius: 8px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    </style>
 </head>
 <body>
+    <div class="all">
     <div class="header">
         <h1>관리자 페이지</h1>
     </div>
@@ -23,8 +34,10 @@
                 <div class="button-text">자료 제작</div>
             </form>
         </div>
-    <div class="footer">
+        <footer>
+            <a href="main.php" style="color: white">메인으로</a>
             <p>&copy; 2023 홈페이지. All rights reserved.</p>
-    </div>
+        </footer>
+</div>
 </body>
 </html>

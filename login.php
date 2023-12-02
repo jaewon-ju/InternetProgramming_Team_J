@@ -10,20 +10,6 @@ if(isset($_SESSION['login-err']) && $_SESSION['login-err'] > 0){
 ?>
 <title>로그인</title>
 
-<style type="text/css">
-  body,select,option,button{font-size:16px}
-  input{border:1px solid #999;font-size:14px;padding:5px 10px}
-  input,button{vertical-align:middle}
-  form{width:320px;margin:auto}
-  span{font-size:14px;color:#f00}
-  legend{font-size:20px;text-align:center}
-  p span{display:block;margin-left:90px}
-  button{cursor:pointer}
-  .txt{display:inline-block;width:80px}
-  .btn{background:#fff;border:1px solid #999;font-size:14px;padding:4px 10px}
-  .btn_wrap{text-align:center}
-</style>
-
 <script type="text/javascript">
   function login_check(){
   var u_id = document.getElementById("u_id");
@@ -75,37 +61,146 @@ if(isset($_SESSION['login-err']) && $_SESSION['login-err'] > 0){
 
   };
 </script>
-  
+<style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 1000px;
+      max-height: 500px;
+    }
+
+    /* Add styles for the image */
+    img {
+        max-width: 500px;
+        max-height: 500px;
+        margin: 0px 0px;
+        object-fit:cover;
+        border-radius: 5px;
+      }
+
+    form {
+      margin: 0px 0px;
+      width: 50%;
+      height: 500px;
+      max-height: 500px;
+      border-radius: 5px;
+      color: #fff;
+    }
+    fieldset{
+      height: 100%;
+      border: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 5px;
+    }
+    p {
+      width: 80%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      height: 80px;
+    }
+    .ID, .PW {
+        width: 100%; /* 조절하고 싶은 크기로 변경 */
+        height: 100px;
+        font-size: 40px;
+        padding: 10px; /* 내부 여백 설정 */
+        box-sizing: border-box; /* padding이나 border가 크기에 포함되도록 설정 */
+        border-radius: 5px;
+        border: none;
+      }
+    /* Add any additional styles you need */
+      input[type="radio"] {
+      width: 20px; /* 크기 조절 */
+      height: 20px; /* 크기 조절 */
+      border-radius: 50%; /* 동그란 형태로 만들기 */
+      margin-right: 10px; /* 라디오 버튼 사이 간격 조절 */
+    }
+    input[type="radio"]:checked {
+      accent-color: black; /* 선택된 경우 배경색 변경 */
+    }
+
+    label {
+      font-size: 30px;
+      margin-right: 10px;
+      color: black;
+    }
+    /* Add styles for checked radio buttons */
+    .role_select{
+      background-color: white;
+      border-radius: 5px;
+    }
+    span {
+      font-size: 30px;
+      color: black;
+    }
+    button {
+      height: 60%;
+      width: 40%;
+      border-radius: 5px;
+      margin: 40px 0px;
+      font-size: 30px;
+      background-color: white;
+      border: none;
+    }
+    button:hover {
+  background-color: #fff; /* hover 시 배경색 변경 */
+  color: #C0C0C0; /* hover 시 텍스트 색상 변경 */
+  cursor: pointer; /* 마우스 커서를 손가락 모양으로 변경 */
+}
+    .btn_wrap{
+      display: flex;
+      justify-content: space-around;
+    }
+
+</style>
+
+
 </head>
 <body>
+<div>
+  <img src="./CSS/login_image.jpeg" alt="로그인 이미지">
   <form name="login_form" action="login_ok.php" method="post" onsubmit="return login_check()">
-    <fieldset>
-      <legend>로그인</legend>
-      <p>
-        <label for = "role" class = radio_bnt> 계정 유형</label>
-        <input type="radio" id="role.student" name="role" value="student" checked>
-        <label for="student">학생</label>
-        <input type="radio" id="role.teacher" name="role" value="teacher">
-        <label for="teacher">선생님</label><br>
-      </p>
-      <p>
-        <label for="u_id" class="txt">아이디</label>
-        <input type="text" name="u_id" id="u_id" class="u_id" autofocus>
-        <br>
-        <span class="err_id"></span>
-      </p>
-
-      <p>
-        <label for="pwd" class="txt">비밀번호</label>
-        <input type="password" name="pwd" id="pwd" class="pwd">
-        <br>
-        <span class="err_pwd"></span>
-      </p>
-
-      <p class="btn_wrap">
-        <button type="button" class="btn" onclick="location.href='./register.php'">회원가입</button>
-        <button type="submit" class="btn">로그인</button>
-      </p>
-    </fieldset>
-  </form>
+      <fieldset>
+        <p class = "role_select">
+          <input type="radio" id="role.student" name="role" value="student" checked>
+          <label for="student" class="radio_bnt">학생</label>
+          <input type="radio" id="role.teacher" name="role" value="teacher">
+          <label for="teacher" class="radio_bnt">선생님</label><br>
+        </p>
+        <p>
+          <input class = "ID" type="text" name="u_id" id="u_id" class="u_id" autofocus placeholder="ID">
+          <br>
+          <span class="err_id"></span>
+        </p>
+        <p>
+          <input class = "PW" type="password" name="pwd" id="pwd" class="pwd" placeholder="PASSWORD">
+          <br>
+          <span class="err_pwd"></span>
+        </p>
+        <p class="btn_wrap">
+          <button type="button" class="btn" onclick="location.href='./register.php'">회원가입</button>
+          <button type="submit" class="btn">로그인</button>
+        </p>
+      </fieldset>
+    </form>
+</div>
 </body>

@@ -12,16 +12,18 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
-            margin: 20px;
             display: flex;
             flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         .container {
-            background-color: #fff;
+            background-color: #333;
             border: 1px solid #ccc;
             border-radius: 10px; /* border radius 설정 */
-            margin: 50px;
+            width: 50%;
+            height: 50%;
             padding: 10px;
             display: flex; /* 추가: flex container로 설정 */
             flex-direction: column; /* 추가: 세로 방향으로 요소 배치 */
@@ -29,11 +31,19 @@
             overflow: auto;
         }
 
+        .post_container {
+            background-color: white;
+            border-radius: 5px;
+            text-align: center; /* content를 중앙에 배치하기 위해 추가 */
+            height: 100%;
+        }
+        
         .header {
             background-color: #333;
             color: #fff;
             padding: 10px;
             text-align: center;
+            border-radius: 10px; 
         }
         footer {
             width: 100%;
@@ -41,17 +51,20 @@
             color: white;
             text-align: center;
             margin-top: auto;
+            border-radius: 10px; 
         }
         .post {
             margin-top: 50px;
             text-align: center; /* content를 중앙에 배치하기 위해 추가 */
+            height: 100%;
         }
 
+        h1 {
+            margin: 1px 1px;
+        }
         h2 {
-            padding: 0px;
             font-size: 55px;
             color: #333;
-            margin: 0px;
             text-align: center; /* title을 중앙에 배치하기 위해 추가 */
         }
 
@@ -60,21 +73,13 @@
         }
 
         .title {
-            background-color: whitesmoke; /* 배경 색 변경 */
             color: #fff;
-            padding: 0px;
-            
             border-radius: 8px; /* border-radius 추가 */
-            justify-content: space-between; /* 내부 요소를 좌우에 배치 */
         }
 
         .author,
         .file-download {
             color: black;
-        }
-
-        .file-download {
-            margin-top: 10px; /* 파일 다운로드 링크와의 간격을 조절 */
         }
 
         .content {
@@ -130,16 +135,17 @@
             // 결과가 있는 경우에만 출력
             if ($result->num_rows > 0) {
                 $row = $result->fetch_assoc();
-
+                echo "<div class='post_container'>";
                 echo "<div class='post'>";
                 echo "<div class='title'>";
-                echo "<h2>" . $row['title'] . "</h2>";
+                echo "<h2> " . $row['title'] . "</h2>";
                 echo "</div>";
+                echo "<p class='author'> 작성자: " . $row['author'] . "</p>";
                 echo "<div class='content'>";
                 echo "<p>" . $row['content'] . "</p>";
                 echo "</div>";
-                echo "<p class='author'> 작성자: " . $row['author'] . "</p>";
-                echo "<p class='file-download'>" . ($row['file_path'] ? "<a href='download.php?file=" . $row['file_path'] . "'>첨부파일 다운로드</a>" : "없음") . "</p>";
+                echo "<p class='file-download'>" . ($row['file_path'] ? "<a href='download.php?file=" . $row['file_path'] . "'>첨부파일 다운로드</a>" : "첨부파일 없음") . "</p>";
+                echo "</div>";
                 echo "</div>";
             } else {
                 echo "게시물이 없습니다.";
@@ -151,9 +157,8 @@
         ?>
 
         <footer>
-            <p>개인정보처리 방침 | 연락처 | 이름 등등</p>
-            <a href="main.php" style="color: white">처음으로 돌아가기</a>
-            <p>&copy; 2023 Your Website</p>
+            <a href="main.php" style="color: white">메인으로</a>
+            <p>&copy; 2023 홈페이지. All rights reserved.</p>
         </footer>
     </div>
 </body>
