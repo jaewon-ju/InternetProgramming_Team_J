@@ -52,6 +52,19 @@
         label{
             color: black
         }
+        .return-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+            margin-right: 5px;
+        }
+        .return-button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -68,6 +81,8 @@
             <label for="file">파일 첨부:</label>
             <input type="file" name="file[]" id="file" multiple><br>
             <input type="submit" name="submit" class="submit-button" value="올리기">
+            <a href="main.php" style="float: right; margin-right: 5px; text-decoration: none;">
+                <button type="button" class="return-button">페이지로 돌아가기</button></a>
         </form>
 
         <script>
