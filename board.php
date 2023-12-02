@@ -152,7 +152,7 @@
 
         <footer>
             <p>개인정보처리 방침 | 연락처 | 이름 등등</p>
-            <a href="board_test.php" style="color: white">처음으로 돌아가기</a>
+            <a href="main.php" style="color: white">처음으로 돌아가기</a>
             <p>&copy; 2023 Your Website</p>
         </footer>
     </div>

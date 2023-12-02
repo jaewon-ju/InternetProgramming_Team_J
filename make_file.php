@@ -153,8 +153,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if ($result->num_rows > 0) {
                 $row = $result->fetch_assoc();
                 $passagesData[] = $row;
-            } else {
-                echo "<p>No data found for 지문 $i</p>";
             }
         }
 
@@ -162,21 +160,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conn->close();
 
         // 가져온 데이터 출력
-        echo '<div class = "container"><table border="1">';
-        echo '<tr><th>지문</th><th>해석</th></tr>';
-
-        foreach ($passagesData as $index => $data) {
-            echo '<tr>';
-            echo '<td>' . nl2br($data['passage']) . '</td>';
-            echo '<td>' . nl2br($data['interpret']) . '</td>';
-            echo '</tr>';
+        if (empty($passagesData)) {
+            echo '<script>';
+            echo 'alert("No data found for any passages");';
+            echo 'window.location.href = "teacher.php";';
+            echo '</script>';
+        } else {
+            echo '<div class="container"><table border="1">';
+            echo '<tr><th>지문</th><th>해석</th></tr>';
+        
+            foreach ($passagesData as $index => $data) {
+                echo '<tr>';
+                echo '<td>' . nl2br($data['passage']) . '</td>';
+                echo '<td>' . nl2br($data['interpret']) . '</td>';
+                echo '</tr>';
+            }
+            $_SESSION['passagesData'] = $passagesData;
+            echo '</table>';
+            echo '<form action="" method="post" class="save-form">';
+            echo '자료의 이름: <input type="text" name="filename" required><br>';
+            echo '<input type="submit" name="save_to_file" value="자료 저장">';
+            echo '</form></div class="container">';
         }
-        $_SESSION['passagesData'] = $passagesData;
-        echo '</table>';
-        echo '<form action="" method="post" class="save-form">';
-        echo '자료의 이름: <input type="text" name="filename" required><br>';
-        echo '<input type="submit" name="save_to_file" value="자료 저장">';
-        echo '</form></div class = "container">';
 
     } else if (isset($_POST['save_to_file'])){
             // 파일명 생성 (예: data_20231123.txt)
