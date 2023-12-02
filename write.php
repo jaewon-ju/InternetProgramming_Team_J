@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>게시글 작성</title>
-    <link rel = "stylesheet" href = "styles.css">
+    <link rel = "stylesheet" href = "./CSS/styles.css">
     <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
     <style>
         body {

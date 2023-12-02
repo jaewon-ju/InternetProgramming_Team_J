@@ -2,7 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <title>단어검색</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
     <div class = "container">
