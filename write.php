@@ -81,11 +81,10 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-            height: 60%;
+            height: 100%;
             width: 60%;
             background-color: #333;
             border-radius: 5px;
-
         }
         .footer {
             color: white;
@@ -237,7 +236,7 @@
         ?>
         </div>
         <div class="footer">
-                    <p>&copy; 2023 홈페이지. All rights reserved.</p>
+                <p>&copy; 2023 홈페이지. All rights reserved.</p>
         </div>
         </div>
 </body>
