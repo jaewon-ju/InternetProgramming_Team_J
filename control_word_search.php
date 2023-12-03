@@ -3,6 +3,30 @@
         <meta charset="UTF-8">
         <title>단어검색</title>
         <link rel="stylesheet" href="./CSS/styles.css">
+        <style>
+            body {
+                background-color: white;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                width: 50%;
+                height: 80%;
+                overflow: auto;
+                background-color: #333;
+                border-radius: 8px;
+            }
+            .list-group{
+                border-radius: 8px;
+                color: black;
+                text-align: center;
+            }
+            .list-group-item{
+                border-radius: 8px;
+            }
+        </style>
 </head>
 <body>
     <div class = "container">

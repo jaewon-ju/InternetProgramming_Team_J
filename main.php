@@ -100,11 +100,11 @@ function isTeacher() {
                     </div>
                 </div>
                 <div class="quiz_button">
-                    <button type="button" class="btn" onclick="redirectToQuizPage('<?php echo urlencode($user_name); ?>')">Quiz</button>
+                    <button type="button" class="btn" onclick="redirectToQuizPage('<?php echo urlencode($user_name); ?>')"></button>
                 </div>
                 <?php if(isTeacher()) : ?>
                     <div class = "teacher_button">
-                        <button type="button" class="btn" onclick="location.href='./teacher.php'">Teacher</button>
+                        <button type="button" class="btn" onclick="location.href='./teacher.php'"></button>
                     </div>
                     <div class="write_button">
                         <button type="button" class="btn" onclick="location.href='write.php'">글쓰기</button>

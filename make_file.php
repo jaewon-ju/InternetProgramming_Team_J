@@ -15,12 +15,13 @@
             color: white;
             border: none;
             cursor: pointer;
+            margin-top: 20px;
         }
         input[type="submit"]:hover {
             background-color: #0056b3;
         }
         footer {
-            margin-top: 50px;
+            margin-top: 30px;
             text-align: center;
             color: white;
         }

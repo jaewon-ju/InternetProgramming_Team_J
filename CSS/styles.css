@@ -107,7 +107,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    height: 100vh;
+    height: auto;
     box-sizing: border-box;
 }
 
@@ -121,6 +121,9 @@ body {
 
 .login-form {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -168,6 +171,15 @@ body {
     padding-top: 100%;
     border-radius: 5px;
     background: url('english_word.jpeg') center/cover no-repeat;
+    height: 60px; /* Set a fixed height for the button */
+    cursor: pointer;
+}
+
+.teacher_button button{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 5px;
+    background: url('teacher.jpeg') center/cover no-repeat;
     height: 60px; /* Set a fixed height for the button */
     cursor: pointer;
 }

@@ -156,6 +156,8 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("연결 실패: " . $conn->connect_error);
 }
+$conn->set_charset("utf8mb4");
+$conn->query("SET NAMES 'utf8mb4'");
 
 $tableName = "english_word";
 $tableExists = $conn->query("SHOW TABLES LIKE '$tableName'")->num_rows > 0;
@@ -184,6 +186,7 @@ if (!$tableExists || (isset($_GET['reset_count']) && $_GET['reset_count'] == 'tr
 
     // CSV 파일에서 데이터를 읽어서 데이터베이스에 삽입
     $loadDataSQL = "LOAD DATA LOCAL INFILE '$csvFilePath' INTO TABLE english_word
+                    CHARACTER SET utf8mb4
                     FIELDS TERMINATED BY ',' 
                     ENCLOSED BY '\"' 
                     LINES TERMINATED BY '\r\n'

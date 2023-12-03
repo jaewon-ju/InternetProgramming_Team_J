@@ -1,2961 +1,2961 @@
-turn,word,meaning
-1406,a,ÇÏ³ªÀÇ
-1407,abandon,¹ö¸®´Ù
-1408,able,ÇÒ ¼ö ÀÖ´Â
-1409,aboard,¹è·Î
-1410,abort,À¯»êÇÏ´Ù
+ï»¿turn,word,meaning
+1406,a,í•˜ë‚˜ì˜
+1407,abandon,ë²„ë¦¬ë‹¤
+1408,able,í•  ìˆ˜ ìˆëŠ”
+1409,aboard,ë°°ë¡œ
+1410,abort,ìœ ì‚°í•˜ë‹¤
 1411,about,#NAME?
 1412,above,#NAME?
-1413,abroad,¿Ü±¹À¸·Î
-1414,absent,ºÎÀçÀÇ
-1415,absolute,Àı´ëÀÇ
-1416,absorb,Èí¼öÇÏ´Ù
-1417,abstract,Ãß»óÀûÀÎ
-1418,absurd,ºÒÇÕ¸®ÇÑ
-1419,abundant,Ç³ºÎÇÑ
-1420,abuse,³²¿ë
-1421,academy,ÇĞ¼ú¿ø
-1422,accelerate,°¡¼ÓÇÏ´Ù ¼Óµµ°¡ °¡ÇØÁö´Ù
-1423,accent,¾×¼¾Æ®
-1424,accept,¹Ş¾ÆµéÀÌ´Ù
-1425,access,Á¢±Ù
-1426,accident,¶æ¹ÛÀÇ »ç°Ç
-1427,accommodate,¼ö¿ëÇÏ´Ù
-1428,accompany,µ¿¹İÇÏ´Ù
-1429,accomplish,ÀÌ·ç´Ù
-1430,accord,ÀÏÄ¡ÇÏ´Ù
-1431,account,¼³¸íÇÏ´Ù °è»ê
-1432,accumulate,ÃàÀûÇÏ´Ù
-1433,accurate,Á¤È®ÇÑ
-1434,accuse,°í¹ßÇÏ´Ù
-1435,achieve,¼ºÃëÇÏ´Ù
-1436,acid,»ê ½Å
-1437,acknowledge,ÀÎÁ¤ÇÏ´Ù
-1438,acquaint,¾Ë¸®´Ù
-1439,acquire,¾ò´Ù
-1440,acquisition,È¹µæ
-1441,across,°¡·ÎÁú·¯
-1442,act,viÇàµ¿ÇÏ´Ù
-1443,activate,È°µ¿ÀûÀ¸·Î ÇÏ´Ù
-1444,actual,Çö½ÇÀÇ
-1445,acute,³¯Ä«·Î¿î
-1446,adapt,Àû¿ë½ÃÅ°´Ù
-1447,add,Ãß°¡ÇÏ´Ù
-1448,addict,¿­ÁßÇÏ°Ô ÇÏ´Ù
-1449,address,¸»À» °É´Ù
-1450,adequate,ÃæºĞÇÑ
-1451,adjust,¸ÂÃß´Ù
-1452,administer,°ü¸®ÇÏ´Ù
-1453,admire,°¨º¹ÇÏ´Ù
-1454,admission,ÀÔÀå
-1455,admit,¹Ş¾ÆµéÀÌ´Ù
-1456,adolescent,Ã»³â±âÀÇ
-1457,adopt,Ã¤¿ëÇÏ´Ù
-1458,adult,¼ºÀÎ
-1459,advance,³ª¾Æ°¡´Ù
-1460,advantage,À¯¸®ÇÑ ÀÔÀå
-1461,adventure,¸ğÇè ¸ğÇèÇÏ´Ù
-1462,adverse,°Å²Ù·ÎÀÇ
-1463,advertize,±¤°íÇÏ´Ù
-1464,advise,Ãæ°íÇÏ´Ù
-1465,advocate,º¯È£»ç
-1466,aesthetic,¹ÌÀûÀÎ
-1467,affair,ÀÏ
-1468,affect,¿µÇâÀ» ÁÖ´Ù
-1469,affection,¾ÖÁ¤
-1470,affiliate,È¸¿øÀ¸·Î °¡ÀÔ½ÃÅ°´Ù
-1471,afford,¿©À¯°¡ ÀÖ´Ù
-1472,afraid,µÎ·Á¿öÇÏ¿©
-1473,after,ÈÄ¿¡
-1474,afternoon,¿ÀÈÄ
-1475,again,´Ù½Ã
-1476,against,¡¦¿¡ ¹İ´ëÇÏ¿©
-1477,age,¿¬·É
-1478,agency,±â´É
-1479,agenda,¾È°Ç
-1480,agent,´ë¸®ÀÎ
-1481,aggressive,Ä§·«ÀûÀÎ
-1482,ago,ÀÌÀü¿¡
-1483,agree,µ¿ÀÇÇÏ´Ù
-1484,agriculture,³ó¾÷
-1485,ahead,Àü¹æ¿¡
-1486,aid,µµ¿Í ÁÖ´Ù
-1487,aim,°Ü´©´Ù
-1488,air,°ø±â
-1489,airplane,ºñÇà±â
-1490,aircraft,Ç×°ø±â
-1491,airline,Á¤±âÇ×°ø
-1492,airport,°øÇ×
-1493,aisle,Ãø¸éº¹µµ
-1494,alert,ºóÆ´¾ø´Â
-1495,alien,¿Ü±¹ÀÇ
-1496,alike,ºñ½ÁÇÑ
-1497,alive,»ì¾ÆÀÖ´Â
-1498,all,¸ğµç
-1499,allocate,ÇÒ´çÇÏ´Ù
-1500,allow,Çã¶ôÇÏ´Ù
-1501,ally,µ¿¸ÍÇÏ´Ù
-1502,almost,°ÅÀÇ
-1503,alone,´Ù¸¸ È¦·Î(È¥ÀÚ¼­)
+1413,abroad,ì™¸êµ­ìœ¼ë¡œ
+1414,absent,ë¶€ì¬ì˜
+1415,absolute,ì ˆëŒ€ì˜
+1416,absorb,í¡ìˆ˜í•˜ë‹¤
+1417,abstract,ì¶”ìƒì ì¸
+1418,absurd,ë¶ˆí•©ë¦¬í•œ
+1419,abundant,í’ë¶€í•œ
+1420,abuse,ë‚¨ìš©
+1421,academy,í•™ìˆ ì›
+1422,accelerate,ê°€ì†í•˜ë‹¤ ì†ë„ê°€ ê°€í•´ì§€ë‹¤
+1423,accent,ì•¡ì„¼íŠ¸
+1424,accept,ë°›ì•„ë“¤ì´ë‹¤
+1425,access,ì ‘ê·¼
+1426,accident,ëœ»ë°–ì˜ ì‚¬ê±´
+1427,accommodate,ìˆ˜ìš©í•˜ë‹¤
+1428,accompany,ë™ë°˜í•˜ë‹¤
+1429,accomplish,ì´ë£¨ë‹¤
+1430,accord,ì¼ì¹˜í•˜ë‹¤
+1431,account,ì„¤ëª…í•˜ë‹¤ ê³„ì‚°
+1432,accumulate,ì¶•ì í•˜ë‹¤
+1433,accurate,ì •í™•í•œ
+1434,accuse,ê³ ë°œí•˜ë‹¤
+1435,achieve,ì„±ì·¨í•˜ë‹¤
+1436,acid,ì‚° ì‹ 
+1437,acknowledge,ì¸ì •í•˜ë‹¤
+1438,acquaint,ì•Œë¦¬ë‹¤
+1439,acquire,ì–»ë‹¤
+1440,acquisition,íšë“
+1441,across,ê°€ë¡œì§ˆëŸ¬
+1442,act,vií–‰ë™í•˜ë‹¤
+1443,activate,í™œë™ì ìœ¼ë¡œ í•˜ë‹¤
+1444,actual,í˜„ì‹¤ì˜
+1445,acute,ë‚ ì¹´ë¡œìš´
+1446,adapt,ì ìš©ì‹œí‚¤ë‹¤
+1447,add,ì¶”ê°€í•˜ë‹¤
+1448,addict,ì—´ì¤‘í•˜ê²Œ í•˜ë‹¤
+1449,address,ë§ì„ ê±¸ë‹¤
+1450,adequate,ì¶©ë¶„í•œ
+1451,adjust,ë§ì¶”ë‹¤
+1452,administer,ê´€ë¦¬í•˜ë‹¤
+1453,admire,ê°ë³µí•˜ë‹¤
+1454,admission,ì…ì¥
+1455,admit,ë°›ì•„ë“¤ì´ë‹¤
+1456,adolescent,ì²­ë…„ê¸°ì˜
+1457,adopt,ì±„ìš©í•˜ë‹¤
+1458,adult,ì„±ì¸
+1459,advance,ë‚˜ì•„ê°€ë‹¤
+1460,advantage,ìœ ë¦¬í•œ ì…ì¥
+1461,adventure,ëª¨í—˜ ëª¨í—˜í•˜ë‹¤
+1462,adverse,ê±°ê¾¸ë¡œì˜
+1463,advertize,ê´‘ê³ í•˜ë‹¤
+1464,advise,ì¶©ê³ í•˜ë‹¤
+1465,advocate,ë³€í˜¸ì‚¬
+1466,aesthetic,ë¯¸ì ì¸
+1467,affair,ì¼
+1468,affect,ì˜í–¥ì„ ì£¼ë‹¤
+1469,affection,ì• ì •
+1470,affiliate,íšŒì›ìœ¼ë¡œ ê°€ì…ì‹œí‚¤ë‹¤
+1471,afford,ì—¬ìœ ê°€ ìˆë‹¤
+1472,afraid,ë‘ë ¤ì›Œí•˜ì—¬
+1473,after,í›„ì—
+1474,afternoon,ì˜¤í›„
+1475,again,ë‹¤ì‹œ
+1476,against,â€¦ì— ë°˜ëŒ€í•˜ì—¬
+1477,age,ì—°ë ¹
+1478,agency,ê¸°ëŠ¥
+1479,agenda,ì•ˆê±´
+1480,agent,ëŒ€ë¦¬ì¸
+1481,aggressive,ì¹¨ëµì ì¸
+1482,ago,ì´ì „ì—
+1483,agree,ë™ì˜í•˜ë‹¤
+1484,agriculture,ë†ì—…
+1485,ahead,ì „ë°©ì—
+1486,aid,ë„ì™€ ì£¼ë‹¤
+1487,aim,ê²¨ëˆ„ë‹¤
+1488,air,ê³µê¸°
+1489,airplane,ë¹„í–‰ê¸°
+1490,aircraft,í•­ê³µê¸°
+1491,airline,ì •ê¸°í•­ê³µ
+1492,airport,ê³µí•­
+1493,aisle,ì¸¡ë©´ë³µë„
+1494,alert,ë¹ˆí‹ˆì—†ëŠ”
+1495,alien,ì™¸êµ­ì˜
+1496,alike,ë¹„ìŠ·í•œ
+1497,alive,ì‚´ì•„ìˆëŠ”
+1498,all,ëª¨ë“ 
+1499,allocate,í• ë‹¹í•˜ë‹¤
+1500,allow,í—ˆë½í•˜ë‹¤
+1501,ally,ë™ë§¹í•˜ë‹¤
+1502,almost,ê±°ì˜
+1503,alone,ë‹¤ë§Œ í™€ë¡œ(í˜¼ìì„œ)
 1504,along,#NAME?
-1506,aloud,Å« ¼Ò¸®·Î
-1507,already,ÀÌ¹Ì
-1508,alright,´õÇÒ³ªÀ§¾øÀÌ
-1510,alter,¹Ù²Ù´Ù
-1511,alternative,¾î´À ÇÑÂÊÀÇ ¾çÀÚÅÃÀÏ
-1512,although,ºñ·Ï -ÀÏÁö¶óµµ
-1513,altogether,ÀüÇô
-1514,always,´Ã
-1515,A.M.,¿ÀÀü
-1516,amaze,±ôÂ¦ ³î¶ó°Ô ÇÏ´Ù
-1517,ambassador,´ë»ç
-1518,ambition,¾ß½É
+1506,aloud,í° ì†Œë¦¬ë¡œ
+1507,already,ì´ë¯¸
+1508,alright,ë”í• ë‚˜ìœ„ì—†ì´
+1510,alter,ë°”ê¾¸ë‹¤
+1511,alternative,ì–´ëŠ í•œìª½ì˜ ì–‘ìíƒì¼
+1512,although,ë¹„ë¡ -ì¼ì§€ë¼ë„
+1513,altogether,ì „í˜€
+1514,always,ëŠ˜
+1515,A.M.,ì˜¤ì „
+1516,amaze,ê¹œì§ ë†€ë¼ê²Œ í•˜ë‹¤
+1517,ambassador,ëŒ€ì‚¬
+1518,ambition,ì•¼ì‹¬
 1519,among,#NAME?
-1520,amount,(±İ¾×ÀÌ)-ÀÌ µÇ´Ù
-1521,amplify,È®´ëÇÏ´Ù
-1522,amuse,Àç¹Ì³ª°Ô ÇÏ´Ù
-1523,analyze,ºĞÇØÇÏ´Ù
-1524,anchor,´é
-1525,ancient,¿¾³¯ÀÇ
-1526,and,¹×
-1527,angel,Ãµ»ç
-1528,anger,¼º
-1529,angle,°¢
-1530,animal,µ¿¹°
-1531,anniversary,±â³äÀÏ ¿¹³âÀÇ
-1532,announce,¾Ë¸®´Ù
-1533,annoy,±ÍÂú°ÔÇÏ´Ù
-1534,annual,ÀÏ³âÀÇ
-1535,another,¶Ç ÇÏ³ª
-1536,answer,´ë´ä
-1537,ant,°³¹Ì
-1538,anticipate,¿¹±âÇÏ´Ù
-1539,anxiety,±Ù½É
-1540,anxious,°ÆÁ¤µÇ´Â
-1541,any,¾î¶²
-1542,apart,¶³¾îÁ®¼­
-1543,apology,»ç°ú
-1544,apparent,¸í¹éÇÑ
-1545,appeal,°£Ã»ÇÏ´Ù
-1546,appear,³ªÅ¸³ª´Ù
-1547,apple,»ç°ú
-1548,applicant,Áö¿øÀÚ
-1549,apply,(¹°°ÇÀ»)´ë´Ù
-1550,appoint,ÁöÁ¤ÇÏ´Ù
-1551,appreciate,°¨»óÇÏ´Ù
-1552,approach,´Ù°¡°¡´Ù
-1553,appropriate,Àû´çÇÑ
-1554,approve,½ÃÀÎÇÏ´Ù
-1555,approximate,¾î¸²¼ÀÀÇ
-1556,architect,°ÇÃà°¡
-1557,architecture,°ÇÃà
-1558,archive,±â·Ïº¸°ü¼Ò
-1559,area,¸éÀû
-1560,argue,³íÇÏ´Ù
-1561,arise,»ı±â´Ù
-1562,arm,ÆÈ
-1563,army,À°±º
-1564,around,»ç¹æ¿¡
-1565,arrange,°¡Áö·±È÷ ÇÏ´Ù
-1566,arrest,Ã¼Æ÷ÇÏ´Ù
-1567,arrive,µµÂøÇÏ´Ù
-1568,arrow,È­»ì
-1569,art,¿¹¼ú
-1570,article,¹°Ç°
-1571,artificial,ÀÎ°øÀÇ
-1573,ash,È¸
-1574,aside,°ç¿¡
-1575,ask,¹¯´Ù
-1576,asleep,ÀáµéÀº
-1577,aspect,°üÁ¡
-1578,aspire,¿­¸ÁÇÏ´Ù
-1579,assault,½À°İ
-1580,assemble,¸ğÀ¸´Ù
-1581,assert,´Ü¾ğÇÏ´Ù
-1582,assess,(¼¼±İ µîÀ»)»çÁ¤ÇÏ´Ù
-1583,asset,ÀÚ»ê
-1584,assign,ÇÒ´çÇÏ´Ù
-1585,assist,µ½´Ù
-1586,associate,¿¬»óÇÏ´Ù
-1587,assume,ÃëÇÏ´Ù
-1588,assure,º¸ÁõÇÏ´Ù
-1589,astonish,³î¶ó°Ô ÇÏ´Ù
-1591,athlete,¿îµ¿°¡
-1592,atmosphere,´ë±â
-1593,atom,¿øÀÚ
-1594,attach,ºÙÀÌ´Ù
-1595,attack,°ø°İÇÏ´Ù
-1596,attain,ÀÌ¸£´Ù
-1597,attempt,½ÃµµÇÏ´Ù
-1598,attend,Ãâ¼®ÇÏ´Ù
-1599,attention,ÁÖÀÇ
-1600,attitude,ÅÂµµ
-1601,attorney,º¯È£»ç
-1602,attract,²ø¾î ´ç±â´Ù
-1603,attribute,¼Ó¼º
-1604,auction,°æ¸Å
-1605,audience,Ã»Áß
-1606,aunt,¾ÆÁÖ¸Ó´Ï
-1607,authentic,ÁøÂ¥ÀÇ
-1608,author,ÀúÀÚ
-1609,autobiography,ÀÚ¼­Àü
-1610,automatic,ÀÚµ¿ÀÇ
-1611,automobile,ÀÚµ¿Â÷ ÀÚµ¿Â÷ÀÇ
-1612,available,¾µ¸ğÀÖ´Â
-1613,avenue,°¡·Î¼ö±æ
-1614,average,Æò±Õ
-1615,avoid,ÇÇÇÏ´Ù
-1616,await,±â´Ù¸®´Ù
-1617,awake,±ú¿ì´Ù
-1618,award,»ó
-1619,aware,¾Ë°í ÀÖ´Â
-1620,away,¶³¾îÁ®¼­
-1621,awesome,¹«¼­¿î
-1622,awful,µÎ·Á¿î
-1623,awkward,¾î»öÇÑ
-1624,baby,"°«³­¾ÆÀÌ, ¸·³»   °ü½É»ç, °ñÄ¡¾ÆÇÂ ÀÏ,"
-1625,back,µî
-1626,background,¹è°æ
-1627,bad,³ª»Û
-1628,bake,±Á´Ù
-1629,balance,±ÕÇü
-1630,ball,°ø
-1631,balloon,±â±¸
-1632,ban,±İÁö
-1633,band,±×·ì
-1634,bang,°­Å¸
-1635,bank,µÏ
-1636,bankrupt,ÆÄ»êÀÚ
-1637,bar,¸·´ë±â
-1638,bare,¹ú°Å¹şÀº
-1639,bargain,¸Å¸Å
-1640,bark,Â¢´Ù
-1641,barn,Çê°£
-1642,barrier,Àåº®
-1643,base,±âÃÊ
-1644,baseball,¾ß±¸
-1645,basic,±âº»ÀÇ
-1646,basis,±âÃÊ
-1647,basket,¹Ù±¸´Ï
-1648,basketball,³ó±¸
-1649,bat,¹èÆ®
-1650,bath,¸ñ¿å
-1651,bathroom,¿å½Ç
-1652,battery,ÀüÁö
-1653,battle,ÀüÅõ
-1654,bay,¸¸
-1656,beach,ÇØ¾È
-1657,beam,±¤¼±
-1658,bean,Äá
-1659,bear,³ª¸£´Ù
-1660,beard,ÅÎ¼ö¿°
-1661,beast,Áü½Â
-1662,beat,Ä¡´Ù
-1663,beauty,¾Æ¸§´Ù¿ò
-1664,because,¿Ö³ÄÇÏ¸é
-1666,bed,Ä§´ë
-1667,bedroom,Ä§½Ç ¼ºÀûÀÎ
-1668,bee,²Ü¹ú
-1669,beef,¼è°í±â
-1670,beer,¸ÆÁÖ
-1671,before,¾Õ¿¡
-1672,beg,Ã»ÇÏ´Ù
-1673,begin,½ÃÀÛÇÏ´Ù
-1674,behalf,À§ÇÔ
-1675,behave,Çàµ¿ÇÏ´Ù
-1676,behavior,Çàµ¿
-1677,behind,µÚ¿¡
-1678,believe,¹Ï´Ù
-1679,bell,Á¾
-1680,belong,¼ÓÇÏ´Ù
-1681,below,¾Æ·¡¿¡
-1682,bend,±¸ºÎ¸®´Ù
-1684,benefit,ÀÌÀÍ
-1685,berry,¾×°ú
-1687,bet,°É´Ù
-1688,betray,¹è¹İÇÏ´Ù
-1690,beyond,ÀúÆí¿¡
-1691,bias,Ä¡¿ìÄ§
-1692,bible,"¼º¼­, ¼º°æ"
-1693,bicycle,ÀÚÀü°Å ÀÚÀü°Å¸¦ Å¸´Ù
-1694,big,Å«
-1695,bill,°è»ê¼­
-1696,billion,10¾ï
-1697,bin,±Ë
-1698,bind,¸Å´Ù
-1699,biography,Àü±â
-1700,biology,»ı¹°ÇĞ
-1701,bird,»õ
-1702,birth,Ãâ»ı
-1703,birthday,»ıÀÏ
-1704,bishop,ÁÖ±³
-1705,bit,biteÀÇ °ú°Å(ºĞ»ç) ÀÛÀº Á¶°¢
-1706,bite,¹°´Ù
-1707,bitter,¾´
-1708,black,°ËÀº
-1709,blame,Ã¥¸ÁÇÏ´Ù
-1710,blank,°ø¹é
-1711,blanket,´ã¿ä
-1712,blast,µ¹Ç³
-1713,blend,È¥ÇÕÇÏ´Ù
-1714,bless,Ãàº¹ÇÏ´Ù
-1715,blind,´«¸Õ
-1716,blink,(´«À»)±ôºı°Å¸®´Ù
-1717,block,µ¢¾î¸®
-1718,blonde,(»ì°áÀÌ Èò)±İ¹ßÀÇ ¿©¼º
-1719,blood,ÇÇ
-1720,bloom,¼íµ¢ÀÌ
-1721,blossom,(°ú¼öÀÇ)²É
-1722,blow,°­Å¸
-1723,blue,Çª¸¥
-1724,board,³ÎºşÁö
-1725,boat,¹è
-1726,body,½ÅÃ¼
-1727,boil,²ú´Ù
-1728,bold,´ë´ãÇÑ
-1729,bomb,ÆøÅº Æø°İÇÏ´Ù
-1730,bond,°á¼Ó
-1731,bone,»À
-1732,book,Ã¥
-1733,boom,±²À½
-1734,boost,µÚ¸¦ ¹Ğ±â
-1735,boot,¸ñÀÌ ±ä ±¸µÎ
-1736,border,°¡ÀåÀÚ¸®
-1737,bore,°íÁ¶
-1738,borrow,ºô´Ù
-1739,boss,µÎ¸ñ
-1740,both,½Ö¹æÀÇ
-1741,bother,±«·ÓÈ÷´Ù ±Ù½ÉÇÏ´Ù ±ÍÂúÀ½
-1742,bottle,º´
-1743,bottom,¹Ø¹Ù´Ú
-1744,bounce,¶Ù¾î¿À¸£´Ù
-1745,boundary,°æ°è
-1746,bow,Àı
-1747,bowl,»ç¹ß
-1748,boy,¼Ò³â
-1749,brain,³ú
-1750,brake,ºê·¹ÀÌÅ©
-1751,branch,°¡Áö
-1752,brand,»óÇ¥
-1753,brave,¿ë°¨ÇÑ
-1754,bread,»§
-1755,break,ºÎ¼ö´Ù
-1756,breakfast,¾ÆÄ§¹ä
-1757,breast,°¡½¿
-1758,breathe,¼û½¬´Ù
-1759,breed,±â¸£´Ù
-1760,breeze,¹ÌÇ³
-1761,brew,¾çÁ¶ÇÏ´Ù
-1762,brick,º®µ¹
-1763,bride,½ÅºÎ
-1764,bridge,´Ù¸®
-1765,brief,´Ü½Ã°£ÀÇ
-1766,bright,¹àÀº
-1767,brilliant,ºû³ª´Â
-1768,bring,°¡Á®¿À´Ù
-1769,broad,(ÆøÀÌ)³ĞÀº
-1770,broadcast,¹æ¼ÛÇÏ´Ù
-1771,brother,ÇüÁ¦
-1772,brown,°¥»öÀÇ °¥»ö
-1773,brush,¼Ö
-1774,brute,¾ß¼ö Áü½Â°°Àº
-1775,bubble,°ÅÇ° °ÅÇ°ÀÌ ÀÏ´Ù
-1776,budget,¿¹»ê
-1777,bug,¹ú·¹
-1778,build,Áş´Ù
-1779,bulk,ºÎÇÇ
-1780,bull,È²¼Ò
-1781,bullet,ÅºÈ¯
-1782,bully,¾àÇÑ ÀÚ¸¦ ¸ø»ì°Ô ±¸´Â ÀÚ
-1783,bump,Ãæµ¹ ºÎµúÄ¡´Ù
-1784,bunch,¼ÛÀÌ
-1785,bundle,´Ù¹ß
-1786,burden,ÈÄ·Å
-1787,burn,½Ã³»
-1788,burst,ÆÄ¿­ÇÏ´Ù
-1789,bury,¹¯´Ù
-1790,bush,´ıºÒ
-1791,business,Á÷¾÷
-1792,busy,¹Ù»Û
-1793,but,±×·¯³ª ´Ù¸¸ (-À»)Á¦¿ÜÇÏ°í
-1794,butcher,Á¤À°Á¡ÁÖÀÎ
-1795,button,´ÜÃß ´ÜÃß¸¦ Ã¤¿ì´Ù ´ÜÃß·Î Ã¤¿öÁö´Ù
-1796,buy,»ç´Ù
-1797,buzz,À®À®°Å¸®´Â ¼Ò¸®
-1798,by,°ç¿¡
-1799,cab,ÅÃ½Ã
-1800,cabin,¼±½Ç
-1801,cable,ÇØÀúÀü½Å
-1802,cage,»õÀå
-1803,calculate,°è»êÇÏ´Ù
-1804,calendar,´Ş·Â
-1805,call,ºÎ¸£´Ù
-1806,calm,Æò¿ÂÇÑ
-1807,can,au-ÇÒ ¼ö ÀÖ´Ù
-1808,cancel,Ãë¼ÒÇÏ´Ù
-1809,cancer,¾Ï
-1810,candidate,Áö¿øÀÚ
-1811,candy,»çÅÁ°úÀÚ
-1812,canvas,µÀº£
-1813,cap,¸ğÀÚ
-1814,capable,ÇÒ ¼ö ÀÖ´Â
-1815,cape,°ù
-1816,capital,¼öÀ§ÀÇ
-1817,captain,¿ìµÎ¸Ó¸®(chief)
-1818,caption,Ç¥Á¦
-1819,capture,ºÙÀâ´Ù(=catch)
-1820,car,ÀÚµ¿Â÷
-1821,care,°ÆÁ¤
-1822,career,°æ·Â
-1823,carrot,´ç±Ù
-1824,carry,³ª¸£´Ù
-1825,cart,(2·û)Áü¸¶Â÷
-1826,carve,Á¶°¢ÇÏ´Ù
-1827,case,°æ¿ì
-1828,cash,Çö±İ Çö±İÀ¸·Î ¹Ù²Ù´Ù Çö±İÀÇ
-1829,cast,´øÁö´Ù
-1830,castle,¼º
-1831,casual,¿ì¿¬ÇÑ
-1832,cat,°í¾çÀÌ
-1833,catch,ºÙÀâ´Ù
-1834,category,¹üÁÖ
-1835,cater,À½½Ä¹°À» ¸¶·ÃÇÏ´Ù
-1836,cathedral,´ë¼º´ç
-1837,cattle,¼Ò
-1838,causal,¿øÀÎÀÇ
-1839,cause,¿øÀÎ
-1840,caution,Á¶½É
-1841,cave,µ¿±¼ ±¼À» ÆÄ´Ù ²¨Áö´Ù
-1842,cease,±×¸¸µÎ´Ù ±×Ä¡´Ù ÁßÁö
-1843,ceiling,ÃµÀå
-1844,celebrate,°æÃàÇÏ´Ù
-1845,celebrity,¸í¼º
-1846,cell,ÀÛÀº ¹æ
-1847,censor,°Ë¿­°ü
-1848,century,1¼¼±â
-1849,certain,È®½ÅÇÏ´Â
-1850,certificate,Áõ¸í¼­
-1851,chain,»ç½½
-1852,chair,ÀÇÀå
-1853,chairman,ÀÇÀå
-1854,challenge,µµÀü
-1855,chamber,¹æ
-1856,chance,¿ì¿¬
-1857,change,º¯È­
-1858,chaos,È¥µ·
-1859,character,ÀÎ°İ
-1860,characteristic,Æ¯À¯ÇÑ
-1861,charge,¿ä±İ
-1862,charity,ÀÚºñ
-1863,charm,¸Å·Â
-1864,chase,ÂÑ´Ù
-1865,chat,Àâ´ã
-1866,cheap,°ª½Ñ
-1867,check,¹æÇØ
-1868,cheek,º¼
-1869,cheer,°¥Ã¤
-1870,chef,Äî
-1871,chemical,È­ÇĞÀÇ
-1872,chemistry,È­ÇĞ
-1873,chest,°¡½¿ÆÅ
-1874,chew,¾Ã´Ù
-1875,chief,¿ìµÎ¸Ó¸®
-1876,child,¾ÆÀÌ
-1877,chill,Â÷°¡¿ò
-1878,chin,ÅÎ(³¡) ÅÎ¿¡ ´ë´Ù
-1879,chip,(³ª¹«)Åä¸·
-1880,choir,(±³È¸ÀÇ)¼º°¡´ë
-1881,choose,°í¸£´Ù
-1882,chop,(µµ³¢ µîÀ¸·Î)ÀÚ¸£´Ù
-1883,chorus,ÇÕÃ¢
-1884,chronic,¸¸¼ºÀÇ
-1885,church,±³È¸
-1886,cigarette,±È·Ã
-1887,cinema,¿µÈ­°ü
-1888,circle,¿ø
-1889,circulate,¼øÈ¯ÇÏ´Ù
-1890,circumstance,È¯°æ
-1891,cite,ÀÎ¿ëÇÏ´Ù(quote)
-1892,citizen,½Ã¹Î
-1893,city,µµ½Ã
-1894,civil,½Ã¹ÎÀÇ
-1895,claim,¿ä±¸ÇÏ´Ù
-1896,clap,Â¦Â¦
-1897,clarify,¸¼°Ô ÇÏ´Ù
-1898,clash,Ãæµ¹ÇÏ´Ù
-1899,class,°è±Ş
-1900,classic,°íÀüÀÇ
-1901,classify,ºĞ·ùÇÏ´Ù
-1902,classroom,±³½Ç
-1903,clause,Á¶Ç×
-1904,clay,ÂûÈë
-1905,clean,Ã»°áÇÑ
-1906,clear,¸¼Àº
-1907,clerk,¼­±â
-1908,clever,¿µ¸®ÇÑ
-1909,client,¼Ò¼ÛÀÇ·ÚÀÎ
-1910,cliff,Àıº®
-1911,climate,±âÈÄ
-1912,climb,±â¾î ¿À¸£´Ù
-1913,cling,¹ĞÂøÇÏ´Ù
-1914,clinic,º´¿ø
-1915,clip,°¡À§·Î ÀÚ¸£´Ù
-1916,clock,½Ã°è
-1917,close,´İ´Ù
-1918,cloth,Ãµ
-1919,cloud,±¸¸§
-1920,club,Å¬·´
-1921,clue,´Ü¼­
-1922,cluster,¶¼
-1923,coach,¿ª¸¶Â÷
-1924,coal,¼®Åº
-1925,coast,¿¬¾È
-1926,code,¹ıÀü
-1927,coin,È­Æó
-1928,coincide,ÀÏÄ¡ÇÏ´Ù
-1929,cold,Ãß¿î
-1930,collaborate,°øµ¿À¸·Î ÀÏÇÏ´Ù
-1931,collapse,ºØ±«
-1932,collar,Ä®¶ó
-1933,colleague,µ¿·á
-1934,collect,¸ğÀ¸´Ù
-1935,college,´Ü°ú´ëÇĞ
-1936,colony,½Ä¹ÎÁö
-1937,color,Âø»öÇÏ´Ù
-1938,column,(½Å¹® µîÀÇ)³­
-1939,combat,°İÅõÇÏ´Ù
-1940,combine,°áÇÕÇÏ´Ù
-1941,come,¿À´Ù
-1942,comedy,Èñ±Ø
-1943,comfort,À§¾È
-1944,command,¸í·ÉÇÏ´Ù
-1945,commence,½ÃÀÛÇÏ´Ù
-1946,comment,³íÆò
-1947,commerce,»ó¾÷
-1948,commission,À§ÀÓ
-1949,commit,À§Å¹ÇÏ´Ù
-1950,committee,À§¿øÈ¸
-1951,commodity,»óÇ°
-1952,communicate,¾Ë¸®´Ù
-1953,communist,°ø»êÁÖÀÇÀÚ
-1954,community,°øµ¿»ıÈ°Ã¼
-1955,companion,µ¿·á
-1956,company,±³Á¦
-1957,compare,ºñ±³ÇÏ´Ù
-1958,compatible,¾ç¸³ÇÒ ¼ö ÀÖ´Â
-1959,compel,¾ïÁö·Î -½ÃÅ°´Ù
-1960,compensate,¹è»óÇÏ´Ù
-1961,compete,°æÀïÇÏ´Ù
-1962,competent,´É·ÂÀÖ´Â
-1963,compile,ÆíÂùÇÏ´Ù
-1964,complain,ºÒÆòÇÏ´Ù
-1965,complement,º¸¿ÏÇÏ´Â °Í
-1966,complete,¿Ï¼ºÇÏ´Ù
-1967,complex,ÇÕ¼º¹°
-1968,complicate,º¹ÀâÇÏ°Ô ÇÏ´Ù
-1969,component,±¸¼ºÇÏ´Â ¼ººĞ
-1970,compose,±¸¼ºÇÏ´Ù
-1971,compound,¼ººĞ µîÀ» È¥ÇÕÇÏ´Ù
-1972,comprehensive,ÀÌÇØ·ÂÀÖ´Â
-1973,comprise,Æ÷ÇÔÇÏ´Ù
-1974,compromise,Å¸Çù Å¸ÇùÇÏ´Ù
-1975,compulsory,ÀÇ¹«ÀûÀÎ
-1976,conceal,¼û±â´Ù
-1977,conceive,»ó»óÇÏ´Ù
-1978,concentrate,ÁıÁßÇÏ´Ù
-1979,concept,°³³ä
-1980,concern,°ü°èÇÏ´Ù
-1981,concert,¿¬ÁÖÈ¸
-1982,conclude,°áÁ¤ÇÏ´Ù
-1983,concrete,±¸Ã¼ÀûÀÎ ÀÀ°í¹°
-1984,condemn,³ª¹«¶ó´Ù
-1985,condition,Á¶°Ç
-1986,conduct,ÇàÀ§ ÀÌ²ø´Ù
-1987,confer,ÁÖ´Ù
-1988,confess,½ÇÅäÇÏ´Ù
-1989,confident,È®½ÅÇÏ´Â
-1990,confine,±¹°æ
-1991,confirm,È®ÀÎÇÏ´Ù
-1992,conflict,ÅõÀï
-1993,conform,ÀÏÄ¡½ÃÅ°´Ù
-1994,confront,Á÷¸éÇÏ´Ù
-1995,confuse,È¥¶õ½ÃÅ°´Ù
-1996,congratulate,ÃàÇÏÇÏ´Ù
-1997,congress,È¸ÀÇ
-1998,connect,ÀÕ´Ù ÀÌ¾îÁö´Ù
-1999,conscience,¾ç½É
-2000,conscious,ÀÇ½ÄÀûÀÎ
-2001,consensus,(ÀÇ°ß µîÀÇ)ÀÏÄ¡
-2002,consent,½Â³«ÇÏ´Ù
-2003,conserve,º¸Á¸ÇÏ´Ù
-2004,consider,¼÷°íÇÏ´Ù
-2006,consistent,½ÃÁ¾ÀÏ°üÇÑ
-2007,constant,ºÒº¯ÀÇ
-2008,constitute,±¸¼ºÇÏ´Ù
-2009,constrain,°­Á¦ÇÏ´Ù
-2010,construct,°ÇÁ¶ÇÏ´Ù
-2011,consult,»óÀÇÇÏ´Ù
-2012,consume,¼ÒºñÇÏ´Ù
-2013,contact,Á¢ÃË
-2014,contain,³»Æ÷ÇÏ´Ù
-2015,contemporary,Çö´ëÀÇ
-2016,contend,½Î¿ì´Ù
-2017,content,¸¸Á·ÇÏ¿©
-2018,contest,°Ü·ç´Ù
-2019,context,¹®¸Æ
-2020,continent,ÀÚÁ¦½ÉÀÌ ÀÖ´Â
-2021,continue,°è¼ÓÇÏ´Ù
-2022,contract,°è¾à
-2023,contradict,¹İ¹ÚÇÏ´Ù
-2024,contrary,¹İ´ëÀÇ ¹İ´ë °Å²Ù·Î
-2025,contrast,´ëÁ¶
-2026,contribute,±âºÎÇÏ´Ù
-2027,control,¾ïÁ¦ÇÏ´Ù
-2028,controversy,³íÀï
-2029,convenient,Æí¸®ÇÑ
-2030,convention,°ü·Ê
-2031,conversation,È¸È­
-2032,convert,¹Ù²Ù´Ù
-2033,convey,³ª¸£´Ù
-2034,convict,À¯ÁË·Î ÆÇ°áÇÏ´Ù ÁË¼ö
-2035,convince,È®½Å½ÃÅ°´Ù
-2036,cook,¿ä¸®ÇÏ´Ù ¿ä¸®»ç
-2037,cookie,ÄíÅ°
-2038,cool,¼­´ÃÇÑ
-2039,cooperate,Çùµ¿ÇÏ´Ù
-2040,coordinate,µ¿°İÀÇ
-2041,cop,¼ø°æ
-2042,cope,ÄÚ¿ìÇÁ(¼ºÁ÷ÀÚÀÇ ±ä °Ñ¿Ê)
-2043,copy,»çº»
-2044,copyright,ÆÇ±Ç
-2045,cord,¹åÁÙ
-2046,core,ÇÙ½É
-2047,corn,Æ¼´«
-2048,corner,¸ğÅüÀÌ
-2049,corporate,¹ıÀÎÁ¶Á÷ÀÇ
-2050,correct,¿ÇÀº
-2051,correspond,ÀÏÄ¡ÇÏ´Ù
-2052,corridor,º¹µµ
-2053,corrupt,Å¸¶ôÇÑ
-2054,cost,°¡°İ
-2055,costume,º¹Àå
-2056,cottage,½Ã°ñÁı
-2057,cotton,¸ñÈ­
-2058,couch,Ä§´ë
-2059,cough,±âÄ§ ±âÄ§À» ÇÏ´Ù ±âÄ§À» ÇÏ¿© -À» ¹ñ¾î³»´Ù
-2060,could,aucanÀÇ °ú°Å
-2061,council,È¸ÀÇ
-2062,counsel,ÀÇ³í
-2063,count,°è»ê
-2064,counter,°è»êÇÏ´Â »ç¶÷
-2065,counterpart,ºÎº»
-2066,country,³ª¶ó
-2067,countryside,½Ã°ñ
-2068,county,ÁÖ
-2069,couple,ÇÑ ½Ö
-2070,courage,¿ë±â
-2071,cousin,»çÃÌ
-2072,cover,µ¤´Ù
-2073,cow,À§ÇùÇÏ´Ù ¾Ï¼Ò
-2074,cowboy,¸ñµ¿
-2075,crack,Âû½Ï ¼Ò¸®³»´Ù ±İ°¡´Ù ³¯Ä«·Î¿î¼Ò¸®
-2076,craft,¼Ø¾¾
-2077,crash,µµ»ê
-2078,crawl,³×¹ß·Î ±â´Ù
-2079,crazy,¹ÌÄ£
-2080,create,Ã¢Á¶ÇÏ´Ù
-2081,creature,Ã¢Á¶¹°
-2082,credible,¹ÏÀ» ¼ö ÀÖ´Â
-2083,credit,½Å¿ë
-2084,creek,½Ã³»
-2085,creep,±â´Ù
-2086,crew,½Â¹«¿ø
-2087,cricket,Å©¸®ÄÏ
-2088,crime,¹üÁË
-2089,criminal,ÁËÀÇ
-2090,crisis,À§±â
-2091,crisp,ÆÄ»èÆÄ»èÇÑ
-2092,criteria,criterionÀÇ º¹¼öÇü
-2093,critic,ºñÆò°¡
-2094,criticize,ºñÆòÇÏ´Ù
-2095,criticism,ºñÆò
-2096,crop,¼öÈ®
-2097,cross,½ÊÀÚÇü
-2098,crowd,±ºÁß
-2099,crown,¿Õ°ü
-2100,crucial,°áÁ¤ÀûÀÎ
-2101,cruel,ÀÜÀÎÇÑ
-2102,cruise,¼øÇ×ÇÏ´Ù
-2103,crush,´­·¯ ºÎ¼ö´Ù
-2104,cry,¼Ò¸®Ä¡´Ù
-2105,crystal,¼öÁ¤
-2106,cultivate,°æÀÛÇÏ´Ù
-2107,culture,¹®È­
-2108,cupboard,ÂùÀå
-2109,cure,Ä¡·á
-2110,curious,ÀÌ»ó½º·¯¿î
-2111,curl,°ö½½¸Ó¸® ¸Ó¸®ÅĞÀ» ÁöÁö´Ù
-2112,currency,Åë¿ë
-2113,current,À¯ÇàÀÇ
-2114,curriculum,°ú¸ñ
-2115,curry,Ä«·¹¿ä¸® Ä«·¹·Î ¸ÀÀ» ³»´Ù
-2116,curse,ÀúÁÖ
-2117,curtain,Ä¿¾îÆ°
-2118,curve,°î¼±
-2119,custody,º¸È£
-2120,custom,½À°ü
-2121,customer,°í°´
-2122,cut,º£´Ù
-2123,cute,±Í¿©¿î
-2124,cycle,¼øÈ¯
-2125,cynical,³Ã¼ÒÀûÀÎ
-2126,dad,¾Æºü
-2127,dairy,³«³óÀå
-2128,dam,´ï
-2129,damage,¼ÕÇØ
-2130,damp,ÃàÃàÇÑ ½À±â Àû½Ã´Ù
-2131,dance,´í½º
-2132,danger,À§Çè
-2133,dare,au°¨È÷ -ÇÏ´Ù
-2134,dark,¾îµÎ¿î
-2135,darling,±Í¿©¿î
-2136,dash,µ¹Áø
-2137,database,µ¥ÀÌÅÍº£ÀÌ½º
-2138,date,³¯Â¥
-2139,daughter,µş
-2140,dawn,»õº® ³¯ÀÌ »õ´Ù
-2141,day,³·
-2142,dead,Á×Àº
-2143,deal,¾ç
-2144,death,Á×À½
-2145,debate,Åä·Ğ Åä·ĞÇÏ´Ù
-2146,debt,ºú
-2147,decade,10³â°£
-2148,decay,¼èÅğÇÏ´Ù
-2149,decent,Á¡ÀİÀº
-2150,decide,°áÁ¤ÇÏ´Ù
-2151,decision,°áÁ¤
-2152,deck,°©ÆÇ
-2153,declare,¼±¾ğÇÏ´Ù
-2154,decline,±â¿ï´Ù
-2155,decorate,Àå½ÄÇÏ´Ù
-2156,decrease,°¨¼ÒÇÏ´Ù
-2157,dedicate,ºÀ³³ÇÏ´Ù
-2158,deep,±íÀº
-2159,defeat,ÆĞ¹è
-2160,defense,¹æ¾î
-2161,defend,¹æ¾îÇÏ´Ù
-2162,defendant,ÇÇ°í ÇÇ°íÀÇ
-2163,deficiency,°áÇÌ
-2164,deficit,°á¼Õ
-2165,define,Á¤ÀÇÇÏ´Ù
-2166,definite,ÀÏÁ¤ÇÑ
-2167,degrade,ÁöÀ§¸¦ ³·Ãß´Ù
-2168,degree,µµ
-2169,delay,´ÊÃß´Ù
-2170,delegate,ÆÄ°ßÇÏ´Ù
-2171,delete,»èÁ¦ÇÏ´Ù
-2172,deliberate,¼÷°íÇÏ´Ù
-2173,delicate,¹Ì¹¦ÇÑ
-2174,delicious,¸ÀÀÖ´Â
-2175,delight,Áñ°Ì°ÔÇÏ´Ù Áñ°Å¿öÇÏ´Ù
-2176,deliver,ÀÎµµÇÏ´Ù
-2177,demand,¿ä±¸ÇÏ´Ù
-2178,democracy,¹ÎÁÖÁÖÀÇ
-2179,democrat,¹ÎÁÖÁÖÀÇÀÚ
-2180,demon,¾Ç¸¶
-2181,demonstrate,Áõ¸íÇÏ´Ù
-2182,dense,Â£Àº
-2183,dentist,Ä¡°úÀÇ»ç
-2184,deny,ºÎÁ¤ÇÏ´Ù
-2185,department,ºÎ
-2186,departure,Ãâ¹ß
-2187,depend,ÁÂ¿ìµÇ´Ù
-2188,dependence,Á¾¼Ó
-2189,depict,¹¦»çÇÏ´Ù
-2190,deposit,¿¹±İ
-2191,depress,¾ï¾ĞÇÏ´Ù
-2192,deprive,»©¾Ñ´Ù
-2193,derive,ÀÌ²ø¾î ³»´Ù
-2194,descend,³»·Á¿À´Ù
-2195,describe,±â¼úÇÏ´Ù
-2196,description,¼­¼ú
-2197,desert,¹ö¸®´Ù
-2198,deserve, -ÇÒ ¸¸ÇÏ´Ù
-2199,design,µğÀÚÀÎ
-2200,designate,°¡¸®Å°´Ù
-2201,desire,¹Ù¶ó´Ù
-2202,desk,Ã¥»ó
-2203,despair,Àı¸ÁÇÏ´Ù
-2204,desperate,Àı¸ÁÀûÀÎ
-2206,destination,¸ñÀûÁö
-2207,destiny,¿î¸í
-2208,destroy,ÆÄ±«ÇÏ´Ù
-2209,destruction,ÆÄ±«
-2210,detach,ºĞ¸®ÇÏ´Ù
-2211,detail,»ó¼³
-2212,detect,°£ÆÄÇÏ´Ù
-2213,determine,°áÁ¤ÇÏ´Ù
-2214,develop,¹ß´ŞÇÏ´Ù
-2215,device,°í¾È
-2216,devil,¾Ç¸¶
-2217,devise,°í¾ÈÇÏ´Ù
-2218,devote,¹ÙÄ¡´Ù
-2219,diabetes,´ç´¢º´
-2220,dialogue,´ëÈ­
-2221,diary,ÀÏ±â
-2222,dictate,¹Ş¾Æ¾²°Ô ÇÏ´Ù
-2223,dictionary,»çÀü
-2224,die,Á×´Ù
-2225,different,´Ù¸¥
-2226,difficult,°ï¶õÇÑ
-2227,dig,ÆÄ´Ù
-2228,dignity,À§¾ö
-2229,dimension,Ä¡¼ö
-2230,diminish,°¨¼ÒÇÏ´Ù
-2231,dine,Àú³á½Ä»ç¸¦ ÇÏ´Ù
-2232,dinner,Á¤Âù
-2233,dip,´ã±×´Ù
-2234,diplomat,¿Ü±³°ü
-2235,direct,ÁöµµÇÏ´Ù
-2236,dirty,´õ·¯¿î
-2237,disabled,ºÒ±¸°¡ µÈ
-2238,disadvantage,ºÒ¸®
-2239,disagree,ÀÏÄ¡ÇÏÁö ¾Ê´Ù
-2240,disappear,¾Èº¸ÀÌ°Ô µÇ´Ù
-2241,disappoint,½Ç¸Á½ÃÅ°´Ù
-2242,disaster,ÃµÀç
-2243,discharge,ÁüÀ»ºÎ¸®´Ù
-2244,discipline,ÈÆ·Ã
-2245,disclose,³ªÅ¸³»´Ù
-2246,discount,ÇÒÀÎ
-2247,discourse,°­¿¬
-2248,discover,¹ß°ßÇÏ´Ù
-2249,discriminate,ºĞº°ÇÏ´Ù
-2250,discuss,Åä·ĞÇÏ´Ù
-2251,disease,º´
-2252,disgust,ºÒÄèÇÏ°Ô ÇÏ´Ù
-2253,dish,Á¢½Ã
-2254,dismiss,¶°³ª°Ô ÇÏ´Ù
-2255,disorder,³­Àâ
-2256,displace,¹Ù²Ù¾î³õ´Ù
-2257,display,º¸ÀÌ´Ù
-2258,dispose,¹è¿­ÇÏ´Ù
-2259,dispute,³íÀïÇÏ´Ù
-2260,disrupt,ºĞ¿­½ÃÅ°´Ù
-2261,distant,¶³¾îÁø
-2262,distort,Âî±×·¯¶ß¸®´Ù
-2263,distract,ÀüÈ¯½ÃÅ°´Ù
-2264,distribute,ºĞ¹èÇÏ´Ù
-2265,district,Áö±¸
-2266,disturb,±³¶õÇÏ´Ù
-2267,dive,¶Ù¾îµé´Ù
-2268,diverse,´Ù¾çÇÑ
-2269,divide,³ª´©´Ù
-2270,divine,½ÅÀÇ
-2271,divorce,ÀÌÈ¥
-2272,do,ÇÏ´Ù
-2273,doctor,¹Ú»ç
-2274,document,¼­·ù
-2275,dog,°³
-2276,doll,ÀÎÇü
-2277,dolphin,µ¹°í·¡
-2278,domain,¿µÅä
-2279,domestic,°¡Á¤ÀÇ
-2280,dominant,¿ì¼¼ÇÑ
-2281,donate,Áõ¿©ÇÏ´Ù
-2282,door,¹®
-2283,dose,1È¸º¹¿ë·® Åõ¾àÇÏ´Ù
-2284,dot,Á¡
-2285,double,2¹èÀÇ
-2286,doubt,ÀÇ½É
-2287,down,¾Æ·¡·Î
-2288,dozen,1´Ù½º
-2289,draft,ÃÊ°í
-2290,drag,²ø´Ù
-2291,drain,¹è¼öÇÏ´Ù
-2292,draw,´ç±â´Ù
-2293,drawer,Á¦µµ»ç
-2294,dread,µÎ·Á¿öÇÏ´Ù µÎ·Á¿ò
-2295,dream,²Ş
-2296,drink,¸¶½Ã´Ù
-2297,drive,¿îÀüÇÏ´Ù
-2298,drop,¹æ¿ï
-2299,drown,¹°¿¡ºü¶ß¸®´Ù
-2300,drug,¾àÁ¦
-2301,dry,¸¶¸¥
-2302,dual,µÑÀÇ
-2303,duck,¸Ó¸®¸¦ ¹° ¼Ó¿¡ ¾¦ ÃÄ¹Ú´Ù
-2304,due,Áö±Ş±âÀÏÀÌ µÈ
-2305,dull,µĞÇÑ
-2306,dump,³»¹ö¸®´Ù
-2308,dust,¸ÕÁö
-2309,duty,ÀÇ¹«
-2310,dwell,°ÅÁÖÇÏ´Ù
-2311,dynamic,µ¿ÀûÀÎ
-2312,each,°¢°¢ÀÇ
-2313,eager,¿­½ÉÀÎ
-2314,ear,±Í
-2315,early,ÀÌ¸¥
-2316,earn,ÀÏÇÏ¿© ¹ú´Ù
-2317,earth,Áö±¸
-2318,ease,¾È¶ô
-2319,east,µ¿ÂÊ µ¿ÂÊÀÇ µ¿ÂÊÀ¸·Î
-2320,easy,½¬¿î
-2321,eat,¸Ô´Ù
-2322,economy,Àı¾à
-2323,edge,³¡¸Ó¸®
-2324,edit,ÆíÁıÇÏ´Ù
-2325,educate,±³À°ÇÏ´Ù
-2326,effect,°á°ú
-2327,effective,È¿°úÀûÀÎ
-2328,efficient,´É·üÀûÀÎ
-2329,effort,³ë·Â
-2330,egg,¾Ë
-2331,either,¾î´À ÇÏ³ªÀÇ
-2332,elaborate,°øµéÀÎ
-2333,elect,¼±°ÅÇÏ´Ù
-2334,electric,Àü±âÀÇ
-2335,electronic,ÀüÀÚ(ÇĞ)ÀÇ
-2336,elegant,¿ì¾ÆÇÑ
-2337,element,¿ä¼Ò
-2338,elementary,±âº»ÀÇ
-2339,elephant,ÄÚ³¢¸®
-2340,eliminate,Á¦°ÅÇÏ´Ù
-2341,else,±× ¹Û¿¡
-2342,embarrass,³­Ã³ÇÏ°Ô ÇÏ´Ù
-2343,embassy,´ë»ç°ü
-2344,embrace,Æ÷¿ËÇÏ´Ù
-2345,emerge,³ª¿À´Ù
-2346,emergency,ºñ»ó»çÅÂ
-2347,emit,¹æ»çÇÏ´Ù
-2348,emotion,°¨Á¤
-2349,emphasis,°­Á¶
-2350,empire,Á¦±¹
-2351,employ,°í¿ëÇÏ´Ù
-2352,empty,ºó
-2353,enclose,¿¡¿ö½Î´Ù
-2354,encounter,Á¶¿ì
-2355,encourage,¿ë±â¸¦ µ¸¿ì´Ù
-2356,end,³¡
-2357,endure,°ßµğ´Ù
-2358,enemy,Àû
-2359,enforce,½Ç½ÃÇÏ´Ù
-2360,engage,¾à¼ÓÇÏ´Ù
-2361,engine,¿£Áø
-2362,engineer,±â»ç
-2363,enhance,Çâ»óÇÏ´Ù
-2364,enjoy,Áñ±â´Ù
-2365,enormous,°Å´ëÇÑ
-2366,enough,ÃæºĞÇÑ
-2367,enroll,¸íºÎ¿¡ ¿Ã¸®´Ù
-2369,enter,µé¾î°¡´Ù
-2370,enterprise,±âÈ¹
-2371,entertain,Áñ°Ì°Ô ÇÏ´Ù
-2372,enthusiastic,¿­½ÉÀÎ
-2373,entire,ÀüÃ¼ÀÇ
-2374,entitle,ÀÚ°İÀ» ÁÖ´Ù
-2375,entry,µé¾î°¨
-2376,envelope,ºÀÅõ
-2377,environment,È¯°æ
-2378,envy,ÁúÅõ
-2379,episode,»ğÈ­
-2380,equal,°°Àº
-2381,equate,°°°ÔÇÏ´Ù
-2382,equipment,Àåºñ
-2383,era,½Ã´ë
-2384,eraser,Áö¿ì´Â »ç¶÷
-2385,erect,¶È¹Ù·Î ¼±
-2386,error,Àß¸ø
-2387,escape,µµ¸ÁÇÏ´Ù
-2388,escort,È£À§ÇÏ´Ù
-2389,especially,Æ¯È÷
-2390,essential,º»ÁúÀûÀÎ
-2391,establish,È®¸³ÇÏ´Ù
-2392,estate,ÅäÁö
-2393,estimate,¾î¸²Àâ´Ù
-2394,etc,µîµî
-2395,ethical,µµ´ö»óÀÇ
-2396,ethnic,ÀÎÁ¾ÀÇ
-2397,evacuate,ºñ¿ì´Ù
-2398,evaluate,Æò°¡ÇÏ´Ù
-2399,eve,"Àú³á, ¹ã"
-2401,evening,Àú³á
-2402,eventually,°á±¹
-2403,ever,ÀÌÀü¿¡
-2404,every,¸ğµç
-2405,evident,¸í¹éÇÑ
-2406,evil,»ç¾ÇÇÑ
-2407,evolution,ÁøÈ­
-2408,evolve,ÁøÈ­ÇÏ´Ù
-2409,exact,Á¤È®ÇÑ
-2410,exaggerate,°úÀåÇÏ´Ù
-2411,exam,½ÃÇè
-2412,examine,½ÃÇèÇÏ´Ù
-2413,example,º¸±â
-2414,exceed,³Ñ´Ù
-2415,excellent,¿ì¼öÇÑ
-2417,excess,ÃÊ°ú
-2418,exchange,±³È¯ÇÏ´Ù
-2419,excite,ÈïºĞ½ÃÅ°´Ù
-2420,exclude,¹èÃ´ÇÏ´Ù
-2421,exclusive,¹èÅ¸ÀûÀÎ
-2422,excuse,º¯¸í
-2423,executive,ÁıÇàÀÇ
-2424,exercise,¿îµ¿
-2425,exhaust,´Ù ½á¹ö¸®´Ù
-2426,exhibit,º¸ÀÌ´Ù
-2427,exist,Á¸ÀçÇÏ´Ù
-2428,exit,Ãâ±¸
-2429,exotic,¿Ü±¹ÀÇ
-2430,expand,Æì´Ù
-2431,expect,±â´ëÇÏ´Ù
-2432,expense,ÁöÃâ
-2433,expensive,ºñ¿ëÀÌ µå´Â
-2434,experience,°æÇè
-2435,experiment,½ÇÇè
-2436,expert,¼÷·Ã°¡
-2437,expertise,´ë°¡ÀÇ ÀÇ°ß
-2438,explain,¼³¸íÇÏ´Ù
-2439,explicit,¸í¹éÇÑ
-2440,explode,Æø¹ß½ÃÅ°´Ù
-2441,explore,Å½ÇèÇÏ´Ù
-2442,export,¼öÃâÇÏ´Ù ¼öÃâ
-2443,expose,"½ı´Ù, µå·¯³»´Ù, ¸ÂÈ÷´Ù"
-2444,express,¹ßÇ¥ÇÏ´Ù
-2445,extend,»¸´Ù
-2446,extent,³ĞÀÌ
-2447,external,¿ÜºÎÀÇ
-2448,extinct,²¨Áø
-2449,extra,°¡¿ÜÀÇ
-2450,extract,»Ì¾Æ³»´Ù
-2451,extraordinary,ÀÌ»óÇÑ
-2452,extreme,±Ø´ÜÀÇ
-2453,eye,´«
-2454,eyebrow,´«½ç
-2455,fabric,Ãµ
-2456,face,¾ó±¼
-2457,facilitate,½±°ÔÇÏ´Ù
-2458,facility,½¬¿ò
-2459,fact,»ç½Ç
-2460,factor,¿ä¼Ò
-2461,factory,°øÀå
-2462,faculty,´É·Â
-2463,fade,¹Ù·¡´Ù
-2464,fail,½ÇÆĞÇÏ´Ù
-2465,faint,±âÀıÇÏ´Ù
-2466,fair,°øÆòÇÑ
-2467,faith,½Å¿ë
-2468,fall,¶³¾îÁö´Ù
-2469,FALSE,°ÅÁş
-2470,fame,¸í¼º
-2471,familiar,Ä£ÇÑ
-2472,family,°¡Á·
-2473,famous,À¯¸íÇÑ
-2474,fan,(¿µÈ­ µîÀÇ)ÆÒ
-2475,fancy,°ø»ó
-2476,fantastic,È¯»óÀûÀÎ
-2477,far,¸Ö¸®
-2478,fare,¿ä±İ
-2479,farm,³óÀå
-2480,fascinate,È²È¦ÄÉ ÇÏ´Ù
-2481,fast,ºü¸¥
-2482,fasten,´Ü´ÜÈ÷ °íÁ¤½ÃÅ°´Ù
-2483,fat,»ìÂğ
-2484,fatal,Ä¡¸íÀûÀÎ
-2485,fate,¼÷¸í
-2486,father,¾Æ¹öÁö
-2487,fault,°áÁ¡
-2488,favor,È£ÀÇ
-2489,favorite,¸¶À½¿¡ µå´Â ÁÁ¾ÆÇÏ´Â ¹°°Ç
-2490,fear,µÎ·Á¿ò
-2491,feature,¾ó±¼ÀÇ »ı±è»õ
-2492,federal,¿¬¹æÀÇ
-2493,fee,¿ä±İ
-2494,feed,À½½Ä(¸ÔÀÌ)À» ÁÖ´Ù
-2495,feel,¸¸Á®º¸´Ù
-2496,fellow,µ¿¹«
-2497,female,¿©¼º
-2498,ferry,³ª·çÅÍ
-2499,fertile,ºñ¿ÁÇÑ
-2500,fever,¿­
-2501,few,¼Ò¼öÀÇ
-2502,fiber,¼¶À¯
-2503,field,µé
-2504,fierce,ÈäÆ÷ÇÑ
-2505,fight,½Î¿ò
-2506,figure,¸ğ½À
-2507,file,Á¾ÀÌ³¢¿ì°³
-2508,fill,°¡µæ Ã¤¿ì´Ù
-2509,filter,¿©°ú±â ¿©°úÇÏ´Ù
-2510,final,ÃÖÈÄÀÇ
-2511,finance,ÀçÁ¤
-2512,find,¹ß°ßÇÏ´Ù
-2513,fine,ÈÇ¸¢ÇÑ
-2514,finger,¼Õ°¡¶ô ¼Õ°¡¶ôÀ» ´ë´Ù
-2515,finish,³¡³»´Ù
-2516,finite,ÇÑÁ¤µÇ¾î ÀÖ´Â
-2517,fire,ºÒ
-2518,firm,±»Àº
-2519,fish,¹°°í±â
-2520,fist,ÁÖ¸Ô
-2521,fit,¸Â´Â
-2522,fix,°íÁ¤½ÃÅ°´Ù
-2523,flag,±â
-2524,flame,ºÒ²É
-2525,flash,¹øÂ½ÀÓ
-2526,flat,ÆíÆòÇÑ
-2527,flavor,(µ¶Æ¯ÇÑ)¸À
-2528,flaw,±İ
-2529,flee,´Ş¾Æ³ª´Ù
-2530,flesh,»ì
-2531,flexible,±¸ºÎ¸®±â ½¬¿î
-2532,flight,³¯±â
-2533,flip,Æ¢±â´Ù È´ ¿òÁ÷ÀÌ´Ù Æ¢±â±â
-2534,float,¶ß´Ù
-2535,flock,¹«¸®
-2536,flood,È«¼ö
-2537,floor,¸¶·í¹Ù´Ú
-2538,flourish,¹øÃ¢ÇÏ´Ù
-2539,flow,Èå¸£´Ù
-2540,flower,²É
-2541,fluid,À¯µ¿¼ºÀÇ
-2542,flush,¿ĞÄ¬Èå¸£´Ù
-2543,fly,³¯´Ù
-2544,focus,ÃÊÁ¡
-2545,fog,¾È°³
-2546,fold,ÁÖ¸§
-2547,folk,»ç¶÷µé
-2548,follow,ÂÑ´Ù
-2549,fond,ÁÁ¾ÆÇÏ´Â
-2550,food,À½½Ä
-2551,fool,¹Ùº¸
-2552,foot,¹ß
-2553,football,Ãà±¸
-2554,for,´ë½Å¿¡
-2555,forbid,±İÇÏ´Ù
-2556,force,Èû
-2557,forecast,¿¹»ó
-2558,forehead,ÀÌ¸¶
-2559,foreign,¿Ü±¹ÀÇ
-2560,forest,½£
-2561,forever,¿µ¿øÈ÷
-2562,forget,ÀØ´Ù
-2563,forgive,¿ë¼­ÇÏ´Ù
-2564,form,¸ğ¾ç
-2565,formal,Çü½Ä»óÀÇ
-2566,format,(¼­ÀûÀÇ)Ã¼Á¦
-2567,formation,Çü¼º
-2568,former,ÀÌÀüÀÇ
-2569,formula,°ø½Ä
-2570,forth,¾ÕÀ¸·Î
-2571,fortunate,¿îÁÁÀº
-2572,fortune,¿î
-2573,forum,°ø°³Åä·ĞÈ¸
-2574,forward,¾ÕÂÊ¿¡
-2575,foster,±â¸£´Ù
-2576,foundation,±âÃÊ
-2577,fountain,»ù
-2578,fox,±³È°ÇÑ »ç¶÷
-2579,fraction,ºĞ¼ö
-2580,frame,±¸Á¶
-2581,framework,»À´ë
-2582,frankly,¼ÖÁ÷È÷
-2583,free,ÀÚÀ¯·Î¿î
-2584,freeze,¾ó´Ù
-2585,frequent,ºó¹øÇÑ
-2586,fresh,»õ·Î¿î
-2587,friend,Ä£±¸
-2588,fright,(°©ÀÚ±â ¾ö½ÀÇÏ´Â)°øÆ÷
-2589,frog,°³±¸¸®
-2590,from,"(ºĞ¸®,ÀÌÅ»,Ãâ¹ßÁ¡,±âÁ¡)-·Î ºÎÅÍ"
-2591,front,Á¤¸é
-2592,frost,¼­¸®
-2593,frown,´«»ìÀ» ÂîÇª¸®´Ù
-2594,fruit,°úÀÏ
-2595,frustrate,(°èÈ¹ µîÀ»)ÁÂÀı½ÃÅ°´Ù
-2596,fry,±â¸§À¸·Î Æ¢±â´Ù
-2597,fuel,¿¬·á
-2598,fulfil,ÀÌÇàÇÏ´Ù
-2599,full,°¡µæÂù
-2600,fun,Áñ°Å¿î »ı°¢
-2601,function,±â´É
-2602,fund,±â±İ
-2603,fundamental,±âÃÊ(±âÁØ)ÀÇ
-2604,funeral,Àå»ç
-2605,fur,¸ğÇÇ
-2606,furious,³ëÇÏ¿© ÆŞÆŞ¶Ù´Â
-2607,furnish,°ø±ŞÇÏ´Ù
-2608,furniture,°¡±¸
-2609,furthermore,´õ¿ì±â
-2610,fuse,½Å°ü
-2611,future,¹Ì·¡
-2612,gain,¾ò´Ù
-2613,gamble,µµ¹ÚÇÏ´Ù µµ¹Ú µµ¹ÚÇØ¼­ ÀÒ´Ù
-2614,gang,ÇÑ ¶¼
-2615,gap,°¥¶óÁø Æ´
-2616,garage,Â÷°í
-2617,garden,¶ã
-2618,gasoline,°¡¼Ö¸°
-2619,gate,¹®
-2620,gather,±×·¯¸ğÀ¸´Ù
-2621,gaze,ÁöÄÑº¸´Ù
-2622,gear,Åé´Ï¹ÙÄû
-2623,gender,¼º
-2624,gene,À¯Àü(ÀÎ)ÀÚ
-2625,general,ÀÏ¹İÀûÀÎ
-2626,generate,³º´Ù
-2627,generation,ÀÏ´ë
-2628,generous,±¤´ëÇÑ
-2629,genius,ÃµÀç
-2630,genre,À¯Çü
-2631,gentle,¿ÂÈ­ÇÑ
-2632,gentleman,½Å»ç
-2633,genuine,ÁøÂ¥ÀÇ
-2634,geography,Áö¸®
-2635,geology,ÁöÁúÇĞ
-2636,gesture,¸öÁş
-2637,get,¾ò´Ù
-2638,ghost,À¯·É
-2639,giant,°ÅÀÎ
-2640,gift,¼±¹°
-2641,giraffe,±â¸°
-2642,girl,¼Ò³à
-2643,give,ÁÖ´Ù
-2644,glad,±â»Û
-2645,glance,Èê±ß º½
-2646,glare,¹øÂ½ÀÌ´Â ºû
-2647,glass,À¯¸®
-2648,glimpse,Èê²ı º½
-2649,global,°ø¸ğ¾çÀÇ
-2650,glory,¿µ±¤
-2651,glove,Àå°©
-2652,glow,Å¸´Ù
-2653,glue,¾Æ±³
-2654,go,°¡´Ù
-2655,goal,°á½ÂÁ¡
-2656,goat,¿°¼Ò
-2657,god,½Å
-2658,gold,±İ
-2659,good,ÁÁÀº
-2660,goodbye,¾È³çÈ÷ °¡¼¼¿ä
-2661,goods,»óÇ°
-2662,gorgeous,È£È­·Î¿î
-2663,govern,´Ù½º¸®´Ù
-2664,grab,ºÙÀâ´Ù(=snatch)
-2665,grace,ÀºÃÑ
-2666,grade,µî±Ş
-2667,gradual,Á¡Â÷ÀûÀÎ
-2668,graduate,ÇĞÀ§¸¦ ¼ö¿©ÇÏ´Ù
-2669,grain,°î¹°
-2670,grand,À§´ëÇÑ
-2671,grandfather,ÇÒ¾Æ¹öÁö
-2672,grant,¹Ş¾ÆµéÀÌ´Ù
-2673,grape,Æ÷µµ
-2674,graphic,±×·Á ³õÀº µíÇÑ
-2675,grasp,ºÙÀâ´Ù
-2676,grass,Ç®¹ç
-2677,grateful,°í¸¿°Ô »ı°¢ÇÏ´Â
-2678,grave,¹«´ı
-2679,great,Ä¿´Ù¶õ
-2680,greed,Å½¿å
-2681,green,ÃÊ·Ï»ö
-2682,greet,ÀÎ»çÇÏ´Ù
-2683,grey,È¸»öÀÇ
-2684,grief,½ÉÇÑ ½½ÇÄ(deep sorrow)
-2685,grip,Àâ±â
-2686,grocery,½ÄÇ°ÀâÈ­·ù
-2687,gross,ÃÑ°èÀÇ
-2688,ground,¶¥
-2689,group,Áı´Ü
-2690,grow,¼ºÀåÇÏ´Ù
-2691,guarantee,º¸ÁõÇÏ´Ù
-2692,guardian,º¸È£ÀÚ
-2693,guess,ÃßÃø(ÁüÀÛ)ÇÏ´Ù
-2694,guest,¼Õ´Ô
-2695,guide,ÀÌ²ø´Ù
-2696,guideline,ÁöÄ§
-2697,guilty,ÁËÁöÀº
-2698,gulf,¸¸
-2699,gun,ÃÑ
-2700,guy,³à¼®
-2701,gymnasium,½Ç³»Ã¼Á¶Àå
-2702,habit,½À°ü
-2703,habitat,(µ¿¹°ÀÇ)ÀÚ¿¬¹ø½ÄÁö
-2704,hair,ÅĞ
-2705,half,¹İ
-2706,hall,È¸°ü
-2707,halt,¸ØÃç¼­´Ù
-2708,hammer,¸ÁÄ¡
-2709,hand,¼Õ
-2710,handicap,ºÒ¸®ÇÑ Á¶°Ç
-2711,handle,¼ÕÀâÀÌ
-2712,handsome,¾ó±¼(ÀÚÅÂ)ÀÌ Àß»ı±ä
-2713,hang,°É´Ù
-2714,happen,(»ç°Ç µîÀÌ)ÀÏ¾î³ª´Ù
-2715,happy,Çà¿îÀÇ
-2716,harbor,Ç×±¸
-2717,hard,´Ü´ÜÇÑ
-2718,hardly,°ÅÀÇ -¾Æ´Ï´Ù
-2719,harm,ÇØ
-2720,harsh,°ÅÄ£
-2721,harvest,¼öÈ®
-2722,haste,±ŞÇÔ
-2723,hat,(Å×ÀÖ´Â)¸ğÀÚ ¸ğÀÚ¸¦ ¾º¿ì´Ù
-2724,hate,¹Ì¿öÇÏ´Ù
-2725,haunt,ÀÚÁÖ°¡´Ù
-2726,have,°¡Áö(°í ÀÖ)´Ù
-2727,hazard,À§Çè
-2728,he,(3ÀÎÄª´Ü¼ö ³²¼º)±×
-2729,head,¸Ó¸®
-2730,headache,µÎÅë
-2731,headquarters,º»ºÎ
-2732,heal,°íÄ¡´Ù
-2733,health,°Ç°­
-2734,hear,µè´Ù
-2735,heart,½ÉÀå
-2736,heat,¿­
-2737,heaven,ÇÏ´Ã
-2738,heavy,¹«°Å¿î
-2739,heel,¹ßµÚ²ŞÄ¡
-2740,height,³ôÀÌ
-2741,heir,»ó¼ÓÀÎ
-2742,helicopter,Çï¸®ÄßÅÍ
-2743,hell,Áö¿Á
-2744,hello,¿©º¸
-2745,help,µ½´Ù
-2746,hence,±×·¯¹Ç·Î
-2747,here,¿©±â¿¡
-2748,heritage,¼¼½À Àç»ê
-2749,hero,¿µ¿õ
-2750,hesitate,ÁÖÀúÇÏ´Ù
-2751,hide,°¨Ãß´Ù
-2752,high,³ôÀº
-2753,highway,´ëµµ
-2754,hill,"¾ğ´ö, ³·Àº »ê ÀÎµµ °íÁö"
-2755,hip,¾ûµ¢ÀÌ
-2756,hire,°í¿ëÇÏ´Ù
-2757,history,¿ª»ç
-2758,hit,¸íÁßÇÏ´Ù
-2759,hobby,Ãë¹Ì
-2760,hold,¼Õ¿¡ °®°í ÀÖ´Ù
-2761,hole,±¸¸Û
-2762,holiday,ÈŞÀÏ
-2763,holy,½Å¼ºÇÑ
-2764,home,°¡Á¤
-2765,homework,¼÷Á¦
-2766,honest,Á¤Á÷ÇÑ
-2767,honey,¹ú²Ü
-2768,honor,¸í¿¹
-2769,hook,°¥°í¸®
-2770,hope,Èñ¸Á
-2771,horizon,ÁöÆò¼±
-2772,horn,»Ô
-2773,horror,°øÆ÷
-2774,horse,¸»
-2775,hospital,º´¿ø
-2776,host,"ÁÖÀÎ, ÁıÁÖÀÎ ³ë¸©, È£½ºÆ®"
-2777,hostage,º¼¸ğ
-2778,hostile,¹İ´ëÇÏ´Â
-2779,hot,¶ß°Å¿î
-2780,hour,½Ã°£
-2781,house,Áı
-2782,household,°¡Á·
-2783,how,¾î¶»°Ô
-2784,however,¾Æ¹«¸®
-2785,hug,²À ²¸¾È´Ù
-2786,huge,°Å´ëÇÑ
-2787,human,ÀÎ°£ÀÇ
-2788,humor,À¯¿ì¸Ó
-2789,hundred,100 100ÀÇ
-2790,hungry,¹è°íÇÂ
-2791,hunt,»ç³ÉÇÏ´Ù
-2792,hurry,¼­µÎ¸£´Ù
-2793,hurt,»óÃ³³»´Ù
-2794,husband,³²Æí Àı¾àÇÏ´Ù
-2795,hut,¿ÀµÎ¸·
-2796,hypothesis,°¡¼³
-2797,I,"³ª´Â, ³»°¡"
-2798,ice,¾óÀ½
-2799,idea,°ü³ä
-2800,ideal,ÀÌ»ó
-2801,identical,¾ÆÁÖ µ¿ÀÏÇÑ
-2802,identify,µ¿ÀÏ½ÃÇÏ´Ù
-2803,ideology,°ø¸®
-2804,if,¸¸ÀÏ -ÀÌ¶ó¸é
-2805,ignore,¹«½ÃÇÏ´Ù
-2806,ill,º´µç
-2807,illusion,È¯¿µ
-2808,illustrate,¼³¸íÇÏ´Ù
-2809,imagine,»ó»óÇÏ´Ù
-2810,imitate,Èä³»³»´Ù
-2811,immediate,Á÷Á¢ÀÇ
-2812,immense,¹«ÇÑÇÑ
-2813,immigrate,ÀÌÁÖÇÏ´Ù
-2814,immune,¸é¿ª¼ºÀÇ
-2815,impact,Ãæ°İ
-2816,imperial,Á¦±¹ÀÇ
-2817,implement,±â±¸
-2818,imply,ÇÔÃàÇÏ´Ù
-2819,import,¼öÀÔÇÏ´Ù
-2820,important,Áß¿äÇÑ
-2821,impose,ºÎ°úÇÏ´Ù
-2822,impress,ÀÎ»óÁö¿ì´Ù
-2823,improve,°³¼±ÇÏ´Ù
-2825,incentive,ÀÚ±ØÀûÀÎ
-2826,incident,»ç°Ç
-2827,incline,±â¿ïÀÌ´Ù
-2828,include,Æ÷ÇÔÇÏ´Ù
-2829,income,¼öÀÔ
-2830,incorporate,ÇÕµ¿½ÃÅ°´Ù
-2831,increase,´Ã´Ù
-2832,incredible,¹ÏÀ» ¼ö ¾ø´Â
-2833,indeed,ÂüÀ¸·Î
-2834,independent,µ¶¸³ÇÑ
-2835,index,»öÀÎ
-2836,indicate,ÁöÀûÇÏ´Ù
-2837,individual,°³ÀÎ
-2838,induce,²Ò´Ù
-2839,industry,°ø¾÷
-2840,inevitable,ÇÇÇÒ ¼ö ¾ø´Â
-2841,infant,À¯¾Æ
-2842,infect,°¨¿°½ÃÅ°´Ù
-2843,infer,Ãß·ĞÇÏ´Ù
-2844,inflate,ºÎÇ®°Ô ÇÏ´Ù
-2845,influence,¿µÇâ·Â
-2846,inform,¾Ë¸®´Ù
-2847,informal,ºñ°ø½ÄÀÇ
-2848,ingredient,¼ººĞ
-2849,inhabit,»ì´Ù
-2850,inherent,»ıÅÂÀÇ
-2851,inhibit,±İÇÏ´Ù
-2852,initial,Ã³À½ÀÇ
-2853,initiate,½ÃÀÛÇÏ´Ù
-2854,inject,ÁÖ»çÇÏ´Ù
-2855,injure,ÇØÄ¡´Ù
-2856,inn,¿©ÀÎ¼÷
-2857,innocent,¹«±¸ÇÑ
-2858,innovate,»õ·Ó°Ô ÇÏ´Ù
-2859,input,ÅõÀÔ
-2860,inquire,¹¯´Ù
-2861,insect,°ïÃæ
-2862,insert,³¢¿ö³Ö´Ù
-2863,inside,¾ÈÂÊ
-2864,insight,ÅëÂû(·Â)
-2865,insist,ÁÖÀåÇÏ´Ù
-2866,inspect,°Ë»çÇÏ´Ù
-2867,inspire,¿µ°¨À» ÁÖ´Ù
-2868,install,¼³Ä¡ÇÏ´Ù
-2869,instance,½Ç·Ê
-2870,instant,Áï½ÃÀÇ
-2871,instead,±× ´ë½Å¿¡
-2872,instinct,º»´É
-2873,institute,¸¸µé´Ù
-2874,instruct,°¡¸£Ä¡´Ù
-2875,instrument,±â±¸
-2876,insult,¸ğ¿åÇÏ´Ù
-2877,insure,º¸ÁõÇÏ´Ù
-2878,integrate,ÅëÇÕÇÏ´Ù
-2879,intellectual,ÁöÀûÀÎ
-2880,intelligent,ÁöÀûÀÎ
-2882,intense,°­·ÄÇÑ
-2883,intent,ÀÇÇâ
-2884,interact,¼­·Î ÀÛ¿ëÇÏ´Ù
-2885,interest,Èï¹Ì
-2886,interfere,°£¼·ÇÏ´Ù
-2887,intermediate,Áß°£ÀÇ Áß°£¹°
-2888,internal,³»ºÎÀÇ
-2889,international,±¹Á¦ÀûÀÎ
-2890,interpret,ÇØ¼®ÇÏ´Ù
-2891,interrupt,ÈÑ¹æ³õ´Ù
-2892,interval,°£°İ
-2893,intervene,»çÀÌ¿¡ µé´Ù
-2894,intimate,Ä£¹ĞÇÑ
-2896,intrigue,À½¸ğ
-2897,introduce,¾ÈÀ¸·Î µéÀÌ´Ù
-2898,invade,Ä§ÀÔÇÏ´Ù
-2899,invent,¹ß¸íÇÏ´Ù
-2900,invest,ÅõÀÚÇÏ´Ù
-2901,investigate,Á¶»çÇÏ´Ù
-2902,invite,ÃÊ´ëÇÏ´Ù
-2903,involve,¸»¾Æ³Ö´Ù
-2904,iron,¼è
-2905,irony,¹İ¾î
-2906,irritate,³ëÇÏ°Ô ÇÏ´Ù
-2907,island,¼¶
-2908,isolate,°í¸³½ÃÅ°´Ù
-2909,it,±×°ÍÀº
-2910,item,Á¶Ç×
-2911,jail,±³µµ¼Ò
-2912,jar,(¾Æ°¡¸®°¡ ³ĞÀº)Ç×¾Æ¸®
-2913,jaw,ÅÎ
-2914,jeans,Ã»¹ÙÁö
-2915,jet,(°¡½ºµîÀÇ)ºĞÃâ
-2916,job,ÀÏ
-2917,jog,»ìÂ¦ ¹Ğ´Ù ´úÄ¿´ö ¿òÁ÷ÀÌ´Ù °í¸£Áö ¾ÊÀ½
-2918,join,°áÇÕÇÏ´Ù
-2919,joint,ÀÌÀ½¸Å
-2920,joke,³ó´ã
-2921,journal,ÀÏ°£½Å¹®
-2922,journey,¿©Çà
-2923,joy,Áñ°Å¿ò
-2924,judge,ÀçÆÇ°ü
-2925,judicial,»ç¹ıÀÇ
-2926,junior,¼Õ¾Æ·¡»ç¶÷
-2927,jury,¹è½É
-2928,just,¿Ã¹Ù¸¥
-2929,justice,Á¤ÀÇ
-2930,justify,¿Ç´Ù°í ÇÏ´Ù
-2931,keen,³¯Ä«·Î¿î
-2932,keep,°è¼ÓÇÏ´Ù
-2933,key,¿­¼è
-2934,kick,°È¾îÂ÷´Ù
-2935,kid,¾ÆÀÌ
-2936,kill,Á×ÀÌ´Ù
-2937,kind,Ä£ÀıÇÑ
-2938,king,¿Õ
-2939,kit,¿¬ÀåÅë
-2940,kitchen,ºÎ¾ı
-2941,knee,¹«¸­
-2942,knife,³ªÀÌÇÁ
-2943,knight,(Áß¼¼ÀÇ)±â»ç
-2944,knock,Ä¡´Ù
-2945,knot,¸Åµì(=tie)
-2946,know,¾Ë´Ù
-2947,label,¶óº§
-2948,labor,³ëµ¿
-2949,laboratory,½ÇÇè½Ç
-2950,lack,°áÇÌ
-2951,ladder,»ç´Ú´Ù¸®
-2952,lady,±ÍºÎÀÎ
-2953,lake,È£¼ö
-2954,lamb,¾î¸° ¾ç
-2955,lamp,µî
-2956,land,¹·
-2957,landscape,Ç³°æ
-2958,lane,Á¼Àº±æ
-2959,language,¾ğ¾î
-2960,lap,¹«¸­
-2961,large,Å«
-2962,last,°è¼ÓÇÏ´Ù
-2963,late,´ÊÀº
-2964,latter,µÚÂÊÀÇ
-2965,laugh,(¼Ò¸®³»¾î)¿ô´Ù
-2966,launch,Áø¼ö½ÃÅ°´Ù
-2967,laundry,¼¼Å¹¹°
-2968,law,¹ı·ü
-2969,lawn,ÀÜµğ¹ç
-2970,lawyer,¹ı·ü°¡
-2971,lay,´¯È÷´Ù
-2972,layer,Ãş
-2973,lazy,°ÔÀ¸¸¥
-2974,lead,ÀÌ²ø´Ù
-2975,leaf,ÀÙ
-2976,leak,»ù
-2977,lean,±â´ë´Ù
-2978,leap,²±Ãæ ¶Ù´Ù
-2979,learn,¹è¿ì´Ù
-2980,lease,ÀÓ´ëÂ÷
-2981,leather,¹«µÎÁúÇÑ °¡Á×
-2982,leave,³²±â°í°¡´Ù
-2983,lecture,°­ÀÇ
-2984,left,¿ŞÂÊÀÇ
-2985,leg,´Ù¸®
-2986,legal,¹ı·ü»óÀÇ
-2987,legend,Àü¼³
-2988,legislate,¹ı·üÀ» Á¦Á¤ÇÏ´Ù
-2989,legitimate,ÇÕ¹ıÀÇ
-2990,leisure,Æ´
-2991,lend,ºô¸®´Ù
-2992,lesson,ÇĞ°ú
-2993,let,½ÃÅ°´Ù
-2994,letter,ÆíÁö
-2995,level,¼öÆòÀÇ
-2996,liberal,ÀÚÀ¯ÁÖÀÇÀÇ
-2997,liberty,ÀÚÀ¯
-2998,library,µµ¼­°ü
-2999,license,¸éÇã
-3000,lid,¶Ñ²±
-3001,lie,´¯´Ù
-3002,lift,²ø¾î¿Ã¸®´Ù
-3003,light,ºû
-3004,like,ÁÁ¾ÆÇÏ´Ù
-3005,likely,ÀÖÀ» ¹ıÇÑ
-3006,likewise,"°°ÀÌ, ¸¶Âù°¡Áö·Î"
-3007,limit,ÇÑ°è
-3008,line,¼±
-3009,linguistic,¸»ÀÇ
-3010,link,»ç½½ÀÇ °í¸®
-3011,lion,»çÀÚ
-3012,lip,ÀÔ¼ú
-3013,liquid,¾×Ã¼
-3014,list,ÀÏ¶÷Ç¥
-3015,listen,°æÃ»ÇÏ´Ù
-3016,literal,¹®ÀÚÀÇ
-3017,literature,¹®ÇĞ
-3018,little,ÀÛÀº
-3019,live,»ì´Ù
-3020,livingroom,°Å½Ç
-3021,load,Áü
-3022,loan,´ëºÎ
-3023,local,Àå¼ÒÀÇ
-3024,locate,°üÃ» µîÀ» µÎ´Ù
-3025,lock,ÀÚ¹°¼è
-3026,log,Åë³ª¹«
-3027,logic,³í¸®ÇĞ
-3028,lone,È¥ÀÚÀÇ
-3029,long,"(±æÀÌ,½Ã°£ µî)±ä"
-3030,look,º¸´Ù
-3031,loose,Ç®¾îÁø
-3032,lose,ÀÒ´Ù
-3033,loss,ÀÒÀ½
-3034,lot,Á¦ºñ
-3035,loud,½Ã²ô·¯¿î
-3036,lounge,ºóµÕ°Å¸®´Ù
-3037,love,»ç¶û
-3038,low,³·Àº
-3039,loyal,Ãæ¼º½º·¯¿î
-3040,luck,¿î
-3041,lump,µ¢¾î¸®
-3042,lunch,Á¡½É
-3043,luxury,»çÄ¡
-3044,machine,±â°è
-3045,mad,¹ÌÄ£
-3046,magazine,ÀâÁö
-3047,magnet,ÀÚ¼®
-3048,magnificent,Àå´ëÇÑ
-3049,mail,¿ìÆí¹°
-3050,main,ÁÖ¿äÇÑ
-3051,maintain,°è¼ÓÇÏ´Ù
-3052,major,Å«ÂÊÀÇ
-3053,majority,´ë´Ù¼ö
-3054,make,¸¸µé´Ù
-3055,male,³²¼ºÀÇ
-3056,man,³²ÀÚ
-3057,manage,°ü¸®ÇÏ´Ù
-3058,manifest,¸í¹éÈ÷ ÇÏ´Ù
-3059,manipulate,(¼ÕÀ¸·Î)´Ù·ç´Ù
-3060,manner,¹æ¹ı
-3061,manufacture,Á¦Á¶ÇÏ´Ù
-3062,many,¸¹Àº
-3063,map,Áöµµ
-3064,margin,°¡ÀåÀÚ¸®
-3065,marine,¹Ù´ÙÀÇ
-3066,mark,Ç¥
-3067,marry,°áÈ¥ÇÏ´Ù
-3068,marvel,°æÀÌ
-3069,mass,µ¢¾î¸®
-3070,master,Àå
-3071,match,¼º³É
-3072,mate,»ó´ë
-3073,material,¿ø·á
-3074,mathematics,¼öÇĞ
-3075,matter,¹°Áú
-3076,mature,ÀÍÀº
-3077,maximum,ÃÖ°íÁ¡
-3078,may,"5¿ù  Ã»Ãá, ÀÎ»ıÀÇ º½  »ê»ç³ª¹«, ¾Æ°¡À§³ª¹«"
-3079,maybe,¾Æ¸¶
-3080,mayor,½ÃÀå
-3081,meal,½Ä»ç
-3082,mean,ÀÇ¹ÌÇÏ´Ù
-3083,meantime,±×µ¿¾È ±× »çÀÌ¿¡
-3084,meanwhile,±×µ¿¾È
-3085,measure,Àç´Ù
-3086,meat,(½Ä¿ëÁü½ÂÀÇ)°í±â
-3087,mechanic,Á÷°ø
-3088,mechanism,(±â°è)ÀåÄ¡
-3089,mediate,ÁßÀçÇÏ´Ù
-3090,medical,ÀÇÇĞÀÇ
-3091,medicine,¾à
-3092,medieval,Áß¼¼(Ç³)ÀÇ
-3093,medium,Áß°£
-3095,melt,³ì´Ù
-3096,memory,±â¾ï
-3097,mental,¸¶À½ÀÇ
-3098,mention,¸»ÇÏ´Ù
-3099,merchant,»óÀÎ
-3100,mere,´Ü¼øÇÑ
-3101,merge,ÇÕº´ÇÏ´Ù
-3102,merit,ÀåÁ¡
-3103,mess,È¥¶õ
-3104,metal,±İ¼Ó
-3105,method,¹æ¹ı
-3106,metropolitan,¼öµµ±Ç(ÀÇ)
-3107,microphone,È®¼º±â
-3108,microwave,±ØÃÊ´ÜÆÄ ÀüÀÚ·¹ÀÎÁö·Î ¿ä¸®ÇÏ´Ù
-3109,middle,ÇÑº¹ÆÇÀÇ
-3110,might,Èû
-3111,migrate,ÀÌÁÖÇÏ´Ù
-3112,mild,¿ÂÈÄÇÑ
-3113,military,±ºÀÇ
-3114,milk,Á¥
-3115,mill,¸äµ¹
-3116,million,¹é¸¸
-3117,mind,¸¶À½
-3118,miner,±¤»ê¾÷ÀÚ
-3119,mineral,±¤¹°
-3120,minimal,ÃÖ¼Ò(ÇÑµµ)ÀÇ
-3121,minimum,ÃÖ¼Ò ÇÑµµ
-3122,ministry,Àå°ü(¸ñ»ç)ÀÇ Á÷(¼ÒÀÓ)
-3123,minor,ÀÛÀº ÆíÀÇ
-3124,minute,ºĞ
-3125,miracle,±âÀû
-3126,mirror,°Å¿ï
-3127,miss,¹ÌÈ¥ ¿©¼º ½Ç¼öÇÏ´Ù
-3128,missile,¹Ì»çÀÏ
-3129,mission,»ç¸í
-3130,mistake,Æ²¸®´Ù
-3131,mix,¼¯´Ù
-3132,mobile,¿òÁ÷ÀÌ±â ½¬¿î
-3133,mock,Á¶·ÕÇÏ´Ù
-3134,mode,¹æ¹ı
-3135,moderate,ÀıÁ¦ÇÏ´Â
-3136,modern,Çö´ëÀÇ
-3137,modest,°â¼ÕÇÑ
-3138,modify,º¯°æÇÏ´Ù
-3139,moisture,½À±â
-3140,molecule,ºĞÀÚ
-3141,moment,¼ø°£
-3142,money,±İÀü
-3143,monitor,Ãæ°íÀÚ
-3144,monkey,¿ø¼şÀÌ
-3145,monster,±«¹°
-3146,month,¿ù
-3147,monument,±â³äºñ
-3148,mood,(ÀÏ½ÃÀûÀÎ)±âºĞ
-3149,moon,´Ş
-3150,moral,µµ´öÀÇ
-3151,moreover,±× À§¿¡
-3152,morning,¾ÆÄ§
-3153,mortal,Á×À»¿î¸íÀÇ
-3154,mother,¾î¸Ó´Ï
-3155,motion,¿îµ¿
-3156,motive,µ¿±â
-3157,mount,»ê
-3158,mountain,»ê
-3159,mouse,»õ¾ÓÁã
-3160,mouth,ÀÔ
-3161,move,¿òÁ÷ÀÌ´Ù
-3162,movie,¿µÈ­
-3163,much,¸¹Àº
-3164,mud,ÁøÈë
-3165,multiple,º¹ÇÕÀÇ
-3166,multiply,´Ã¸®´Ù
-3167,murder,»ìÀÎ
-3168,muscle,±ÙÀ°
-3169,museum,¹Ú¹°°ü
-3170,mushroom,¹ö¼¸
-3171,music,À½¾Ç
-3173,mutual,»óÈ£ÀÇ
-3174,myth,½ÅÈ­
-3175,nail,¼ÕÅé
-3176,naive,¼Ò¹ÚÇÑ
-3177,naked,¹ß°¡¹şÀº
-3179,nanny,À¯¸ğ
-3180,narrate,ÀÌ¾ß±âÇÏ´Ù
-3181,narrow,Á¼Àº
-3182,nasty,ºÒÄèÇÑ
-3183,nation,±¹°¡
-3184,native,Å¸°í³­
-3185,nature,ÀÚ¿¬
-3186,navy,ÇØ±º(·Â)
-3187,near,°¡±îÀÌ -ÀÇ °¡±îÀÌ¿¡ °¡±î¿î Á¢±ÙÇÏ´Ù
-3188,neat,»ê¶æÇÑ
-3189,necessary,ÇÊ¿äÇÑ
-3190,neck,¸ñ
-3191,need,ÇÊ¿ä
-3192,needle,¹Ù´Ã ¹Ù´Ã·Î ²ç¸Å´Ù ¹Ù´ÀÁúÇÏ´Ù ¾Æ½½¾Æ½½ÇÑ
-3193,negative,ºÎÁ¤ÀûÀÎ
-3194,neglect,°ÔÀ»¸® ÇÏ´Ù
-3195,negotiate,±³¼·ÇÏ´Ù
-3196,neighbor,ÀÌ¿ô»ç¶÷(³ª¶ó)
-3197,neither,(µÑÁß)¾î´ÀÂÊµµ -¾Æ´Ï´Ù -µµ ¾Æ´Ï´Ù
-3198,nephew,Á¶Ä«
-3199,nervous,½Å°æÀÇ
-3200,nest,º¸±İÀÚ¸®
-3201,net,±×¹°
-3202,network,±×¹°¼¼°ø
-3203,neutral,Áß¸³ÀÇ
-3204,never,°áÄÚ -¾Æ´Ï´Ù
-3205,nevertheless,±×·³¿¡µµ ºÒ±¸ÇÏ°í
-3206,new,»õ·Î¿î
-3207,newspaper,½Å¹®
-3208,next,´ÙÀ½ÀÇ
-3209,nice,´Ï½º(ÇÁ¶û½º ³²ºÎÀÇ Ç×±¸µµ½Ã)
-3210,night,¹ã
-3211,nightmare,¾Ç¸ù
-3212,no,¹«ÀÇ
-3213,noble,°í±ÍÇÑ
-3214,nobody,¾Æ¹«µµ -¾Ê´Ù ÇÏÂúÀº »ç¶÷
-3215,nod,²ô´öÀÌ´Ù
-3216,noise,¼Ò¸®
-3217,nominate,ÃßÃµÇÏ´Ù
-3218,none,¾Æ¹«µµ(Á¶±İµµ)-¾Ê´Ù Á¶±İµµ(°áÄÚ)-¾Ê´Ù
-3219,nonetheless,¿ª½Ã
-3220,nonsense,ÇãÆ° ¼Ò¸®
-3221,noon,Á¤¿À
-3223,norm,Ç¥ÁØ
-3224,normal,Ç¥ÁØ(ÀÇ)
-3225,north,"ºÏ, ºÏ ÂÊ, ºÏºÎ"
-3226,nose,ÄÚ
-3227,not,¾Æ´Ï´Ù
-3228,note,±â·Ï
-3229,nothing,¾Æ¹«°Íµµ ¡¦¾ø´Ù
-3230,notice,"ÅëÁö, Åëº¸"
-3231,notion,"n,°ü³ä"
-3232,novel,¼Ò¼³
-3233,now,Áö±İ
-3234,nowadays,"¿À´Ã³¯¿¡´Â, ¿äÁîÀ½¿¡´Â"
-3235,nowhere,¾Æ¹«µ¥µµ ¡¦¾ø´Ù
-3236,nuclear,"ÇÙÀÇ, ÇÙÀ» Çü¼ºÇÏ´Â ¿øÀÚÇÙÀÇ"
-3237,number,¼ö
-3238,numerous,"´Ù ¼öÀÇ, ¼ö¸¹Àº, ¼¿ ¼ö ¾øÀÌ ¸¹Àº"
-3239,nun,¼ö³à ÁıºñµÑ±âÀÇ ÀÏÁ¾
-3240,nurse,À¯¸ğ
-3241,nut,°ß°ú
-3242,oak,Âü³ª¹«
-3243,obey,µû¸£´Ù
-3244,object,»ç¹°
-3245,objective,°´°üÀûÀÎ
-3246,oblige,(ÀÇ¹«¸¦)º°¼ö¾øÀÌ -ÇÏ°ÔÇÏ´Ù
-3247,observe,°üÂûÇÏ´Ù
-3248,obsess,´Ã·¯ºÙ´Ù
-3249,obtain,¾ò´Ù
-3250,obvious,¸í¹éÇÑ
-3251,occasion,°æ¿ì
-3252,occupation,ÀÏÁ÷¾÷
-3253,occupy,Â÷ÁöÇÏ´Ù
-3254,occur,ÀÏ¾î³ª´Ù
-3255,ocean,´ë¾ç
-3256,odd,¹¦ÇÑ
-3257,of,Ãâ½ÅÀÇ
-3258,off,¶³¾îÁ®
-3259,offend,¼º³ª°Ô ÇÏ´Ù
-3260,offer,±ÇÇÏ´Ù
-3261,office,ÀÓ¹«
-3262,officer,°ø¹«¿ø
-3263,official,°ø¹«¿ø
-3264,often,ÀÚÁÖ
-3265,oil,±â¸§
-3266,old,´ÄÀº
-3267,olive,¿Ã¸®ºê³ª¹«
-3268,on,À§¿¡
-3269,once,ÇÑ¹ø
-3270,one,ÇÏ³ª(ÀÇ)
-3271,only,À¯ÀÏÇÑ
-3272,open,¿­´Ù
-3273,operate,¿òÁ÷ÀÌ´Ù
-3274,opinion,ÀÇ°ß
-3275,opportunity,±âÈ¸
-3276,oppose,¹İ´ëÇÏ´Ù
-3277,optimist,³«Ãµ°¡
-3278,option,¼±ÅÃ(±ÇÀÇ ÀÚÀ¯)
-3279,or,È¤Àº
-3280,oral,±¸µÎÀÇ
-3281,orbit,±Ëµµ
-3282,orchestra,°üÇö¾Ç´Ü
-3283,order,¼ø¼­
-3284,ordinary,º¸ÅëÀÇ
-3285,organ,(»ı¹°ÀÇ)±â°ü
-3286,organic,À¯±âÃ¼ÀÇ
-3287,organize,Á¶Á÷ÇÏ´Ù
-3288,orient,µ¿¾ç µ¿¾çÀÇ µ¿ÂÊÀ¸·Î ÇâÇÏ°Ô ÇÏ´Ù
-3289,origin,±â¿ø
-3290,other,´Ù¸¥ ´Ù¸¥ °Í ±×·¸Áö ¾Ê°í
-3291,otherwise,µı ¹æ¹ıÀ¸·Î´Â
-3292,ought,auÇØ¾ß¸¸ ÇÏ´Ù
-3293,ounce,»í±ªÀÌ
-3294,out,¹ÛÀ¸·Î
-3295,outcome,°á°ú
-3296,outline,À±°û
-3297,output,»êÃâ
-3298,outrage,ºÒ¹ı(ÀûÀÎ ÇàÀ§)
-3299,outstanding,´«¿¡ ¶ç´Â
-3300,over,À§ÂÊ
-3301,overall,Æ÷°ı(Àü¸é)ÀûÀÎ µ¡¿Ê
-3302,overcome,ÀÌ±â´Ù
-3303,overhead,¸Ó¸®À§¿¡ ¸Ó¸® À§ÀÇ
-3304,overlap,°ãÄ¡´Ù
-3305,overlook,³»·Á´Ù º¸´Ù
-3306,overnight,Àü³¯¹ãÀÇ
-3307,oversea,ÇØ¿Ü(·ÎºÎÅÍ)ÀÇ
-3308,overwhelm,¾ĞµµÇÏ´Ù
-3309,owe,ÁöºÒÇÒ ÀÇ¹«°¡ ÀÖ´Ù
-3310,own,ÀÚ±âÀÚ½ÅÀÇ ¼ÒÀ¯ÇÏ´Ù
-3311,pace,ÇÑ°ÉÀ½
-3312,pack,²Ù·¯¹Ì
-3313,packet,´Ù¹ß
-3314,pad,(¹×¿¡)µ¡´ë´Â °Í
-3315,pain,°íÅë
-3316,paint,µµ·á
-3317,pair,ÇÑ½Ö
-3318,palace,±ÃÀü
-3319,pale,Ã¢¹éÇÑ
-3320,palm,¼Õ¹Ù´Ú
-3321,pan,³²ºñ »ç±İ µîÀ» ³²ºñ·Î °¡·Á³»´Ù
-3322,panel,ÆÇº®³Î
-3323,panic,µ¹¿¬ÇÑ°øÆ÷
-3324,pants,¹ÙÁö
-3325,paper,Á¾ÀÌ
-3326,paragraph,(¹®ÀåÀÇ)Àı
-3327,parallel,ÆòÇàÀÇ
-3328,pardon,¿ë¼­ÇÏ´Ù ¿ë¼­
-3329,parent,¾î¹öÀÌ
-3330,park,°ø¿ø
-3331,parliament,ÀÇÈ¸
-3332,part,ºÎºĞ
-3333,participate,Âü°¡ÇÏ´Ù
-3334,particle,ÀÔÀÚ
-3335,particular,Æ¯¼öÇÑ
-3336,pass,Áö³ª°¡´Ù
-3337,passage,"ÅëÇà, Åë°ú"
-3338,passenger,½Â°´
-3339,passion,Á¤¿­
-3340,passport,¿©±Ç
-3341,past,°ú°Å
-3342,pat,ÅåÅå °¡º±°Ô Ä¡´Ù
-3343,patch,±é´Â Çë°Ò
-3344,patent,Àü¸ÅÆ¯Çã±Ç Àü¸ÅÆ¯ÇãÀÇ
-3345,path,ÀÛÀº ±æ
-3346,patient,ÀÎ³»½ÉÀÌ °­ÇÑ È¯ÀÚ
-3347,patrol,¼øÈ¸
-3348,pattern,¸ğ¹ü
-3349,pause,ÁßÁö
-3350,pave,(µµ·Î¸¦)Æ÷ÀåÇÏ´Ù
-3351,pay,ÁöºÒÇÏ´Ù
-3352,peace,ÆòÈ­
-3353,peak,(»ÏÁ·ÇÑ)³¡
-3354,pear,¼­¾ç¹è
-3355,peasant,³óºÎ
-3356,peel,²®ÁúÀ» ¹ş±â´Ù ¹ş¾îÁö´Ù ²®Áú
-3357,peer,µ¿·á
-3358,penalty,¹ú
-3359,pencil,¿¬ÇÊ ¿¬ÇÊ·Î ¾²´Ù
-3360,people,»ç¶÷µé
-3361,pepper,°íÃß
-3363,perceive,Áö°¢ÇÏ´Ù
-3364,perfect,¿ÏÀüÇÑ
-3365,perform,´ÙÇÏ´Ù
-3366,perhaps,¾Æ¸¶
-3367,period,½Ã°£
-3368,permanent,¿µ±¸ÀÇ
-3369,permit,Çã°¡ÇÏ´Ù
-3370,persist,°íÁıÇÏ´Ù
-3371,person,»ç¶÷
-3372,personality,°³¼º
-3373,perspective,¿ø±Ù¹ıÀÇ ¿ø±Ù È­¹ı
-3374,persuade,¼³µæÇÏ´Ù
-3375,pet,¾Ö¿Ïµ¿¹°
-3376,phase,±¹¸é
-3377,phenomenon,Çö»ó
-3378,philosophy,Ã¶ÇĞ
-3379,photograph,»çÁø ÃÔ¿µÇÏ´Ù
-3380,phrase,±¸
-3381,physical,¹°ÁúÀÇ
-3382,physics,¹°¸®ÇĞ
-3383,pick,µû´Ù
-3384,picnic,¼ÒÇ³
-3385,picture,±×¸²
-3386,piece,ÇÑ Á¶°¢
-3387,pig,µÅÁö
-3388,pile,½×¾Æ ¿Ã¸° °Í
-3389,pill,¾Ë¾à
-3390,pin,ÇÉ ÇÉÀ¸·Î ²È´Ù
-3391,pinch,²¿Áı´Ù
-3392,pine,¼Ò³ª¹« ¼öÃ´ÇØ Áö´Ù
-3393,pink,¿¬ºĞÈ«»ö
-3394,pioneer,°³Ã´ÀÚ
-3395,pitch,´øÁö´Ù
-3396,pity,ºÒ½ÖÈ÷ ¿©±è
-3397,place,Àå¼Ò
-3398,plain,ºĞ¸íÇÑ
-3399,plan,°èÈ¹
-3400,planet,Çà¼º
-3401,plant,½Ç¹°
-3402,plate,ÆÇ
-3403,platform,´Ü
-3404,play,³î´Ù
-3405,pleasant,±âºĞ ÁÁÀº
-3406,please,±â»Ú°Ô ÇÏ´Ù
-3407,pleasure,Áñ°Å¿ò
-3408,plenty,¸¹À½
-3409,plot,À½¸ğ
-3410,plus,´õÇÏ±âÀÇ -¿Ü¿¡
-3411,P.M.,¿ÀÈÄ
-3412,pocket,Æ÷ÄÏ
-3413,poem,½Ã
-3414,poet,½ÃÀÎ
-3415,point,Á¡
-3416,poison,µ¶
-3417,polar,³²±ØÀÇ
-3418,pole,Æú¶õµå»ç¶÷
-3419,police,°æÂû °æºñÇÏ´Ù
-3420,policy,Á¤Ã¥
-3421,polish,"´Û´Ù, °¥´Ù, À±³»´Ù"
-3422,polite,°ø¼ÕÇÑ
-3423,politics,Á¤Ä¡
-3424,poll,ÅõÇ¥
-3426,pond,"¸ø, ¿¬¸ø"
-3427,pool,ÆÇµ·
-3428,poor,"°¡³­ÇÑ ºÎÁ·ÇÑ, ºÒÃæºĞÇÑ, ºó¾àÇÑ"
-3429,pop,ÆË
-3430,pope,·Î¸¶ ±³È²  ÃÖ°í ±ÇÀ§ÀÚ·Î ÀÚÃ³ÇÏ´Â »ç¶÷
-3431,popular,"¹ÎÁß ÀÇ, ´ëÁßÀÇ"
-3432,population,ÀÎ±¸
-3433,pork,µÅÁö°í±â
-3434,port,"Ç×±¸, Ç×¸¸, »óÇ×"
-3435,portion,"ÀÏºÎ, ºÎºĞ"
-3436,portrait,ÃÊ»ó
-3437,pose,"ÀÚ¼¼, Æ÷Áî  ¸¶À½°¡Áü  ²Ù¹Î ÅÂµµ"
-3438,position,À§Ä¡
-3439,positive,"¸íÈ®ÇÑ, ÀÇ¹®ÀÇ ¿©Áö°¡ ¾ø´Â, ºÎÁ¤ÇÒ ¼ö ¾ø´Â"
-3440,possess,¼ÒÀ¯ÇÏ´Ù
-3441,possible,°¡´ÉÇÑ
-3442,post,±âµÕ
-3443,poster,Æ÷½ºÅÍ
-3444,pot,´ÜÁö
-3445,potato,°¨ÀÚ
-3446,potential,°¡´ÉÇÑ
-3447,pour,µû¸£´Ù
-3448,powder,°¡·ç
-3449,power,Èû
-3450,practical,½ÇÁ¦ÀÇ
-3451,practice,¿¬½À
-3452,praise,ÄªÂù
-3453,pray,ºô´Ù
-3454,preach,¼³±³ÇÏ´Ù
-3456,precious,ºñ½Ñ
-3457,precise,Á¤È®ÇÑ
-3458,predator,¾àÅ»ÀÚ
-3459,predict,"¿¹¾ğÇÏ´Ù, ¿¹º¸ÇÏ´Ù ¿¹¾ğÇÏ´Ù"
-3460,prefer,"¿ÀÈ÷·Á ¡¦À» ÁÁ¾ÆÇÏ´Ù,"
-3461,pregnant,ÀÓ½ÅÇÑ Ãæ¸¸ÇÑ
-3462,prejudice,"Æí°ß, ¼±ÀÔ°ü"
-3463,premier,"±¹¹« ÃÑ¸®, ¼ö»ó"
-3464,premium,"ÇÒÁõ±İ,  ¾×¸é ÃÊ°ú¾×, ÇÁ¸®¹Ì¾ö"
-3465,prepare,"ÁØºñÇÏ ´Ù, ¸¶·ÃÇÏ´Ù, Ã¤ºñ¸¦ °®Ãß´Ù"
-3466,prescribe,"¸í·ÉÇÏ´Ù, Áö·ÉÇÏ´Ù"
-3467,presence,"Á¸Àç, ÇöÁ¸, ½ÇÀç  Ãâ¼®, ÀÓ¼®, Âü¼®"
-3468,present,"ÀÖ´Â, Á¸ÀçÇÏ´Â"
-3469,preserve,"º¸È£ÇÏ´Ù, ÁöÅ°´Ù"
-3470,president,´ëÅë·É È¸Àå
-3471,press,°­Á¦·Î ¸ğÁıÇÏ´Ù
-3472,presume,°¡Á¤ÇÏ´Ù
-3473,pretend,ÇÎ°è»ï´Ù
-3474,pretty,"¿¹»Û, ±Í¿©¿î, Âü ÇÑ, Á¶ÃÍÇÑ"
-3475,prevail,"ÀÌ±â´Ù, ±Øº¹ÇÏ´Ù, ¾ĞµµÇÏ´Ù ¿ì¼¼ÇÏ´Ù, º¸±ŞµÇ´Ù"
-3476,prevent,"¸·´Ù, ¹æÇØÇÏ´Ù"
-3477,previous,"¾ÕÀÇ, ÀÌÀüÀÇ"
-3478,prey,¸ÔÀÌ
-3479,price,"°ª, °¡°İ, ´ë°¡, Á¤°¡"
-3480,pride,ÀÚÁ¸½É
-3481,priest,¼ºÁ÷ÀÚ
-3482,primary,"Ã¹Â°ÀÇ, Á¦1À§ÀÇ, ¼öÀ§ÀÇ ÃÊµîÀÇ, ÃÊº¸ÀÇ"
-3483,prime,"¼öÀ§ÀÇ, ÃÖÃÊÀÇ, ¿ø½ÃÀûÀÎ"
-3484,primitive,"¿ø½ÃÀÇ, ÃÊ±âÀÇ"
-3485,prince,"¿ÕÀÚ, ÅÂÀÚ, ¼¼ÀÚ, ´ë±º"
-3486,principal,"ÁÖ¿äÇÑ, ÁÖµÈ, Á¦ÀÏÀÇ, ¾ÕÀå¼­´Â"
-3487,principle,"¿ø¸®, ¿øÄ¢, ¹ıÄ¢, °ø¸®"
-3488,print,"ÀÎ¼âÇÏ´Ù, ÇÁ¸°Æ®ÇÏ´Ù"
-3489,prior,"ÀÌÀüÀÇ, ¾ÕÀÇ"
-3490,prison,±³µµ¼Ò
-3491,privacy,"³²ÀÇ ´«À» ÇÇÇÔ, Àº°Å, ÀºµĞ, ÀºÅğ »ıÈ° »ç»ıÈ°"
-3492,private,"»çÀûÀÎ, »ç»ç·Î¿î, °³ÀÎ¿¡ ¼ÓÇÑ"
-3493,privilege,"Æ¯±Ç, Æ¯Àü, Æ¯º° Ãë±Ş"
-3494,prize,"»ó, Æ÷»ó, ¿ìµî»ó, ¼±Çà»ó"
-3495,probably,"¾Æ¸¶, ½ÊÁßÆÈ±¸"
-3496,problem,¹®Á¦
-3497,procedure,"ÁøÇà, °æ°ú ÀıÂ÷"
-3498,proceed,"³ª¾Æ°¡´Ù, °¡´Ù"
-3499,process,"ÁøÇà, ÀÛ¿ë"
-3500,produce,"»ı»êÇÏ´Ù, »êÃâÇÏ´Ù, »ı±â°Ô ÇÏ´Ù,"
-3501,profession,"Á÷¾÷ °ø¾ğ, ¼±¾ğ, °í¹é"
-3502,professor,±³¼ö
-3503,profile,"¿· ¾ó±¼, ¹İ¸é»ó ÀÎ¹° ¼Ò°³  ÅÂµµ, ÀÚ¼¼"
-3504,profit,"ÀÌÀÍ, ÀÌµæ, ¹úÀÌ"
-3505,profound,"±íÀº, ½É¿øÇÑ"
-3506,progress,"ÁøÇà, ÀüÁø, ÁøÃ´  Áøº¸, Çâ»ó, ¹ß´Ş, ¹ßÀü"
-3507,prohibit,"±İÇÏ´Ù, ±İÁöÇÏ´Ù"
-3508,prominent,"µÎµå·¯Áø, µ¹±âÇÑ, ¾ç°¢µÈ ÇöÀúÇÑ, Å¹¿ùÇÑ, Áß¿äÇÑ"
-3509,promise,"¾à¼Ó, ¼­¾à, °è¾à"
-3510,promote,"½ÂÁø½ÃÅ°´Ù ÁøÇà½ÃÅ°´Ù,"
-3511,prompt,"Àçºü¸¥, ½Å¼ÓÇÑ, Áï½Ã ¡¦ÇÏ´Â"
-3512,pronounce,"¹ßÀ½ÇÏ´Ù, À½µ¶ÇÏ´Ù"
-3513,proof,Áõ¸í
-3514,proper,"°íÀ¯ÀÇ, µ¶Æ¯ÇÑ, º»¿¬ÀÇ,  Æ¯À¯ÇÑ"
-3515,property,"Àç»ê, ÀÚ»ê"
-3516,proportion,"ºñÀ², ºñ ±ÕÇü, Á¶È­"
-3517,propose,"Á¦ÀÇÇÏ´Ù, Á¦ÃâÇÏ´Ù ÃßÃµÇÏ´Ù, Áö¸íÇÏ´Ù"
-3518,prospect,"Àü¸Á, Á¶¸Á, °æÄ¡"
-3519,prosper,¹ø¿µÇÏ´Ù
-3520,protect,"º¸È£ÇÏ´Ù, ¸·´Ù, ÁöÅ°´Ù, ºñÈ£ÇÏ´Ù"
+1520,amount,(ê¸ˆì•¡ì´)-ì´ ë˜ë‹¤
+1521,amplify,í™•ëŒ€í•˜ë‹¤
+1522,amuse,ì¬ë¯¸ë‚˜ê²Œ í•˜ë‹¤
+1523,analyze,ë¶„í•´í•˜ë‹¤
+1524,anchor,ë‹»
+1525,ancient,ì˜›ë‚ ì˜
+1526,and,ë°
+1527,angel,ì²œì‚¬
+1528,anger,ì„±
+1529,angle,ê°
+1530,animal,ë™ë¬¼
+1531,anniversary,ê¸°ë…ì¼ ì˜ˆë…„ì˜
+1532,announce,ì•Œë¦¬ë‹¤
+1533,annoy,ê·€ì°®ê²Œí•˜ë‹¤
+1534,annual,ì¼ë…„ì˜
+1535,another,ë˜ í•˜ë‚˜
+1536,answer,ëŒ€ë‹µ
+1537,ant,ê°œë¯¸
+1538,anticipate,ì˜ˆê¸°í•˜ë‹¤
+1539,anxiety,ê·¼ì‹¬
+1540,anxious,ê±±ì •ë˜ëŠ”
+1541,any,ì–´ë–¤
+1542,apart,ë–¨ì–´ì ¸ì„œ
+1543,apology,ì‚¬ê³¼
+1544,apparent,ëª…ë°±í•œ
+1545,appeal,ê°„ì²­í•˜ë‹¤
+1546,appear,ë‚˜íƒ€ë‚˜ë‹¤
+1547,apple,ì‚¬ê³¼
+1548,applicant,ì§€ì›ì
+1549,apply,(ë¬¼ê±´ì„)ëŒ€ë‹¤
+1550,appoint,ì§€ì •í•˜ë‹¤
+1551,appreciate,ê°ìƒí•˜ë‹¤
+1552,approach,ë‹¤ê°€ê°€ë‹¤
+1553,appropriate,ì ë‹¹í•œ
+1554,approve,ì‹œì¸í•˜ë‹¤
+1555,approximate,ì–´ë¦¼ì…ˆì˜
+1556,architect,ê±´ì¶•ê°€
+1557,architecture,ê±´ì¶•
+1558,archive,ê¸°ë¡ë³´ê´€ì†Œ
+1559,area,ë©´ì 
+1560,argue,ë…¼í•˜ë‹¤
+1561,arise,ìƒê¸°ë‹¤
+1562,arm,íŒ”
+1563,army,ìœ¡êµ°
+1564,around,ì‚¬ë°©ì—
+1565,arrange,ê°€ì§€ëŸ°íˆ í•˜ë‹¤
+1566,arrest,ì²´í¬í•˜ë‹¤
+1567,arrive,ë„ì°©í•˜ë‹¤
+1568,arrow,í™”ì‚´
+1569,art,ì˜ˆìˆ 
+1570,article,ë¬¼í’ˆ
+1571,artificial,ì¸ê³µì˜
+1573,ash,íšŒ
+1574,aside,ê³ì—
+1575,ask,ë¬»ë‹¤
+1576,asleep,ì ë“¤ì€
+1577,aspect,ê´€ì 
+1578,aspire,ì—´ë§í•˜ë‹¤
+1579,assault,ìŠµê²©
+1580,assemble,ëª¨ìœ¼ë‹¤
+1581,assert,ë‹¨ì–¸í•˜ë‹¤
+1582,assess,(ì„¸ê¸ˆ ë“±ì„)ì‚¬ì •í•˜ë‹¤
+1583,asset,ìì‚°
+1584,assign,í• ë‹¹í•˜ë‹¤
+1585,assist,ë•ë‹¤
+1586,associate,ì—°ìƒí•˜ë‹¤
+1587,assume,ì·¨í•˜ë‹¤
+1588,assure,ë³´ì¦í•˜ë‹¤
+1589,astonish,ë†€ë¼ê²Œ í•˜ë‹¤
+1591,athlete,ìš´ë™ê°€
+1592,atmosphere,ëŒ€ê¸°
+1593,atom,ì›ì
+1594,attach,ë¶™ì´ë‹¤
+1595,attack,ê³µê²©í•˜ë‹¤
+1596,attain,ì´ë¥´ë‹¤
+1597,attempt,ì‹œë„í•˜ë‹¤
+1598,attend,ì¶œì„í•˜ë‹¤
+1599,attention,ì£¼ì˜
+1600,attitude,íƒœë„
+1601,attorney,ë³€í˜¸ì‚¬
+1602,attract,ëŒì–´ ë‹¹ê¸°ë‹¤
+1603,attribute,ì†ì„±
+1604,auction,ê²½ë§¤
+1605,audience,ì²­ì¤‘
+1606,aunt,ì•„ì£¼ë¨¸ë‹ˆ
+1607,authentic,ì§„ì§œì˜
+1608,author,ì €ì
+1609,autobiography,ìì„œì „
+1610,automatic,ìë™ì˜
+1611,automobile,ìë™ì°¨ ìë™ì°¨ì˜
+1612,available,ì“¸ëª¨ìˆëŠ”
+1613,avenue,ê°€ë¡œìˆ˜ê¸¸
+1614,average,í‰ê· 
+1615,avoid,í”¼í•˜ë‹¤
+1616,await,ê¸°ë‹¤ë¦¬ë‹¤
+1617,awake,ê¹¨ìš°ë‹¤
+1618,award,ìƒ
+1619,aware,ì•Œê³  ìˆëŠ”
+1620,away,ë–¨ì–´ì ¸ì„œ
+1621,awesome,ë¬´ì„œìš´
+1622,awful,ë‘ë ¤ìš´
+1623,awkward,ì–´ìƒ‰í•œ
+1624,baby,"ê°“ë‚œì•„ì´, ë§‰ë‚´   ê´€ì‹¬ì‚¬, ê³¨ì¹˜ì•„í”ˆ ì¼,"
+1625,back,ë“±
+1626,background,ë°°ê²½
+1627,bad,ë‚˜ìœ
+1628,bake,êµ½ë‹¤
+1629,balance,ê· í˜•
+1630,ball,ê³µ
+1631,balloon,ê¸°êµ¬
+1632,ban,ê¸ˆì§€
+1633,band,ê·¸ë£¹
+1634,bang,ê°•íƒ€
+1635,bank,ë‘‘
+1636,bankrupt,íŒŒì‚°ì
+1637,bar,ë§‰ëŒ€ê¸°
+1638,bare,ë²Œê±°ë²—ì€
+1639,bargain,ë§¤ë§¤
+1640,bark,ì§–ë‹¤
+1641,barn,í—›ê°„
+1642,barrier,ì¥ë²½
+1643,base,ê¸°ì´ˆ
+1644,baseball,ì•¼êµ¬
+1645,basic,ê¸°ë³¸ì˜
+1646,basis,ê¸°ì´ˆ
+1647,basket,ë°”êµ¬ë‹ˆ
+1648,basketball,ë†êµ¬
+1649,bat,ë°°íŠ¸
+1650,bath,ëª©ìš•
+1651,bathroom,ìš•ì‹¤
+1652,battery,ì „ì§€
+1653,battle,ì „íˆ¬
+1654,bay,ë§Œ
+1656,beach,í•´ì•ˆ
+1657,beam,ê´‘ì„ 
+1658,bean,ì½©
+1659,bear,ë‚˜ë¥´ë‹¤
+1660,beard,í„±ìˆ˜ì—¼
+1661,beast,ì§ìŠ¹
+1662,beat,ì¹˜ë‹¤
+1663,beauty,ì•„ë¦„ë‹¤ì›€
+1664,because,ì™œëƒí•˜ë©´
+1666,bed,ì¹¨ëŒ€
+1667,bedroom,ì¹¨ì‹¤ ì„±ì ì¸
+1668,bee,ê¿€ë²Œ
+1669,beef,ì‡ ê³ ê¸°
+1670,beer,ë§¥ì£¼
+1671,before,ì•ì—
+1672,beg,ì²­í•˜ë‹¤
+1673,begin,ì‹œì‘í•˜ë‹¤
+1674,behalf,ìœ„í•¨
+1675,behave,í–‰ë™í•˜ë‹¤
+1676,behavior,í–‰ë™
+1677,behind,ë’¤ì—
+1678,believe,ë¯¿ë‹¤
+1679,bell,ì¢…
+1680,belong,ì†í•˜ë‹¤
+1681,below,ì•„ë˜ì—
+1682,bend,êµ¬ë¶€ë¦¬ë‹¤
+1684,benefit,ì´ìµ
+1685,berry,ì•¡ê³¼
+1687,bet,ê±¸ë‹¤
+1688,betray,ë°°ë°˜í•˜ë‹¤
+1690,beyond,ì €í¸ì—
+1691,bias,ì¹˜ìš°ì¹¨
+1692,bible,"ì„±ì„œ, ì„±ê²½"
+1693,bicycle,ìì „ê±° ìì „ê±°ë¥¼ íƒ€ë‹¤
+1694,big,í°
+1695,bill,ê³„ì‚°ì„œ
+1696,billion,10ì–µ
+1697,bin,ê¶¤
+1698,bind,ë§¤ë‹¤
+1699,biography,ì „ê¸°
+1700,biology,ìƒë¬¼í•™
+1701,bird,ìƒˆ
+1702,birth,ì¶œìƒ
+1703,birthday,ìƒì¼
+1704,bishop,ì£¼êµ
+1705,bit,biteì˜ ê³¼ê±°(ë¶„ì‚¬) ì‘ì€ ì¡°ê°
+1706,bite,ë¬¼ë‹¤
+1707,bitter,ì“´
+1708,black,ê²€ì€
+1709,blame,ì±…ë§í•˜ë‹¤
+1710,blank,ê³µë°±
+1711,blanket,ë‹´ìš”
+1712,blast,ëŒí’
+1713,blend,í˜¼í•©í•˜ë‹¤
+1714,bless,ì¶•ë³µí•˜ë‹¤
+1715,blind,ëˆˆë¨¼
+1716,blink,(ëˆˆì„)ê¹œë¹¡ê±°ë¦¬ë‹¤
+1717,block,ë©ì–´ë¦¬
+1718,blonde,(ì‚´ê²°ì´ í°)ê¸ˆë°œì˜ ì—¬ì„±
+1719,blood,í”¼
+1720,bloom,ì‡³ë©ì´
+1721,blossom,(ê³¼ìˆ˜ì˜)ê½ƒ
+1722,blow,ê°•íƒ€
+1723,blue,í‘¸ë¥¸
+1724,board,ë„ë¹¤ì§€
+1725,boat,ë°°
+1726,body,ì‹ ì²´
+1727,boil,ë“ë‹¤
+1728,bold,ëŒ€ë‹´í•œ
+1729,bomb,í­íƒ„ í­ê²©í•˜ë‹¤
+1730,bond,ê²°ì†
+1731,bone,ë¼ˆ
+1732,book,ì±…
+1733,boom,êµ‰ìŒ
+1734,boost,ë’¤ë¥¼ ë°€ê¸°
+1735,boot,ëª©ì´ ê¸´ êµ¬ë‘
+1736,border,ê°€ì¥ìë¦¬
+1737,bore,ê³ ì¡°
+1738,borrow,ë¹Œë‹¤
+1739,boss,ë‘ëª©
+1740,both,ìŒë°©ì˜
+1741,bother,ê´´ë¡­íˆë‹¤ ê·¼ì‹¬í•˜ë‹¤ ê·€ì°®ìŒ
+1742,bottle,ë³‘
+1743,bottom,ë°‘ë°”ë‹¥
+1744,bounce,ë›°ì–´ì˜¤ë¥´ë‹¤
+1745,boundary,ê²½ê³„
+1746,bow,ì ˆ
+1747,bowl,ì‚¬ë°œ
+1748,boy,ì†Œë…„
+1749,brain,ë‡Œ
+1750,brake,ë¸Œë ˆì´í¬
+1751,branch,ê°€ì§€
+1752,brand,ìƒí‘œ
+1753,brave,ìš©ê°í•œ
+1754,bread,ë¹µ
+1755,break,ë¶€ìˆ˜ë‹¤
+1756,breakfast,ì•„ì¹¨ë°¥
+1757,breast,ê°€ìŠ´
+1758,breathe,ìˆ¨ì‰¬ë‹¤
+1759,breed,ê¸°ë¥´ë‹¤
+1760,breeze,ë¯¸í’
+1761,brew,ì–‘ì¡°í•˜ë‹¤
+1762,brick,ë²½ëŒ
+1763,bride,ì‹ ë¶€
+1764,bridge,ë‹¤ë¦¬
+1765,brief,ë‹¨ì‹œê°„ì˜
+1766,bright,ë°ì€
+1767,brilliant,ë¹›ë‚˜ëŠ”
+1768,bring,ê°€ì ¸ì˜¤ë‹¤
+1769,broad,(í­ì´)ë„“ì€
+1770,broadcast,ë°©ì†¡í•˜ë‹¤
+1771,brother,í˜•ì œ
+1772,brown,ê°ˆìƒ‰ì˜ ê°ˆìƒ‰
+1773,brush,ì†”
+1774,brute,ì•¼ìˆ˜ ì§ìŠ¹ê°™ì€
+1775,bubble,ê±°í’ˆ ê±°í’ˆì´ ì¼ë‹¤
+1776,budget,ì˜ˆì‚°
+1777,bug,ë²Œë ˆ
+1778,build,ì§“ë‹¤
+1779,bulk,ë¶€í”¼
+1780,bull,í™©ì†Œ
+1781,bullet,íƒ„í™˜
+1782,bully,ì•½í•œ ìë¥¼ ëª»ì‚´ê²Œ êµ¬ëŠ” ì
+1783,bump,ì¶©ëŒ ë¶€ë”ªì¹˜ë‹¤
+1784,bunch,ì†¡ì´
+1785,bundle,ë‹¤ë°œ
+1786,burden,í›„ë ´
+1787,burn,ì‹œë‚´
+1788,burst,íŒŒì—´í•˜ë‹¤
+1789,bury,ë¬»ë‹¤
+1790,bush,ë¤ë¶ˆ
+1791,business,ì§ì—…
+1792,busy,ë°”ìœ
+1793,but,ê·¸ëŸ¬ë‚˜ ë‹¤ë§Œ (-ì„)ì œì™¸í•˜ê³ 
+1794,butcher,ì •ìœ¡ì ì£¼ì¸
+1795,button,ë‹¨ì¶” ë‹¨ì¶”ë¥¼ ì±„ìš°ë‹¤ ë‹¨ì¶”ë¡œ ì±„ì›Œì§€ë‹¤
+1796,buy,ì‚¬ë‹¤
+1797,buzz,ìœ™ìœ™ê±°ë¦¬ëŠ” ì†Œë¦¬
+1798,by,ê³ì—
+1799,cab,íƒì‹œ
+1800,cabin,ì„ ì‹¤
+1801,cable,í•´ì €ì „ì‹ 
+1802,cage,ìƒˆì¥
+1803,calculate,ê³„ì‚°í•˜ë‹¤
+1804,calendar,ë‹¬ë ¥
+1805,call,ë¶€ë¥´ë‹¤
+1806,calm,í‰ì˜¨í•œ
+1807,can,au-í•  ìˆ˜ ìˆë‹¤
+1808,cancel,ì·¨ì†Œí•˜ë‹¤
+1809,cancer,ì•”
+1810,candidate,ì§€ì›ì
+1811,candy,ì‚¬íƒ•ê³¼ì
+1812,canvas,ë›ë² 
+1813,cap,ëª¨ì
+1814,capable,í•  ìˆ˜ ìˆëŠ”
+1815,cape,ê³¶
+1816,capital,ìˆ˜ìœ„ì˜
+1817,captain,ìš°ë‘ë¨¸ë¦¬(chief)
+1818,caption,í‘œì œ
+1819,capture,ë¶™ì¡ë‹¤(=catch)
+1820,car,ìë™ì°¨
+1821,care,ê±±ì •
+1822,career,ê²½ë ¥
+1823,carrot,ë‹¹ê·¼
+1824,carry,ë‚˜ë¥´ë‹¤
+1825,cart,(2ë¥œ)ì§ë§ˆì°¨
+1826,carve,ì¡°ê°í•˜ë‹¤
+1827,case,ê²½ìš°
+1828,cash,í˜„ê¸ˆ í˜„ê¸ˆìœ¼ë¡œ ë°”ê¾¸ë‹¤ í˜„ê¸ˆì˜
+1829,cast,ë˜ì§€ë‹¤
+1830,castle,ì„±
+1831,casual,ìš°ì—°í•œ
+1832,cat,ê³ ì–‘ì´
+1833,catch,ë¶™ì¡ë‹¤
+1834,category,ë²”ì£¼
+1835,cater,ìŒì‹ë¬¼ì„ ë§ˆë ¨í•˜ë‹¤
+1836,cathedral,ëŒ€ì„±ë‹¹
+1837,cattle,ì†Œ
+1838,causal,ì›ì¸ì˜
+1839,cause,ì›ì¸
+1840,caution,ì¡°ì‹¬
+1841,cave,ë™êµ´ êµ´ì„ íŒŒë‹¤ êº¼ì§€ë‹¤
+1842,cease,ê·¸ë§Œë‘ë‹¤ ê·¸ì¹˜ë‹¤ ì¤‘ì§€
+1843,ceiling,ì²œì¥
+1844,celebrate,ê²½ì¶•í•˜ë‹¤
+1845,celebrity,ëª…ì„±
+1846,cell,ì‘ì€ ë°©
+1847,censor,ê²€ì—´ê´€
+1848,century,1ì„¸ê¸°
+1849,certain,í™•ì‹ í•˜ëŠ”
+1850,certificate,ì¦ëª…ì„œ
+1851,chain,ì‚¬ìŠ¬
+1852,chair,ì˜ì¥
+1853,chairman,ì˜ì¥
+1854,challenge,ë„ì „
+1855,chamber,ë°©
+1856,chance,ìš°ì—°
+1857,change,ë³€í™”
+1858,chaos,í˜¼ëˆ
+1859,character,ì¸ê²©
+1860,characteristic,íŠ¹ìœ í•œ
+1861,charge,ìš”ê¸ˆ
+1862,charity,ìë¹„
+1863,charm,ë§¤ë ¥
+1864,chase,ì«“ë‹¤
+1865,chat,ì¡ë‹´
+1866,cheap,ê°’ì‹¼
+1867,check,ë°©í•´
+1868,cheek,ë³¼
+1869,cheer,ê°ˆì±„
+1870,chef,ì¿¡
+1871,chemical,í™”í•™ì˜
+1872,chemistry,í™”í•™
+1873,chest,ê°€ìŠ´íŒ
+1874,chew,ì”¹ë‹¤
+1875,chief,ìš°ë‘ë¨¸ë¦¬
+1876,child,ì•„ì´
+1877,chill,ì°¨ê°€ì›€
+1878,chin,í„±(ë) í„±ì— ëŒ€ë‹¤
+1879,chip,(ë‚˜ë¬´)í† ë§‰
+1880,choir,(êµíšŒì˜)ì„±ê°€ëŒ€
+1881,choose,ê³ ë¥´ë‹¤
+1882,chop,(ë„ë¼ ë“±ìœ¼ë¡œ)ìë¥´ë‹¤
+1883,chorus,í•©ì°½
+1884,chronic,ë§Œì„±ì˜
+1885,church,êµíšŒ
+1886,cigarette,ê¶ë ¨
+1887,cinema,ì˜í™”ê´€
+1888,circle,ì›
+1889,circulate,ìˆœí™˜í•˜ë‹¤
+1890,circumstance,í™˜ê²½
+1891,cite,ì¸ìš©í•˜ë‹¤(quote)
+1892,citizen,ì‹œë¯¼
+1893,city,ë„ì‹œ
+1894,civil,ì‹œë¯¼ì˜
+1895,claim,ìš”êµ¬í•˜ë‹¤
+1896,clap,ì§ì§
+1897,clarify,ë§‘ê²Œ í•˜ë‹¤
+1898,clash,ì¶©ëŒí•˜ë‹¤
+1899,class,ê³„ê¸‰
+1900,classic,ê³ ì „ì˜
+1901,classify,ë¶„ë¥˜í•˜ë‹¤
+1902,classroom,êµì‹¤
+1903,clause,ì¡°í•­
+1904,clay,ì°°í™
+1905,clean,ì²­ê²°í•œ
+1906,clear,ë§‘ì€
+1907,clerk,ì„œê¸°
+1908,clever,ì˜ë¦¬í•œ
+1909,client,ì†Œì†¡ì˜ë¢°ì¸
+1910,cliff,ì ˆë²½
+1911,climate,ê¸°í›„
+1912,climb,ê¸°ì–´ ì˜¤ë¥´ë‹¤
+1913,cling,ë°€ì°©í•˜ë‹¤
+1914,clinic,ë³‘ì›
+1915,clip,ê°€ìœ„ë¡œ ìë¥´ë‹¤
+1916,clock,ì‹œê³„
+1917,close,ë‹«ë‹¤
+1918,cloth,ì²œ
+1919,cloud,êµ¬ë¦„
+1920,club,í´ëŸ½
+1921,clue,ë‹¨ì„œ
+1922,cluster,ë–¼
+1923,coach,ì—­ë§ˆì°¨
+1924,coal,ì„íƒ„
+1925,coast,ì—°ì•ˆ
+1926,code,ë²•ì „
+1927,coin,í™”í
+1928,coincide,ì¼ì¹˜í•˜ë‹¤
+1929,cold,ì¶”ìš´
+1930,collaborate,ê³µë™ìœ¼ë¡œ ì¼í•˜ë‹¤
+1931,collapse,ë¶•ê´´
+1932,collar,ì¹¼ë¼
+1933,colleague,ë™ë£Œ
+1934,collect,ëª¨ìœ¼ë‹¤
+1935,college,ë‹¨ê³¼ëŒ€í•™
+1936,colony,ì‹ë¯¼ì§€
+1937,color,ì°©ìƒ‰í•˜ë‹¤
+1938,column,(ì‹ ë¬¸ ë“±ì˜)ë‚œ
+1939,combat,ê²©íˆ¬í•˜ë‹¤
+1940,combine,ê²°í•©í•˜ë‹¤
+1941,come,ì˜¤ë‹¤
+1942,comedy,í¬ê·¹
+1943,comfort,ìœ„ì•ˆ
+1944,command,ëª…ë ¹í•˜ë‹¤
+1945,commence,ì‹œì‘í•˜ë‹¤
+1946,comment,ë…¼í‰
+1947,commerce,ìƒì—…
+1948,commission,ìœ„ì„
+1949,commit,ìœ„íƒí•˜ë‹¤
+1950,committee,ìœ„ì›íšŒ
+1951,commodity,ìƒí’ˆ
+1952,communicate,ì•Œë¦¬ë‹¤
+1953,communist,ê³µì‚°ì£¼ì˜ì
+1954,community,ê³µë™ìƒí™œì²´
+1955,companion,ë™ë£Œ
+1956,company,êµì œ
+1957,compare,ë¹„êµí•˜ë‹¤
+1958,compatible,ì–‘ë¦½í•  ìˆ˜ ìˆëŠ”
+1959,compel,ì–µì§€ë¡œ -ì‹œí‚¤ë‹¤
+1960,compensate,ë°°ìƒí•˜ë‹¤
+1961,compete,ê²½ìŸí•˜ë‹¤
+1962,competent,ëŠ¥ë ¥ìˆëŠ”
+1963,compile,í¸ì°¬í•˜ë‹¤
+1964,complain,ë¶ˆí‰í•˜ë‹¤
+1965,complement,ë³´ì™„í•˜ëŠ” ê²ƒ
+1966,complete,ì™„ì„±í•˜ë‹¤
+1967,complex,í•©ì„±ë¬¼
+1968,complicate,ë³µì¡í•˜ê²Œ í•˜ë‹¤
+1969,component,êµ¬ì„±í•˜ëŠ” ì„±ë¶„
+1970,compose,êµ¬ì„±í•˜ë‹¤
+1971,compound,ì„±ë¶„ ë“±ì„ í˜¼í•©í•˜ë‹¤
+1972,comprehensive,ì´í•´ë ¥ìˆëŠ”
+1973,comprise,í¬í•¨í•˜ë‹¤
+1974,compromise,íƒ€í˜‘ íƒ€í˜‘í•˜ë‹¤
+1975,compulsory,ì˜ë¬´ì ì¸
+1976,conceal,ìˆ¨ê¸°ë‹¤
+1977,conceive,ìƒìƒí•˜ë‹¤
+1978,concentrate,ì§‘ì¤‘í•˜ë‹¤
+1979,concept,ê°œë…
+1980,concern,ê´€ê³„í•˜ë‹¤
+1981,concert,ì—°ì£¼íšŒ
+1982,conclude,ê²°ì •í•˜ë‹¤
+1983,concrete,êµ¬ì²´ì ì¸ ì‘ê³ ë¬¼
+1984,condemn,ë‚˜ë¬´ë¼ë‹¤
+1985,condition,ì¡°ê±´
+1986,conduct,í–‰ìœ„ ì´ëŒë‹¤
+1987,confer,ì£¼ë‹¤
+1988,confess,ì‹¤í† í•˜ë‹¤
+1989,confident,í™•ì‹ í•˜ëŠ”
+1990,confine,êµ­ê²½
+1991,confirm,í™•ì¸í•˜ë‹¤
+1992,conflict,íˆ¬ìŸ
+1993,conform,ì¼ì¹˜ì‹œí‚¤ë‹¤
+1994,confront,ì§ë©´í•˜ë‹¤
+1995,confuse,í˜¼ë€ì‹œí‚¤ë‹¤
+1996,congratulate,ì¶•í•˜í•˜ë‹¤
+1997,congress,íšŒì˜
+1998,connect,ì‡ë‹¤ ì´ì–´ì§€ë‹¤
+1999,conscience,ì–‘ì‹¬
+2000,conscious,ì˜ì‹ì ì¸
+2001,consensus,(ì˜ê²¬ ë“±ì˜)ì¼ì¹˜
+2002,consent,ìŠ¹ë‚™í•˜ë‹¤
+2003,conserve,ë³´ì¡´í•˜ë‹¤
+2004,consider,ìˆ™ê³ í•˜ë‹¤
+2006,consistent,ì‹œì¢…ì¼ê´€í•œ
+2007,constant,ë¶ˆë³€ì˜
+2008,constitute,êµ¬ì„±í•˜ë‹¤
+2009,constrain,ê°•ì œí•˜ë‹¤
+2010,construct,ê±´ì¡°í•˜ë‹¤
+2011,consult,ìƒì˜í•˜ë‹¤
+2012,consume,ì†Œë¹„í•˜ë‹¤
+2013,contact,ì ‘ì´‰
+2014,contain,ë‚´í¬í•˜ë‹¤
+2015,contemporary,í˜„ëŒ€ì˜
+2016,contend,ì‹¸ìš°ë‹¤
+2017,content,ë§Œì¡±í•˜ì—¬
+2018,contest,ê²¨ë£¨ë‹¤
+2019,context,ë¬¸ë§¥
+2020,continent,ìì œì‹¬ì´ ìˆëŠ”
+2021,continue,ê³„ì†í•˜ë‹¤
+2022,contract,ê³„ì•½
+2023,contradict,ë°˜ë°•í•˜ë‹¤
+2024,contrary,ë°˜ëŒ€ì˜ ë°˜ëŒ€ ê±°ê¾¸ë¡œ
+2025,contrast,ëŒ€ì¡°
+2026,contribute,ê¸°ë¶€í•˜ë‹¤
+2027,control,ì–µì œí•˜ë‹¤
+2028,controversy,ë…¼ìŸ
+2029,convenient,í¸ë¦¬í•œ
+2030,convention,ê´€ë¡€
+2031,conversation,íšŒí™”
+2032,convert,ë°”ê¾¸ë‹¤
+2033,convey,ë‚˜ë¥´ë‹¤
+2034,convict,ìœ ì£„ë¡œ íŒê²°í•˜ë‹¤ ì£„ìˆ˜
+2035,convince,í™•ì‹ ì‹œí‚¤ë‹¤
+2036,cook,ìš”ë¦¬í•˜ë‹¤ ìš”ë¦¬ì‚¬
+2037,cookie,ì¿ í‚¤
+2038,cool,ì„œëŠ˜í•œ
+2039,cooperate,í˜‘ë™í•˜ë‹¤
+2040,coordinate,ë™ê²©ì˜
+2041,cop,ìˆœê²½
+2042,cope,ì½”ìš°í”„(ì„±ì§ìì˜ ê¸´ ê²‰ì˜·)
+2043,copy,ì‚¬ë³¸
+2044,copyright,íŒê¶Œ
+2045,cord,ë°§ì¤„
+2046,core,í•µì‹¬
+2047,corn,í‹°ëˆˆ
+2048,corner,ëª¨í‰ì´
+2049,corporate,ë²•ì¸ì¡°ì§ì˜
+2050,correct,ì˜³ì€
+2051,correspond,ì¼ì¹˜í•˜ë‹¤
+2052,corridor,ë³µë„
+2053,corrupt,íƒ€ë½í•œ
+2054,cost,ê°€ê²©
+2055,costume,ë³µì¥
+2056,cottage,ì‹œê³¨ì§‘
+2057,cotton,ëª©í™”
+2058,couch,ì¹¨ëŒ€
+2059,cough,ê¸°ì¹¨ ê¸°ì¹¨ì„ í•˜ë‹¤ ê¸°ì¹¨ì„ í•˜ì—¬ -ì„ ë±‰ì–´ë‚´ë‹¤
+2060,could,aucanì˜ ê³¼ê±°
+2061,council,íšŒì˜
+2062,counsel,ì˜ë…¼
+2063,count,ê³„ì‚°
+2064,counter,ê³„ì‚°í•˜ëŠ” ì‚¬ëŒ
+2065,counterpart,ë¶€ë³¸
+2066,country,ë‚˜ë¼
+2067,countryside,ì‹œê³¨
+2068,county,ì£¼
+2069,couple,í•œ ìŒ
+2070,courage,ìš©ê¸°
+2071,cousin,ì‚¬ì´Œ
+2072,cover,ë®ë‹¤
+2073,cow,ìœ„í˜‘í•˜ë‹¤ ì•”ì†Œ
+2074,cowboy,ëª©ë™
+2075,crack,ì°°ì‹¹ ì†Œë¦¬ë‚´ë‹¤ ê¸ˆê°€ë‹¤ ë‚ ì¹´ë¡œìš´ì†Œë¦¬
+2076,craft,ì†œì”¨
+2077,crash,ë„ì‚°
+2078,crawl,ë„¤ë°œë¡œ ê¸°ë‹¤
+2079,crazy,ë¯¸ì¹œ
+2080,create,ì°½ì¡°í•˜ë‹¤
+2081,creature,ì°½ì¡°ë¬¼
+2082,credible,ë¯¿ì„ ìˆ˜ ìˆëŠ”
+2083,credit,ì‹ ìš©
+2084,creek,ì‹œë‚´
+2085,creep,ê¸°ë‹¤
+2086,crew,ìŠ¹ë¬´ì›
+2087,cricket,í¬ë¦¬ì¼“
+2088,crime,ë²”ì£„
+2089,criminal,ì£„ì˜
+2090,crisis,ìœ„ê¸°
+2091,crisp,íŒŒì‚­íŒŒì‚­í•œ
+2092,criteria,criterionì˜ ë³µìˆ˜í˜•
+2093,critic,ë¹„í‰ê°€
+2094,criticize,ë¹„í‰í•˜ë‹¤
+2095,criticism,ë¹„í‰
+2096,crop,ìˆ˜í™•
+2097,cross,ì‹­ìí˜•
+2098,crowd,êµ°ì¤‘
+2099,crown,ì™•ê´€
+2100,crucial,ê²°ì •ì ì¸
+2101,cruel,ì”ì¸í•œ
+2102,cruise,ìˆœí•­í•˜ë‹¤
+2103,crush,ëˆŒëŸ¬ ë¶€ìˆ˜ë‹¤
+2104,cry,ì†Œë¦¬ì¹˜ë‹¤
+2105,crystal,ìˆ˜ì •
+2106,cultivate,ê²½ì‘í•˜ë‹¤
+2107,culture,ë¬¸í™”
+2108,cupboard,ì°¬ì¥
+2109,cure,ì¹˜ë£Œ
+2110,curious,ì´ìƒìŠ¤ëŸ¬ìš´
+2111,curl,ê³±ìŠ¬ë¨¸ë¦¬ ë¨¸ë¦¬í„¸ì„ ì§€ì§€ë‹¤
+2112,currency,í†µìš©
+2113,current,ìœ í–‰ì˜
+2114,curriculum,ê³¼ëª©
+2115,curry,ì¹´ë ˆìš”ë¦¬ ì¹´ë ˆë¡œ ë§›ì„ ë‚´ë‹¤
+2116,curse,ì €ì£¼
+2117,curtain,ì»¤ì–´íŠ¼
+2118,curve,ê³¡ì„ 
+2119,custody,ë³´í˜¸
+2120,custom,ìŠµê´€
+2121,customer,ê³ ê°
+2122,cut,ë² ë‹¤
+2123,cute,ê·€ì—¬ìš´
+2124,cycle,ìˆœí™˜
+2125,cynical,ëƒ‰ì†Œì ì¸
+2126,dad,ì•„ë¹ 
+2127,dairy,ë‚™ë†ì¥
+2128,dam,ëŒ
+2129,damage,ì†í•´
+2130,damp,ì¶•ì¶•í•œ ìŠµê¸° ì ì‹œë‹¤
+2131,dance,ëŒ„ìŠ¤
+2132,danger,ìœ„í—˜
+2133,dare,auê°íˆ -í•˜ë‹¤
+2134,dark,ì–´ë‘ìš´
+2135,darling,ê·€ì—¬ìš´
+2136,dash,ëŒì§„
+2137,database,ë°ì´í„°ë² ì´ìŠ¤
+2138,date,ë‚ ì§œ
+2139,daughter,ë”¸
+2140,dawn,ìƒˆë²½ ë‚ ì´ ìƒˆë‹¤
+2141,day,ë‚®
+2142,dead,ì£½ì€
+2143,deal,ì–‘
+2144,death,ì£½ìŒ
+2145,debate,í† ë¡  í† ë¡ í•˜ë‹¤
+2146,debt,ë¹š
+2147,decade,10ë…„ê°„
+2148,decay,ì‡ í‡´í•˜ë‹¤
+2149,decent,ì ì–ì€
+2150,decide,ê²°ì •í•˜ë‹¤
+2151,decision,ê²°ì •
+2152,deck,ê°‘íŒ
+2153,declare,ì„ ì–¸í•˜ë‹¤
+2154,decline,ê¸°ìš¸ë‹¤
+2155,decorate,ì¥ì‹í•˜ë‹¤
+2156,decrease,ê°ì†Œí•˜ë‹¤
+2157,dedicate,ë´‰ë‚©í•˜ë‹¤
+2158,deep,ê¹Šì€
+2159,defeat,íŒ¨ë°°
+2160,defense,ë°©ì–´
+2161,defend,ë°©ì–´í•˜ë‹¤
+2162,defendant,í”¼ê³  í”¼ê³ ì˜
+2163,deficiency,ê²°í•
+2164,deficit,ê²°ì†
+2165,define,ì •ì˜í•˜ë‹¤
+2166,definite,ì¼ì •í•œ
+2167,degrade,ì§€ìœ„ë¥¼ ë‚®ì¶”ë‹¤
+2168,degree,ë„
+2169,delay,ëŠ¦ì¶”ë‹¤
+2170,delegate,íŒŒê²¬í•˜ë‹¤
+2171,delete,ì‚­ì œí•˜ë‹¤
+2172,deliberate,ìˆ™ê³ í•˜ë‹¤
+2173,delicate,ë¯¸ë¬˜í•œ
+2174,delicious,ë§›ìˆëŠ”
+2175,delight,ì¦ê²ê²Œí•˜ë‹¤ ì¦ê±°ì›Œí•˜ë‹¤
+2176,deliver,ì¸ë„í•˜ë‹¤
+2177,demand,ìš”êµ¬í•˜ë‹¤
+2178,democracy,ë¯¼ì£¼ì£¼ì˜
+2179,democrat,ë¯¼ì£¼ì£¼ì˜ì
+2180,demon,ì•…ë§ˆ
+2181,demonstrate,ì¦ëª…í•˜ë‹¤
+2182,dense,ì§™ì€
+2183,dentist,ì¹˜ê³¼ì˜ì‚¬
+2184,deny,ë¶€ì •í•˜ë‹¤
+2185,department,ë¶€
+2186,departure,ì¶œë°œ
+2187,depend,ì¢Œìš°ë˜ë‹¤
+2188,dependence,ì¢…ì†
+2189,depict,ë¬˜ì‚¬í•˜ë‹¤
+2190,deposit,ì˜ˆê¸ˆ
+2191,depress,ì–µì••í•˜ë‹¤
+2192,deprive,ë¹¼ì•—ë‹¤
+2193,derive,ì´ëŒì–´ ë‚´ë‹¤
+2194,descend,ë‚´ë ¤ì˜¤ë‹¤
+2195,describe,ê¸°ìˆ í•˜ë‹¤
+2196,description,ì„œìˆ 
+2197,desert,ë²„ë¦¬ë‹¤
+2198,deserve, -í•  ë§Œí•˜ë‹¤
+2199,design,ë””ìì¸
+2200,designate,ê°€ë¦¬í‚¤ë‹¤
+2201,desire,ë°”ë¼ë‹¤
+2202,desk,ì±…ìƒ
+2203,despair,ì ˆë§í•˜ë‹¤
+2204,desperate,ì ˆë§ì ì¸
+2206,destination,ëª©ì ì§€
+2207,destiny,ìš´ëª…
+2208,destroy,íŒŒê´´í•˜ë‹¤
+2209,destruction,íŒŒê´´
+2210,detach,ë¶„ë¦¬í•˜ë‹¤
+2211,detail,ìƒì„¤
+2212,detect,ê°„íŒŒí•˜ë‹¤
+2213,determine,ê²°ì •í•˜ë‹¤
+2214,develop,ë°œë‹¬í•˜ë‹¤
+2215,device,ê³ ì•ˆ
+2216,devil,ì•…ë§ˆ
+2217,devise,ê³ ì•ˆí•˜ë‹¤
+2218,devote,ë°”ì¹˜ë‹¤
+2219,diabetes,ë‹¹ë‡¨ë³‘
+2220,dialogue,ëŒ€í™”
+2221,diary,ì¼ê¸°
+2222,dictate,ë°›ì•„ì“°ê²Œ í•˜ë‹¤
+2223,dictionary,ì‚¬ì „
+2224,die,ì£½ë‹¤
+2225,different,ë‹¤ë¥¸
+2226,difficult,ê³¤ë€í•œ
+2227,dig,íŒŒë‹¤
+2228,dignity,ìœ„ì—„
+2229,dimension,ì¹˜ìˆ˜
+2230,diminish,ê°ì†Œí•˜ë‹¤
+2231,dine,ì €ë…ì‹ì‚¬ë¥¼ í•˜ë‹¤
+2232,dinner,ì •ì°¬
+2233,dip,ë‹´ê·¸ë‹¤
+2234,diplomat,ì™¸êµê´€
+2235,direct,ì§€ë„í•˜ë‹¤
+2236,dirty,ë”ëŸ¬ìš´
+2237,disabled,ë¶ˆêµ¬ê°€ ëœ
+2238,disadvantage,ë¶ˆë¦¬
+2239,disagree,ì¼ì¹˜í•˜ì§€ ì•Šë‹¤
+2240,disappear,ì•ˆë³´ì´ê²Œ ë˜ë‹¤
+2241,disappoint,ì‹¤ë§ì‹œí‚¤ë‹¤
+2242,disaster,ì²œì¬
+2243,discharge,ì§ì„ë¶€ë¦¬ë‹¤
+2244,discipline,í›ˆë ¨
+2245,disclose,ë‚˜íƒ€ë‚´ë‹¤
+2246,discount,í• ì¸
+2247,discourse,ê°•ì—°
+2248,discover,ë°œê²¬í•˜ë‹¤
+2249,discriminate,ë¶„ë³„í•˜ë‹¤
+2250,discuss,í† ë¡ í•˜ë‹¤
+2251,disease,ë³‘
+2252,disgust,ë¶ˆì¾Œí•˜ê²Œ í•˜ë‹¤
+2253,dish,ì ‘ì‹œ
+2254,dismiss,ë– ë‚˜ê²Œ í•˜ë‹¤
+2255,disorder,ë‚œì¡
+2256,displace,ë°”ê¾¸ì–´ë†“ë‹¤
+2257,display,ë³´ì´ë‹¤
+2258,dispose,ë°°ì—´í•˜ë‹¤
+2259,dispute,ë…¼ìŸí•˜ë‹¤
+2260,disrupt,ë¶„ì—´ì‹œí‚¤ë‹¤
+2261,distant,ë–¨ì–´ì§„
+2262,distort,ì°Œê·¸ëŸ¬ëœ¨ë¦¬ë‹¤
+2263,distract,ì „í™˜ì‹œí‚¤ë‹¤
+2264,distribute,ë¶„ë°°í•˜ë‹¤
+2265,district,ì§€êµ¬
+2266,disturb,êµë€í•˜ë‹¤
+2267,dive,ë›°ì–´ë“¤ë‹¤
+2268,diverse,ë‹¤ì–‘í•œ
+2269,divide,ë‚˜ëˆ„ë‹¤
+2270,divine,ì‹ ì˜
+2271,divorce,ì´í˜¼
+2272,do,í•˜ë‹¤
+2273,doctor,ë°•ì‚¬
+2274,document,ì„œë¥˜
+2275,dog,ê°œ
+2276,doll,ì¸í˜•
+2277,dolphin,ëŒê³ ë˜
+2278,domain,ì˜í† 
+2279,domestic,ê°€ì •ì˜
+2280,dominant,ìš°ì„¸í•œ
+2281,donate,ì¦ì—¬í•˜ë‹¤
+2282,door,ë¬¸
+2283,dose,1íšŒë³µìš©ëŸ‰ íˆ¬ì•½í•˜ë‹¤
+2284,dot,ì 
+2285,double,2ë°°ì˜
+2286,doubt,ì˜ì‹¬
+2287,down,ì•„ë˜ë¡œ
+2288,dozen,1ë‹¤ìŠ¤
+2289,draft,ì´ˆê³ 
+2290,drag,ëŒë‹¤
+2291,drain,ë°°ìˆ˜í•˜ë‹¤
+2292,draw,ë‹¹ê¸°ë‹¤
+2293,drawer,ì œë„ì‚¬
+2294,dread,ë‘ë ¤ì›Œí•˜ë‹¤ ë‘ë ¤ì›€
+2295,dream,ê¿ˆ
+2296,drink,ë§ˆì‹œë‹¤
+2297,drive,ìš´ì „í•˜ë‹¤
+2298,drop,ë°©ìš¸
+2299,drown,ë¬¼ì—ë¹ ëœ¨ë¦¬ë‹¤
+2300,drug,ì•½ì œ
+2301,dry,ë§ˆë¥¸
+2302,dual,ë‘˜ì˜
+2303,duck,ë¨¸ë¦¬ë¥¼ ë¬¼ ì†ì— ì‘¥ ì³ë°•ë‹¤
+2304,due,ì§€ê¸‰ê¸°ì¼ì´ ëœ
+2305,dull,ë‘”í•œ
+2306,dump,ë‚´ë²„ë¦¬ë‹¤
+2308,dust,ë¨¼ì§€
+2309,duty,ì˜ë¬´
+2310,dwell,ê±°ì£¼í•˜ë‹¤
+2311,dynamic,ë™ì ì¸
+2312,each,ê°ê°ì˜
+2313,eager,ì—´ì‹¬ì¸
+2314,ear,ê·€
+2315,early,ì´ë¥¸
+2316,earn,ì¼í•˜ì—¬ ë²Œë‹¤
+2317,earth,ì§€êµ¬
+2318,ease,ì•ˆë½
+2319,east,ë™ìª½ ë™ìª½ì˜ ë™ìª½ìœ¼ë¡œ
+2320,easy,ì‰¬ìš´
+2321,eat,ë¨¹ë‹¤
+2322,economy,ì ˆì•½
+2323,edge,ëë¨¸ë¦¬
+2324,edit,í¸ì§‘í•˜ë‹¤
+2325,educate,êµìœ¡í•˜ë‹¤
+2326,effect,ê²°ê³¼
+2327,effective,íš¨ê³¼ì ì¸
+2328,efficient,ëŠ¥ë¥ ì ì¸
+2329,effort,ë…¸ë ¥
+2330,egg,ì•Œ
+2331,either,ì–´ëŠ í•˜ë‚˜ì˜
+2332,elaborate,ê³µë“¤ì¸
+2333,elect,ì„ ê±°í•˜ë‹¤
+2334,electric,ì „ê¸°ì˜
+2335,electronic,ì „ì(í•™)ì˜
+2336,elegant,ìš°ì•„í•œ
+2337,element,ìš”ì†Œ
+2338,elementary,ê¸°ë³¸ì˜
+2339,elephant,ì½”ë¼ë¦¬
+2340,eliminate,ì œê±°í•˜ë‹¤
+2341,else,ê·¸ ë°–ì—
+2342,embarrass,ë‚œì²˜í•˜ê²Œ í•˜ë‹¤
+2343,embassy,ëŒ€ì‚¬ê´€
+2344,embrace,í¬ì˜¹í•˜ë‹¤
+2345,emerge,ë‚˜ì˜¤ë‹¤
+2346,emergency,ë¹„ìƒì‚¬íƒœ
+2347,emit,ë°©ì‚¬í•˜ë‹¤
+2348,emotion,ê°ì •
+2349,emphasis,ê°•ì¡°
+2350,empire,ì œêµ­
+2351,employ,ê³ ìš©í•˜ë‹¤
+2352,empty,ë¹ˆ
+2353,enclose,ì—ì›Œì‹¸ë‹¤
+2354,encounter,ì¡°ìš°
+2355,encourage,ìš©ê¸°ë¥¼ ë‹ìš°ë‹¤
+2356,end,ë
+2357,endure,ê²¬ë””ë‹¤
+2358,enemy,ì 
+2359,enforce,ì‹¤ì‹œí•˜ë‹¤
+2360,engage,ì•½ì†í•˜ë‹¤
+2361,engine,ì—”ì§„
+2362,engineer,ê¸°ì‚¬
+2363,enhance,í–¥ìƒí•˜ë‹¤
+2364,enjoy,ì¦ê¸°ë‹¤
+2365,enormous,ê±°ëŒ€í•œ
+2366,enough,ì¶©ë¶„í•œ
+2367,enroll,ëª…ë¶€ì— ì˜¬ë¦¬ë‹¤
+2369,enter,ë“¤ì–´ê°€ë‹¤
+2370,enterprise,ê¸°íš
+2371,entertain,ì¦ê²ê²Œ í•˜ë‹¤
+2372,enthusiastic,ì—´ì‹¬ì¸
+2373,entire,ì „ì²´ì˜
+2374,entitle,ìê²©ì„ ì£¼ë‹¤
+2375,entry,ë“¤ì–´ê°
+2376,envelope,ë´‰íˆ¬
+2377,environment,í™˜ê²½
+2378,envy,ì§ˆíˆ¬
+2379,episode,ì‚½í™”
+2380,equal,ê°™ì€
+2381,equate,ê°™ê²Œí•˜ë‹¤
+2382,equipment,ì¥ë¹„
+2383,era,ì‹œëŒ€
+2384,eraser,ì§€ìš°ëŠ” ì‚¬ëŒ
+2385,erect,ë˜‘ë°”ë¡œ ì„ 
+2386,error,ì˜ëª»
+2387,escape,ë„ë§í•˜ë‹¤
+2388,escort,í˜¸ìœ„í•˜ë‹¤
+2389,especially,íŠ¹íˆ
+2390,essential,ë³¸ì§ˆì ì¸
+2391,establish,í™•ë¦½í•˜ë‹¤
+2392,estate,í† ì§€
+2393,estimate,ì–´ë¦¼ì¡ë‹¤
+2394,etc,ë“±ë“±
+2395,ethical,ë„ë•ìƒì˜
+2396,ethnic,ì¸ì¢…ì˜
+2397,evacuate,ë¹„ìš°ë‹¤
+2398,evaluate,í‰ê°€í•˜ë‹¤
+2399,eve,"ì €ë…, ë°¤"
+2401,evening,ì €ë…
+2402,eventually,ê²°êµ­
+2403,ever,ì´ì „ì—
+2404,every,ëª¨ë“ 
+2405,evident,ëª…ë°±í•œ
+2406,evil,ì‚¬ì•…í•œ
+2407,evolution,ì§„í™”
+2408,evolve,ì§„í™”í•˜ë‹¤
+2409,exact,ì •í™•í•œ
+2410,exaggerate,ê³¼ì¥í•˜ë‹¤
+2411,exam,ì‹œí—˜
+2412,examine,ì‹œí—˜í•˜ë‹¤
+2413,example,ë³´ê¸°
+2414,exceed,ë„˜ë‹¤
+2415,excellent,ìš°ìˆ˜í•œ
+2417,excess,ì´ˆê³¼
+2418,exchange,êµí™˜í•˜ë‹¤
+2419,excite,í¥ë¶„ì‹œí‚¤ë‹¤
+2420,exclude,ë°°ì²™í•˜ë‹¤
+2421,exclusive,ë°°íƒ€ì ì¸
+2422,excuse,ë³€ëª…
+2423,executive,ì§‘í–‰ì˜
+2424,exercise,ìš´ë™
+2425,exhaust,ë‹¤ ì¨ë²„ë¦¬ë‹¤
+2426,exhibit,ë³´ì´ë‹¤
+2427,exist,ì¡´ì¬í•˜ë‹¤
+2428,exit,ì¶œêµ¬
+2429,exotic,ì™¸êµ­ì˜
+2430,expand,í´ë‹¤
+2431,expect,ê¸°ëŒ€í•˜ë‹¤
+2432,expense,ì§€ì¶œ
+2433,expensive,ë¹„ìš©ì´ ë“œëŠ”
+2434,experience,ê²½í—˜
+2435,experiment,ì‹¤í—˜
+2436,expert,ìˆ™ë ¨ê°€
+2437,expertise,ëŒ€ê°€ì˜ ì˜ê²¬
+2438,explain,ì„¤ëª…í•˜ë‹¤
+2439,explicit,ëª…ë°±í•œ
+2440,explode,í­ë°œì‹œí‚¤ë‹¤
+2441,explore,íƒí—˜í•˜ë‹¤
+2442,export,ìˆ˜ì¶œí•˜ë‹¤ ìˆ˜ì¶œ
+2443,expose,"ì¬ë‹¤, ë“œëŸ¬ë‚´ë‹¤, ë§íˆë‹¤"
+2444,express,ë°œí‘œí•˜ë‹¤
+2445,extend,ë»—ë‹¤
+2446,extent,ë„“ì´
+2447,external,ì™¸ë¶€ì˜
+2448,extinct,êº¼ì§„
+2449,extra,ê°€ì™¸ì˜
+2450,extract,ë½‘ì•„ë‚´ë‹¤
+2451,extraordinary,ì´ìƒí•œ
+2452,extreme,ê·¹ë‹¨ì˜
+2453,eye,ëˆˆ
+2454,eyebrow,ëˆˆì¹
+2455,fabric,ì²œ
+2456,face,ì–¼êµ´
+2457,facilitate,ì‰½ê²Œí•˜ë‹¤
+2458,facility,ì‰¬ì›€
+2459,fact,ì‚¬ì‹¤
+2460,factor,ìš”ì†Œ
+2461,factory,ê³µì¥
+2462,faculty,ëŠ¥ë ¥
+2463,fade,ë°”ë˜ë‹¤
+2464,fail,ì‹¤íŒ¨í•˜ë‹¤
+2465,faint,ê¸°ì ˆí•˜ë‹¤
+2466,fair,ê³µí‰í•œ
+2467,faith,ì‹ ìš©
+2468,fall,ë–¨ì–´ì§€ë‹¤
+2469,FALSE,ê±°ì§“
+2470,fame,ëª…ì„±
+2471,familiar,ì¹œí•œ
+2472,family,ê°€ì¡±
+2473,famous,ìœ ëª…í•œ
+2474,fan,(ì˜í™” ë“±ì˜)íŒ¬
+2475,fancy,ê³µìƒ
+2476,fantastic,í™˜ìƒì ì¸
+2477,far,ë©€ë¦¬
+2478,fare,ìš”ê¸ˆ
+2479,farm,ë†ì¥
+2480,fascinate,í™©í™€ì¼€ í•˜ë‹¤
+2481,fast,ë¹ ë¥¸
+2482,fasten,ë‹¨ë‹¨íˆ ê³ ì •ì‹œí‚¤ë‹¤
+2483,fat,ì‚´ì°
+2484,fatal,ì¹˜ëª…ì ì¸
+2485,fate,ìˆ™ëª…
+2486,father,ì•„ë²„ì§€
+2487,fault,ê²°ì 
+2488,favor,í˜¸ì˜
+2489,favorite,ë§ˆìŒì— ë“œëŠ” ì¢‹ì•„í•˜ëŠ” ë¬¼ê±´
+2490,fear,ë‘ë ¤ì›€
+2491,feature,ì–¼êµ´ì˜ ìƒê¹€ìƒˆ
+2492,federal,ì—°ë°©ì˜
+2493,fee,ìš”ê¸ˆ
+2494,feed,ìŒì‹(ë¨¹ì´)ì„ ì£¼ë‹¤
+2495,feel,ë§Œì ¸ë³´ë‹¤
+2496,fellow,ë™ë¬´
+2497,female,ì—¬ì„±
+2498,ferry,ë‚˜ë£¨í„°
+2499,fertile,ë¹„ì˜¥í•œ
+2500,fever,ì—´
+2501,few,ì†Œìˆ˜ì˜
+2502,fiber,ì„¬ìœ 
+2503,field,ë“¤
+2504,fierce,í‰í¬í•œ
+2505,fight,ì‹¸ì›€
+2506,figure,ëª¨ìŠµ
+2507,file,ì¢…ì´ë¼ìš°ê°œ
+2508,fill,ê°€ë“ ì±„ìš°ë‹¤
+2509,filter,ì—¬ê³¼ê¸° ì—¬ê³¼í•˜ë‹¤
+2510,final,ìµœí›„ì˜
+2511,finance,ì¬ì •
+2512,find,ë°œê²¬í•˜ë‹¤
+2513,fine,í›Œë¥­í•œ
+2514,finger,ì†ê°€ë½ ì†ê°€ë½ì„ ëŒ€ë‹¤
+2515,finish,ëë‚´ë‹¤
+2516,finite,í•œì •ë˜ì–´ ìˆëŠ”
+2517,fire,ë¶ˆ
+2518,firm,êµ³ì€
+2519,fish,ë¬¼ê³ ê¸°
+2520,fist,ì£¼ë¨¹
+2521,fit,ë§ëŠ”
+2522,fix,ê³ ì •ì‹œí‚¤ë‹¤
+2523,flag,ê¸°
+2524,flame,ë¶ˆê½ƒ
+2525,flash,ë²ˆì©ì„
+2526,flat,í¸í‰í•œ
+2527,flavor,(ë…íŠ¹í•œ)ë§›
+2528,flaw,ê¸ˆ
+2529,flee,ë‹¬ì•„ë‚˜ë‹¤
+2530,flesh,ì‚´
+2531,flexible,êµ¬ë¶€ë¦¬ê¸° ì‰¬ìš´
+2532,flight,ë‚ ê¸°
+2533,flip,íŠ€ê¸°ë‹¤ í™± ì›€ì§ì´ë‹¤ íŠ€ê¸°ê¸°
+2534,float,ëœ¨ë‹¤
+2535,flock,ë¬´ë¦¬
+2536,flood,í™ìˆ˜
+2537,floor,ë§ˆë£»ë°”ë‹¥
+2538,flourish,ë²ˆì°½í•˜ë‹¤
+2539,flow,íë¥´ë‹¤
+2540,flower,ê½ƒ
+2541,fluid,ìœ ë™ì„±ì˜
+2542,flush,ì™ˆì¹µíë¥´ë‹¤
+2543,fly,ë‚ ë‹¤
+2544,focus,ì´ˆì 
+2545,fog,ì•ˆê°œ
+2546,fold,ì£¼ë¦„
+2547,folk,ì‚¬ëŒë“¤
+2548,follow,ì«“ë‹¤
+2549,fond,ì¢‹ì•„í•˜ëŠ”
+2550,food,ìŒì‹
+2551,fool,ë°”ë³´
+2552,foot,ë°œ
+2553,football,ì¶•êµ¬
+2554,for,ëŒ€ì‹ ì—
+2555,forbid,ê¸ˆí•˜ë‹¤
+2556,force,í˜
+2557,forecast,ì˜ˆìƒ
+2558,forehead,ì´ë§ˆ
+2559,foreign,ì™¸êµ­ì˜
+2560,forest,ìˆ²
+2561,forever,ì˜ì›íˆ
+2562,forget,ìŠë‹¤
+2563,forgive,ìš©ì„œí•˜ë‹¤
+2564,form,ëª¨ì–‘
+2565,formal,í˜•ì‹ìƒì˜
+2566,format,(ì„œì ì˜)ì²´ì œ
+2567,formation,í˜•ì„±
+2568,former,ì´ì „ì˜
+2569,formula,ê³µì‹
+2570,forth,ì•ìœ¼ë¡œ
+2571,fortunate,ìš´ì¢‹ì€
+2572,fortune,ìš´
+2573,forum,ê³µê°œí† ë¡ íšŒ
+2574,forward,ì•ìª½ì—
+2575,foster,ê¸°ë¥´ë‹¤
+2576,foundation,ê¸°ì´ˆ
+2577,fountain,ìƒ˜
+2578,fox,êµí™œí•œ ì‚¬ëŒ
+2579,fraction,ë¶„ìˆ˜
+2580,frame,êµ¬ì¡°
+2581,framework,ë¼ˆëŒ€
+2582,frankly,ì†”ì§íˆ
+2583,free,ììœ ë¡œìš´
+2584,freeze,ì–¼ë‹¤
+2585,frequent,ë¹ˆë²ˆí•œ
+2586,fresh,ìƒˆë¡œìš´
+2587,friend,ì¹œêµ¬
+2588,fright,(ê°‘ìê¸° ì—„ìŠµí•˜ëŠ”)ê³µí¬
+2589,frog,ê°œêµ¬ë¦¬
+2590,from,"(ë¶„ë¦¬,ì´íƒˆ,ì¶œë°œì ,ê¸°ì )-ë¡œ ë¶€í„°"
+2591,front,ì •ë©´
+2592,frost,ì„œë¦¬
+2593,frown,ëˆˆì‚´ì„ ì°Œí‘¸ë¦¬ë‹¤
+2594,fruit,ê³¼ì¼
+2595,frustrate,(ê³„íš ë“±ì„)ì¢Œì ˆì‹œí‚¤ë‹¤
+2596,fry,ê¸°ë¦„ìœ¼ë¡œ íŠ€ê¸°ë‹¤
+2597,fuel,ì—°ë£Œ
+2598,fulfil,ì´í–‰í•˜ë‹¤
+2599,full,ê°€ë“ì°¬
+2600,fun,ì¦ê±°ìš´ ìƒê°
+2601,function,ê¸°ëŠ¥
+2602,fund,ê¸°ê¸ˆ
+2603,fundamental,ê¸°ì´ˆ(ê¸°ì¤€)ì˜
+2604,funeral,ì¥ì‚¬
+2605,fur,ëª¨í”¼
+2606,furious,ë…¸í•˜ì—¬ í„í„ë›°ëŠ”
+2607,furnish,ê³µê¸‰í•˜ë‹¤
+2608,furniture,ê°€êµ¬
+2609,furthermore,ë”ìš°ê¸°
+2610,fuse,ì‹ ê´€
+2611,future,ë¯¸ë˜
+2612,gain,ì–»ë‹¤
+2613,gamble,ë„ë°•í•˜ë‹¤ ë„ë°• ë„ë°•í•´ì„œ ìƒë‹¤
+2614,gang,í•œ ë–¼
+2615,gap,ê°ˆë¼ì§„ í‹ˆ
+2616,garage,ì°¨ê³ 
+2617,garden,ëœ°
+2618,gasoline,ê°€ì†”ë¦°
+2619,gate,ë¬¸
+2620,gather,ê·¸ëŸ¬ëª¨ìœ¼ë‹¤
+2621,gaze,ì§€ì¼œë³´ë‹¤
+2622,gear,í†±ë‹ˆë°”í€´
+2623,gender,ì„±
+2624,gene,ìœ ì „(ì¸)ì
+2625,general,ì¼ë°˜ì ì¸
+2626,generate,ë‚³ë‹¤
+2627,generation,ì¼ëŒ€
+2628,generous,ê´‘ëŒ€í•œ
+2629,genius,ì²œì¬
+2630,genre,ìœ í˜•
+2631,gentle,ì˜¨í™”í•œ
+2632,gentleman,ì‹ ì‚¬
+2633,genuine,ì§„ì§œì˜
+2634,geography,ì§€ë¦¬
+2635,geology,ì§€ì§ˆí•™
+2636,gesture,ëª¸ì§“
+2637,get,ì–»ë‹¤
+2638,ghost,ìœ ë ¹
+2639,giant,ê±°ì¸
+2640,gift,ì„ ë¬¼
+2641,giraffe,ê¸°ë¦°
+2642,girl,ì†Œë…€
+2643,give,ì£¼ë‹¤
+2644,glad,ê¸°ìœ
+2645,glance,í˜ê¸‹ ë´„
+2646,glare,ë²ˆì©ì´ëŠ” ë¹›
+2647,glass,ìœ ë¦¬
+2648,glimpse,í˜ë— ë´„
+2649,global,ê³µëª¨ì–‘ì˜
+2650,glory,ì˜ê´‘
+2651,glove,ì¥ê°‘
+2652,glow,íƒ€ë‹¤
+2653,glue,ì•„êµ
+2654,go,ê°€ë‹¤
+2655,goal,ê²°ìŠ¹ì 
+2656,goat,ì—¼ì†Œ
+2657,god,ì‹ 
+2658,gold,ê¸ˆ
+2659,good,ì¢‹ì€
+2660,goodbye,ì•ˆë…•íˆ ê°€ì„¸ìš”
+2661,goods,ìƒí’ˆ
+2662,gorgeous,í˜¸í™”ë¡œìš´
+2663,govern,ë‹¤ìŠ¤ë¦¬ë‹¤
+2664,grab,ë¶™ì¡ë‹¤(=snatch)
+2665,grace,ì€ì´
+2666,grade,ë“±ê¸‰
+2667,gradual,ì ì°¨ì ì¸
+2668,graduate,í•™ìœ„ë¥¼ ìˆ˜ì—¬í•˜ë‹¤
+2669,grain,ê³¡ë¬¼
+2670,grand,ìœ„ëŒ€í•œ
+2671,grandfather,í• ì•„ë²„ì§€
+2672,grant,ë°›ì•„ë“¤ì´ë‹¤
+2673,grape,í¬ë„
+2674,graphic,ê·¸ë ¤ ë†“ì€ ë“¯í•œ
+2675,grasp,ë¶™ì¡ë‹¤
+2676,grass,í’€ë°­
+2677,grateful,ê³ ë§™ê²Œ ìƒê°í•˜ëŠ”
+2678,grave,ë¬´ë¤
+2679,great,ì»¤ë‹¤ë€
+2680,greed,íƒìš•
+2681,green,ì´ˆë¡ìƒ‰
+2682,greet,ì¸ì‚¬í•˜ë‹¤
+2683,grey,íšŒìƒ‰ì˜
+2684,grief,ì‹¬í•œ ìŠ¬í””(deep sorrow)
+2685,grip,ì¡ê¸°
+2686,grocery,ì‹í’ˆì¡í™”ë¥˜
+2687,gross,ì´ê³„ì˜
+2688,ground,ë•…
+2689,group,ì§‘ë‹¨
+2690,grow,ì„±ì¥í•˜ë‹¤
+2691,guarantee,ë³´ì¦í•˜ë‹¤
+2692,guardian,ë³´í˜¸ì
+2693,guess,ì¶”ì¸¡(ì§ì‘)í•˜ë‹¤
+2694,guest,ì†ë‹˜
+2695,guide,ì´ëŒë‹¤
+2696,guideline,ì§€ì¹¨
+2697,guilty,ì£„ì§€ì€
+2698,gulf,ë§Œ
+2699,gun,ì´
+2700,guy,ë…€ì„
+2701,gymnasium,ì‹¤ë‚´ì²´ì¡°ì¥
+2702,habit,ìŠµê´€
+2703,habitat,(ë™ë¬¼ì˜)ìì—°ë²ˆì‹ì§€
+2704,hair,í„¸
+2705,half,ë°˜
+2706,hall,íšŒê´€
+2707,halt,ë©ˆì¶°ì„œë‹¤
+2708,hammer,ë§ì¹˜
+2709,hand,ì†
+2710,handicap,ë¶ˆë¦¬í•œ ì¡°ê±´
+2711,handle,ì†ì¡ì´
+2712,handsome,ì–¼êµ´(ìíƒœ)ì´ ì˜ìƒê¸´
+2713,hang,ê±¸ë‹¤
+2714,happen,(ì‚¬ê±´ ë“±ì´)ì¼ì–´ë‚˜ë‹¤
+2715,happy,í–‰ìš´ì˜
+2716,harbor,í•­êµ¬
+2717,hard,ë‹¨ë‹¨í•œ
+2718,hardly,ê±°ì˜ -ì•„ë‹ˆë‹¤
+2719,harm,í•´
+2720,harsh,ê±°ì¹œ
+2721,harvest,ìˆ˜í™•
+2722,haste,ê¸‰í•¨
+2723,hat,(í…ŒìˆëŠ”)ëª¨ì ëª¨ìë¥¼ ì”Œìš°ë‹¤
+2724,hate,ë¯¸ì›Œí•˜ë‹¤
+2725,haunt,ìì£¼ê°€ë‹¤
+2726,have,ê°€ì§€(ê³  ìˆ)ë‹¤
+2727,hazard,ìœ„í—˜
+2728,he,(3ì¸ì¹­ë‹¨ìˆ˜ ë‚¨ì„±)ê·¸
+2729,head,ë¨¸ë¦¬
+2730,headache,ë‘í†µ
+2731,headquarters,ë³¸ë¶€
+2732,heal,ê³ ì¹˜ë‹¤
+2733,health,ê±´ê°•
+2734,hear,ë“£ë‹¤
+2735,heart,ì‹¬ì¥
+2736,heat,ì—´
+2737,heaven,í•˜ëŠ˜
+2738,heavy,ë¬´ê±°ìš´
+2739,heel,ë°œë’¤ê¿ˆì¹˜
+2740,height,ë†’ì´
+2741,heir,ìƒì†ì¸
+2742,helicopter,í—¬ë¦¬ì½¥í„°
+2743,hell,ì§€ì˜¥
+2744,hello,ì—¬ë³´
+2745,help,ë•ë‹¤
+2746,hence,ê·¸ëŸ¬ë¯€ë¡œ
+2747,here,ì—¬ê¸°ì—
+2748,heritage,ì„¸ìŠµ ì¬ì‚°
+2749,hero,ì˜ì›…
+2750,hesitate,ì£¼ì €í•˜ë‹¤
+2751,hide,ê°ì¶”ë‹¤
+2752,high,ë†’ì€
+2753,highway,ëŒ€ë„
+2754,hill,"ì–¸ë•, ë‚®ì€ ì‚° ì¸ë„ ê³ ì§€"
+2755,hip,ì—‰ë©ì´
+2756,hire,ê³ ìš©í•˜ë‹¤
+2757,history,ì—­ì‚¬
+2758,hit,ëª…ì¤‘í•˜ë‹¤
+2759,hobby,ì·¨ë¯¸
+2760,hold,ì†ì— ê°–ê³  ìˆë‹¤
+2761,hole,êµ¬ë©
+2762,holiday,íœ´ì¼
+2763,holy,ì‹ ì„±í•œ
+2764,home,ê°€ì •
+2765,homework,ìˆ™ì œ
+2766,honest,ì •ì§í•œ
+2767,honey,ë²Œê¿€
+2768,honor,ëª…ì˜ˆ
+2769,hook,ê°ˆê³ ë¦¬
+2770,hope,í¬ë§
+2771,horizon,ì§€í‰ì„ 
+2772,horn,ë¿”
+2773,horror,ê³µí¬
+2774,horse,ë§
+2775,hospital,ë³‘ì›
+2776,host,"ì£¼ì¸, ì§‘ì£¼ì¸ ë…¸ë¦‡, í˜¸ìŠ¤íŠ¸"
+2777,hostage,ë³¼ëª¨
+2778,hostile,ë°˜ëŒ€í•˜ëŠ”
+2779,hot,ëœ¨ê±°ìš´
+2780,hour,ì‹œê°„
+2781,house,ì§‘
+2782,household,ê°€ì¡±
+2783,how,ì–´ë–»ê²Œ
+2784,however,ì•„ë¬´ë¦¬
+2785,hug,ê¼­ ê»´ì•ˆë‹¤
+2786,huge,ê±°ëŒ€í•œ
+2787,human,ì¸ê°„ì˜
+2788,humor,ìœ ìš°ë¨¸
+2789,hundred,100 100ì˜
+2790,hungry,ë°°ê³ í”ˆ
+2791,hunt,ì‚¬ëƒ¥í•˜ë‹¤
+2792,hurry,ì„œë‘ë¥´ë‹¤
+2793,hurt,ìƒì²˜ë‚´ë‹¤
+2794,husband,ë‚¨í¸ ì ˆì•½í•˜ë‹¤
+2795,hut,ì˜¤ë‘ë§‰
+2796,hypothesis,ê°€ì„¤
+2797,I,"ë‚˜ëŠ”, ë‚´ê°€"
+2798,ice,ì–¼ìŒ
+2799,idea,ê´€ë…
+2800,ideal,ì´ìƒ
+2801,identical,ì•„ì£¼ ë™ì¼í•œ
+2802,identify,ë™ì¼ì‹œí•˜ë‹¤
+2803,ideology,ê³µë¦¬
+2804,if,ë§Œì¼ -ì´ë¼ë©´
+2805,ignore,ë¬´ì‹œí•˜ë‹¤
+2806,ill,ë³‘ë“ 
+2807,illusion,í™˜ì˜
+2808,illustrate,ì„¤ëª…í•˜ë‹¤
+2809,imagine,ìƒìƒí•˜ë‹¤
+2810,imitate,í‰ë‚´ë‚´ë‹¤
+2811,immediate,ì§ì ‘ì˜
+2812,immense,ë¬´í•œí•œ
+2813,immigrate,ì´ì£¼í•˜ë‹¤
+2814,immune,ë©´ì—­ì„±ì˜
+2815,impact,ì¶©ê²©
+2816,imperial,ì œêµ­ì˜
+2817,implement,ê¸°êµ¬
+2818,imply,í•¨ì¶•í•˜ë‹¤
+2819,import,ìˆ˜ì…í•˜ë‹¤
+2820,important,ì¤‘ìš”í•œ
+2821,impose,ë¶€ê³¼í•˜ë‹¤
+2822,impress,ì¸ìƒì§€ìš°ë‹¤
+2823,improve,ê°œì„ í•˜ë‹¤
+2825,incentive,ìê·¹ì ì¸
+2826,incident,ì‚¬ê±´
+2827,incline,ê¸°ìš¸ì´ë‹¤
+2828,include,í¬í•¨í•˜ë‹¤
+2829,income,ìˆ˜ì…
+2830,incorporate,í•©ë™ì‹œí‚¤ë‹¤
+2831,increase,ëŠ˜ë‹¤
+2832,incredible,ë¯¿ì„ ìˆ˜ ì—†ëŠ”
+2833,indeed,ì°¸ìœ¼ë¡œ
+2834,independent,ë…ë¦½í•œ
+2835,index,ìƒ‰ì¸
+2836,indicate,ì§€ì í•˜ë‹¤
+2837,individual,ê°œì¸
+2838,induce,ê¾€ë‹¤
+2839,industry,ê³µì—…
+2840,inevitable,í”¼í•  ìˆ˜ ì—†ëŠ”
+2841,infant,ìœ ì•„
+2842,infect,ê°ì—¼ì‹œí‚¤ë‹¤
+2843,infer,ì¶”ë¡ í•˜ë‹¤
+2844,inflate,ë¶€í’€ê²Œ í•˜ë‹¤
+2845,influence,ì˜í–¥ë ¥
+2846,inform,ì•Œë¦¬ë‹¤
+2847,informal,ë¹„ê³µì‹ì˜
+2848,ingredient,ì„±ë¶„
+2849,inhabit,ì‚´ë‹¤
+2850,inherent,ìƒíƒœì˜
+2851,inhibit,ê¸ˆí•˜ë‹¤
+2852,initial,ì²˜ìŒì˜
+2853,initiate,ì‹œì‘í•˜ë‹¤
+2854,inject,ì£¼ì‚¬í•˜ë‹¤
+2855,injure,í•´ì¹˜ë‹¤
+2856,inn,ì—¬ì¸ìˆ™
+2857,innocent,ë¬´êµ¬í•œ
+2858,innovate,ìƒˆë¡­ê²Œ í•˜ë‹¤
+2859,input,íˆ¬ì…
+2860,inquire,ë¬»ë‹¤
+2861,insect,ê³¤ì¶©
+2862,insert,ë¼ì›Œë„£ë‹¤
+2863,inside,ì•ˆìª½
+2864,insight,í†µì°°(ë ¥)
+2865,insist,ì£¼ì¥í•˜ë‹¤
+2866,inspect,ê²€ì‚¬í•˜ë‹¤
+2867,inspire,ì˜ê°ì„ ì£¼ë‹¤
+2868,install,ì„¤ì¹˜í•˜ë‹¤
+2869,instance,ì‹¤ë¡€
+2870,instant,ì¦‰ì‹œì˜
+2871,instead,ê·¸ ëŒ€ì‹ ì—
+2872,instinct,ë³¸ëŠ¥
+2873,institute,ë§Œë“¤ë‹¤
+2874,instruct,ê°€ë¥´ì¹˜ë‹¤
+2875,instrument,ê¸°êµ¬
+2876,insult,ëª¨ìš•í•˜ë‹¤
+2877,insure,ë³´ì¦í•˜ë‹¤
+2878,integrate,í†µí•©í•˜ë‹¤
+2879,intellectual,ì§€ì ì¸
+2880,intelligent,ì§€ì ì¸
+2882,intense,ê°•ë ¬í•œ
+2883,intent,ì˜í–¥
+2884,interact,ì„œë¡œ ì‘ìš©í•˜ë‹¤
+2885,interest,í¥ë¯¸
+2886,interfere,ê°„ì„­í•˜ë‹¤
+2887,intermediate,ì¤‘ê°„ì˜ ì¤‘ê°„ë¬¼
+2888,internal,ë‚´ë¶€ì˜
+2889,international,êµ­ì œì ì¸
+2890,interpret,í•´ì„í•˜ë‹¤
+2891,interrupt,í›¼ë°©ë†“ë‹¤
+2892,interval,ê°„ê²©
+2893,intervene,ì‚¬ì´ì— ë“¤ë‹¤
+2894,intimate,ì¹œë°€í•œ
+2896,intrigue,ìŒëª¨
+2897,introduce,ì•ˆìœ¼ë¡œ ë“¤ì´ë‹¤
+2898,invade,ì¹¨ì…í•˜ë‹¤
+2899,invent,ë°œëª…í•˜ë‹¤
+2900,invest,íˆ¬ìí•˜ë‹¤
+2901,investigate,ì¡°ì‚¬í•˜ë‹¤
+2902,invite,ì´ˆëŒ€í•˜ë‹¤
+2903,involve,ë§ì•„ë„£ë‹¤
+2904,iron,ì‡ 
+2905,irony,ë°˜ì–´
+2906,irritate,ë…¸í•˜ê²Œ í•˜ë‹¤
+2907,island,ì„¬
+2908,isolate,ê³ ë¦½ì‹œí‚¤ë‹¤
+2909,it,ê·¸ê²ƒì€
+2910,item,ì¡°í•­
+2911,jail,êµë„ì†Œ
+2912,jar,(ì•„ê°€ë¦¬ê°€ ë„“ì€)í•­ì•„ë¦¬
+2913,jaw,í„±
+2914,jeans,ì²­ë°”ì§€
+2915,jet,(ê°€ìŠ¤ë“±ì˜)ë¶„ì¶œ
+2916,job,ì¼
+2917,jog,ì‚´ì§ ë°€ë‹¤ ëœì»¤ë• ì›€ì§ì´ë‹¤ ê³ ë¥´ì§€ ì•ŠìŒ
+2918,join,ê²°í•©í•˜ë‹¤
+2919,joint,ì´ìŒë§¤
+2920,joke,ë†ë‹´
+2921,journal,ì¼ê°„ì‹ ë¬¸
+2922,journey,ì—¬í–‰
+2923,joy,ì¦ê±°ì›€
+2924,judge,ì¬íŒê´€
+2925,judicial,ì‚¬ë²•ì˜
+2926,junior,ì†ì•„ë˜ì‚¬ëŒ
+2927,jury,ë°°ì‹¬
+2928,just,ì˜¬ë°”ë¥¸
+2929,justice,ì •ì˜
+2930,justify,ì˜³ë‹¤ê³  í•˜ë‹¤
+2931,keen,ë‚ ì¹´ë¡œìš´
+2932,keep,ê³„ì†í•˜ë‹¤
+2933,key,ì—´ì‡ 
+2934,kick,ê±·ì–´ì°¨ë‹¤
+2935,kid,ì•„ì´
+2936,kill,ì£½ì´ë‹¤
+2937,kind,ì¹œì ˆí•œ
+2938,king,ì™•
+2939,kit,ì—°ì¥í†µ
+2940,kitchen,ë¶€ì—Œ
+2941,knee,ë¬´ë¦
+2942,knife,ë‚˜ì´í”„
+2943,knight,(ì¤‘ì„¸ì˜)ê¸°ì‚¬
+2944,knock,ì¹˜ë‹¤
+2945,knot,ë§¤ë“­(=tie)
+2946,know,ì•Œë‹¤
+2947,label,ë¼ë²¨
+2948,labor,ë…¸ë™
+2949,laboratory,ì‹¤í—˜ì‹¤
+2950,lack,ê²°í•
+2951,ladder,ì‚¬ë‹¥ë‹¤ë¦¬
+2952,lady,ê·€ë¶€ì¸
+2953,lake,í˜¸ìˆ˜
+2954,lamb,ì–´ë¦° ì–‘
+2955,lamp,ë“±
+2956,land,ë­
+2957,landscape,í’ê²½
+2958,lane,ì¢ì€ê¸¸
+2959,language,ì–¸ì–´
+2960,lap,ë¬´ë¦
+2961,large,í°
+2962,last,ê³„ì†í•˜ë‹¤
+2963,late,ëŠ¦ì€
+2964,latter,ë’¤ìª½ì˜
+2965,laugh,(ì†Œë¦¬ë‚´ì–´)ì›ƒë‹¤
+2966,launch,ì§„ìˆ˜ì‹œí‚¤ë‹¤
+2967,laundry,ì„¸íƒë¬¼
+2968,law,ë²•ë¥ 
+2969,lawn,ì”ë””ë°­
+2970,lawyer,ë²•ë¥ ê°€
+2971,lay,ëˆ•íˆë‹¤
+2972,layer,ì¸µ
+2973,lazy,ê²Œìœ¼ë¥¸
+2974,lead,ì´ëŒë‹¤
+2975,leaf,ì
+2976,leak,ìƒ˜
+2977,lean,ê¸°ëŒ€ë‹¤
+2978,leap,ê»‘ì¶© ë›°ë‹¤
+2979,learn,ë°°ìš°ë‹¤
+2980,lease,ì„ëŒ€ì°¨
+2981,leather,ë¬´ë‘ì§ˆí•œ ê°€ì£½
+2982,leave,ë‚¨ê¸°ê³ ê°€ë‹¤
+2983,lecture,ê°•ì˜
+2984,left,ì™¼ìª½ì˜
+2985,leg,ë‹¤ë¦¬
+2986,legal,ë²•ë¥ ìƒì˜
+2987,legend,ì „ì„¤
+2988,legislate,ë²•ë¥ ì„ ì œì •í•˜ë‹¤
+2989,legitimate,í•©ë²•ì˜
+2990,leisure,í‹ˆ
+2991,lend,ë¹Œë¦¬ë‹¤
+2992,lesson,í•™ê³¼
+2993,let,ì‹œí‚¤ë‹¤
+2994,letter,í¸ì§€
+2995,level,ìˆ˜í‰ì˜
+2996,liberal,ììœ ì£¼ì˜ì˜
+2997,liberty,ììœ 
+2998,library,ë„ì„œê´€
+2999,license,ë©´í—ˆ
+3000,lid,ëšœê»‘
+3001,lie,ëˆ•ë‹¤
+3002,lift,ëŒì–´ì˜¬ë¦¬ë‹¤
+3003,light,ë¹›
+3004,like,ì¢‹ì•„í•˜ë‹¤
+3005,likely,ìˆì„ ë²•í•œ
+3006,likewise,"ê°™ì´, ë§ˆì°¬ê°€ì§€ë¡œ"
+3007,limit,í•œê³„
+3008,line,ì„ 
+3009,linguistic,ë§ì˜
+3010,link,ì‚¬ìŠ¬ì˜ ê³ ë¦¬
+3011,lion,ì‚¬ì
+3012,lip,ì…ìˆ 
+3013,liquid,ì•¡ì²´
+3014,list,ì¼ëŒí‘œ
+3015,listen,ê²½ì²­í•˜ë‹¤
+3016,literal,ë¬¸ìì˜
+3017,literature,ë¬¸í•™
+3018,little,ì‘ì€
+3019,live,ì‚´ë‹¤
+3020,livingroom,ê±°ì‹¤
+3021,load,ì§
+3022,loan,ëŒ€ë¶€
+3023,local,ì¥ì†Œì˜
+3024,locate,ê´€ì²­ ë“±ì„ ë‘ë‹¤
+3025,lock,ìë¬¼ì‡ 
+3026,log,í†µë‚˜ë¬´
+3027,logic,ë…¼ë¦¬í•™
+3028,lone,í˜¼ìì˜
+3029,long,"(ê¸¸ì´,ì‹œê°„ ë“±)ê¸´"
+3030,look,ë³´ë‹¤
+3031,loose,í’€ì–´ì§„
+3032,lose,ìƒë‹¤
+3033,loss,ìƒìŒ
+3034,lot,ì œë¹„
+3035,loud,ì‹œë„ëŸ¬ìš´
+3036,lounge,ë¹ˆë‘¥ê±°ë¦¬ë‹¤
+3037,love,ì‚¬ë‘
+3038,low,ë‚®ì€
+3039,loyal,ì¶©ì„±ìŠ¤ëŸ¬ìš´
+3040,luck,ìš´
+3041,lump,ë©ì–´ë¦¬
+3042,lunch,ì ì‹¬
+3043,luxury,ì‚¬ì¹˜
+3044,machine,ê¸°ê³„
+3045,mad,ë¯¸ì¹œ
+3046,magazine,ì¡ì§€
+3047,magnet,ìì„
+3048,magnificent,ì¥ëŒ€í•œ
+3049,mail,ìš°í¸ë¬¼
+3050,main,ì£¼ìš”í•œ
+3051,maintain,ê³„ì†í•˜ë‹¤
+3052,major,í°ìª½ì˜
+3053,majority,ëŒ€ë‹¤ìˆ˜
+3054,make,ë§Œë“¤ë‹¤
+3055,male,ë‚¨ì„±ì˜
+3056,man,ë‚¨ì
+3057,manage,ê´€ë¦¬í•˜ë‹¤
+3058,manifest,ëª…ë°±íˆ í•˜ë‹¤
+3059,manipulate,(ì†ìœ¼ë¡œ)ë‹¤ë£¨ë‹¤
+3060,manner,ë°©ë²•
+3061,manufacture,ì œì¡°í•˜ë‹¤
+3062,many,ë§ì€
+3063,map,ì§€ë„
+3064,margin,ê°€ì¥ìë¦¬
+3065,marine,ë°”ë‹¤ì˜
+3066,mark,í‘œ
+3067,marry,ê²°í˜¼í•˜ë‹¤
+3068,marvel,ê²½ì´
+3069,mass,ë©ì–´ë¦¬
+3070,master,ì¥
+3071,match,ì„±ëƒ¥
+3072,mate,ìƒëŒ€
+3073,material,ì›ë£Œ
+3074,mathematics,ìˆ˜í•™
+3075,matter,ë¬¼ì§ˆ
+3076,mature,ìµì€
+3077,maximum,ìµœê³ ì 
+3078,may,"5ì›”  ì²­ì¶˜, ì¸ìƒì˜ ë´„  ì‚°ì‚¬ë‚˜ë¬´, ì•„ê°€ìœ„ë‚˜ë¬´"
+3079,maybe,ì•„ë§ˆ
+3080,mayor,ì‹œì¥
+3081,meal,ì‹ì‚¬
+3082,mean,ì˜ë¯¸í•˜ë‹¤
+3083,meantime,ê·¸ë™ì•ˆ ê·¸ ì‚¬ì´ì—
+3084,meanwhile,ê·¸ë™ì•ˆ
+3085,measure,ì¬ë‹¤
+3086,meat,(ì‹ìš©ì§ìŠ¹ì˜)ê³ ê¸°
+3087,mechanic,ì§ê³µ
+3088,mechanism,(ê¸°ê³„)ì¥ì¹˜
+3089,mediate,ì¤‘ì¬í•˜ë‹¤
+3090,medical,ì˜í•™ì˜
+3091,medicine,ì•½
+3092,medieval,ì¤‘ì„¸(í’)ì˜
+3093,medium,ì¤‘ê°„
+3095,melt,ë…¹ë‹¤
+3096,memory,ê¸°ì–µ
+3097,mental,ë§ˆìŒì˜
+3098,mention,ë§í•˜ë‹¤
+3099,merchant,ìƒì¸
+3100,mere,ë‹¨ìˆœí•œ
+3101,merge,í•©ë³‘í•˜ë‹¤
+3102,merit,ì¥ì 
+3103,mess,í˜¼ë€
+3104,metal,ê¸ˆì†
+3105,method,ë°©ë²•
+3106,metropolitan,ìˆ˜ë„ê¶Œ(ì˜)
+3107,microphone,í™•ì„±ê¸°
+3108,microwave,ê·¹ì´ˆë‹¨íŒŒ ì „ìë ˆì¸ì§€ë¡œ ìš”ë¦¬í•˜ë‹¤
+3109,middle,í•œë³µíŒì˜
+3110,might,í˜
+3111,migrate,ì´ì£¼í•˜ë‹¤
+3112,mild,ì˜¨í›„í•œ
+3113,military,êµ°ì˜
+3114,milk,ì –
+3115,mill,ë©§ëŒ
+3116,million,ë°±ë§Œ
+3117,mind,ë§ˆìŒ
+3118,miner,ê´‘ì‚°ì—…ì
+3119,mineral,ê´‘ë¬¼
+3120,minimal,ìµœì†Œ(í•œë„)ì˜
+3121,minimum,ìµœì†Œ í•œë„
+3122,ministry,ì¥ê´€(ëª©ì‚¬)ì˜ ì§(ì†Œì„)
+3123,minor,ì‘ì€ í¸ì˜
+3124,minute,ë¶„
+3125,miracle,ê¸°ì 
+3126,mirror,ê±°ìš¸
+3127,miss,ë¯¸í˜¼ ì—¬ì„± ì‹¤ìˆ˜í•˜ë‹¤
+3128,missile,ë¯¸ì‚¬ì¼
+3129,mission,ì‚¬ëª…
+3130,mistake,í‹€ë¦¬ë‹¤
+3131,mix,ì„ë‹¤
+3132,mobile,ì›€ì§ì´ê¸° ì‰¬ìš´
+3133,mock,ì¡°ë¡±í•˜ë‹¤
+3134,mode,ë°©ë²•
+3135,moderate,ì ˆì œí•˜ëŠ”
+3136,modern,í˜„ëŒ€ì˜
+3137,modest,ê²¸ì†í•œ
+3138,modify,ë³€ê²½í•˜ë‹¤
+3139,moisture,ìŠµê¸°
+3140,molecule,ë¶„ì
+3141,moment,ìˆœê°„
+3142,money,ê¸ˆì „
+3143,monitor,ì¶©ê³ ì
+3144,monkey,ì›ìˆ­ì´
+3145,monster,ê´´ë¬¼
+3146,month,ì›”
+3147,monument,ê¸°ë…ë¹„
+3148,mood,(ì¼ì‹œì ì¸)ê¸°ë¶„
+3149,moon,ë‹¬
+3150,moral,ë„ë•ì˜
+3151,moreover,ê·¸ ìœ„ì—
+3152,morning,ì•„ì¹¨
+3153,mortal,ì£½ì„ìš´ëª…ì˜
+3154,mother,ì–´ë¨¸ë‹ˆ
+3155,motion,ìš´ë™
+3156,motive,ë™ê¸°
+3157,mount,ì‚°
+3158,mountain,ì‚°
+3159,mouse,ìƒˆì•™ì¥
+3160,mouth,ì…
+3161,move,ì›€ì§ì´ë‹¤
+3162,movie,ì˜í™”
+3163,much,ë§ì€
+3164,mud,ì§„í™
+3165,multiple,ë³µí•©ì˜
+3166,multiply,ëŠ˜ë¦¬ë‹¤
+3167,murder,ì‚´ì¸
+3168,muscle,ê·¼ìœ¡
+3169,museum,ë°•ë¬¼ê´€
+3170,mushroom,ë²„ì„¯
+3171,music,ìŒì•…
+3173,mutual,ìƒí˜¸ì˜
+3174,myth,ì‹ í™”
+3175,nail,ì†í†±
+3176,naive,ì†Œë°•í•œ
+3177,naked,ë°œê°€ë²—ì€
+3179,nanny,ìœ ëª¨
+3180,narrate,ì´ì•¼ê¸°í•˜ë‹¤
+3181,narrow,ì¢ì€
+3182,nasty,ë¶ˆì¾Œí•œ
+3183,nation,êµ­ê°€
+3184,native,íƒ€ê³ ë‚œ
+3185,nature,ìì—°
+3186,navy,í•´êµ°(ë ¥)
+3187,near,ê°€ê¹Œì´ -ì˜ ê°€ê¹Œì´ì— ê°€ê¹Œìš´ ì ‘ê·¼í•˜ë‹¤
+3188,neat,ì‚°ëœ»í•œ
+3189,necessary,í•„ìš”í•œ
+3190,neck,ëª©
+3191,need,í•„ìš”
+3192,needle,ë°”ëŠ˜ ë°”ëŠ˜ë¡œ ê¿°ë§¤ë‹¤ ë°”ëŠì§ˆí•˜ë‹¤ ì•„ìŠ¬ì•„ìŠ¬í•œ
+3193,negative,ë¶€ì •ì ì¸
+3194,neglect,ê²Œì„ë¦¬ í•˜ë‹¤
+3195,negotiate,êµì„­í•˜ë‹¤
+3196,neighbor,ì´ì›ƒì‚¬ëŒ(ë‚˜ë¼)
+3197,neither,(ë‘˜ì¤‘)ì–´ëŠìª½ë„ -ì•„ë‹ˆë‹¤ -ë„ ì•„ë‹ˆë‹¤
+3198,nephew,ì¡°ì¹´
+3199,nervous,ì‹ ê²½ì˜
+3200,nest,ë³´ê¸ˆìë¦¬
+3201,net,ê·¸ë¬¼
+3202,network,ê·¸ë¬¼ì„¸ê³µ
+3203,neutral,ì¤‘ë¦½ì˜
+3204,never,ê²°ì½” -ì•„ë‹ˆë‹¤
+3205,nevertheless,ê·¸ëŸ¼ì—ë„ ë¶ˆêµ¬í•˜ê³ 
+3206,new,ìƒˆë¡œìš´
+3207,newspaper,ì‹ ë¬¸
+3208,next,ë‹¤ìŒì˜
+3209,nice,ë‹ˆìŠ¤(í”„ë‘ìŠ¤ ë‚¨ë¶€ì˜ í•­êµ¬ë„ì‹œ)
+3210,night,ë°¤
+3211,nightmare,ì•…ëª½
+3212,no,ë¬´ì˜
+3213,noble,ê³ ê·€í•œ
+3214,nobody,ì•„ë¬´ë„ -ì•Šë‹¤ í•˜ì°®ì€ ì‚¬ëŒ
+3215,nod,ë„ë•ì´ë‹¤
+3216,noise,ì†Œë¦¬
+3217,nominate,ì¶”ì²œí•˜ë‹¤
+3218,none,ì•„ë¬´ë„(ì¡°ê¸ˆë„)-ì•Šë‹¤ ì¡°ê¸ˆë„(ê²°ì½”)-ì•Šë‹¤
+3219,nonetheless,ì—­ì‹œ
+3220,nonsense,í—ˆíŠ¼ ì†Œë¦¬
+3221,noon,ì •ì˜¤
+3223,norm,í‘œì¤€
+3224,normal,í‘œì¤€(ì˜)
+3225,north,"ë¶, ë¶ ìª½, ë¶ë¶€"
+3226,nose,ì½”
+3227,not,ì•„ë‹ˆë‹¤
+3228,note,ê¸°ë¡
+3229,nothing,ì•„ë¬´ê²ƒë„ â€¦ì—†ë‹¤
+3230,notice,"í†µì§€, í†µë³´"
+3231,notion,"n,ê´€ë…"
+3232,novel,ì†Œì„¤
+3233,now,ì§€ê¸ˆ
+3234,nowadays,"ì˜¤ëŠ˜ë‚ ì—ëŠ”, ìš”ì¦ˆìŒì—ëŠ”"
+3235,nowhere,ì•„ë¬´ë°ë„ â€¦ì—†ë‹¤
+3236,nuclear,"í•µì˜, í•µì„ í˜•ì„±í•˜ëŠ” ì›ìí•µì˜"
+3237,number,ìˆ˜
+3238,numerous,"ë‹¤ ìˆ˜ì˜, ìˆ˜ë§ì€, ì…€ ìˆ˜ ì—†ì´ ë§ì€"
+3239,nun,ìˆ˜ë…€ ì§‘ë¹„ë‘˜ê¸°ì˜ ì¼ì¢…
+3240,nurse,ìœ ëª¨
+3241,nut,ê²¬ê³¼
+3242,oak,ì°¸ë‚˜ë¬´
+3243,obey,ë”°ë¥´ë‹¤
+3244,object,ì‚¬ë¬¼
+3245,objective,ê°ê´€ì ì¸
+3246,oblige,(ì˜ë¬´ë¥¼)ë³„ìˆ˜ì—†ì´ -í•˜ê²Œí•˜ë‹¤
+3247,observe,ê´€ì°°í•˜ë‹¤
+3248,obsess,ëŠ˜ëŸ¬ë¶™ë‹¤
+3249,obtain,ì–»ë‹¤
+3250,obvious,ëª…ë°±í•œ
+3251,occasion,ê²½ìš°
+3252,occupation,ì¼ì§ì—…
+3253,occupy,ì°¨ì§€í•˜ë‹¤
+3254,occur,ì¼ì–´ë‚˜ë‹¤
+3255,ocean,ëŒ€ì–‘
+3256,odd,ë¬˜í•œ
+3257,of,ì¶œì‹ ì˜
+3258,off,ë–¨ì–´ì ¸
+3259,offend,ì„±ë‚˜ê²Œ í•˜ë‹¤
+3260,offer,ê¶Œí•˜ë‹¤
+3261,office,ì„ë¬´
+3262,officer,ê³µë¬´ì›
+3263,official,ê³µë¬´ì›
+3264,often,ìì£¼
+3265,oil,ê¸°ë¦„
+3266,old,ëŠ™ì€
+3267,olive,ì˜¬ë¦¬ë¸Œë‚˜ë¬´
+3268,on,ìœ„ì—
+3269,once,í•œë²ˆ
+3270,one,í•˜ë‚˜(ì˜)
+3271,only,ìœ ì¼í•œ
+3272,open,ì—´ë‹¤
+3273,operate,ì›€ì§ì´ë‹¤
+3274,opinion,ì˜ê²¬
+3275,opportunity,ê¸°íšŒ
+3276,oppose,ë°˜ëŒ€í•˜ë‹¤
+3277,optimist,ë‚™ì²œê°€
+3278,option,ì„ íƒ(ê¶Œì˜ ììœ )
+3279,or,í˜¹ì€
+3280,oral,êµ¬ë‘ì˜
+3281,orbit,ê¶¤ë„
+3282,orchestra,ê´€í˜„ì•…ë‹¨
+3283,order,ìˆœì„œ
+3284,ordinary,ë³´í†µì˜
+3285,organ,(ìƒë¬¼ì˜)ê¸°ê´€
+3286,organic,ìœ ê¸°ì²´ì˜
+3287,organize,ì¡°ì§í•˜ë‹¤
+3288,orient,ë™ì–‘ ë™ì–‘ì˜ ë™ìª½ìœ¼ë¡œ í–¥í•˜ê²Œ í•˜ë‹¤
+3289,origin,ê¸°ì›
+3290,other,ë‹¤ë¥¸ ë‹¤ë¥¸ ê²ƒ ê·¸ë ‡ì§€ ì•Šê³ 
+3291,otherwise,ë”´ ë°©ë²•ìœ¼ë¡œëŠ”
+3292,ought,auí•´ì•¼ë§Œ í•˜ë‹¤
+3293,ounce,ì‚µê´­ì´
+3294,out,ë°–ìœ¼ë¡œ
+3295,outcome,ê²°ê³¼
+3296,outline,ìœ¤ê³½
+3297,output,ì‚°ì¶œ
+3298,outrage,ë¶ˆë²•(ì ì¸ í–‰ìœ„)
+3299,outstanding,ëˆˆì— ë„ëŠ”
+3300,over,ìœ„ìª½
+3301,overall,í¬ê´„(ì „ë©´)ì ì¸ ë§ì˜·
+3302,overcome,ì´ê¸°ë‹¤
+3303,overhead,ë¨¸ë¦¬ìœ„ì— ë¨¸ë¦¬ ìœ„ì˜
+3304,overlap,ê²¹ì¹˜ë‹¤
+3305,overlook,ë‚´ë ¤ë‹¤ ë³´ë‹¤
+3306,overnight,ì „ë‚ ë°¤ì˜
+3307,oversea,í•´ì™¸(ë¡œë¶€í„°)ì˜
+3308,overwhelm,ì••ë„í•˜ë‹¤
+3309,owe,ì§€ë¶ˆí•  ì˜ë¬´ê°€ ìˆë‹¤
+3310,own,ìê¸°ìì‹ ì˜ ì†Œìœ í•˜ë‹¤
+3311,pace,í•œê±¸ìŒ
+3312,pack,ê¾¸ëŸ¬ë¯¸
+3313,packet,ë‹¤ë°œ
+3314,pad,(ë°ì—)ë§ëŒ€ëŠ” ê²ƒ
+3315,pain,ê³ í†µ
+3316,paint,ë„ë£Œ
+3317,pair,í•œìŒ
+3318,palace,ê¶ì „
+3319,pale,ì°½ë°±í•œ
+3320,palm,ì†ë°”ë‹¥
+3321,pan,ë‚¨ë¹„ ì‚¬ê¸ˆ ë“±ì„ ë‚¨ë¹„ë¡œ ê°€ë ¤ë‚´ë‹¤
+3322,panel,íŒë²½ë„
+3323,panic,ëŒì—°í•œê³µí¬
+3324,pants,ë°”ì§€
+3325,paper,ì¢…ì´
+3326,paragraph,(ë¬¸ì¥ì˜)ì ˆ
+3327,parallel,í‰í–‰ì˜
+3328,pardon,ìš©ì„œí•˜ë‹¤ ìš©ì„œ
+3329,parent,ì–´ë²„ì´
+3330,park,ê³µì›
+3331,parliament,ì˜íšŒ
+3332,part,ë¶€ë¶„
+3333,participate,ì°¸ê°€í•˜ë‹¤
+3334,particle,ì…ì
+3335,particular,íŠ¹ìˆ˜í•œ
+3336,pass,ì§€ë‚˜ê°€ë‹¤
+3337,passage,"í†µí–‰, í†µê³¼"
+3338,passenger,ìŠ¹ê°
+3339,passion,ì •ì—´
+3340,passport,ì—¬ê¶Œ
+3341,past,ê³¼ê±°
+3342,pat,í†¡í†¡ ê°€ë³ê²Œ ì¹˜ë‹¤
+3343,patch,ê¹ëŠ” í—ê²Š
+3344,patent,ì „ë§¤íŠ¹í—ˆê¶Œ ì „ë§¤íŠ¹í—ˆì˜
+3345,path,ì‘ì€ ê¸¸
+3346,patient,ì¸ë‚´ì‹¬ì´ ê°•í•œ í™˜ì
+3347,patrol,ìˆœíšŒ
+3348,pattern,ëª¨ë²”
+3349,pause,ì¤‘ì§€
+3350,pave,(ë„ë¡œë¥¼)í¬ì¥í•˜ë‹¤
+3351,pay,ì§€ë¶ˆí•˜ë‹¤
+3352,peace,í‰í™”
+3353,peak,(ë¾°ì¡±í•œ)ë
+3354,pear,ì„œì–‘ë°°
+3355,peasant,ë†ë¶€
+3356,peel,ê»ì§ˆì„ ë²—ê¸°ë‹¤ ë²—ì–´ì§€ë‹¤ ê»ì§ˆ
+3357,peer,ë™ë£Œ
+3358,penalty,ë²Œ
+3359,pencil,ì—°í•„ ì—°í•„ë¡œ ì“°ë‹¤
+3360,people,ì‚¬ëŒë“¤
+3361,pepper,ê³ ì¶”
+3363,perceive,ì§€ê°í•˜ë‹¤
+3364,perfect,ì™„ì „í•œ
+3365,perform,ë‹¤í•˜ë‹¤
+3366,perhaps,ì•„ë§ˆ
+3367,period,ì‹œê°„
+3368,permanent,ì˜êµ¬ì˜
+3369,permit,í—ˆê°€í•˜ë‹¤
+3370,persist,ê³ ì§‘í•˜ë‹¤
+3371,person,ì‚¬ëŒ
+3372,personality,ê°œì„±
+3373,perspective,ì›ê·¼ë²•ì˜ ì›ê·¼ í™”ë²•
+3374,persuade,ì„¤ë“í•˜ë‹¤
+3375,pet,ì• ì™„ë™ë¬¼
+3376,phase,êµ­ë©´
+3377,phenomenon,í˜„ìƒ
+3378,philosophy,ì² í•™
+3379,photograph,ì‚¬ì§„ ì´¬ì˜í•˜ë‹¤
+3380,phrase,êµ¬
+3381,physical,ë¬¼ì§ˆì˜
+3382,physics,ë¬¼ë¦¬í•™
+3383,pick,ë”°ë‹¤
+3384,picnic,ì†Œí’
+3385,picture,ê·¸ë¦¼
+3386,piece,í•œ ì¡°ê°
+3387,pig,ë¼ì§€
+3388,pile,ìŒ“ì•„ ì˜¬ë¦° ê²ƒ
+3389,pill,ì•Œì•½
+3390,pin,í•€ í•€ìœ¼ë¡œ ê½‚ë‹¤
+3391,pinch,ê¼¬ì§‘ë‹¤
+3392,pine,ì†Œë‚˜ë¬´ ìˆ˜ì²™í•´ ì§€ë‹¤
+3393,pink,ì—°ë¶„í™ìƒ‰
+3394,pioneer,ê°œì²™ì
+3395,pitch,ë˜ì§€ë‹¤
+3396,pity,ë¶ˆìŒíˆ ì—¬ê¹€
+3397,place,ì¥ì†Œ
+3398,plain,ë¶„ëª…í•œ
+3399,plan,ê³„íš
+3400,planet,í–‰ì„±
+3401,plant,ì‹¤ë¬¼
+3402,plate,íŒ
+3403,platform,ë‹¨
+3404,play,ë†€ë‹¤
+3405,pleasant,ê¸°ë¶„ ì¢‹ì€
+3406,please,ê¸°ì˜ê²Œ í•˜ë‹¤
+3407,pleasure,ì¦ê±°ì›€
+3408,plenty,ë§ìŒ
+3409,plot,ìŒëª¨
+3410,plus,ë”í•˜ê¸°ì˜ -ì™¸ì—
+3411,P.M.,ì˜¤í›„
+3412,pocket,í¬ì¼“
+3413,poem,ì‹œ
+3414,poet,ì‹œì¸
+3415,point,ì 
+3416,poison,ë…
+3417,polar,ë‚¨ê·¹ì˜
+3418,pole,í´ë€ë“œì‚¬ëŒ
+3419,police,ê²½ì°° ê²½ë¹„í•˜ë‹¤
+3420,policy,ì •ì±…
+3421,polish,"ë‹¦ë‹¤, ê°ˆë‹¤, ìœ¤ë‚´ë‹¤"
+3422,polite,ê³µì†í•œ
+3423,politics,ì •ì¹˜
+3424,poll,íˆ¬í‘œ
+3426,pond,"ëª», ì—°ëª»"
+3427,pool,íŒëˆ
+3428,poor,"ê°€ë‚œí•œ ë¶€ì¡±í•œ, ë¶ˆì¶©ë¶„í•œ, ë¹ˆì•½í•œ"
+3429,pop,íŒ
+3430,pope,ë¡œë§ˆ êµí™©  ìµœê³  ê¶Œìœ„ìë¡œ ìì²˜í•˜ëŠ” ì‚¬ëŒ
+3431,popular,"ë¯¼ì¤‘ ì˜, ëŒ€ì¤‘ì˜"
+3432,population,ì¸êµ¬
+3433,pork,ë¼ì§€ê³ ê¸°
+3434,port,"í•­êµ¬, í•­ë§Œ, ìƒí•­"
+3435,portion,"ì¼ë¶€, ë¶€ë¶„"
+3436,portrait,ì´ˆìƒ
+3437,pose,"ìì„¸, í¬ì¦ˆ  ë§ˆìŒê°€ì§  ê¾¸ë¯¼ íƒœë„"
+3438,position,ìœ„ì¹˜
+3439,positive,"ëª…í™•í•œ, ì˜ë¬¸ì˜ ì—¬ì§€ê°€ ì—†ëŠ”, ë¶€ì •í•  ìˆ˜ ì—†ëŠ”"
+3440,possess,ì†Œìœ í•˜ë‹¤
+3441,possible,ê°€ëŠ¥í•œ
+3442,post,ê¸°ë‘¥
+3443,poster,í¬ìŠ¤í„°
+3444,pot,ë‹¨ì§€
+3445,potato,ê°ì
+3446,potential,ê°€ëŠ¥í•œ
+3447,pour,ë”°ë¥´ë‹¤
+3448,powder,ê°€ë£¨
+3449,power,í˜
+3450,practical,ì‹¤ì œì˜
+3451,practice,ì—°ìŠµ
+3452,praise,ì¹­ì°¬
+3453,pray,ë¹Œë‹¤
+3454,preach,ì„¤êµí•˜ë‹¤
+3456,precious,ë¹„ì‹¼
+3457,precise,ì •í™•í•œ
+3458,predator,ì•½íƒˆì
+3459,predict,"ì˜ˆì–¸í•˜ë‹¤, ì˜ˆë³´í•˜ë‹¤ ì˜ˆì–¸í•˜ë‹¤"
+3460,prefer,"ì˜¤íˆë ¤ â€¦ì„ ì¢‹ì•„í•˜ë‹¤,"
+3461,pregnant,ì„ì‹ í•œ ì¶©ë§Œí•œ
+3462,prejudice,"í¸ê²¬, ì„ ì…ê´€"
+3463,premier,"êµ­ë¬´ ì´ë¦¬, ìˆ˜ìƒ"
+3464,premium,"í• ì¦ê¸ˆ,  ì•¡ë©´ ì´ˆê³¼ì•¡, í”„ë¦¬ë¯¸ì—„"
+3465,prepare,"ì¤€ë¹„í•˜ ë‹¤, ë§ˆë ¨í•˜ë‹¤, ì±„ë¹„ë¥¼ ê°–ì¶”ë‹¤"
+3466,prescribe,"ëª…ë ¹í•˜ë‹¤, ì§€ë ¹í•˜ë‹¤"
+3467,presence,"ì¡´ì¬, í˜„ì¡´, ì‹¤ì¬  ì¶œì„, ì„ì„, ì°¸ì„"
+3468,present,"ìˆëŠ”, ì¡´ì¬í•˜ëŠ”"
+3469,preserve,"ë³´í˜¸í•˜ë‹¤, ì§€í‚¤ë‹¤"
+3470,president,ëŒ€í†µë ¹ íšŒì¥
+3471,press,ê°•ì œë¡œ ëª¨ì§‘í•˜ë‹¤
+3472,presume,ê°€ì •í•˜ë‹¤
+3473,pretend,í•‘ê³„ì‚¼ë‹¤
+3474,pretty,"ì˜ˆìœ, ê·€ì—¬ìš´, ì°¸ í•œ, ì¡°ì´í•œ"
+3475,prevail,"ì´ê¸°ë‹¤, ê·¹ë³µí•˜ë‹¤, ì••ë„í•˜ë‹¤ ìš°ì„¸í•˜ë‹¤, ë³´ê¸‰ë˜ë‹¤"
+3476,prevent,"ë§‰ë‹¤, ë°©í•´í•˜ë‹¤"
+3477,previous,"ì•ì˜, ì´ì „ì˜"
+3478,prey,ë¨¹ì´
+3479,price,"ê°’, ê°€ê²©, ëŒ€ê°€, ì •ê°€"
+3480,pride,ìì¡´ì‹¬
+3481,priest,ì„±ì§ì
+3482,primary,"ì²«ì§¸ì˜, ì œ1ìœ„ì˜, ìˆ˜ìœ„ì˜ ì´ˆë“±ì˜, ì´ˆë³´ì˜"
+3483,prime,"ìˆ˜ìœ„ì˜, ìµœì´ˆì˜, ì›ì‹œì ì¸"
+3484,primitive,"ì›ì‹œì˜, ì´ˆê¸°ì˜"
+3485,prince,"ì™•ì, íƒœì, ì„¸ì, ëŒ€êµ°"
+3486,principal,"ì£¼ìš”í•œ, ì£¼ëœ, ì œì¼ì˜, ì•ì¥ì„œëŠ”"
+3487,principle,"ì›ë¦¬, ì›ì¹™, ë²•ì¹™, ê³µë¦¬"
+3488,print,"ì¸ì‡„í•˜ë‹¤, í”„ë¦°íŠ¸í•˜ë‹¤"
+3489,prior,"ì´ì „ì˜, ì•ì˜"
+3490,prison,êµë„ì†Œ
+3491,privacy,"ë‚¨ì˜ ëˆˆì„ í”¼í•¨, ì€ê±°, ì€ë‘”, ì€í‡´ ìƒí™œ ì‚¬ìƒí™œ"
+3492,private,"ì‚¬ì ì¸, ì‚¬ì‚¬ë¡œìš´, ê°œì¸ì— ì†í•œ"
+3493,privilege,"íŠ¹ê¶Œ, íŠ¹ì „, íŠ¹ë³„ ì·¨ê¸‰"
+3494,prize,"ìƒ, í¬ìƒ, ìš°ë“±ìƒ, ì„ í–‰ìƒ"
+3495,probably,"ì•„ë§ˆ, ì‹­ì¤‘íŒ”êµ¬"
+3496,problem,ë¬¸ì œ
+3497,procedure,"ì§„í–‰, ê²½ê³¼ ì ˆì°¨"
+3498,proceed,"ë‚˜ì•„ê°€ë‹¤, ê°€ë‹¤"
+3499,process,"ì§„í–‰, ì‘ìš©"
+3500,produce,"ìƒì‚°í•˜ë‹¤, ì‚°ì¶œí•˜ë‹¤, ìƒê¸°ê²Œ í•˜ë‹¤,"
+3501,profession,"ì§ì—… ê³µì–¸, ì„ ì–¸, ê³ ë°±"
+3502,professor,êµìˆ˜
+3503,profile,"ì˜† ì–¼êµ´, ë°˜ë©´ìƒ ì¸ë¬¼ ì†Œê°œ  íƒœë„, ìì„¸"
+3504,profit,"ì´ìµ, ì´ë“, ë²Œì´"
+3505,profound,"ê¹Šì€, ì‹¬ì›í•œ"
+3506,progress,"ì§„í–‰, ì „ì§„, ì§„ì²™  ì§„ë³´, í–¥ìƒ, ë°œë‹¬, ë°œì „"
+3507,prohibit,"ê¸ˆí•˜ë‹¤, ê¸ˆì§€í•˜ë‹¤"
+3508,prominent,"ë‘ë“œëŸ¬ì§„, ëŒê¸°í•œ, ì–‘ê°ëœ í˜„ì €í•œ, íƒì›”í•œ, ì¤‘ìš”í•œ"
+3509,promise,"ì•½ì†, ì„œì•½, ê³„ì•½"
+3510,promote,"ìŠ¹ì§„ì‹œí‚¤ë‹¤ ì§„í–‰ì‹œí‚¤ë‹¤,"
+3511,prompt,"ì¬ë¹ ë¥¸, ì‹ ì†í•œ, ì¦‰ì‹œ â€¦í•˜ëŠ”"
+3512,pronounce,"ë°œìŒí•˜ë‹¤, ìŒë…í•˜ë‹¤"
+3513,proof,ì¦ëª…
+3514,proper,"ê³ ìœ ì˜, ë…íŠ¹í•œ, ë³¸ì—°ì˜,  íŠ¹ìœ í•œ"
+3515,property,"ì¬ì‚°, ìì‚°"
+3516,proportion,"ë¹„ìœ¨, ë¹„ ê· í˜•, ì¡°í™”"
+3517,propose,"ì œì˜í•˜ë‹¤, ì œì¶œí•˜ë‹¤ ì¶”ì²œí•˜ë‹¤, ì§€ëª…í•˜ë‹¤"
+3518,prospect,"ì „ë§, ì¡°ë§, ê²½ì¹˜"
+3519,prosper,ë²ˆì˜í•˜ë‹¤
+3520,protect,"ë³´í˜¸í•˜ë‹¤, ë§‰ë‹¤, ì§€í‚¤ë‹¤, ë¹„í˜¸í•˜ë‹¤"
 3521,protein,IG1s
-3522,protest,´Ü¾ğÇÏ´Ù
-3523,proud,"»Ë³»´Â, ÀÚ¶ûÇÏ´Â ÀÚ±àÇÏ´Â, ¿µ±¤ À¸·Î ¿©±â´Â"
-3524,prove,"½ÃÇèÇÏ´Ù, ½ÇÇèÇÏ´Ù, °æÇèÇÏ´Ù, ½ÃÇèÇØ º¸´Ù"
-3525,provide,"ÁØºñÇÏ´Ù, ¹Ì¸® ¡¦¿¡ ´ëºñÇÏ´Ù  ±ÔÁ¤ÇÏ´Ù"
-3526,province,"ÁÖ, ¼º, µµ  ¹üÀ§, ¿µ¿ª, ºĞ¾ß"
-3527,provoke,È­³ª°Ô ÇÏ´Ù
-3528,psychology,½É¸®ÇĞ
-3529,pub,Æà
-3530,public,"½É¸®, ½É¸® »óÅÂ"
-3531,publish,"¹ßÇ¥ ÇÏ´Ù, ³Î¸® ¾Ë¸®´Ù"
-3532,pull,"²ø´Ù, ´ç±â´Ù, ²ø¾î ´ç±â´Ù, Àâ¾Æ ²ø´Ù"
-3533,pump,ÆßÇÁ½º   ´í½º¿ë ±¸µÎ
-3534,punch,"ÁÖ¸ÔÁú, ÆİÄ¡  Èû, È°±â"
-3535,punish,"¹úÇÏ´Ù, ÀÀÂ¡ÇÏ´Ù, Ã³ÇüÇÏ´Ù"
-3536,pupil,ÈçÈ÷ ±¹¹ÎÇĞ±³ ÁßÇĞ±³ ÇĞ»ı
-3537,puppy,°­¾ÆÁö
-3538,purchase,"»ç´Ù, ±¸ÀÔÇÏ´Ù"
-3539,pure,"¼ø¼öÇÑ  ±ú²ıÇÑ, ¼øÀüÇÑ, °á¹éÇÑ"
-3540,purple,ÀÚÁŞºûÀÇ  »õ»¡°£  Á¦¿ÕÀÇ
-3541,purpose,¸ñÀû
-3542,pursue,"ÂÑ´Ù, ÃßÀûÇÏ´Ù, ¸ô´Ù"
-3543,push,"¹Ğ´Ù, ¹ĞÄ¡´Ù, ¹Ğ¾î¼­ ¿òÁ÷ ÀÌ´Ù, ¹Ğ¾î ³»´Ù"
-3544,put,"³õ´Ù, µÎ´Ù"
-3545,puzzle,"´çÈ², È¥¶õ ±«·ÓÈ÷´Â »ç¶÷,  ¾î·Á¿î ¹®Á¦"
-3546,qualify,ÀÚ°İÀ» ºÎ¿©ÇÏ´Ù
-3547,quality,Áú
-3548,quantity,¾ç
+3522,protest,ë‹¨ì–¸í•˜ë‹¤
+3523,proud,"ë½ë‚´ëŠ”, ìë‘í•˜ëŠ” ìê¸í•˜ëŠ”, ì˜ê´‘ ìœ¼ë¡œ ì—¬ê¸°ëŠ”"
+3524,prove,"ì‹œí—˜í•˜ë‹¤, ì‹¤í—˜í•˜ë‹¤, ê²½í—˜í•˜ë‹¤, ì‹œí—˜í•´ ë³´ë‹¤"
+3525,provide,"ì¤€ë¹„í•˜ë‹¤, ë¯¸ë¦¬ â€¦ì— ëŒ€ë¹„í•˜ë‹¤  ê·œì •í•˜ë‹¤"
+3526,province,"ì£¼, ì„±, ë„  ë²”ìœ„, ì˜ì—­, ë¶„ì•¼"
+3527,provoke,í™”ë‚˜ê²Œ í•˜ë‹¤
+3528,psychology,ì‹¬ë¦¬í•™
+3529,pub,í
+3530,public,"ì‹¬ë¦¬, ì‹¬ë¦¬ ìƒíƒœ"
+3531,publish,"ë°œí‘œ í•˜ë‹¤, ë„ë¦¬ ì•Œë¦¬ë‹¤"
+3532,pull,"ëŒë‹¤, ë‹¹ê¸°ë‹¤, ëŒì–´ ë‹¹ê¸°ë‹¤, ì¡ì•„ ëŒë‹¤"
+3533,pump,íŒí”„ìŠ¤   ëŒ„ìŠ¤ìš© êµ¬ë‘
+3534,punch,"ì£¼ë¨¹ì§ˆ, í€ì¹˜  í˜, í™œê¸°"
+3535,punish,"ë²Œí•˜ë‹¤, ì‘ì§•í•˜ë‹¤, ì²˜í˜•í•˜ë‹¤"
+3536,pupil,í”íˆ êµ­ë¯¼í•™êµ ì¤‘í•™êµ í•™ìƒ
+3537,puppy,ê°•ì•„ì§€
+3538,purchase,"ì‚¬ë‹¤, êµ¬ì…í•˜ë‹¤"
+3539,pure,"ìˆœìˆ˜í•œ  ê¹¨ë—í•œ, ìˆœì „í•œ, ê²°ë°±í•œ"
+3540,purple,ìì¤ë¹›ì˜  ìƒˆë¹¨ê°„  ì œì™•ì˜
+3541,purpose,ëª©ì 
+3542,pursue,"ì«“ë‹¤, ì¶”ì í•˜ë‹¤, ëª°ë‹¤"
+3543,push,"ë°€ë‹¤, ë°€ì¹˜ë‹¤, ë°€ì–´ì„œ ì›€ì§ ì´ë‹¤, ë°€ì–´ ë‚´ë‹¤"
+3544,put,"ë†“ë‹¤, ë‘ë‹¤"
+3545,puzzle,"ë‹¹í™©, í˜¼ë€ ê´´ë¡­íˆëŠ” ì‚¬ëŒ,  ì–´ë ¤ìš´ ë¬¸ì œ"
+3546,qualify,ìê²©ì„ ë¶€ì—¬í•˜ë‹¤
+3547,quality,ì§ˆ
+3548,quantity,ì–‘
 3549,quarter,1
-3550,queen,¿©¿Õ
-3551,question,"¹°À½, Áú¹®, ÁúÀÇ"
-3552,questionnaire,Áú¹®Ç¥
-3553,quick,ºü¸¥
-3554,quiet,Á¶¿ëÇÑ
-3555,quit,"(ÀÇ¹«,Ã¥ÀÓÀ»)¹ş¾î³­ ¶°³ª´Ù"
-3556,quite,¾ÆÁÖ
-3557,quote,ÀÎ¿ëÇÏ´Ù
-3558,rabbit,ÁıÅä³¢
-3559,race,ÀÎÁ¾
-3560,racial,ÀÎÁ¾(»ó)ÀÇ
-3561,rage,°İ³ë
-3562,rail,°¡·ÎÀå
-3563,rain,ºñ
-3564,rainbow,¹«Áö°³
-3565,raise,¿Ã¸®´Ù
-3566,rally,±ÔÇÕÇÏ´Ù
-3567,random,´ÚÄ¡´Â ´ë·ÎÀÇ
-3568,range,ÁÙ
-3569,rank,¿­
-3570,rapid,ºü¸¥
-3571,rare,Èñ±ÍÇÑ
-3572,rat,Áã
-3573,rate,À²
-3574,rather,¿ÀÈ÷·Á
-3575,rational,ÇÕ¸®ÀûÀÎ
-3576,raw,³¯°ÍÀÇ
-3577,reach,µµÂøÇÏ´Ù
-3578,react,¹İÀÀÀ» ³ªÅ¸³»´Ù
-3579,read,ÀĞ´Ù
-3580,ready,ÁØºñ°¡ µÈ
-3581,real,½ÇÀçÇÏ´Â
-3582,realize,±ú´İ´Ù
-3583,rear,µÚ
-3584,reason,ÀÌ¼º
-3585,rebel,¹İ¿ªÀÚ
-3586,recall,µÇºÎ¸£´Ù
-3587,receipt,¼ö·É
-3588,receive,¹Ş´Ù
-3589,recent,ÃÖ±ÙÀÇ
-3590,reception,¹ŞÀ½
-3591,recipe,Á¶¸®¹ı
-3592,recognize,ÀÎÁ¤ÇÏ´Ù
-3593,recommend,ÃßÃµÇÏ´Ù
-3594,record,±â·ÏÇÏ´Ù
-3595,recover,µÇÃ£´Ù
-3596,recruit,½Åº´
-3597,recycle,Àç»ı ÀÌ¿ëÇÏ´Ù
-3598,red,ºÓÀº
-3599,reduce,ÁÙÀÌ´Ù
-3600,refer,Á¶È¸½ÃÅ°´Ù
-3601,refine,Á¤Á¦Á¤·ÃÇÏ´Ù
-3602,reflect,¹İ»çÇÏ´Ù
-3603,reform,°³Á¤(°³Çõ)ÇÏ´Ù
-3604,refrigerator,³ÃÀå°í
-3605,refuse,°ÅÀıÇÏ´Ù
-3606,regard,ÁÖ¸ñÇØ¼­ º¸´Ù
-3607,region,Áö¹æ
-3608,register,±â·Ï
-3609,regret,À¯°¨
-3610,regular,±ÔÄ¢ÀûÀÎ
-3611,regulate,±ÔÁ¤ÇÏ´Ù
-3612,reinforce,º¸°­ÇÏ´Ù
-3613,reject,°ÅÀıÇÏ´Ù
-3614,relate,ÀÌ¾ß±âÇÏ´Ù
-3615,relative,Ä£Ã´
-3616,relax,´ÊÃß´Ù
-3617,release,µµ¿ÍÁÖ´Ù
-3618,relevant,°ü·ÃµÈ
-3619,relieve,±¸ÃâÇÏ´Ù
-3620,religion,Á¾±³
-3621,reluctant,¸¶À½ÀÌ ³»Å°Áö ¾Ê´Â
-3622,rely,¹Ï´Ù
-3623,remain,³²´Ù
-3624,remark,±ú´İ´Ù
-3625,remedy,Ä¡·á
-3626,remember,±â¾ïÇÏ°í ÀÖ´Ù
-3627,remind,»ı°¢³ª°Ô ÇÏ´Ù
-3628,remote,¸Õ
-3629,remove,¿Å±â´Ù
-3630,rent,Áö´ë
-3631,repair,¼ö¼±(¼öÁ¤)ÇÏ´Ù
-3632,repeat,¹İº¹ÇÏ´Ù
-3633,replace,µÇµ¹·Á ³õ´Ù
-3634,reply,´ë´äÇÏ´Ù
-3635,report,º¸°í
-3636,represent,Ç¥Çö(¹¦»ç)ÇÏ´Ù
-3637,republic,°øÈ­±¹
-3638,reputation,ÆòÆÇ
-3639,request,ºÎÅ¹ÇÏ´Ù
-3640,require,¿ä±¸ÇÏ´Ù
-3641,rescue,±¸ÇÏ´Ù
-3642,research,¿¬±¸
-3643,resemble,´à´Ù
-3644,reserve,µû·Î µÎ´Ù
-3645,reside,°ÅÁÖÇÏ´Ù
-3646,resign,»çÀÓÇÏ´Ù
-3647,resist,ÀúÇ×ÇÏ´Ù
-3648,resolve,ºĞÇØÇÏ´Ù
-3649,resort,(ÀÚÁÖ)°¡´Ù
-3650,resource,ÀÚ¿ø
-3651,respect,Á¸°æÇÏ´Ù
-3652,respective,°¢°¢ÀÇ
-3653,respond,´ë´äÇÏ´Ù
-3654,responsible,Ã¥ÀÓÀ» Á®¾ßÇÒ
-3655,rest,ÈŞ½Ä
-3656,restaurant,¿ä¸®Á¡
-3657,restore,¹İÈ¯ÇÏ´Ù
-3658,restrain,Á¦ÁöÇÏ´Ù
-3659,restrict,Á¦ÇÑÇÏ´Ù
-3660,restroom,È­Àå½Ç
-3661,result,°á°ú
-3662,resume,´Ù½Ã Àâ´Ù
-3663,retail,¼Ò¸Å
-3664,retain,º¸À¯ÇÏ´Ù
-3665,retire,ÅğÁ÷ÇÏ´Ù
-3666,retreat,ÈÄÅğ
-3667,return,µ¹¾Æ°¡´Ù
-3668,reveal,³ªÅ¸³»´Ù
-3669,revenge,º¹¼ö
-3670,reverse,¿ª
-3671,review,ÀçÁ¶»ç
-3672,revise,±³Á¤ÇÏ´Ù
-3673,revive,¼Ò»ıÇÏ´Ù
-3674,revolution,Çõ¸í
-3675,reward,º¸¼ö
-3676,rhythm,À²µ¿
-3677,rice,½Ò
-3678,rich,ºÎÀÚÀÎ
-3679,rid,¸éÇÏ°ÔÇÏ´Ù
-3680,ride,Å¸´Ù
-3681,ridiculous,¾î¸®¼®Àº
-3682,right,¿Ã¹Ù¸¥
-3683,ring,°í¸®
-3684,riot,"Æøµ¿, ¼Ò¿ä, ¼Òµ¿   ¾ß´Ü¹ı¼®, ´ÙÃ¤·Î¿ò,"
-3685,rise,¿Ã¸®´Ù
-3686,risk,À§Çè °É´Ù
-3687,rival,°æÀïÀÚ °æÀïÇÏ´Â °æÀïÇÏ´Ù
-3688,river,°­
-3689,road,±æ
-3690,roar,À¸¸£··°Å¸®´Ù À¸¸£··¼Ò¸®
-3691,roast,ºÒ¿¡ ÂØ¾î ±Á´Ù ºÒ°í±â ±¸¿î
-3692,rob,"°­Å»ÇÏ´Ù, ¾àÅ»ÇÏ´Ù, »©¾Ñ´Ù"
-3693,rock,¹ÙÀ§
-3694,rod,¸·´ë
-3695,role,(¹è¿ìÀÇ)¿ª
-3696,roll,±¸¸£´Ù
-3697,romantic,Àü±â¼Ò¼³ÀûÀÎ
-3698,roof,ÁöºØ
-3699,room,¹æ
-3700,root,»Ñ¸®
-3701,rope,»õ³¢
-3702,rot,½â´Ù
-3703,rough,°ÅÄ£
-3704,round,µÕ±Ù ¿ø µ¹¾Æ¼­
-3705,route,±æ
-3706,routine,Á¤ÇØÁø ÀÏ
-3707,row,ÁÙ
-3708,royal,¿ÕÀÇ
-3709,rub,¸¶ÂûÇÏ´Ù
-3710,rubber,¸À»çÁö»ç
-3711,rude,¹ö¸©¾ø´Â
-3712,ruin,ÆÄ¸ê
-3713,rule,±ÔÄ¢
-3714,rumor,¼Ò¹®
-3715,run,´Ş¸®´Ù
-3716,rural,½Ã°ñÀÇ
-3717,rush,µ¹ÁøÇÏ´Ù
-3718,sack,¸¶´ë
-3719,sacred,½Å¼ºÇÑ
-3720,sacrifice,Èñ»ı
-3721,sad,½½ÇÂ
-3722,safe,¾ÈÀüÇÑ
-3723,sail,µÀ
-3724,salary,ºÀ±Ş ºÀ±ŞÀ» ÁÖ´Ù
-3725,sale,ÆÇ¸Å
-3726,salon,°´½Ç
-3727,salt,¼Ò±İ
-3728,same,°°Àº
-3729,sand,¸ğ·¡»çÀå
-3730,satellite,À§¼º
-3731,satisfy,¸¸Á·½ÃÅ°´Ù
-3732,save,À§Çè¿¡¼­ ±¸ÇÏ´Ù
-3733,say,¸»ÇÏ´Ù
-3734,scale,ºñ´Ã(¸ğ¾çÀÇ °Í)
-3735,scan,½ÃÀÇ ¿îÀ²À»»ìÇÇ´Ù
-3736,scandal,Ãß¹®
-3737,scarce,ºÎÁ·ÇÑ
-3738,scare,À§ÇùÇÏ´Ù
-3739,scatter,»Ô»ÔÀÌ Èğ¾î ¹ö¸®´Ù
-3740,scene,Àå¸é
-3741,scheme,°èÈ¹
-3742,scholar,ÇĞÀÚ
-3743,school,ÇĞ±³
-3744,science,°úÇĞ
-3745,scissors,°¡À§
-3746,scold,²ÙÂ¢´Ù ÀÜ¼Ò¸® ½ÉÇÑ »ç¶÷
-3747,scope,¹üÀ§
-3748,score,µæÁ¡
-3749,scramble,±â´Ù
-3750,scratch,"ÇÒÄû´Ù, ÇÒÄû¾î »óÃ³ ¸¦ ³»´Ù  ±Ü´Ù"
-3751,scream,ºñ¸íÀ» Áö¸£´Ù
-3752,screen,º´Ç³
-3753,screw,³ª»ç
-3754,scrub,(°ü¸ñÀÇ)½£
-3755,sculpture,Á¶°¢ Á¶°¢ÇÏ´Ù
-3756,sea,¹Ù´Ù
-3757,seal,ÀÎÀå
-3758,search,Ã£´Ù
-3759,season,°èÀı
-3760,seat,ÁÂ¼®
-3761,secret,ºñ¹ĞÀÇ
-3762,secretary,ºñ¼­
-3763,sector,ºÎÃ¤²Ã
-3764,secure,¾ÈÀüÇÑ
-3765,see,º¸´Ù
-3766,seed,¾¾¾Ñ
-3767,seek,Ã£´Ù
-3769,seize,ºÙÀâ´Ù
-3770,select,°í¸£´Ù
-3771,self,ÀÚ±â
-3772,sell,ÆÈ´Ù
-3773,send,º¸³»´Ù
-3774,senior,¿¬»óÀÇ
-3775,sensation,°¨°¢
-3776,sense,°¨°¢
-3777,sensible,ºĞº°ÀÖ´Â
-3778,sentence,¹®Àå
-3779,sentiment,Á¤¼­
-3780,separate,ºĞ¸®µÈ
-3781,sequence,¿¬¼Ó
-3782,series,¿¬¼Ó
-3783,serious,ÁøÁöÇÑ
-3784,serve,¼¶±â´Ù
-3785,session,°³È¸
-3786,settle,µî¹ŞÀÌ°¡ ³ôÀº ±ä ÀÇÀÚ ³õ´Ù
-3787,several,¼ö°³ÀÇ
-3788,severe,È£µÈ
-3789,sew,²ç¸Å´Ù
-3790,sex,¼º
-3791,shade,±×´Ã
-3792,shadow,±×¸²ÀÚ
-3793,shake,Èçµé¾î ¿òÁ÷ÀÌ´Ù
-3794,shall,au-ÇÏ°Ú´Ù
-3795,shallow,¾èÀº ¾èÀº °÷ ¾è¾ÆÁö´Ù
-3796,shame,ºÎ²ô·³
-3797,shape,¸ğ¾ç
-3798,share,¸ò
-3799,sharp,³¯Ä«·Î¿î
-3800,shave,±ğ´Ù
-3801,she,±×³à´Â
-3802,sheep,¾ç
-3803,sheet,±òÃµ
-3804,shelf,¼±¹İ
-3805,shell,°Ñ²®Áú
-3806,shelter,ÇÇ³­Ã³
-3807,shield,¹æÆĞ
-3808,shift,¿Å±â´Ù
-3809,shine,ºû³ª´Ù
-3810,ship,¹è
-3811,shock,°İµ¹
-3812,shoe,±¸µÎ
-3813,shoot,½î´Ù
-3814,shop,»óÁ¡
-3815,shore,¹°°¡
-3816,short,ÂªÀº
-3817,should,aushallÀÇ °ú°Å
-3818,shoulder,¾î±ú
-3819,shout,¿ÜÄ¡´Ù
-3820,show,º¸ÀÌ´Ù
-3821,shower,¼Ò³ª±â ºø¹ßÄ¡µí ÆÛº×´Ù(½ñ´Ù)
-3822,shrink,ÁÙ¾îµé´Ù
-3823,shut,´İ´Ù
-3824,shy,¼öÁİÀº
-3825,sick,º´³­
-3826,side,ÂÊ
-3827,sigh,ÇÑ¼û
-3828,sight,±¤°æ
-3829,sign,ºÎÈ£
-3830,significant,Áß¿äÇÑ
-3831,silent,Á¶¿ëÇÑ
-3832,silk,ºñ´Ü
-3833,silly,¾î¸®¼®Àº ¹Ùº¸
-3834,silver,Àº
-3835,similar,À¯»çÇÑ
-3836,simple,´ÜÀÏÀÇ
-3837,simulate,Èä³»³»´Ù
-3838,simultaneous,µ¿½Ã¿¡ ÀÏ¾î³ª´Â(Á¸ÀçÇÏ´Â)
-3839,sin,»çÀÎ
-3841,sing,³ë·¡ÇÏ´Ù
-3842,single,´Ü ÇÏ³ªÀÇ
-3843,sink,°¡¶ó¾É´Ù
-3844,sister,¿©ÀÚÇüÁ¦
-3845,sit,¾É´Ù
-3846,site,ºÎÁö
-3847,situation,Àå¼Ò
-3848,size,Å©±â
-3849,skill,¼÷·Ã
-3850,skin,ÇÇºÎ
-3851,skip,µµ¾à
-3852,skirt,½ºÄ¿¾îÆ®
-3853,sky,ÇÏ´Ã
-3854,slaughter,µµ»ì
-3855,slave,³ë¿¹ ³ë¿¹Ã³·³ ÀÏÇÏ´Ù
-3856,sleep,ÀáÀÚ´Ù
-3857,slice,¾ãÀºÁ¶°¢
-3858,slide,¹Ì²ô·¯Áö´Ù
-3859,slight,¾à°£ÀÇ
-3860,slim,È£¸®È£¸®ÇÑ
-3861,slip,(¶§°¡)¾î´Àµ¡ Áö³ª°¡´Ù
-3862,slope,ºñÅ»
-3863,slow,´À¸°
-3864,small,ÀÛÀº ÀÛÀº ºÎºĞ Àû°Ô
-3865,smart,ÀçÄ¡ÀÖ´Â
-3866,smash,¹Ú»ì³»´Ù
-3867,smell,³¿»õ
-3868,smile,¹Ì¼ÒÁş´Ù ¹Ì¼Ò
-3869,smoke,¿¬±â
-3870,smooth,¸Å²ô·¯¿î
-3871,snake,¹ì
-3872,snap,´ş¼® ¹°´Ù
-3873,sneak,¸ô·¡ ¿òÁ÷ÀÌ´Ù
-3874,sniff,ÄÚ¸¦ Å¯Å¯°Å¸®´Ù
-3875,snow,´« ´«ÀÌ ³»¸®´Ù
-3876,so,±×¿Í °°ÀÌ
-3877,soak,´ã±×´Ù
-3878,soap,ºñ´© ºñ´©·Î ¾Ä´Ù
-3879,soccer,Ãà±¸
-3880,social,»çÈ¸ÀÇ
-3881,society,»çÈ¸
-3882,sociology,»çÈ¸ÇĞ
-3883,sock,ÂªÀº ¾ç¸»
-3884,soft,ºÎµå·¯¿î
-3885,software,¼ÒÇÁÆ®¿ş¾î
-3886,soil,Èë
-3887,soldier,±ºÀÎ
-3888,sole,À¯ÀÏÇÑ ¹ß¹Ù´Ú
-3889,solid,°íÃ¼ÀÇ
-3890,solo,µ¶ÁÖ
-3891,solve,ÇØ°áÇÏ´Ù
-3892,some,¾ó¸¸°¡ÀÇ
-3893,somewhat,¾à°£
-3894,son,¾Æµé
-3895,song,³ë·¡
-3896,soon,¾ó¸¶ ¾È °¡¼­
-3897,sophisticated,¹°Á¤¿¡ ´â°í ´âÀº
-3898,sore,½½ÇÂ
-3899,sorry,°¡¿²Àº
-3900,sort,Á¾·ù
-3901,soul,È¥
-3902,sound,¼Ò¸®
-3903,sour,½ÃÅ­ÇÑ ½Ã¾îÁö´Ù ½ÃÅ­ÇÑ °Í
-3904,source,¿øÃµ
-3905,south,³²ÂÊ ³²ÂÊÀÇ ³²À¸·Î
-3906,space,°ø°£
-3907,span,ÇÑ »Â
-3908,spare,¿©ºĞÀÇ
-3909,spark,ºÒ²É
-3910,speak,ÀÌ¾ß±âÇÏ´Ù
-3911,special,Æ¯º°ÇÑ
-3912,species,Á¾
-3913,specific,Æ¯Á¤ÇÑ
-3914,spectacle,±¤°æ
-3915,spectrum,½ºÆåÆ®·³
-3916,speech,¿¬¼³
-3917,speed,¼Óµµ
-3918,spell,Ã¶ÀÚÇÏ´Ù
-3919,spend,¼ÒºñÇÏ´Ù
-3920,sphere,±¸
-3921,spill,¾şÁö¸£´Ù
-3922,spin,Àã´Ù
-3923,spirit,Á¤½Å
-3924,spit,Ä§À» ¹ñ´Ù
-3925,spite,¾ÇÀÇ
-3926,splash,Æ¢±â´Ù
-3927,split,ÂÉ°³´Ù
-3928,spoil,¸ÁÃÄ³õ´Ù
-3929,spoon,¼ù°¡¶ô
-3930,spot,Àå¼Ò
-3931,spouse,¹è¿ìÀÚ
-3932,spread,Æì´Ù
-3933,square,Á¤»ç°¢ÇüÀÇ
-3934,squeeze,¾ĞÂøÇÏ´Ù
-3935,stable,¾ÈÁ¤µÈ
-3936,stack,³®°¡¸®
-3937,stage,¹«´ë
-3938,stain,´õ·´È÷´Ù
-3939,stairs,°è´Ü
-3940,stamp,µµÀå
-3941,stand,¼­´Ù
-3942,standard,Ç¥ÁØ
-3943,stare,ÀÀ½ÃÇÏ´Ù
-3944,start,½ÃÀÛÇÏ´Ù
-3945,starve,±¾¾î Á×´Ù
-3946,state,»óÅÂ
-3947,station,¿ª
-3948,statistic,Åë°èÀÇ Åë°è·®
-3949,statue,Á¶»ó
-3950,status,½ÅºĞ
-3951,stay,¸Ó¹«¸£´Ù
-3952,steady,È®°íÇÑ
-3953,steal,ÈÉÄ¡´Ù
-3954,steam,Áõ±â
-3955,steel,°­Ã¶
-3956,steep,°¡ÆÄ¸¥ -¿¡ ´ã±×´Ù Àá±â´Ù ´ã±×±â
-3957,stem,ÁÙ±â
-3958,step,°È´Ù
-3959,stick,³ª¹«Åä¸·
-3960,stiff,±»Àº
-3961,still,¼Ò¸®°¡ ¾ø´Â ¾ÆÁ÷(µµ)
-3962,stimulate,ÀÚ±ØÇÏ´Ù
-3963,stir,ÈÖÁ£´Ù
-3964,stitch,ÇÑ ¹Ù´Ã
-3965,stock,ÁÙ±â
-3966,stomach,À§
-3967,stone,µ¹
-3968,stop,¸ØÃß´Ù
-3969,store,°¡°Ô
-3970,storm,ÆøÇ³
-3971,story,Ãş
-3972,stove,staveÀÇ °ú°Å(ºĞ»ç)
-3973,straight,°ğÀº
-3974,strain,Àâ¾Æ´ç±â´Ù
-3975,strange,ÀÌ»óÇÑ
-3976,strategy,¿ëº´ÇĞ
-3977,straw,Â¤
-3978,strawberry,µş±â
-3979,stream,½Ã³»
-3980,street,°Å¸®
-3981,stress,¾Ğ¹Ú
-3982,stretch,»¸Ä¡´Ù
-3983,strict,¾öÁßÇÑ
-3984,strike,Ä¡´Ù
-3985,string,²ö
-3986,strip,¹ş±â´Ù
-3987,stripe,ÁÙ¹«´Ì
-3988,stroke,ÇÑ¹øÄ¡±â
-3989,strong,°­ÇÑ
-3990,structure,±¸Á¶
-3991,struggle,¹öµÕ°Å¸®´Ù
-3992,student,ÇĞ»ı
-3993,study,ÇĞ¹®
-3994,stuff,Àç·á
-3995,subject,º¹Á¾½ÃÅ°´Ù
-3996,subjective,ÁÖ°üÀÇ
-3997,submarine,Àá¼öÇÔ
-3998,submit,º¹Á¾½ÃÅ°´Ù
-3999,subscribe,¼­¸í½Â¶ôÇÏ´Ù
-4000,substance,¹°Áú
-4001,substantial,½ÇÃ¼ÀÇ
-4002,substitute,´ë¿ëÇÏ´Ù ´ë½ÅÇÏ´Ù ´ë¸®(ÀÎ)
-4003,subtle,¹Ì¹¦ÇÑ
-4004,suburb,±³¿Ü
-4005,subway,ÁöÇÏµµ
-4006,succeed,¼º°øÇÏ´Ù
-4007,such,ÀÌ·¯ÇÑ
-4008,suck,»¡´Ù
-4009,sudden,º°¾È°£ÀÇ
-4010,suffer,°æÇèÇÏ´Ù
-4011,sufficient,ÃæºĞÇÑ
-4012,sugar,¼³ÅÁ
-4013,suggest,¾Ï½ÃÇÏ´Ù
-4014,suicide,ÀÚ»ì ÀÚ»ìÇÏ´Ù
-4015,suit,¼Ò¼Û
-4016,suite,¼öÇà¿ø
-4017,sum,ÃÑ°è
-4018,summary,¿ä¾à
-4019,summit,²À´ë±â
-4020,sun,ÅÂ¾ç
-4021,super,ÀÓ½Ã°í¿ë¹è¿ì
-4022,superb,Àå·ÁÇÑ
-4023,superior,¶Ù¾î³­
-4024,supervise,°¨µ¶ÇÏ´Ù
-4025,supper,Àú³á½Ä»ç
-4026,supplement,ºÎ·Ï
-4027,supply,°ø±ŞÇÏ´Ù
-4028,support,ÁöÅÊÇÏ´Ù
-4029,suppose,»ó»óÇÏ´Ù
-4030,sure,"È®½ÅÇÏ´Â, È®½ÇÇÑ , Æ²¸²¾ø´Â"
-4031,surface,Ç¥¸é
-4032,surgery,¿Ü°ú
-4033,surprise,³î¶÷
-4034,surrender,³Ñ°ÜÁÖ´Ù
-4035,surround,¿¡¿ö½Î´Ù
-4036,survey,µÑ·¯º¸´Ù
-4037,survive,»ì¾Æ ³²´Ù
-4038,suspect,ÁüÀÛÇÏ´Ù
-4039,suspend,¸Å´Ş´Ù
-4040,sustain,¶°¹ŞÄ¡´Ù
-4041,swallow,»ïÅ°´Ù
-4042,swear,¸Í¼¼ÇÏ´Ù
-4043,sweat,¶¡
-4044,sweep,Ã»¼ÒÇÏ´Ù
-4045,sweet,´Ü
-4046,swell,ºÎÇ®´Ù
-4047,swift,ºü¸¥
-4048,swim,Çì¾öÄ¡´Ù
-4049,swing,Èçµé¸®´Ù
-4050,switch,È¸ÃÊ¸®
-4051,symbol,»óÂ¡
-4052,sympathy,µ¿Á¤
-4053,symphony,±³Çâ°î
-4054,symptom,Á¶Áü
-4055,system,Á¶Á÷
-4056,table,Å×ÀÌºí
-4057,tackle,°íÆĞ
-4058,tag,¼ÕÀâÀÌ°¡Á×
-4059,tail,²¿¸®
-4060,take,Àâ´Ù
-4061,tale,ÀÌ¾ß±â
-4062,talent,ÀçÁÖ
-4063,talk,¸»ÇÏ´Ù
-4064,tall,Å°Å«
-4065,tap,°¡º±°Ô Ä¡±â
-4066,tape,Å×ÀÌÇÁ
-4067,target,°ú³á
-4068,task,ÀÏ
-4069,taste,¸À
-4070,tattoo,±Í¿µ³ªÆÈ
-4071,tax,¼¼±İ
-4072,tea,Â÷
-4073,teach,°¡¸£Ä¡´Ù
-4074,tear,´«¹°
-4075,tease,±«·ÓÈ÷´Ù
-4076,teen,½½ÇÄ
-4077,teenage,10´ë
-4078,telegraph,Àü½Å
-4079,telephone,ÀüÈ­
-4080,tell,¸»ÇÏ´Ù
-4081,temperature,¿Âµµ
-4082,temple,°üÀÚ³îÀÌ
-4083,temporary,ÀÏ½ÃÀûÀÎ
-4084,tempt,À¯È¤ÇÏ´Ù
-4085,tenant,Â÷ÁöÀÎ
-4086,tend,(-ÀÇ)°æÇâÀÌ ÀÖ´Ù
-4087,tender,Á¦°ø
-4088,tense,½ÃÁ¦
-4089,term,±â°£
-4090,terminal,Á¾Á¡ÀÇ
-4091,terminate,³¡³»´Ù
-4092,terrace,°è´Ü¸ğ¾çÀÇ ¶ã(±¤Àå)
-4093,terrible,¹«½Ã¹«½ÃÇÑ
-4094,terrific,¹«¼­¿î
-4095,territory,¿µÅä
-4096,test,½ÃÇè
-4097,testify,Áõ¸íÇÏ´Ù
-4098,text,¿ø¹®
-4099,textbook,±³°ú¼­
-4101,thank,°¨»çÇÏ´Ù °¨»ç
-4102,that,Àú
-4103,the,art.Àú
-4105,theme,³íÁ¦
-4106,then,±×¶§
-4107,theory,ÀÌ·Ğ
-4108,therapy,Ä¡·á¹ı
-4109,there,°Å±â¿¡
-4110,therefore,±×·± ±î´ß¿¡
-4111,they,±×µé
-4112,thick,µÎ²¨¿î
-4113,thief,µµµÏ
-4114,thin,¾ãÀº
-4115,thing,¹°°Ç
-4116,think,»ı°¢ÇÏ´Ù
-4117,thirst,°¥Áõ
-4118,this,ÀÌ
-4119,thorough,¿ÏÀüÇÑ
-4121,thousand,Ãµ
-4122,thread,½Ç
-4123,threat,Çù¹Ú
-4124,thrill,¿À½ÏÇÏ´Ù ¿À½ÏÇÔ
-4125,throat,¸ñ
-4126,through,(-À»)ÅëÇÏ¿© ÅëÇÏ¿© Á÷ÅëÀÇ
-4127,throw,´øÁö´Ù
-4128,thumb,¾öÁö¼Õ°¡¶ô ¾öÁö¼Õ°¡¶ôÀ¸·Î ¸¸Áö´Ù
-4129,thus,ÀÌ·¸°Ô
-4130,tick,½Ã°è¼Ò¸®
-4131,tide,Á¶¼ö
-4132,tidy,¸»¾¦ÇÑ
-4133,tie,¸Å´Ù
-4134,tiger,È£¶ûÀÌ
-4135,tight,´Ü´ÜÇÑ
-4137,timber,Àç¸ñ
-4138,time,¶§
-4139,tin,ÁÖ¼®
-4140,tiny,ÀÚ±×¸¶ÇÑ
-4141,tip,³¡
-4142,tire,ÇÇ·ÎÇÏ°Ô ÇÏ´Ù
-4143,tissue,Á¶Á÷
-4144,title,Ç¥Á¦
-4146,tobacco,´ã¹è
-4147,today,¿À´ÃÀº
-4148,toe,¹ß°¡¶ô
-4149,together,°°ÀÌ
-4150,toilet,È­Àå½Ç
-4151,tomorrow,³»ÀÏ(Àº)
-4152,tone,À½Á¶
-4153,tongue,Çô
-4154,tonight,¿À´Ã¹ã¿¡ ¿À´Ã¹ã
-4155,too,(-µµ)¶ÇÇÑ
-4156,tool,»ç¿ë¼¼
-4157,tooth,ÀÌ
-4158,top,Á¤»ó
-4159,torture,°í¹®
-4160,toss,´øÁö´Ù
-4161,total,ÃÑ°è ÀüÃ¼ÀÇ ÇÕ°èÇÏ´Ù
-4162,touch,´ê´Ù
-4163,tough,´Ü´ÜÇÑ
-4164,tour,ÀÏÁÖ
-4166,tower,Å¾
-4167,town,À¾
-4168,toxic,µ¶ÀÇ
-4169,toy,Àå³­°¨ Àå³­ÇÏ´Ù
-4170,trace,¹ßÀÚ±¹
-4171,trade,¸Å¸Å
-4172,tradition,Àü¼³
-4173,traffic,±³Åë
-4174,tragic,ºñ±ØÀÇ
-4175,trail,ÁúÁú ²ø´Ù
-4176,train,±âÂ÷
-4177,transact,Ã³¸®ÇÏ´Ù
-4178,transfer,¿Å±â´Ù
-4179,transform,"º¯Çü(º¯¿ë,º¯ÅÂ)½ÃÅ°´Ù"
-4180,transition,º¯Ãµ
-4181,translate,¹ø¿ªÇÏ´Ù
-4182,transmit,º¸³»´Ù
-4183,transport,¼ö¼Û(¿î¼Û)ÇÏ´Ù
-4184,trap,µ£
-4185,travel,¿©ÇàÇÏ´Ù
-4186,tray,Àï¹İ
-4187,treasure,º¸¹°
-4188,treat,´ë¿ìÇÏ´Ù
-4189,treaty,Á¶¾à
-4190,tree,³ª¹«
-4191,tremendous,¹«¼­¿î
-4192,trend,¹æÇâ
-4193,trial,½ÃÇè
-4194,triangle,°¢Çü
-4195,tribe,Á¾Á·
-4196,trick,Ã¥·«
-4197,trigger,¹æ¾Æ¼è Àçºü¸¥
-4198,trim,»ê¶æÇÑ Á¤µ·ÇÏ´Ù
-4199,trip,¿©Çà
-4200,triumph,½Â¸®
-4201,troop,´ë
-4202,trophy,Àü¸®Ç°
-4203,trouble,°í»ı
-4204,trouser,ÁîºÀ
-4205,TRUE,Áø½Ç
-4206,trunk,ÁÙ±â
-4207,trust,½Å¿ë
-4208,truth,Áø¸®
-4209,try,½ÃÇèÇØº¸´Ù
-4210,tube,°ü
-4211,tune,°î
-4212,tunnel,ÅÍ³Î
-4213,turn,µ¹¸®´Ù
-4214,turnover,Àüº¹
-4215,tutor,°¡Á¤±³»ç
-4216,twice,µÎ ¹ø
-4217,twin,½Öµ¿ÀÌ
-4218,twist,²¿ÀÌ´Ù
-4219,type,Çü
-4220,typical,ÀüÇüÀûÀÎ
-4221,ugly,ÃßÇÑ
-4222,ultimate,ÃÖÈÄÀÇ
-4223,umbrella,¿ì»ê
-4224,uncle,¾ÆÀú¾¾
-4226,undergo,(¿µÇâ µîÀ»)¹Ş´Ù
-4229,understand,ÀÌÇØÇÏ´Ù
-4230,undertake,¶°¸Ã´Ù
-4231,uniform,ÇÑ°á°°Àº
-4232,unify,ÇÏ³ª·Î ÇÏ´Ù
-4233,union,°áÇÕ
-4234,unique,À¯ÀÏ¹«ÀÌÇÑ
-4235,unit,´ÜÀ§
-4236,unite,°áÇÕÇÏ´Ù
-4237,universe,¿ìÁÖ
-4238,university,Á¾ÇÕ´ëÇĞ(±³) ´ëÇĞÀÇ(¿¡ °ü°è ÀÖ´Â)
-4241,up,À§·Î
-4242,update,»õ·Ó°Ô ÇÏ´Ù ÃÖ½ÅÁ¤º¸
-4244,upper,À§ÂÊÀÇ
-4245,upset,µÚÁı¾î ¾ş´Ù
-4246,upward,À§·Î ÇâÇÑ
-4247,urban,µµ½ÃÀÇ
-4248,urge,¸ô¾Æ´ë´Ù
-4249,urgent,±ä±ŞÇÑ
-4250,use,¾²´Ù
-4251,usual,Æò¼ÒÀÇ
-4253,utter,ÀüÀûÀÎ
-4254,vacation,ÈŞ°¡
-4255,vacuum,Áø°ø
-4256,vague,¸·¿¬ÇÑ
-4257,valid,À¯È¿ÇÑ
-4258,valley,°ñÂ¥±â
-4259,value,°¡Ä¡
-4260,van,À¯°³Æ®·°
-4261,vanish,ÀÚÃë¸¦ °¨Ãß´Ù
-4262,various,°¡Áö°¡ÁöÀÇ
-4263,vary,¹Ù²Ù´Ù
-4264,vast,"±¤´ëÇÑ, ±¤¸·ÇÑ ¸·´ëÇÑ"
-4265,vegetable,"½Ä¹°  ¾ßÃ¤, Çª¼º±Í, ³²»õ, Ã¤¼Ò"
-4266,vehicle,"¿î¹İ ±â±¸, ¿î¼Û ¼ö´Ü,  ¼ö·¹, Â÷·®, Å»°Í"
-4267,venture,¸ğÇè
-4268,verbal,"¸»ÀÇ, ¸»¿¡ °üÇÑ, ¾ğ¾î»óÀÇ, ¸»·Î ³ªÅ¸³½, ¸»·Î µÈ"
-4269,verse,"½ÃÀÇ ÇÑ ÁÙ, ½Ã±¸  ÀÏ·ÃÀÇ ½Ã±¸"
-4270,version,"¹ø¿ª, ¹ø¿ª¹® °³ÀÛ, °¢»ö, ¹ø¾È"
-4271,versus,"¡¦´ë, ¡¦¿¡ ´ëÇÑ"
-4272,vertical,"¼öÆò¸é¿¡ Á÷°¢ÀÎ, ¼öÁ÷ÀÇ"
-4273,very,¸Å¿ì
-4274,vessel,±×¸©
-4275,veteran,"³ë·Ã°¡, °æÇè ¸¹Àº ´ë°¡, º£Å×¶û"
-4276,veterinarian,¼öÀÇ»ç
-4277,via,"¡¦À» °ÅÃÄ, ¡¦À» °æÀ¯ÇÏ¿©"
-4278,vice,"¾Ç´ö,  ºñÇà, Å¸¶ô ÇàÀ§"
-4279,victim,"Èñ»ı, »ê Á¦¹°, ÀÎ½Å Á¦¹°"
-4280,victory,"½Â¸®, Àü½Â"
-4281,view,"º½, °üÂû, °³°ü, ½ÇÁö °ËÁõ  º¸´Â Èû, ½Ã°è, ½Ã¾ß"
-4282,vigorous,"Á¤·ÂÀûÀÎ, °­°ÇÇÑ, È°±â ÀÖ´Â, °İ·ÄÇÑ"
-4283,village,"¸¶À», ÃÌ¶ô"
-4284,violent,"°İ·ÄÇÑ, ¸Í·ÄÇÑ"
-4285,virgin,"Ã³³à, µ¿Á¤³à, ¹ÌÈ¥ ¿©¼º, µ¿Á¤³à ¸¶¸®¾Æ"
-4286,virtual,"»ç½Ç»óÀÇ, ½ÇÁú»óÀÇ, ½ÇÁ¦ÀÇ  Çã»óÀÇ"
-4287,virtue,"´ö, ´öÇà, ¼±, ¼±Çà"
-4288,visible,"´«¿¡ º¸ÀÌ´Â,  º¼ ¼ö ÀÖ´Â"
-4289,visit,"¹æ¹®ÇÏ´Ù, ¡¦ÀÇ ¼Õ´ÔÀ¸·Î ¹¬´Ù"
-4290,visual,"½Ã°¢ÀÇ, ¹°°ÇÀ» º¸±â À§ÇÑ"
-4291,vital,"»ı¸íÀÇ, »ı¸í¿¡ °üÇÑ, »ı¸íÀ¯Áö¿¡ ÇÊ¿äÇÑ, »ì¾Æ ÀÖ´Â"
-4292,vivid,"¹ß¶öÇÑ, ¾àµ¿ÀûÀÎ, ÈûÂù, »ı±âÀÖ´Â"
-4293,vocabulary,"¾îÈÖ, ¿ë¾î¼ö, ¿ë¾î ¹üÀ§"
-4294,vocation,"ÃµÁ÷, »ç¸í Á÷¾÷, »ı¾÷, Àå»ç  Àû¼º, ¼ÒÁú, Àç´É"
-4295,voice,"¸ñ¼Ò¸®, À½¼º, À½¼º"
-4296,volume,Ã¥  ±Ç
-4297,voluntary,"ÀÚ¹ßÀûÀÎ, ¼öÀÇÀÇ"
-4298,vote,"ÂùºÎ Ç¥½Ã, ÅõÇ¥, Ç¥°á"
-4299,voyage,¿©Çà
-4300,wage,ÀÓ±İ
-4301,wagon,Áü¸¶Â÷
-4302,wait,±â´Ù¸®´Ù
-4303,wake,Àá±ú´Ù
-4304,walk,°È´Ù
-4305,wall,º®
-4306,wander,Çì¸Å´Ù
-4307,want,°áÇÌ
-4308,war,ÀüÀï
-4309,warehouse,Ã¢°í
-4310,warm,µû¶æÇÑ
-4311,warn,°æ°íÇÏ´Ù
-4312,warrant,º¸ÁõÇÏ´Ù º¸Áõ
-4313,warrior,º´»ç
-4314,wash,¾Ä´Ù
-4315,waste,³¶ºñÇÏ´Ù
-4316,watch,¼Õ¸ñ½Ã°è
-4317,water,¹°
-4318,watermelon,¼ö¹Ú
-4319,wave,¹°°á
-4320,way,±æ
-4321,we,¿ì¸®°¡
-4322,weak,¾àÇÑ
-4323,wealth,Àç»ê
-4324,weapon,¹«±â
-4325,wear,ÀÔ´Ù
-4326,weather,³¯¾¾
-4327,weave,Â¥´Ù
-4328,wedding,È¥·Ê
-4329,weed,ÀâÃÊ ÀâÃÊ¸¦ »Ì´Ù
-4330,week,ÁÖ
-4331,weekend,ÁÖ¸» ÁÖ¸»ÀÇ ÁÖ¸»À» Áö³»´Ù
-4332,weigh,¹«°Ô¸¦ ´Ş´Ù
-4333,weight,¹«°Ô
-4334,weird,ºÒ°¡»çÀÇÇÑ
-4335,welcome,È¯¿µ È¯¿µ¹Ş´Â
-4336,welfare,Çàº¹
-4337,well,Àß
-4338,west,¼­ÂÊ
-4339,wet,ÃàÃàÇÑ
-4340,whale,°í·¡
-4341,what,¹«¾ù ¹«½¼
-4342,wheat,¹Ğ
-4343,wheel,¹ÙÄû
-4344,when,¾ğÁ¦
-4345,where,¾îµğ¿¡ (-ÇÏ´Â)°÷¿¡ pr.¾îµğ (¹®Á¦ÀÇ)Àå¼Ò
-4346,whereas,cnj.(-ÀÎ)±î´ß¿¡
-4348,which,¾î´À ÂÊ
-4349,while,µ¿¾È -ÇÏ´Â µ¿¾È
-4350,whip,Ã¤Âï Ã¤ÂïÁúÇÏ´Ù
-4351,whisper,¼Ó»èÀÌ´Ù
-4352,whistle,ÈÖÆÄ¶÷
-4353,white,Èò
-4354,who,´©±¸
-4355,whole,ÀüÃ¼ÀÇ
-4356,why,¿Ö
-4357,wicked,»ç¾ÇÇÑ
-4358,wide,Æø³ĞÀº
-4359,widespread,³Î¸® º¸±ŞµÇ¾î ÀÖ´Â
-4360,widow,¹Ì¸ÁÀÎ
-4361,wife,¾Æ³»
-4362,wild,¾ß»ıÀÇ
-4363,will,ÀÇÁö
-4364,win,ÀÌ±â´Ù
-4365,wind,¹Ù¶÷
-4366,window,Ã¢
-4367,wing,³¯°³
-4368,wipe,´Û´Ù
-4369,wire,Ã¶»ç
-4370,wise,½½±â·Î¿î
-4371,wish,¹Ù¶ó´Ù
-4372,wit,±âÁö
-4373,with,ÇÔ²²
-4374,withdraw,¹°·¯³ª´Ù
-4375,within,prop.-ÀÇ ¾ÈÂÊ¿¡ ¾ÈÀ¸·Î ³»ºÎ
-4376,without,prop.-¾øÀÌ ¹ÛÀº
-4377,witness,Áõ¾ğ
-4378,woman,ºÎÀÎ
-4379,wonder,°æÀÌ
-4380,wood,½£
-4381,wool,¾ç¸ğ
-4382,word,³¹¸»
-4383,work,ÀÏ
-4384,world,¼¼°è
-4385,worry,±Ù½ÉÇÏ´Ù
-4386,worship,¼ş¹è
-4387,worth,°¡Ä¡°¡ ÀÖ´Â °¡Ä¡
-4388,would,auwillÀÇ °ú°Å
-4389,wound,ºÎ»ó
-4390,wrap,½Î´Ù
-4391,wreck,³­ÆÄ
-4392,write,¾²´Ù
-4393,wrong,³ª»Û
-4394,year,¿¬
-4395,yell,°íÇÔÄ¡´Ù
-4396,yellow,È²»öÀÇ È²»ö
-4397,yes,¿¹
-4398,yesterday,¾îÁ¦
-4399,yet,¾ÆÁ÷
-4400,yield,»êÃâÇÏ´Ù
-4401,you,´ç½Å
-4402,young,ÀşÀº
-4403,zebra,¾ó·è¸»
-4404,zone,´ë
-4405,zoo,µ¿¹°¿ø
-4478,apache,½Ã¹ß
+3550,queen,ì—¬ì™•
+3551,question,"ë¬¼ìŒ, ì§ˆë¬¸, ì§ˆì˜"
+3552,questionnaire,ì§ˆë¬¸í‘œ
+3553,quick,ë¹ ë¥¸
+3554,quiet,ì¡°ìš©í•œ
+3555,quit,"(ì˜ë¬´,ì±…ì„ì„)ë²—ì–´ë‚œ ë– ë‚˜ë‹¤"
+3556,quite,ì•„ì£¼
+3557,quote,ì¸ìš©í•˜ë‹¤
+3558,rabbit,ì§‘í† ë¼
+3559,race,ì¸ì¢…
+3560,racial,ì¸ì¢…(ìƒ)ì˜
+3561,rage,ê²©ë…¸
+3562,rail,ê°€ë¡œì¥
+3563,rain,ë¹„
+3564,rainbow,ë¬´ì§€ê°œ
+3565,raise,ì˜¬ë¦¬ë‹¤
+3566,rally,ê·œí•©í•˜ë‹¤
+3567,random,ë‹¥ì¹˜ëŠ” ëŒ€ë¡œì˜
+3568,range,ì¤„
+3569,rank,ì—´
+3570,rapid,ë¹ ë¥¸
+3571,rare,í¬ê·€í•œ
+3572,rat,ì¥
+3573,rate,ìœ¨
+3574,rather,ì˜¤íˆë ¤
+3575,rational,í•©ë¦¬ì ì¸
+3576,raw,ë‚ ê²ƒì˜
+3577,reach,ë„ì°©í•˜ë‹¤
+3578,react,ë°˜ì‘ì„ ë‚˜íƒ€ë‚´ë‹¤
+3579,read,ì½ë‹¤
+3580,ready,ì¤€ë¹„ê°€ ëœ
+3581,real,ì‹¤ì¬í•˜ëŠ”
+3582,realize,ê¹¨ë‹«ë‹¤
+3583,rear,ë’¤
+3584,reason,ì´ì„±
+3585,rebel,ë°˜ì—­ì
+3586,recall,ë˜ë¶€ë¥´ë‹¤
+3587,receipt,ìˆ˜ë ¹
+3588,receive,ë°›ë‹¤
+3589,recent,ìµœê·¼ì˜
+3590,reception,ë°›ìŒ
+3591,recipe,ì¡°ë¦¬ë²•
+3592,recognize,ì¸ì •í•˜ë‹¤
+3593,recommend,ì¶”ì²œí•˜ë‹¤
+3594,record,ê¸°ë¡í•˜ë‹¤
+3595,recover,ë˜ì°¾ë‹¤
+3596,recruit,ì‹ ë³‘
+3597,recycle,ì¬ìƒ ì´ìš©í•˜ë‹¤
+3598,red,ë¶‰ì€
+3599,reduce,ì¤„ì´ë‹¤
+3600,refer,ì¡°íšŒì‹œí‚¤ë‹¤
+3601,refine,ì •ì œì •ë ¨í•˜ë‹¤
+3602,reflect,ë°˜ì‚¬í•˜ë‹¤
+3603,reform,ê°œì •(ê°œí˜)í•˜ë‹¤
+3604,refrigerator,ëƒ‰ì¥ê³ 
+3605,refuse,ê±°ì ˆí•˜ë‹¤
+3606,regard,ì£¼ëª©í•´ì„œ ë³´ë‹¤
+3607,region,ì§€ë°©
+3608,register,ê¸°ë¡
+3609,regret,ìœ ê°
+3610,regular,ê·œì¹™ì ì¸
+3611,regulate,ê·œì •í•˜ë‹¤
+3612,reinforce,ë³´ê°•í•˜ë‹¤
+3613,reject,ê±°ì ˆí•˜ë‹¤
+3614,relate,ì´ì•¼ê¸°í•˜ë‹¤
+3615,relative,ì¹œì²™
+3616,relax,ëŠ¦ì¶”ë‹¤
+3617,release,ë„ì™€ì£¼ë‹¤
+3618,relevant,ê´€ë ¨ëœ
+3619,relieve,êµ¬ì¶œí•˜ë‹¤
+3620,religion,ì¢…êµ
+3621,reluctant,ë§ˆìŒì´ ë‚´í‚¤ì§€ ì•ŠëŠ”
+3622,rely,ë¯¿ë‹¤
+3623,remain,ë‚¨ë‹¤
+3624,remark,ê¹¨ë‹«ë‹¤
+3625,remedy,ì¹˜ë£Œ
+3626,remember,ê¸°ì–µí•˜ê³  ìˆë‹¤
+3627,remind,ìƒê°ë‚˜ê²Œ í•˜ë‹¤
+3628,remote,ë¨¼
+3629,remove,ì˜®ê¸°ë‹¤
+3630,rent,ì§€ëŒ€
+3631,repair,ìˆ˜ì„ (ìˆ˜ì •)í•˜ë‹¤
+3632,repeat,ë°˜ë³µí•˜ë‹¤
+3633,replace,ë˜ëŒë ¤ ë†“ë‹¤
+3634,reply,ëŒ€ë‹µí•˜ë‹¤
+3635,report,ë³´ê³ 
+3636,represent,í‘œí˜„(ë¬˜ì‚¬)í•˜ë‹¤
+3637,republic,ê³µí™”êµ­
+3638,reputation,í‰íŒ
+3639,request,ë¶€íƒí•˜ë‹¤
+3640,require,ìš”êµ¬í•˜ë‹¤
+3641,rescue,êµ¬í•˜ë‹¤
+3642,research,ì—°êµ¬
+3643,resemble,ë‹®ë‹¤
+3644,reserve,ë”°ë¡œ ë‘ë‹¤
+3645,reside,ê±°ì£¼í•˜ë‹¤
+3646,resign,ì‚¬ì„í•˜ë‹¤
+3647,resist,ì €í•­í•˜ë‹¤
+3648,resolve,ë¶„í•´í•˜ë‹¤
+3649,resort,(ìì£¼)ê°€ë‹¤
+3650,resource,ìì›
+3651,respect,ì¡´ê²½í•˜ë‹¤
+3652,respective,ê°ê°ì˜
+3653,respond,ëŒ€ë‹µí•˜ë‹¤
+3654,responsible,ì±…ì„ì„ ì ¸ì•¼í• 
+3655,rest,íœ´ì‹
+3656,restaurant,ìš”ë¦¬ì 
+3657,restore,ë°˜í™˜í•˜ë‹¤
+3658,restrain,ì œì§€í•˜ë‹¤
+3659,restrict,ì œí•œí•˜ë‹¤
+3660,restroom,í™”ì¥ì‹¤
+3661,result,ê²°ê³¼
+3662,resume,ë‹¤ì‹œ ì¡ë‹¤
+3663,retail,ì†Œë§¤
+3664,retain,ë³´ìœ í•˜ë‹¤
+3665,retire,í‡´ì§í•˜ë‹¤
+3666,retreat,í›„í‡´
+3667,return,ëŒì•„ê°€ë‹¤
+3668,reveal,ë‚˜íƒ€ë‚´ë‹¤
+3669,revenge,ë³µìˆ˜
+3670,reverse,ì—­
+3671,review,ì¬ì¡°ì‚¬
+3672,revise,êµì •í•˜ë‹¤
+3673,revive,ì†Œìƒí•˜ë‹¤
+3674,revolution,í˜ëª…
+3675,reward,ë³´ìˆ˜
+3676,rhythm,ìœ¨ë™
+3677,rice,ìŒ€
+3678,rich,ë¶€ìì¸
+3679,rid,ë©´í•˜ê²Œí•˜ë‹¤
+3680,ride,íƒ€ë‹¤
+3681,ridiculous,ì–´ë¦¬ì„ì€
+3682,right,ì˜¬ë°”ë¥¸
+3683,ring,ê³ ë¦¬
+3684,riot,"í­ë™, ì†Œìš”, ì†Œë™   ì•¼ë‹¨ë²•ì„, ë‹¤ì±„ë¡œì›€,"
+3685,rise,ì˜¬ë¦¬ë‹¤
+3686,risk,ìœ„í—˜ ê±¸ë‹¤
+3687,rival,ê²½ìŸì ê²½ìŸí•˜ëŠ” ê²½ìŸí•˜ë‹¤
+3688,river,ê°•
+3689,road,ê¸¸
+3690,roar,ìœ¼ë¥´ë ê±°ë¦¬ë‹¤ ìœ¼ë¥´ë ì†Œë¦¬
+3691,roast,ë¶ˆì— ì¬ì–´ êµ½ë‹¤ ë¶ˆê³ ê¸° êµ¬ìš´
+3692,rob,"ê°•íƒˆí•˜ë‹¤, ì•½íƒˆí•˜ë‹¤, ë¹¼ì•—ë‹¤"
+3693,rock,ë°”ìœ„
+3694,rod,ë§‰ëŒ€
+3695,role,(ë°°ìš°ì˜)ì—­
+3696,roll,êµ¬ë¥´ë‹¤
+3697,romantic,ì „ê¸°ì†Œì„¤ì ì¸
+3698,roof,ì§€ë¶•
+3699,room,ë°©
+3700,root,ë¿Œë¦¬
+3701,rope,ìƒˆë¼
+3702,rot,ì©ë‹¤
+3703,rough,ê±°ì¹œ
+3704,round,ë‘¥ê·¼ ì› ëŒì•„ì„œ
+3705,route,ê¸¸
+3706,routine,ì •í•´ì§„ ì¼
+3707,row,ì¤„
+3708,royal,ì™•ì˜
+3709,rub,ë§ˆì°°í•˜ë‹¤
+3710,rubber,ë§›ì‚¬ì§€ì‚¬
+3711,rude,ë²„ë¦‡ì—†ëŠ”
+3712,ruin,íŒŒë©¸
+3713,rule,ê·œì¹™
+3714,rumor,ì†Œë¬¸
+3715,run,ë‹¬ë¦¬ë‹¤
+3716,rural,ì‹œê³¨ì˜
+3717,rush,ëŒì§„í•˜ë‹¤
+3718,sack,ë§ˆëŒ€
+3719,sacred,ì‹ ì„±í•œ
+3720,sacrifice,í¬ìƒ
+3721,sad,ìŠ¬í”ˆ
+3722,safe,ì•ˆì „í•œ
+3723,sail,ë›
+3724,salary,ë´‰ê¸‰ ë´‰ê¸‰ì„ ì£¼ë‹¤
+3725,sale,íŒë§¤
+3726,salon,ê°ì‹¤
+3727,salt,ì†Œê¸ˆ
+3728,same,ê°™ì€
+3729,sand,ëª¨ë˜ì‚¬ì¥
+3730,satellite,ìœ„ì„±
+3731,satisfy,ë§Œì¡±ì‹œí‚¤ë‹¤
+3732,save,ìœ„í—˜ì—ì„œ êµ¬í•˜ë‹¤
+3733,say,ë§í•˜ë‹¤
+3734,scale,ë¹„ëŠ˜(ëª¨ì–‘ì˜ ê²ƒ)
+3735,scan,ì‹œì˜ ìš´ìœ¨ì„ì‚´í”¼ë‹¤
+3736,scandal,ì¶”ë¬¸
+3737,scarce,ë¶€ì¡±í•œ
+3738,scare,ìœ„í˜‘í•˜ë‹¤
+3739,scatter,ë¿”ë¿”ì´ í©ì–´ ë²„ë¦¬ë‹¤
+3740,scene,ì¥ë©´
+3741,scheme,ê³„íš
+3742,scholar,í•™ì
+3743,school,í•™êµ
+3744,science,ê³¼í•™
+3745,scissors,ê°€ìœ„
+3746,scold,ê¾¸ì§–ë‹¤ ì”ì†Œë¦¬ ì‹¬í•œ ì‚¬ëŒ
+3747,scope,ë²”ìœ„
+3748,score,ë“ì 
+3749,scramble,ê¸°ë‹¤
+3750,scratch,"í• í€´ë‹¤, í• í€´ì–´ ìƒì²˜ ë¥¼ ë‚´ë‹¤  ê¸ë‹¤"
+3751,scream,ë¹„ëª…ì„ ì§€ë¥´ë‹¤
+3752,screen,ë³‘í’
+3753,screw,ë‚˜ì‚¬
+3754,scrub,(ê´€ëª©ì˜)ìˆ²
+3755,sculpture,ì¡°ê° ì¡°ê°í•˜ë‹¤
+3756,sea,ë°”ë‹¤
+3757,seal,ì¸ì¥
+3758,search,ì°¾ë‹¤
+3759,season,ê³„ì ˆ
+3760,seat,ì¢Œì„
+3761,secret,ë¹„ë°€ì˜
+3762,secretary,ë¹„ì„œ
+3763,sector,ë¶€ì±„ê¼´
+3764,secure,ì•ˆì „í•œ
+3765,see,ë³´ë‹¤
+3766,seed,ì”¨ì•—
+3767,seek,ì°¾ë‹¤
+3769,seize,ë¶™ì¡ë‹¤
+3770,select,ê³ ë¥´ë‹¤
+3771,self,ìê¸°
+3772,sell,íŒ”ë‹¤
+3773,send,ë³´ë‚´ë‹¤
+3774,senior,ì—°ìƒì˜
+3775,sensation,ê°ê°
+3776,sense,ê°ê°
+3777,sensible,ë¶„ë³„ìˆëŠ”
+3778,sentence,ë¬¸ì¥
+3779,sentiment,ì •ì„œ
+3780,separate,ë¶„ë¦¬ëœ
+3781,sequence,ì—°ì†
+3782,series,ì—°ì†
+3783,serious,ì§„ì§€í•œ
+3784,serve,ì„¬ê¸°ë‹¤
+3785,session,ê°œíšŒ
+3786,settle,ë“±ë°›ì´ê°€ ë†’ì€ ê¸´ ì˜ì ë†“ë‹¤
+3787,several,ìˆ˜ê°œì˜
+3788,severe,í˜¸ëœ
+3789,sew,ê¿°ë§¤ë‹¤
+3790,sex,ì„±
+3791,shade,ê·¸ëŠ˜
+3792,shadow,ê·¸ë¦¼ì
+3793,shake,í”ë“¤ì–´ ì›€ì§ì´ë‹¤
+3794,shall,au-í•˜ê² ë‹¤
+3795,shallow,ì–•ì€ ì–•ì€ ê³³ ì–•ì•„ì§€ë‹¤
+3796,shame,ë¶€ë„ëŸ¼
+3797,shape,ëª¨ì–‘
+3798,share,ëª«
+3799,sharp,ë‚ ì¹´ë¡œìš´
+3800,shave,ê¹ë‹¤
+3801,she,ê·¸ë…€ëŠ”
+3802,sheep,ì–‘
+3803,sheet,ê¹”ì²œ
+3804,shelf,ì„ ë°˜
+3805,shell,ê²‰ê»ì§ˆ
+3806,shelter,í”¼ë‚œì²˜
+3807,shield,ë°©íŒ¨
+3808,shift,ì˜®ê¸°ë‹¤
+3809,shine,ë¹›ë‚˜ë‹¤
+3810,ship,ë°°
+3811,shock,ê²©ëŒ
+3812,shoe,êµ¬ë‘
+3813,shoot,ì˜ë‹¤
+3814,shop,ìƒì 
+3815,shore,ë¬¼ê°€
+3816,short,ì§§ì€
+3817,should,aushallì˜ ê³¼ê±°
+3818,shoulder,ì–´ê¹¨
+3819,shout,ì™¸ì¹˜ë‹¤
+3820,show,ë³´ì´ë‹¤
+3821,shower,ì†Œë‚˜ê¸° ë¹—ë°œì¹˜ë“¯ í¼ë¶“ë‹¤(ìŸë‹¤)
+3822,shrink,ì¤„ì–´ë“¤ë‹¤
+3823,shut,ë‹«ë‹¤
+3824,shy,ìˆ˜ì¤ì€
+3825,sick,ë³‘ë‚œ
+3826,side,ìª½
+3827,sigh,í•œìˆ¨
+3828,sight,ê´‘ê²½
+3829,sign,ë¶€í˜¸
+3830,significant,ì¤‘ìš”í•œ
+3831,silent,ì¡°ìš©í•œ
+3832,silk,ë¹„ë‹¨
+3833,silly,ì–´ë¦¬ì„ì€ ë°”ë³´
+3834,silver,ì€
+3835,similar,ìœ ì‚¬í•œ
+3836,simple,ë‹¨ì¼ì˜
+3837,simulate,í‰ë‚´ë‚´ë‹¤
+3838,simultaneous,ë™ì‹œì— ì¼ì–´ë‚˜ëŠ”(ì¡´ì¬í•˜ëŠ”)
+3839,sin,ì‚¬ì¸
+3841,sing,ë…¸ë˜í•˜ë‹¤
+3842,single,ë‹¨ í•˜ë‚˜ì˜
+3843,sink,ê°€ë¼ì•‰ë‹¤
+3844,sister,ì—¬ìí˜•ì œ
+3845,sit,ì•‰ë‹¤
+3846,site,ë¶€ì§€
+3847,situation,ì¥ì†Œ
+3848,size,í¬ê¸°
+3849,skill,ìˆ™ë ¨
+3850,skin,í”¼ë¶€
+3851,skip,ë„ì•½
+3852,skirt,ìŠ¤ì»¤ì–´íŠ¸
+3853,sky,í•˜ëŠ˜
+3854,slaughter,ë„ì‚´
+3855,slave,ë…¸ì˜ˆ ë…¸ì˜ˆì²˜ëŸ¼ ì¼í•˜ë‹¤
+3856,sleep,ì ìë‹¤
+3857,slice,ì–‡ì€ì¡°ê°
+3858,slide,ë¯¸ë„ëŸ¬ì§€ë‹¤
+3859,slight,ì•½ê°„ì˜
+3860,slim,í˜¸ë¦¬í˜¸ë¦¬í•œ
+3861,slip,(ë•Œê°€)ì–´ëŠë§ ì§€ë‚˜ê°€ë‹¤
+3862,slope,ë¹„íƒˆ
+3863,slow,ëŠë¦°
+3864,small,ì‘ì€ ì‘ì€ ë¶€ë¶„ ì ê²Œ
+3865,smart,ì¬ì¹˜ìˆëŠ”
+3866,smash,ë°•ì‚´ë‚´ë‹¤
+3867,smell,ëƒ„ìƒˆ
+3868,smile,ë¯¸ì†Œì§“ë‹¤ ë¯¸ì†Œ
+3869,smoke,ì—°ê¸°
+3870,smooth,ë§¤ë„ëŸ¬ìš´
+3871,snake,ë±€
+3872,snap,ë¥ì„ ë¬¼ë‹¤
+3873,sneak,ëª°ë˜ ì›€ì§ì´ë‹¤
+3874,sniff,ì½”ë¥¼ í‚í‚ê±°ë¦¬ë‹¤
+3875,snow,ëˆˆ ëˆˆì´ ë‚´ë¦¬ë‹¤
+3876,so,ê·¸ì™€ ê°™ì´
+3877,soak,ë‹´ê·¸ë‹¤
+3878,soap,ë¹„ëˆ„ ë¹„ëˆ„ë¡œ ì”»ë‹¤
+3879,soccer,ì¶•êµ¬
+3880,social,ì‚¬íšŒì˜
+3881,society,ì‚¬íšŒ
+3882,sociology,ì‚¬íšŒí•™
+3883,sock,ì§§ì€ ì–‘ë§
+3884,soft,ë¶€ë“œëŸ¬ìš´
+3885,software,ì†Œí”„íŠ¸ì›¨ì–´
+3886,soil,í™
+3887,soldier,êµ°ì¸
+3888,sole,ìœ ì¼í•œ ë°œë°”ë‹¥
+3889,solid,ê³ ì²´ì˜
+3890,solo,ë…ì£¼
+3891,solve,í•´ê²°í•˜ë‹¤
+3892,some,ì–¼ë§Œê°€ì˜
+3893,somewhat,ì•½ê°„
+3894,son,ì•„ë“¤
+3895,song,ë…¸ë˜
+3896,soon,ì–¼ë§ˆ ì•ˆ ê°€ì„œ
+3897,sophisticated,ë¬¼ì •ì— ë‹³ê³  ë‹³ì€
+3898,sore,ìŠ¬í”ˆ
+3899,sorry,ê°€ì—¾ì€
+3900,sort,ì¢…ë¥˜
+3901,soul,í˜¼
+3902,sound,ì†Œë¦¬
+3903,sour,ì‹œí¼í•œ ì‹œì–´ì§€ë‹¤ ì‹œí¼í•œ ê²ƒ
+3904,source,ì›ì²œ
+3905,south,ë‚¨ìª½ ë‚¨ìª½ì˜ ë‚¨ìœ¼ë¡œ
+3906,space,ê³µê°„
+3907,span,í•œ ë¼˜
+3908,spare,ì—¬ë¶„ì˜
+3909,spark,ë¶ˆê½ƒ
+3910,speak,ì´ì•¼ê¸°í•˜ë‹¤
+3911,special,íŠ¹ë³„í•œ
+3912,species,ì¢…
+3913,specific,íŠ¹ì •í•œ
+3914,spectacle,ê´‘ê²½
+3915,spectrum,ìŠ¤í™íŠ¸ëŸ¼
+3916,speech,ì—°ì„¤
+3917,speed,ì†ë„
+3918,spell,ì² ìí•˜ë‹¤
+3919,spend,ì†Œë¹„í•˜ë‹¤
+3920,sphere,êµ¬
+3921,spill,ì—ì§€ë¥´ë‹¤
+3922,spin,ì£ë‹¤
+3923,spirit,ì •ì‹ 
+3924,spit,ì¹¨ì„ ë±‰ë‹¤
+3925,spite,ì•…ì˜
+3926,splash,íŠ€ê¸°ë‹¤
+3927,split,ìª¼ê°œë‹¤
+3928,spoil,ë§ì³ë†“ë‹¤
+3929,spoon,ìˆŸê°€ë½
+3930,spot,ì¥ì†Œ
+3931,spouse,ë°°ìš°ì
+3932,spread,í´ë‹¤
+3933,square,ì •ì‚¬ê°í˜•ì˜
+3934,squeeze,ì••ì°©í•˜ë‹¤
+3935,stable,ì•ˆì •ëœ
+3936,stack,ë‚Ÿê°€ë¦¬
+3937,stage,ë¬´ëŒ€
+3938,stain,ë”ëŸ½íˆë‹¤
+3939,stairs,ê³„ë‹¨
+3940,stamp,ë„ì¥
+3941,stand,ì„œë‹¤
+3942,standard,í‘œì¤€
+3943,stare,ì‘ì‹œí•˜ë‹¤
+3944,start,ì‹œì‘í•˜ë‹¤
+3945,starve,êµ¶ì–´ ì£½ë‹¤
+3946,state,ìƒíƒœ
+3947,station,ì—­
+3948,statistic,í†µê³„ì˜ í†µê³„ëŸ‰
+3949,statue,ì¡°ìƒ
+3950,status,ì‹ ë¶„
+3951,stay,ë¨¸ë¬´ë¥´ë‹¤
+3952,steady,í™•ê³ í•œ
+3953,steal,í›”ì¹˜ë‹¤
+3954,steam,ì¦ê¸°
+3955,steel,ê°•ì² 
+3956,steep,ê°€íŒŒë¥¸ -ì— ë‹´ê·¸ë‹¤ ì ê¸°ë‹¤ ë‹´ê·¸ê¸°
+3957,stem,ì¤„ê¸°
+3958,step,ê±·ë‹¤
+3959,stick,ë‚˜ë¬´í† ë§‰
+3960,stiff,êµ³ì€
+3961,still,ì†Œë¦¬ê°€ ì—†ëŠ” ì•„ì§(ë„)
+3962,stimulate,ìê·¹í•˜ë‹¤
+3963,stir,íœ˜ì “ë‹¤
+3964,stitch,í•œ ë°”ëŠ˜
+3965,stock,ì¤„ê¸°
+3966,stomach,ìœ„
+3967,stone,ëŒ
+3968,stop,ë©ˆì¶”ë‹¤
+3969,store,ê°€ê²Œ
+3970,storm,í­í’
+3971,story,ì¸µ
+3972,stove,staveì˜ ê³¼ê±°(ë¶„ì‚¬)
+3973,straight,ê³§ì€
+3974,strain,ì¡ì•„ë‹¹ê¸°ë‹¤
+3975,strange,ì´ìƒí•œ
+3976,strategy,ìš©ë³‘í•™
+3977,straw,ì§š
+3978,strawberry,ë”¸ê¸°
+3979,stream,ì‹œë‚´
+3980,street,ê±°ë¦¬
+3981,stress,ì••ë°•
+3982,stretch,ë»—ì¹˜ë‹¤
+3983,strict,ì—„ì¤‘í•œ
+3984,strike,ì¹˜ë‹¤
+3985,string,ëˆ
+3986,strip,ë²—ê¸°ë‹¤
+3987,stripe,ì¤„ë¬´ëŠ¬
+3988,stroke,í•œë²ˆì¹˜ê¸°
+3989,strong,ê°•í•œ
+3990,structure,êµ¬ì¡°
+3991,struggle,ë²„ë‘¥ê±°ë¦¬ë‹¤
+3992,student,í•™ìƒ
+3993,study,í•™ë¬¸
+3994,stuff,ì¬ë£Œ
+3995,subject,ë³µì¢…ì‹œí‚¤ë‹¤
+3996,subjective,ì£¼ê´€ì˜
+3997,submarine,ì ìˆ˜í•¨
+3998,submit,ë³µì¢…ì‹œí‚¤ë‹¤
+3999,subscribe,ì„œëª…ìŠ¹ë½í•˜ë‹¤
+4000,substance,ë¬¼ì§ˆ
+4001,substantial,ì‹¤ì²´ì˜
+4002,substitute,ëŒ€ìš©í•˜ë‹¤ ëŒ€ì‹ í•˜ë‹¤ ëŒ€ë¦¬(ì¸)
+4003,subtle,ë¯¸ë¬˜í•œ
+4004,suburb,êµì™¸
+4005,subway,ì§€í•˜ë„
+4006,succeed,ì„±ê³µí•˜ë‹¤
+4007,such,ì´ëŸ¬í•œ
+4008,suck,ë¹¨ë‹¤
+4009,sudden,ë³„ì•ˆê°„ì˜
+4010,suffer,ê²½í—˜í•˜ë‹¤
+4011,sufficient,ì¶©ë¶„í•œ
+4012,sugar,ì„¤íƒ•
+4013,suggest,ì•”ì‹œí•˜ë‹¤
+4014,suicide,ìì‚´ ìì‚´í•˜ë‹¤
+4015,suit,ì†Œì†¡
+4016,suite,ìˆ˜í–‰ì›
+4017,sum,ì´ê³„
+4018,summary,ìš”ì•½
+4019,summit,ê¼­ëŒ€ê¸°
+4020,sun,íƒœì–‘
+4021,super,ì„ì‹œê³ ìš©ë°°ìš°
+4022,superb,ì¥ë ¤í•œ
+4023,superior,ë›°ì–´ë‚œ
+4024,supervise,ê°ë…í•˜ë‹¤
+4025,supper,ì €ë…ì‹ì‚¬
+4026,supplement,ë¶€ë¡
+4027,supply,ê³µê¸‰í•˜ë‹¤
+4028,support,ì§€íƒ±í•˜ë‹¤
+4029,suppose,ìƒìƒí•˜ë‹¤
+4030,sure,"í™•ì‹ í•˜ëŠ”, í™•ì‹¤í•œ , í‹€ë¦¼ì—†ëŠ”"
+4031,surface,í‘œë©´
+4032,surgery,ì™¸ê³¼
+4033,surprise,ë†€ëŒ
+4034,surrender,ë„˜ê²¨ì£¼ë‹¤
+4035,surround,ì—ì›Œì‹¸ë‹¤
+4036,survey,ë‘˜ëŸ¬ë³´ë‹¤
+4037,survive,ì‚´ì•„ ë‚¨ë‹¤
+4038,suspect,ì§ì‘í•˜ë‹¤
+4039,suspend,ë§¤ë‹¬ë‹¤
+4040,sustain,ë– ë°›ì¹˜ë‹¤
+4041,swallow,ì‚¼í‚¤ë‹¤
+4042,swear,ë§¹ì„¸í•˜ë‹¤
+4043,sweat,ë•€
+4044,sweep,ì²­ì†Œí•˜ë‹¤
+4045,sweet,ë‹¨
+4046,swell,ë¶€í’€ë‹¤
+4047,swift,ë¹ ë¥¸
+4048,swim,í—¤ì—„ì¹˜ë‹¤
+4049,swing,í”ë“¤ë¦¬ë‹¤
+4050,switch,íšŒì´ˆë¦¬
+4051,symbol,ìƒì§•
+4052,sympathy,ë™ì •
+4053,symphony,êµí–¥ê³¡
+4054,symptom,ì¡°ì§
+4055,system,ì¡°ì§
+4056,table,í…Œì´ë¸”
+4057,tackle,ê³ íŒ¨
+4058,tag,ì†ì¡ì´ê°€ì£½
+4059,tail,ê¼¬ë¦¬
+4060,take,ì¡ë‹¤
+4061,tale,ì´ì•¼ê¸°
+4062,talent,ì¬ì£¼
+4063,talk,ë§í•˜ë‹¤
+4064,tall,í‚¤í°
+4065,tap,ê°€ë³ê²Œ ì¹˜ê¸°
+4066,tape,í…Œì´í”„
+4067,target,ê³¼ë…
+4068,task,ì¼
+4069,taste,ë§›
+4070,tattoo,ê·€ì˜ë‚˜íŒ”
+4071,tax,ì„¸ê¸ˆ
+4072,tea,ì°¨
+4073,teach,ê°€ë¥´ì¹˜ë‹¤
+4074,tear,ëˆˆë¬¼
+4075,tease,ê´´ë¡­íˆë‹¤
+4076,teen,ìŠ¬í””
+4077,teenage,10ëŒ€
+4078,telegraph,ì „ì‹ 
+4079,telephone,ì „í™”
+4080,tell,ë§í•˜ë‹¤
+4081,temperature,ì˜¨ë„
+4082,temple,ê´€ìë†€ì´
+4083,temporary,ì¼ì‹œì ì¸
+4084,tempt,ìœ í˜¹í•˜ë‹¤
+4085,tenant,ì°¨ì§€ì¸
+4086,tend,(-ì˜)ê²½í–¥ì´ ìˆë‹¤
+4087,tender,ì œê³µ
+4088,tense,ì‹œì œ
+4089,term,ê¸°ê°„
+4090,terminal,ì¢…ì ì˜
+4091,terminate,ëë‚´ë‹¤
+4092,terrace,ê³„ë‹¨ëª¨ì–‘ì˜ ëœ°(ê´‘ì¥)
+4093,terrible,ë¬´ì‹œë¬´ì‹œí•œ
+4094,terrific,ë¬´ì„œìš´
+4095,territory,ì˜í† 
+4096,test,ì‹œí—˜
+4097,testify,ì¦ëª…í•˜ë‹¤
+4098,text,ì›ë¬¸
+4099,textbook,êµê³¼ì„œ
+4101,thank,ê°ì‚¬í•˜ë‹¤ ê°ì‚¬
+4102,that,ì €
+4103,the,art.ì €
+4105,theme,ë…¼ì œ
+4106,then,ê·¸ë•Œ
+4107,theory,ì´ë¡ 
+4108,therapy,ì¹˜ë£Œë²•
+4109,there,ê±°ê¸°ì—
+4110,therefore,ê·¸ëŸ° ê¹Œë‹­ì—
+4111,they,ê·¸ë“¤
+4112,thick,ë‘êº¼ìš´
+4113,thief,ë„ë‘‘
+4114,thin,ì–‡ì€
+4115,thing,ë¬¼ê±´
+4116,think,ìƒê°í•˜ë‹¤
+4117,thirst,ê°ˆì¦
+4118,this,ì´
+4119,thorough,ì™„ì „í•œ
+4121,thousand,ì²œ
+4122,thread,ì‹¤
+4123,threat,í˜‘ë°•
+4124,thrill,ì˜¤ì‹¹í•˜ë‹¤ ì˜¤ì‹¹í•¨
+4125,throat,ëª©
+4126,through,(-ì„)í†µí•˜ì—¬ í†µí•˜ì—¬ ì§í†µì˜
+4127,throw,ë˜ì§€ë‹¤
+4128,thumb,ì—„ì§€ì†ê°€ë½ ì—„ì§€ì†ê°€ë½ìœ¼ë¡œ ë§Œì§€ë‹¤
+4129,thus,ì´ë ‡ê²Œ
+4130,tick,ì‹œê³„ì†Œë¦¬
+4131,tide,ì¡°ìˆ˜
+4132,tidy,ë§ì‘¥í•œ
+4133,tie,ë§¤ë‹¤
+4134,tiger,í˜¸ë‘ì´
+4135,tight,ë‹¨ë‹¨í•œ
+4137,timber,ì¬ëª©
+4138,time,ë•Œ
+4139,tin,ì£¼ì„
+4140,tiny,ìê·¸ë§ˆí•œ
+4141,tip,ë
+4142,tire,í”¼ë¡œí•˜ê²Œ í•˜ë‹¤
+4143,tissue,ì¡°ì§
+4144,title,í‘œì œ
+4146,tobacco,ë‹´ë°°
+4147,today,ì˜¤ëŠ˜ì€
+4148,toe,ë°œê°€ë½
+4149,together,ê°™ì´
+4150,toilet,í™”ì¥ì‹¤
+4151,tomorrow,ë‚´ì¼(ì€)
+4152,tone,ìŒì¡°
+4153,tongue,í˜€
+4154,tonight,ì˜¤ëŠ˜ë°¤ì— ì˜¤ëŠ˜ë°¤
+4155,too,(-ë„)ë˜í•œ
+4156,tool,ì‚¬ìš©ì„¸
+4157,tooth,ì´
+4158,top,ì •ìƒ
+4159,torture,ê³ ë¬¸
+4160,toss,ë˜ì§€ë‹¤
+4161,total,ì´ê³„ ì „ì²´ì˜ í•©ê³„í•˜ë‹¤
+4162,touch,ë‹¿ë‹¤
+4163,tough,ë‹¨ë‹¨í•œ
+4164,tour,ì¼ì£¼
+4166,tower,íƒ‘
+4167,town,ì
+4168,toxic,ë…ì˜
+4169,toy,ì¥ë‚œê° ì¥ë‚œí•˜ë‹¤
+4170,trace,ë°œìêµ­
+4171,trade,ë§¤ë§¤
+4172,tradition,ì „ì„¤
+4173,traffic,êµí†µ
+4174,tragic,ë¹„ê·¹ì˜
+4175,trail,ì§ˆì§ˆ ëŒë‹¤
+4176,train,ê¸°ì°¨
+4177,transact,ì²˜ë¦¬í•˜ë‹¤
+4178,transfer,ì˜®ê¸°ë‹¤
+4179,transform,"ë³€í˜•(ë³€ìš©,ë³€íƒœ)ì‹œí‚¤ë‹¤"
+4180,transition,ë³€ì²œ
+4181,translate,ë²ˆì—­í•˜ë‹¤
+4182,transmit,ë³´ë‚´ë‹¤
+4183,transport,ìˆ˜ì†¡(ìš´ì†¡)í•˜ë‹¤
+4184,trap,ë«
+4185,travel,ì—¬í–‰í•˜ë‹¤
+4186,tray,ìŸë°˜
+4187,treasure,ë³´ë¬¼
+4188,treat,ëŒ€ìš°í•˜ë‹¤
+4189,treaty,ì¡°ì•½
+4190,tree,ë‚˜ë¬´
+4191,tremendous,ë¬´ì„œìš´
+4192,trend,ë°©í–¥
+4193,trial,ì‹œí—˜
+4194,triangle,ê°í˜•
+4195,tribe,ì¢…ì¡±
+4196,trick,ì±…ëµ
+4197,trigger,ë°©ì•„ì‡  ì¬ë¹ ë¥¸
+4198,trim,ì‚°ëœ»í•œ ì •ëˆí•˜ë‹¤
+4199,trip,ì—¬í–‰
+4200,triumph,ìŠ¹ë¦¬
+4201,troop,ëŒ€
+4202,trophy,ì „ë¦¬í’ˆ
+4203,trouble,ê³ ìƒ
+4204,trouser,ì¦ˆë´‰
+4205,TRUE,ì§„ì‹¤
+4206,trunk,ì¤„ê¸°
+4207,trust,ì‹ ìš©
+4208,truth,ì§„ë¦¬
+4209,try,ì‹œí—˜í•´ë³´ë‹¤
+4210,tube,ê´€
+4211,tune,ê³¡
+4212,tunnel,í„°ë„
+4213,turn,ëŒë¦¬ë‹¤
+4214,turnover,ì „ë³µ
+4215,tutor,ê°€ì •êµì‚¬
+4216,twice,ë‘ ë²ˆ
+4217,twin,ìŒë™ì´
+4218,twist,ê¼¬ì´ë‹¤
+4219,type,í˜•
+4220,typical,ì „í˜•ì ì¸
+4221,ugly,ì¶”í•œ
+4222,ultimate,ìµœí›„ì˜
+4223,umbrella,ìš°ì‚°
+4224,uncle,ì•„ì €ì”¨
+4226,undergo,(ì˜í–¥ ë“±ì„)ë°›ë‹¤
+4229,understand,ì´í•´í•˜ë‹¤
+4230,undertake,ë– ë§¡ë‹¤
+4231,uniform,í•œê²°ê°™ì€
+4232,unify,í•˜ë‚˜ë¡œ í•˜ë‹¤
+4233,union,ê²°í•©
+4234,unique,ìœ ì¼ë¬´ì´í•œ
+4235,unit,ë‹¨ìœ„
+4236,unite,ê²°í•©í•˜ë‹¤
+4237,universe,ìš°ì£¼
+4238,university,ì¢…í•©ëŒ€í•™(êµ) ëŒ€í•™ì˜(ì— ê´€ê³„ ìˆëŠ”)
+4241,up,ìœ„ë¡œ
+4242,update,ìƒˆë¡­ê²Œ í•˜ë‹¤ ìµœì‹ ì •ë³´
+4244,upper,ìœ„ìª½ì˜
+4245,upset,ë’¤ì§‘ì–´ ì—ë‹¤
+4246,upward,ìœ„ë¡œ í–¥í•œ
+4247,urban,ë„ì‹œì˜
+4248,urge,ëª°ì•„ëŒ€ë‹¤
+4249,urgent,ê¸´ê¸‰í•œ
+4250,use,ì“°ë‹¤
+4251,usual,í‰ì†Œì˜
+4253,utter,ì „ì ì¸
+4254,vacation,íœ´ê°€
+4255,vacuum,ì§„ê³µ
+4256,vague,ë§‰ì—°í•œ
+4257,valid,ìœ íš¨í•œ
+4258,valley,ê³¨ì§œê¸°
+4259,value,ê°€ì¹˜
+4260,van,ìœ ê°œíŠ¸ëŸ­
+4261,vanish,ìì·¨ë¥¼ ê°ì¶”ë‹¤
+4262,various,ê°€ì§€ê°€ì§€ì˜
+4263,vary,ë°”ê¾¸ë‹¤
+4264,vast,"ê´‘ëŒ€í•œ, ê´‘ë§‰í•œ ë§‰ëŒ€í•œ"
+4265,vegetable,"ì‹ë¬¼  ì•¼ì±„, í‘¸ì„±ê·€, ë‚¨ìƒˆ, ì±„ì†Œ"
+4266,vehicle,"ìš´ë°˜ ê¸°êµ¬, ìš´ì†¡ ìˆ˜ë‹¨,  ìˆ˜ë ˆ, ì°¨ëŸ‰, íƒˆê²ƒ"
+4267,venture,ëª¨í—˜
+4268,verbal,"ë§ì˜, ë§ì— ê´€í•œ, ì–¸ì–´ìƒì˜, ë§ë¡œ ë‚˜íƒ€ë‚¸, ë§ë¡œ ëœ"
+4269,verse,"ì‹œì˜ í•œ ì¤„, ì‹œêµ¬  ì¼ë ¨ì˜ ì‹œêµ¬"
+4270,version,"ë²ˆì—­, ë²ˆì—­ë¬¸ ê°œì‘, ê°ìƒ‰, ë²ˆì•ˆ"
+4271,versus,"â€¦ëŒ€, â€¦ì— ëŒ€í•œ"
+4272,vertical,"ìˆ˜í‰ë©´ì— ì§ê°ì¸, ìˆ˜ì§ì˜"
+4273,very,ë§¤ìš°
+4274,vessel,ê·¸ë¦‡
+4275,veteran,"ë…¸ë ¨ê°€, ê²½í—˜ ë§ì€ ëŒ€ê°€, ë² í…Œë‘"
+4276,veterinarian,ìˆ˜ì˜ì‚¬
+4277,via,"â€¦ì„ ê±°ì³, â€¦ì„ ê²½ìœ í•˜ì—¬"
+4278,vice,"ì•…ë•,  ë¹„í–‰, íƒ€ë½ í–‰ìœ„"
+4279,victim,"í¬ìƒ, ì‚° ì œë¬¼, ì¸ì‹  ì œë¬¼"
+4280,victory,"ìŠ¹ë¦¬, ì „ìŠ¹"
+4281,view,"ë´„, ê´€ì°°, ê°œê´€, ì‹¤ì§€ ê²€ì¦  ë³´ëŠ” í˜, ì‹œê³„, ì‹œì•¼"
+4282,vigorous,"ì •ë ¥ì ì¸, ê°•ê±´í•œ, í™œê¸° ìˆëŠ”, ê²©ë ¬í•œ"
+4283,village,"ë§ˆì„, ì´Œë½"
+4284,violent,"ê²©ë ¬í•œ, ë§¹ë ¬í•œ"
+4285,virgin,"ì²˜ë…€, ë™ì •ë…€, ë¯¸í˜¼ ì—¬ì„±, ë™ì •ë…€ ë§ˆë¦¬ì•„"
+4286,virtual,"ì‚¬ì‹¤ìƒì˜, ì‹¤ì§ˆìƒì˜, ì‹¤ì œì˜  í—ˆìƒì˜"
+4287,virtue,"ë•, ë•í–‰, ì„ , ì„ í–‰"
+4288,visible,"ëˆˆì— ë³´ì´ëŠ”,  ë³¼ ìˆ˜ ìˆëŠ”"
+4289,visit,"ë°©ë¬¸í•˜ë‹¤, â€¦ì˜ ì†ë‹˜ìœ¼ë¡œ ë¬µë‹¤"
+4290,visual,"ì‹œê°ì˜, ë¬¼ê±´ì„ ë³´ê¸° ìœ„í•œ"
+4291,vital,"ìƒëª…ì˜, ìƒëª…ì— ê´€í•œ, ìƒëª…ìœ ì§€ì— í•„ìš”í•œ, ì‚´ì•„ ìˆëŠ”"
+4292,vivid,"ë°œë„í•œ, ì•½ë™ì ì¸, í˜ì°¬, ìƒê¸°ìˆëŠ”"
+4293,vocabulary,"ì–´íœ˜, ìš©ì–´ìˆ˜, ìš©ì–´ ë²”ìœ„"
+4294,vocation,"ì²œì§, ì‚¬ëª… ì§ì—…, ìƒì—…, ì¥ì‚¬  ì ì„±, ì†Œì§ˆ, ì¬ëŠ¥"
+4295,voice,"ëª©ì†Œë¦¬, ìŒì„±, ìŒì„±"
+4296,volume,ì±…  ê¶Œ
+4297,voluntary,"ìë°œì ì¸, ìˆ˜ì˜ì˜"
+4298,vote,"ì°¬ë¶€ í‘œì‹œ, íˆ¬í‘œ, í‘œê²°"
+4299,voyage,ì—¬í–‰
+4300,wage,ì„ê¸ˆ
+4301,wagon,ì§ë§ˆì°¨
+4302,wait,ê¸°ë‹¤ë¦¬ë‹¤
+4303,wake,ì ê¹¨ë‹¤
+4304,walk,ê±·ë‹¤
+4305,wall,ë²½
+4306,wander,í—¤ë§¤ë‹¤
+4307,want,ê²°í•
+4308,war,ì „ìŸ
+4309,warehouse,ì°½ê³ 
+4310,warm,ë”°ëœ»í•œ
+4311,warn,ê²½ê³ í•˜ë‹¤
+4312,warrant,ë³´ì¦í•˜ë‹¤ ë³´ì¦
+4313,warrior,ë³‘ì‚¬
+4314,wash,ì”»ë‹¤
+4315,waste,ë‚­ë¹„í•˜ë‹¤
+4316,watch,ì†ëª©ì‹œê³„
+4317,water,ë¬¼
+4318,watermelon,ìˆ˜ë°•
+4319,wave,ë¬¼ê²°
+4320,way,ê¸¸
+4321,we,ìš°ë¦¬ê°€
+4322,weak,ì•½í•œ
+4323,wealth,ì¬ì‚°
+4324,weapon,ë¬´ê¸°
+4325,wear,ì…ë‹¤
+4326,weather,ë‚ ì”¨
+4327,weave,ì§œë‹¤
+4328,wedding,í˜¼ë¡€
+4329,weed,ì¡ì´ˆ ì¡ì´ˆë¥¼ ë½‘ë‹¤
+4330,week,ì£¼
+4331,weekend,ì£¼ë§ ì£¼ë§ì˜ ì£¼ë§ì„ ì§€ë‚´ë‹¤
+4332,weigh,ë¬´ê²Œë¥¼ ë‹¬ë‹¤
+4333,weight,ë¬´ê²Œ
+4334,weird,ë¶ˆê°€ì‚¬ì˜í•œ
+4335,welcome,í™˜ì˜ í™˜ì˜ë°›ëŠ”
+4336,welfare,í–‰ë³µ
+4337,well,ì˜
+4338,west,ì„œìª½
+4339,wet,ì¶•ì¶•í•œ
+4340,whale,ê³ ë˜
+4341,what,ë¬´ì—‡ ë¬´ìŠ¨
+4342,wheat,ë°€
+4343,wheel,ë°”í€´
+4344,when,ì–¸ì œ
+4345,where,ì–´ë””ì— (-í•˜ëŠ”)ê³³ì— pr.ì–´ë”” (ë¬¸ì œì˜)ì¥ì†Œ
+4346,whereas,cnj.(-ì¸)ê¹Œë‹­ì—
+4348,which,ì–´ëŠ ìª½
+4349,while,ë™ì•ˆ -í•˜ëŠ” ë™ì•ˆ
+4350,whip,ì±„ì° ì±„ì°ì§ˆí•˜ë‹¤
+4351,whisper,ì†ì‚­ì´ë‹¤
+4352,whistle,íœ˜íŒŒëŒ
+4353,white,í°
+4354,who,ëˆ„êµ¬
+4355,whole,ì „ì²´ì˜
+4356,why,ì™œ
+4357,wicked,ì‚¬ì•…í•œ
+4358,wide,í­ë„“ì€
+4359,widespread,ë„ë¦¬ ë³´ê¸‰ë˜ì–´ ìˆëŠ”
+4360,widow,ë¯¸ë§ì¸
+4361,wife,ì•„ë‚´
+4362,wild,ì•¼ìƒì˜
+4363,will,ì˜ì§€
+4364,win,ì´ê¸°ë‹¤
+4365,wind,ë°”ëŒ
+4366,window,ì°½
+4367,wing,ë‚ ê°œ
+4368,wipe,ë‹¦ë‹¤
+4369,wire,ì² ì‚¬
+4370,wise,ìŠ¬ê¸°ë¡œìš´
+4371,wish,ë°”ë¼ë‹¤
+4372,wit,ê¸°ì§€
+4373,with,í•¨ê»˜
+4374,withdraw,ë¬¼ëŸ¬ë‚˜ë‹¤
+4375,within,prop.-ì˜ ì•ˆìª½ì— ì•ˆìœ¼ë¡œ ë‚´ë¶€
+4376,without,prop.-ì—†ì´ ë°–ì€
+4377,witness,ì¦ì–¸
+4378,woman,ë¶€ì¸
+4379,wonder,ê²½ì´
+4380,wood,ìˆ²
+4381,wool,ì–‘ëª¨
+4382,word,ë‚±ë§
+4383,work,ì¼
+4384,world,ì„¸ê³„
+4385,worry,ê·¼ì‹¬í•˜ë‹¤
+4386,worship,ìˆ­ë°°
+4387,worth,ê°€ì¹˜ê°€ ìˆëŠ” ê°€ì¹˜
+4388,would,auwillì˜ ê³¼ê±°
+4389,wound,ë¶€ìƒ
+4390,wrap,ì‹¸ë‹¤
+4391,wreck,ë‚œíŒŒ
+4392,write,ì“°ë‹¤
+4393,wrong,ë‚˜ìœ
+4394,year,ì—°
+4395,yell,ê³ í•¨ì¹˜ë‹¤
+4396,yellow,í™©ìƒ‰ì˜ í™©ìƒ‰
+4397,yes,ì˜ˆ
+4398,yesterday,ì–´ì œ
+4399,yet,ì•„ì§
+4400,yield,ì‚°ì¶œí•˜ë‹¤
+4401,you,ë‹¹ì‹ 
+4402,young,ì Šì€
+4403,zebra,ì–¼ë£©ë§
+4404,zone,ëŒ€
+4405,zoo,ë™ë¬¼ì›
+4478,apache,ì‹œë°œ
