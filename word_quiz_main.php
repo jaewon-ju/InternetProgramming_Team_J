@@ -41,7 +41,7 @@
 </head>
 <body>
     <div class="page-container">
-    <img src="english_word.jpeg" alt="Quiz Image" class="quiz-image">
+    <img src="./CSS/english_word.jpeg" alt="Quiz Image" class="quiz-image">
 
     
         <?php
@@ -77,7 +77,7 @@
             }
 
             .rank-button {
-                background-image: url('trophy_icon.png');
+                background-image: url('./CSS/trophy_icon.png');
                 background-size: cover;
                 background-position: center;
                 /* 기존의 스타일을 유지하면서 배경 이미지 추가 */

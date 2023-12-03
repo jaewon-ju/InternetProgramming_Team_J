@@ -157,6 +157,44 @@ if ($conn->connect_error) {
     die("연결 실패: " . $conn->connect_error);
 }
 
+$tableName = "english_word";
+$tableExists = $conn->query("SHOW TABLES LIKE '$tableName'")->num_rows > 0;
+
+if (!$tableExists) {
+    // 테이블이 존재하지 않으면 테이블 생성
+    $createTableSQL = "CREATE TABLE IF NOT EXISTS english_word (
+        turn INT PRIMARY KEY,
+        word VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+        meaning VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
+    )";
+
+    if ($conn->query($createTableSQL) === TRUE) {
+        echo "테이블 생성 성공<br>";
+    } else {
+        echo "테이블 생성 실패: " . $conn->error . "<br>";
+    }
+}
+
+if (!$tableExists || (isset($_GET['reset_count']) && $_GET['reset_count'] == 'true')) {
+    // CSV 파일 이름
+    $csvFileName = 'english_word.csv';
+
+    // 파일 경로
+    $csvFilePath = __DIR__ . '/' . $csvFileName;
+
+    // CSV 파일에서 데이터를 읽어서 데이터베이스에 삽입
+    $loadDataSQL = "LOAD DATA LOCAL INFILE '$csvFilePath' INTO TABLE english_word
+                    FIELDS TERMINATED BY ',' 
+                    ENCLOSED BY '\"' 
+                    LINES TERMINATED BY '\r\n'
+                    IGNORE 1 LINES
+                    (turn, word, meaning)";
+    
+    if ($conn->query($loadDataSQL) === FALSE) {
+        echo "CSV 파일을 읽어오지 못했습니다: " . $conn->error . "<br>";
+    }
+}
+
 
 // 랜덤으로 단어 하나 선택
 $sql = "SELECT * FROM english_word ORDER BY RAND() LIMIT 1";
