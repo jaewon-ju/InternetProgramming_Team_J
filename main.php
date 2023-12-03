@@ -2,6 +2,8 @@
 // 세션 시작
 session_start();
 
+//유저 닉네임 quiz폼에 넘김
+$user_name = isset($_SESSION['username']) ? $_SESSION['username'] : '';
 // 세션에 저장된 역할을 확인
 $role = isset($_SESSION['role']) ? $_SESSION['role'] : '';
 
@@ -97,8 +99,8 @@ function isTeacher() {
                         <button type="button" class="btn" onclick="location.href='./logout.php'">Logout</button>
                     </div>
                 </div>
-                <div class = "quiz_button">
-                    <button type="button" class="btn" onclick="location.href='./word_quiz_main.php'">Quiz</button>
+                <div class="quiz_button">
+                    <button type="button" class="btn" onclick="redirectToQuizPage('<?php echo urlencode($user_name); ?>')">Quiz</button>
                 </div>
                 <?php if(isTeacher()) : ?>
                     <div class = "teacher_button">
@@ -226,6 +228,12 @@ function isTeacher() {
             <p>&copy; 2023 홈페이지. All rights reserved.</p>
     </div>
 </body>
+<script>
+    function redirectToQuizPage(username) {
+        // username을 quiz 페이지 URL에 파라미터로 추가하여 이동
+        window.location.href = './word_quiz_main.php?username=' + username;
+    }
+    </script>
 </html>
 <?php
 $conn->close();

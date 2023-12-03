@@ -124,8 +124,12 @@
         </div>
         <form method="post" action="word_quiz.php">
             <input type="submit" value="다음 문제" class="cute-button">
+            <input type="hidden" name="user_name" value="<?php echo $nickname;?>">
         </form>
     </div>
 </div>
+<div class="footer">
+            <p align='center'>&copy; 2023 홈페이지. All rights reserved.</p>
+    </div>
 </body>
 </html>

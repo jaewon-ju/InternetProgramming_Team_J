@@ -118,6 +118,7 @@
             퀴즈는 총 10문제입니다. 
             ※순위 버튼을 눌러도 초기화가 됩니다.
         </p>
+        
     </div>
 <?php
 session_start(); // 세션 시작
@@ -126,16 +127,17 @@ session_start(); // 세션 시작
 if (!isset($_SESSION['quiz_count']) || isset($_POST['reset']) || isset($_POST['rank'])) {
     $_SESSION['quiz_count'] = 0;
 }
-
-
-
+// 닉네임 로그인 테이블에서 가져오기(현재 단일 설정)
+$nickname = isset($_POST['user_name']) ? $_POST['user_name'] : '';
 // 문제를 푼 횟수 표시
 echo "<div class='quiz-count'>문제를 푼 횟수: (" . $_SESSION['quiz_count'] . "/10)</div>";
 
 if ($_SESSION['quiz_count'] >= 10) {
     // 10문제를 모두 푼 경우 quiz_result.php로 이동
-    echo "<input type='hidden' name='nickname' value='$nickname'>";
+    echo "<form method='post'>";
+    echo "<input type='hidden' name='user_name' value='$nickname'>";
     $_SESSION['quiz_count'] = 0;
+    $_SESSION['user_nickname'] = $nickname;
     header("Location: quiz_result.php");
     exit();
 }
@@ -154,8 +156,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("연결 실패: " . $conn->connect_error);
 }
-// 닉네임 로그인 테이블에서 가져오기(현재 단일 설정)
-$nickname = "이도권";
+
 
 // 랜덤으로 단어 하나 선택
 $sql = "SELECT * FROM english_word ORDER BY RAND() LIMIT 1";
@@ -199,7 +200,9 @@ $conn->close();
     <input type="submit" value="재도전" class="reset-button">
 </form>
 <a href="word_quiz_main.php?reset_count=true" class="main-button">초기화면</a>
-
+<div class="footer">
+            <p>&copy; 2023 홈페이지. All rights reserved.</p>
+    </div>
 
 <script>
     // 문제를 푼 횟수 증가
