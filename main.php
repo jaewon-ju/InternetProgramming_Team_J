@@ -1,5 +1,6 @@
 <?php
 // 세션 시작
+ob_start();
 session_start();
 
 if(isset($_SESSION['change_password']) && $_SESSION['change_password'] == 1){
@@ -247,7 +248,7 @@ if ($role === '') {
             <p>&copy; 2023 홈페이지. All rights reserved.</p>
     </div>
 </body>
-<script>
+    <script>
     function redirectToQuizPage(username) {
         // username을 quiz 페이지 URL에 파라미터로 추가하여 이동
         window.location.href = './word_quiz_main.php?username=' + username;
