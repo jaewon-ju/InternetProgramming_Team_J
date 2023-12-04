@@ -24,9 +24,10 @@
             <div class="button-text">모의고사 지문 관리</div>
         </form>
     </div>
-    <div class="footer">
+    <footer>
+            <a href="main.php" style="color: white">메인으로</a>
             <p>&copy; 2023 홈페이지. All rights reserved.</p>
-    </div>
+        </footer>
 </div>
 </body>
 </html>

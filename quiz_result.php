@@ -65,8 +65,19 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("연결 실패: " . $conn->connect_error);
 }
+$conn->set_charset("utf8");
 
 $nickname = isset($_SESSION['user_nickname'])? $_SESSION['user_nickname'] : '';
+
+$table_name_user_score = "user_score";
+$sql_create_table_user_score = "CREATE TABLE IF NOT EXISTS $table_name_user_score (
+                                    nickname VARCHAR(255) PRIMARY KEY,
+                                    correct_answers INT NOT NULL
+                                )";
+
+if ($conn->query($sql_create_table_user_score) === FALSE) {
+    echo "user_score 테이블 생성 오류: " . $conn->error;
+}
 
 $sql = "SELECT * FROM quiz_answers WHERE nickname = '$nickname' ORDER BY touch_time DESC LIMIT 10";
 
@@ -168,7 +179,7 @@ $conn->close();
 <a href="quiz_ranking.php" class="rank-button">순위</a>
 <style>
     .rank-button {
-                background-image: url('trophy_icon.png');
+                background-image: url('./CSS/trophy_icon.png');
                 background-size: cover;
                 background-position: center;
                 /* 기존의 스타일을 유지하면서 배경 이미지 추가 */

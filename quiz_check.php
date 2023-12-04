@@ -72,6 +72,22 @@
             if ($conn->connect_error) {
                 die("데이터베이스 연결 실패: " . $conn->connect_error);
             }
+            $conn->set_charset("utf8");
+            $table_name = "quiz_answers";
+            $sql_create_table = "CREATE TABLE IF NOT EXISTS $table_name (
+                                    word VARCHAR(255) NOT NULL,
+                                    user_answer VARCHAR(255) NOT NULL,
+                                    correct_answer VARCHAR(255) NOT NULL,
+                                    is_correct TINYINT NOT NULL,
+                                    score TINYINT NOT NULL,
+                                    touch_time DATETIME NOT NULL,
+                                    nickname VARCHAR(255) NOT NULL
+                                )";
+            
+            if ($conn->query($sql_create_table) === FALSE) {
+                echo "테이블 생성 오류: " . $conn->error;
+            }
+
             if(isset($_POST['nickname'])) {
                 $nickname = $_POST['nickname'];
             }

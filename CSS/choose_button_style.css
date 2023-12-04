@@ -29,14 +29,7 @@ body {
     box-sizing: border-box;
     width: 100%;
 }
-footer {
-    text-align: center;
-    padding: 10px;
-    color: #fff;
-    border-radius: 8px;
-    box-sizing: border-box;
-    width: 100%;
-}
+
 .all {
     display: flex;
     flex-direction: column;
