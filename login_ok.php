@@ -17,7 +17,6 @@ $tableCreationSQL = "
 CREATE TABLE IF NOT EXISTS users (
     id VARCHAR(255) PRIMARY KEY,
     username VARCHAR(255) NOT NULL,
-    student_number INT(20),
     password VARCHAR(255) NOT NULL,
     role ENUM('student', 'teacher') DEFAULT 'student'
 )";

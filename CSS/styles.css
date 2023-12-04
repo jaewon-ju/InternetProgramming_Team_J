@@ -137,6 +137,15 @@ body {
     margin-bottom: 20px;
 }
 
+.user-info h3{
+    white-space:nowrap;
+}
+
+.user-info-buttons{
+    display:flex;
+    flex-direction: column;
+}
+
 .search-container {
     margin-bottom: 20px;
     display: flex;
@@ -163,9 +172,6 @@ body {
 
 .btn:hover {
     background-color: #0056b3;
-}
-.user-info-buttons{
-    display: flex;
 }
 
 .quiz_button,
