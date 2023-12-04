@@ -17,9 +17,14 @@ body {
 
 .header {
     text-align: center;
-    background-color: #333;
-    padding: 10px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    border-radius: 5px;
     width: 100%;
+    max-width: 1180px;
+    padding: 5px 5px;
+    margin: 15px 15px;
 }
 
 .footer {
@@ -102,7 +107,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    height: 100vh;
+    height: auto;
     box-sizing: border-box;
 }
 
@@ -116,6 +121,9 @@ body {
 
 .login-form {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -141,41 +149,10 @@ body {
     margin-right: 10px;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-th,
-td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-    color: black;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-tr:hover {
-    cursor: pointer;
-    background-color: #ccc;
-}
 
 /* 버튼 스타일 모음*/
 .btn {
-    background-color: #007bff;
+    background-color: #28a745;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -191,20 +168,11 @@ tr:hover {
     display: flex;
 }
 
+.quiz_button,
 .teacher_button,
-.quiz_button {
+.write_button {
     width: 100%;
     margin-top: 10px;
-}
-
-
-.logout_button,
-.teacher_view_button {
-    flex: 1;
-    width: 100%;
-    margin-right: 2px;
-    margin-left: 2px;
-    white-space: nowrap;
 }
 
 .quiz_button button {
@@ -216,13 +184,17 @@ tr:hover {
     cursor: pointer;
 }
 
-.write_button {
-    float: right;
+.teacher_button button{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 5px;
+    background: url('teacher.jpeg') center/cover no-repeat;
+    height: 60px; /* Set a fixed height for the button */
+    cursor: pointer;
 }
 
-
 #deleteButton {
-    background-color: #007bff;
+    background-color: #28a745;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -231,11 +203,11 @@ tr:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-.search-button:hover, #deleteButton:hover {
-    background-color: #218838; /* Darker green color on hover */
-    color: #fff; /* Text color on hover */
+#deleteButton:hover {
+    background-color: #FF6347;
 }
 
 

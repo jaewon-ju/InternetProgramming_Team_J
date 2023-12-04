@@ -3,89 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./CSS/choose_button_style.css">
     <title>자료 제작</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh; 
+        label{
+            color :white;
+            text-align:center;
         }
-
-        form {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            width: 100%;
-            text-align: center;
-            overflow: auto;
-            position: relative;
-        }
-
-
-        label {
-            display: inline-block;
-            margin-bottom: 8px;
-            font-weight: bold;
-        }
-
-        input {
-            width: 100px;
-            padding: 8px;
-            margin-bottom: 16px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            overflow: auto;
-        }
-
         input[type="submit"] {
-            background-color: #007BFF;
-            color: #fff;
+            background-color: #007bff;
+            color: white;
+            border: none;
             cursor: pointer;
+            margin-top: 20px;
         }
-
         input[type="submit"]:hover {
             background-color: #0056b3;
         }
-
-        div {
-            width : 100%;
-            border: 1px solid black;
-            margin-bottom: 1px;
-            float: left;
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: white;
+        }
+        h1,h3 {
+            text-align: center;
+            color: white;
+        }
+        .container {
+            background-color: #333;
+            justify-content: flex;
+        }
+        tbody {
+            color: white;
         }
         .save-form {
-            width : 100%;
-            background-color: rgba(0, 0, 0, 0.1);
-            color: #fff;
-            cursor: pointer;
-            border: none;
-            border-radius: 4px;
-            padding: 0px 0px; 
-            text-align: center;
-            justify-content: center;
-        }
-
-        .save-form:hover {
-            background-color: #0056b3;
-        }
-
-        .container {
-            border: none;
-            text-align: center;
-            justify-content: center;
-            display: flex;
-            flex-direction :column;
-        }
-        table {
-            text-align: center;
-            justify-content: center;
+            color: white;
         }
     </style>
 </head>
@@ -102,6 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $passagesData = [];
 
         // 사용자로부터 시행 연도, 대상 학년, 시행 월, 문제 번호를 입력받는 폼 생성
+        echo "<div class = 'all'>";
         echo '<form action="" method="post">';
         for ($i = 1; $i <= $numOfPassages; $i++) {
             echo "<h3>지문 $i</h3>";
@@ -122,6 +75,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         echo '<input type="submit" value="자료 제작">';
         echo '</form>';
+        ?>
+        <footer>
+            <a href="teacher.php" style="color: white">관리자 페이지로</a>
+            <p>&copy; 2023 홈페이지. All rights reserved.</p>
+        </footer>
+        <?PHP
+        echo "</div>";
+
     } else if (isset($_SESSION['num_of_passages']) && isset($_POST['year_1']) && isset($_POST['grade_1']) && isset($_POST['month_1']) && isset($_POST['number_1'])) {
         // 데이터베이스 연결 설정
         $servername = "localhost";
@@ -153,8 +114,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if ($result->num_rows > 0) {
                 $row = $result->fetch_assoc();
                 $passagesData[] = $row;
-            } else {
-                echo "<p>No data found for 지문 $i</p>";
             }
         }
 
@@ -162,21 +121,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conn->close();
 
         // 가져온 데이터 출력
-        echo '<div class = "container"><table border="1">';
-        echo '<tr><th>지문</th><th>해석</th></tr>';
-
-        foreach ($passagesData as $index => $data) {
-            echo '<tr>';
-            echo '<td>' . nl2br($data['passage']) . '</td>';
-            echo '<td>' . nl2br($data['interpret']) . '</td>';
-            echo '</tr>';
+        if (empty($passagesData)) {
+            echo '<script>';
+            echo 'alert("No data found for any passages");';
+            echo 'window.location.href = "teacher.php";';
+            echo '</script>';
+        } else {
+            echo '<div class="container"><table border="1">';
+            echo '<h1>지문 DATABASE</h1>';
+            echo '<tr><th>지문</th><th>해석</th></tr>';
+        
+            foreach ($passagesData as $index => $data) {
+                echo '<tr>';
+                echo '<td>' . nl2br($data['passage']) . '</td>';
+                echo '<td>' . nl2br($data['interpret']) . '</td>';
+                echo '</tr>';
+            }
+            $_SESSION['passagesData'] = $passagesData;
+            echo '</table>';
+            echo '<form action="" method="post" class="save-form">';
+            echo '자료의 이름: <input type="text" name="filename" required><br>';
+            echo '<input type="submit" name="save_to_file" value="자료 저장">';
+            ?>
+            <footer>
+                <a href="teacher.php" style="color: white">관리자 페이지로</a>
+                <p>&copy; 2023 홈페이지. All rights reserved.</p>
+            </footer>
+            <?PHP
+            echo '</form></div class="container">';
         }
-        $_SESSION['passagesData'] = $passagesData;
-        echo '</table>';
-        echo '<form action="" method="post" class="save-form">';
-        echo '자료의 이름: <input type="text" name="filename" required><br>';
-        echo '<input type="submit" name="save_to_file" value="자료 저장">';
-        echo '</form></div class = "container">';
 
     } else if (isset($_POST['save_to_file'])){
             // 파일명 생성 (예: data_20231123.txt)
@@ -269,16 +242,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit(); // 리다이렉션 이후 코드 실행 방지
     } else {
         // 사용자에게 numOfPassages를 입력받는 폼 표시
+        echo "<div class = 'all'>";
         echo '
         <form action="" method="post">
-            <label for="num_of_passages">제작할 자료의 지문 수:</label>';
+            <label for="num_of_passages">제작할 자료의 지문 수</label>';
         echo '<input type="number" name="num_of_passages" required>';
     
         echo '<input type="submit" value="계속">';
         echo '</form>';
+        ?>
+        <footer>
+            <a href="teacher.php" style="color: white">관리자 페이지로</a>
+            <p>&copy; 2023 홈페이지. All rights reserved.</p>
+        </footer>
+        <?PHP
     } 
 }
 ?>
-
+</div>
 </body>
 </html>

@@ -98,6 +98,7 @@ if ($role === '') {
             <div class="login-form">
                 <div class="user-info">
                     <h2>내 정보</h2>
+                    <h3><?php echo $role."<br>".$user_name."님"?></h3>
                     <div class="custom-btn btn-1">
                         <button type="button" class="btn" onclick="location.href='./logout.php'">Logout</button>
                     </div>
@@ -235,7 +236,7 @@ if ($role === '') {
         window.location.href = './word_quiz_main.php?username=' + username;
     }
     </script>
-</html>
 <?php
 $conn->close();
 ?>
+</html>

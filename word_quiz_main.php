@@ -7,19 +7,22 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
+            margin: 10px;
             font-family: 'Nunito', sans-serif;
             background-color: #f7f7f7;
         }
         .page-container {
-            position: relative;
-            min-height: 100vh;
+            position: absolute;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             font-family: 'Nunito', sans-serif;
             background-color: #f7f7f7;
+            border: 2px solid #ccc; 
+            border-radius: 10px; 
+            padding: 20px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .quiz-image {
         width: 400px;
@@ -38,20 +41,23 @@
 </head>
 <body>
     <div class="page-container">
-    <img src="english_word.jpeg" alt="Quiz Image" class="quiz-image">
+    <img src="./CSS/english_word.jpeg" alt="Quiz Image" class="quiz-image">
+
     
-        <a href="#" onClick="startQuiz()" class="start-button">시작</a>
-        <a href="quiz_ranking.php" class="rank-button">순위</a>
-        
         <?php
         session_start(); // 세션 시작
 
         if (isset($_GET['reset_count']) && $_GET['reset_count'] === 'true') {
             $_SESSION['quiz_count'] = 0;
         }
-        //users테이블 이용해서 id, username(이름) --> 동명이인
-        echo "<div class='user-information'>유저정보 출력란(공백), 로그아웃 기능도?</div>";        
+
         ?>
+        <a href="#" onClick="startQuiz()" class="start-button">시작</a>
+        <a href="quiz_ranking.php" class="rank-button">순위</a>
+        <a href="main.php" class="home-button">홈페이지</a>
+        <div class="footer">
+            <p>&copy; 2023 홈페이지. All rights reserved.</p>
+        </div>
         <style>
             /* Styles for the buttons and the quiz heading */
             .start-button{
@@ -71,7 +77,7 @@
             }
 
             .rank-button {
-                background-image: url('trophy_icon.png');
+                background-image: url('./CSS/trophy_icon.png');
                 background-size: cover;
                 background-position: center;
                 /* 기존의 스타일을 유지하면서 배경 이미지 추가 */
@@ -87,23 +93,35 @@
             .rank-button:hover {
                 background-color: #FF7F50;
             }
-            /* Style for the quiz heading */
-            p {
-                font-size: 24px;
-                font-weight: bold;
-                margin-top: 20px;
-            }
+            .home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px; /* Circular shape */
+    margin-top: 20px; /* Increased top margin */
+    transition: background-color 0.3s;
+    background-color: #3498db; /* Button color */
+    border: 2px solid #2980b9; /* Border color */
+}
+
+.home-button:hover {
+    background-color: #2980b9;
+}
+
         </style>
         <script>
             function startQuiz() {
                 // Create a new URL with quiz_count set to 0
-                const url = new URL('word_quiz.php', window.location.href);
+                const url = new URL('nickname.php', window.location.href);
                 url.searchParams.set('quiz_count', '0'); // Set quiz_count to 0
-
                 // Redirect to word_quiz.php with quiz_count set to 0
                 window.location.href = url.href;
             }
         </script>
     </div>
+    
+    >
+    
 </body>
 </html>

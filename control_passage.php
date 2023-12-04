@@ -4,23 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>모의고사 지문 관리</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            background-color: white;
         }
-
-        h2 {
-            text-align: center;
-            color: #333;
-        }
-
         table {
             margin-top: 20px;
             border-collapse: collapse;
@@ -45,7 +33,6 @@
             flex-direction: column;
             justify-content: center;
         }
-
         /* 버튼 위치 조정 */
         .fixed-buttons {
             position: fixed;
@@ -71,14 +58,18 @@
             background-color: #0056b3;
         }
 
-        /* Footer 스타일 */
-        footer {
-            width : 100%;
+        .passage_container {
             background-color: #333;
-            color: white;
+            width: 80%;
+            border-radius: 8px;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+        }
+
+        footer{
             text-align: center;
-            padding: 10px;
-            margin-top: 20px; /* 수정된 부분: margin-top 추가 */
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -120,6 +111,7 @@ $sql_select_data = "SELECT * FROM exam_texts";
 $result = $conn->query($sql_select_data);
 
 if ($result->num_rows > 0) {
+    echo "<div class = 'passage_container'>";
     echo '<h2>지문 DATABASE</h2>';
     echo '<form action="" method="post">';
     echo '<table>';
@@ -141,7 +133,7 @@ if ($result->num_rows > 0) {
 } else {
     echo '<p>데이터가 없습니다.</p>';
 }
-
+echo '</div>';
 // 데이터베이스 연결 종료
 $conn->close();
 ?>
@@ -161,12 +153,10 @@ $conn->close();
 </div>
 </table>
 
-<!-- Footer 추가 -->
-<footer>
-    <p>개인정보처리 방침 | 연락처 | 이름 등등</p>
-    <a href="teacher.php" style = "color: white">처음으로 돌아가기</a>
-    <p>&copy; 2023 Your Website</p>
-</footer>
+        <footer>
+            <a href="teacher.php" style="color: white">관리자 페이지로</a>
+            <p>&copy; 2023 홈페이지. All rights reserved.</p>
+        </footer>
 
 </body>
 </html>

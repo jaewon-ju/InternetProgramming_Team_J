@@ -53,6 +53,8 @@
 </head>
 <body>
 <?php
+session_start();
+
 $servername = "localhost";
 $username = "phpadmin";
 $password = "phpadmin";
@@ -64,7 +66,7 @@ if ($conn->connect_error) {
     die("연결 실패: " . $conn->connect_error);
 }
 
-$nickname = '이도권';
+$nickname = isset($_SESSION['user_nickname'])? $_SESSION['user_nickname'] : '';
 
 $sql = "SELECT * FROM quiz_answers WHERE nickname = '$nickname' ORDER BY touch_time DESC LIMIT 10";
 
@@ -161,6 +163,7 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
+
 <a href="word_quiz_main.php?reset_count=true" class="return-button">초기화면</a>
 <a href="quiz_ranking.php" class="rank-button">순위</a>
 <style>

@@ -3,8 +3,8 @@
 
 // 예시로 사용할 데이터베이스 연결 설정
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "phpadmin";
+$password = "phpadmin";
 $dbname = "goods";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -29,22 +29,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $id = $_POST['id'];
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
     $role = $_POST['role'];
-    
-    $sql_same_id = "SELECT id FROM users WHERE id = '$id'";
-    if ($conn->query($sql_same_id) != FALSE) {
-        echo "<script>alert('이미 사용중인 id입니다.')</script>";
-    } else {
-        $sql1 = "INSERT INTO users (id, username, password, role) VALUES ('$id', '$username', '$password', '$role')";
 
-        if ($conn->query($sql1) === TRUE) {
-            // 회원가입이 완료되면 로그인 페이지로 이동
-            header("Location: login.php");
-            exit();
-        } else {
-            echo "Error: " . $sql . "<br>" . $conn->error;
-        }
+    $sql = "INSERT INTO users (id, username, password, role) VALUES ('$id', '$username', '$password', '$role')";
+
+    if ($conn->query($sql) === TRUE) {
+        // 회원가입이 완료되면 로그인 페이지로 이동
+        header("Location: login.php");
+        exit();
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
     }
-    
 }
 
 $conn->close();

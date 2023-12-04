@@ -118,6 +118,7 @@
             퀴즈는 총 10문제입니다. 
             ※순위 버튼을 눌러도 초기화가 됩니다.
         </p>
+        
     </div>
 <?php
 session_start(); // 세션 시작
@@ -126,16 +127,17 @@ session_start(); // 세션 시작
 if (!isset($_SESSION['quiz_count']) || isset($_POST['reset']) || isset($_POST['rank'])) {
     $_SESSION['quiz_count'] = 0;
 }
-
-
-
+// 닉네임 로그인 테이블에서 가져오기(현재 단일 설정)
+$nickname = isset($_POST['user_name']) ? $_POST['user_name'] : '';
 // 문제를 푼 횟수 표시
 echo "<div class='quiz-count'>문제를 푼 횟수: (" . $_SESSION['quiz_count'] . "/10)</div>";
 
 if ($_SESSION['quiz_count'] >= 10) {
     // 10문제를 모두 푼 경우 quiz_result.php로 이동
-    echo "<input type='hidden' name='nickname' value='$nickname'>";
+    echo "<form method='post'>";
+    echo "<input type='hidden' name='user_name' value='$nickname'>";
     $_SESSION['quiz_count'] = 0;
+    $_SESSION['user_nickname'] = $nickname;
     header("Location: quiz_result.php");
     exit();
 }
@@ -154,8 +156,48 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("연결 실패: " . $conn->connect_error);
 }
-// 닉네임 로그인 테이블에서 가져오기(현재 단일 설정)
-$nickname = "이도권";
+$conn->set_charset("utf8mb4");
+$conn->query("SET NAMES 'utf8mb4'");
+
+$tableName = "english_word";
+$tableExists = $conn->query("SHOW TABLES LIKE '$tableName'")->num_rows > 0;
+
+if (!$tableExists) {
+    // 테이블이 존재하지 않으면 테이블 생성
+    $createTableSQL = "CREATE TABLE IF NOT EXISTS english_word (
+        turn INT PRIMARY KEY,
+        word VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+        meaning VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
+    )";
+
+    if ($conn->query($createTableSQL) === TRUE) {
+        echo "테이블 생성 성공<br>";
+    } else {
+        echo "테이블 생성 실패: " . $conn->error . "<br>";
+    }
+}
+
+if (!$tableExists || (isset($_GET['reset_count']) && $_GET['reset_count'] == 'true')) {
+    // CSV 파일 이름
+    $csvFileName = 'english_word.csv';
+
+    // 파일 경로
+    $csvFilePath = __DIR__ . '/' . $csvFileName;
+
+    // CSV 파일에서 데이터를 읽어서 데이터베이스에 삽입
+    $loadDataSQL = "LOAD DATA LOCAL INFILE '$csvFilePath' INTO TABLE english_word
+                    CHARACTER SET utf8mb4
+                    FIELDS TERMINATED BY ',' 
+                    ENCLOSED BY '\"' 
+                    LINES TERMINATED BY '\r\n'
+                    IGNORE 1 LINES
+                    (turn, word, meaning)";
+    
+    if ($conn->query($loadDataSQL) === FALSE) {
+        echo "CSV 파일을 읽어오지 못했습니다: " . $conn->error . "<br>";
+    }
+}
+
 
 // 랜덤으로 단어 하나 선택
 $sql = "SELECT * FROM english_word ORDER BY RAND() LIMIT 1";
@@ -196,10 +238,14 @@ $conn->close();
 
 <form method="post" action="">
     <input type="hidden" name="reset">
+    <input type="hidden" name="user_name" value="<?php echo htmlspecialchars($nickname);?>">
     <input type="submit" value="재도전" class="reset-button">
+    
 </form>
 <a href="word_quiz_main.php?reset_count=true" class="main-button">초기화면</a>
-
+<div class="footer">
+            <p>&copy; 2023 홈페이지. All rights reserved.</p>
+    </div>
 
 <script>
     // 문제를 푼 횟수 증가
