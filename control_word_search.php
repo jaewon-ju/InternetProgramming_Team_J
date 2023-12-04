@@ -13,8 +13,6 @@
                 align-items: center;
                 justify-content: flex-start;
                 width: 50%;
-                height: 80%;
-                overflow: auto;
                 background-color: #333;
                 border-radius: 8px;
             }
@@ -25,6 +23,9 @@
             }
             .list-group-item{
                 border-radius: 8px;
+            }
+            .btn{
+                margin-top: 10px;
             }
         </style>
 </head>
