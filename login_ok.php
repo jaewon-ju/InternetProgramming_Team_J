@@ -3,8 +3,8 @@ session_start();
 
 // 데이터베이스 연결 설정
 $servername = "localhost";
-$username = "phpadmin";
-$password = "phpadmin";
+$username = "root";
+$password = "";
 $dbname = "goods";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -17,7 +17,6 @@ $tableCreationSQL = "
 CREATE TABLE IF NOT EXISTS users (
     id VARCHAR(255) PRIMARY KEY,
     username VARCHAR(255) NOT NULL,
-    student_number INT(20),
     password VARCHAR(255) NOT NULL,
     role ENUM('student', 'teacher') DEFAULT 'student'
 )";

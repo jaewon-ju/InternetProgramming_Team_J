@@ -127,8 +127,23 @@ body {
     width: 100%;
 }
 
+.user-info {
+    background-color: #B8D7FF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .user-info h2 {
     margin-bottom: 20px;
+}
+
+.user-info h3{
+    white-space:nowrap;
+}
+
+.user-info-buttons{
+    display:flex;
+    flex-direction: column;
 }
 
 .search-container {

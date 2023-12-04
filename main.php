@@ -2,6 +2,11 @@
 // 세션 시작
 session_start();
 
+if(isset($_SESSION['change_password']) && $_SESSION['change_password'] == 1){
+    echo "<script>alert('비밀번호가 변경되었습니다.');</script>";
+    $_SESSION['change_password'] = 0;
+}
+
 //유저 닉네임 quiz폼에 넘김
 $user_name = isset($_SESSION['username']) ? $_SESSION['username'] : '';
 // 세션에 저장된 역할을 확인
@@ -61,8 +66,8 @@ if ($role === '') {
             text-decoration: none;
             color: #fff;
             border-radius: 5px;
-            margin-top: 10px;
-            margin-bottom: 30px;
+            margin-top: 5px;
+            margin-bottom: 5px;
             transition: background-color 0.3s;
             background-color: #45a049; /* Start button color */
         }
@@ -98,8 +103,21 @@ if ($role === '') {
             <div class="login-form">
                 <div class="user-info">
                     <h2>내 정보</h2>
-                    <div class="custom-btn btn-1">
-                        <button type="button" class="btn" onclick="location.href='./logout.php'">Logout</button>
+                    <h3><?php 
+                    if($role == 'teacher') echo "선생님";
+                    else echo "학생";
+                    echo "<br>";
+                    echo $user_name."님"?></h3>
+                    <div class="user-info-buttons">
+                    <div class="logout_button">
+                        <button type="button" class="btn" onclick="location.href='./logout.php'">로그아웃</button>
+                    </div>
+                    <div class="password_change_button">
+                        <button type="button" class="btn" onclick="location.href='./change_password.php'">비밀번호변경</button>
+                    </div>
+                    <div class="withdrawal_button">
+                        <button type="button" class="btn" onclick="location.href='./withdrawal.php'">회원탈퇴</button>
+                    </div>
                     </div>
                 </div>
                 <div class="quiz_button">
@@ -235,7 +253,7 @@ if ($role === '') {
         window.location.href = './word_quiz_main.php?username=' + username;
     }
     </script>
-</html>
 <?php
 $conn->close();
 ?>
+</html>

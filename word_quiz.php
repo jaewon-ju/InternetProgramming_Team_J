@@ -238,7 +238,9 @@ $conn->close();
 
 <form method="post" action="">
     <input type="hidden" name="reset">
+    <input type="hidden" name="user_name" value="<?php echo htmlspecialchars($nickname);?>">
     <input type="submit" value="재도전" class="reset-button">
+    
 </form>
 <a href="word_quiz_main.php?reset_count=true" class="main-button">초기화면</a>
 <div class="footer">
