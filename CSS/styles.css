@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 
-.header {
+header {
     text-align: center;
     background-color: white;
     color: black;
@@ -27,7 +27,7 @@ body {
     margin: 15px 15px;
 }
 
-.footer {
+footer {
     text-align: center;
     padding: 10px;
     background-color: #333;

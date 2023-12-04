@@ -12,8 +12,9 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+mysqli_set_charset($conn, "utf8");
 
-// 예시로 사용할 테이블 생성 SQL
+
 $tableCreationSQL = "CREATE TABLE IF NOT EXISTS users (
     id VARCHAR(255) PRIMARY KEY,
     username VARCHAR(255) NOT NULL,

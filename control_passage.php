@@ -8,6 +8,9 @@
     <style>
         body {
             background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         table {
             margin-top: 20px;
@@ -90,6 +93,17 @@ if ($conn->connect_error) {
 }
 mysqli_set_charset($conn, "utf8");
 
+$sql_create_exam_texts = "CREATE TABLE IF NOT EXISTS exam_texts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    year INT NOT NULL,
+    month INT NOT NULL,
+    grade INT NOT NULL,
+    number INT NOT NULL,
+    passage TEXT NOT NULL,
+    interpret TEXT NOT NULL
+)";
+$conn->query($sql_create_exam_texts);
+
 // POST 요청을 확인하고 선택된 항목을 삭제
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete_selected'])) {
     if (isset($_POST['selected_items']) && !empty($_POST['selected_items'])) {
@@ -131,7 +145,7 @@ if ($result->num_rows > 0) {
         echo '</tr>';
     }  
 } else {
-    echo '<p>데이터가 없습니다.</p>';
+    echo '<p style = "color: red">자료가 하나도 없습니다. 추가 버튼을 눌러 자료를 추가하세요.</p>';
 }
 echo '</div>';
 // 데이터베이스 연결 종료

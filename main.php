@@ -93,6 +93,12 @@ if ($role === '') {
         .search-button:hover {
             background-color: #45a049;
         }
+        .user-info{
+            background-color: #45a049;
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -109,6 +115,7 @@ if ($role === '') {
                     else echo "학생";
                     echo "<br>";
                     echo $user_name."님"?></h3>
+                    </div>
                     <div class="user-info-buttons">
                     <div class="logout_button">
                         <button type="button" class="btn" onclick="location.href='./logout.php'">로그아웃</button>
@@ -118,7 +125,6 @@ if ($role === '') {
                     </div>
                     <div class="withdrawal_button">
                         <button type="button" class="btn" onclick="location.href='./withdrawal.php'">회원탈퇴</button>
-                    </div>
                     </div>
                 </div>
                 <div class="quiz_button">
@@ -171,7 +177,24 @@ if ($role === '') {
                     if ($conn->connect_error) {
                         die("Connection failed: " . $conn->connect_error);
                     }
+                    $tableCheckQuery = "SHOW TABLES LIKE 'board'";
+                    $tableCheckResult = $conn->query($tableCheckQuery);
         
+                    if ($tableCheckResult->num_rows == 0) {
+                        // 'board' table does not exist, create it
+                        $createTableQuery = "
+                        CREATE TABLE board (
+                            id INT AUTO_INCREMENT PRIMARY KEY,
+                            author VARCHAR(255) NOT NULL,
+                            title VARCHAR(255) NOT NULL,
+                            content LONGTEXT NOT NULL,
+                            file_path VARCHAR(255)
+                        )";
+        
+                        if ($conn->query($createTableQuery) === FALSE) {
+                            echo "Error creating table: " . $conn->error;
+                        }
+                    }
                     // 검색어 가져오기
                     $searchTerm = isset($_GET['search']) ? $_GET['search'] : '';
                     $searchType = isset($_GET['search_type']) ? $_GET['search_type'] : '';

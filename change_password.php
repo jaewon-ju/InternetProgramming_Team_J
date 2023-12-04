@@ -13,7 +13,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-
+mysqli_set_charset($conn, "utf8");
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $pre_password = $_POST['pre_password'];
     $new_password = password_hash($_POST['new_password'],PASSWORD_DEFAULT);

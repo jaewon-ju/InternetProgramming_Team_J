@@ -137,24 +137,6 @@
             }
             mysqli_set_charset($conn, "utf8mb4");
 
-            $tableCheckQuery = "SHOW TABLES LIKE 'board'";
-            $tableCheckResult = $conn->query($tableCheckQuery);
-
-            if ($tableCheckResult->num_rows == 0) {
-                // 'board' table does not exist, create it
-                $createTableQuery = "
-                CREATE TABLE board (
-                    id INT AUTO_INCREMENT PRIMARY KEY,
-                    author VARCHAR(255) NOT NULL,
-                    title VARCHAR(255) NOT NULL,
-                    content LONGTEXT NOT NULL,
-                    file_path VARCHAR(255)
-                )";
-
-                if ($conn->query($createTableQuery) === FALSE) {
-                    echo "Error creating table: " . $conn->error;
-                }
-            }
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $author = $_POST['author'];
                 $title = $_POST['title'];
