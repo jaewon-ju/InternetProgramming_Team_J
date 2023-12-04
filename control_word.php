@@ -11,6 +11,7 @@ $conn->set_charset("utf8mb4");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+mysqli_set_charset($conn, "utf8");
 if (isset($_POST['add_word'])) {
     // 단어를 데이터베이스에 추가하는 코드를 여기에 작성하세요.
     $newWord = $_POST['new_word'];

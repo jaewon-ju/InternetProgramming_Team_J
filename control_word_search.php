@@ -43,7 +43,7 @@ $conn->set_charset("utf8mb4");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-
+mysqli_set_charset($conn, "utf8");
 if (isset($_GET['search_word'])) {
     $searchTerm = $_GET['search_word'];
 

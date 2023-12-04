@@ -3,8 +3,8 @@ session_start();
 
 // 예시로 사용할 데이터베이스 연결 설정
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "phpadmin";
+$password = "phpadmin";
 $dbname = "goods";
 
 $conn = new mysqli($servername, $username, $password, $dbname);

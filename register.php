@@ -3,8 +3,8 @@
 
 // 예시로 사용할 데이터베이스 연결 설정
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "phpadmin";
+$password = "phpadmin";
 $dbname = "goods";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
     $role = $_POST['role'];
 
-    $same_id_sql = "SELECT id FROM users WHERE id='$id";
+    $same_id_sql = "SELECT id FROM users WHERE id='$id'";
     $sql = "INSERT INTO users (id, username, password, role) VALUES ('$id', '$username', '$password', '$role')";
 
     $result = $conn->query($same_id_sql);
@@ -39,9 +39,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<script>alert('이미 사용중인 아이디입니다.'); window.location.href = 'register.php';</script>";
         exit();
     }
-        
+    
     if ($conn->query($sql) === TRUE) {
-        echo "<script>alert('회원가입이 완료되었습니다.'); window.location.href = 'register.php';</script>";
+        echo "<script>alert('회원가입이 완료되었습니다.'); window.location.href = 'login.php';</script>";
         exit();
         } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
