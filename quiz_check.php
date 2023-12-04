@@ -95,10 +95,13 @@
                 // 문제와 답 기록
                 $word_id = $_SESSION['word']['word'];
                 // 문제 푼 시간 기록
-                $touch_time = date('Y-m-d H:i:s');
+                $currentTime = new DateTime(); // 현재 시간을 가져옵니다.
+                $currentTime->modify('+8 hours'); // 9시간을 더합니다.
+                $updatedTime = $currentTime->format('Y-m-d H:i:s'); // 원하는 형식으로 포맷팅합니다.
+               
             
                 $sql_insert = "INSERT INTO quiz_answers (word, user_answer, correct_answer, is_correct, score, touch_time, nickname) 
-                               VALUES ('$word', '$user_answer', '$correct_answer', '$is_correct', '$score', '$touch_time', '$nickname')";
+                               VALUES ('$word', '$user_answer', '$correct_answer', '$is_correct', '$score', '$updatedTime', '$nickname')";
             
                 if ($conn->query($sql_insert) === TRUE) {
                     if ($is_correct) {
