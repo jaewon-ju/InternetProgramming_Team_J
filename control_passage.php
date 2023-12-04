@@ -6,6 +6,9 @@
     <title>모의고사 지문 관리</title>
     <link rel="stylesheet" href="./CSS/styles.css">
     <style>
+        body {
+            background-color: white;
+        }
         table {
             margin-top: 20px;
             border-collapse: collapse;
@@ -54,6 +57,20 @@
         .fixed-buttons input[type="submit"]:hover {
             background-color: #0056b3;
         }
+
+        .passage_container {
+            background-color: #333;
+            width: 80%;
+            border-radius: 8px;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+        }
+
+        footer{
+            text-align: center;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -94,6 +111,7 @@ $sql_select_data = "SELECT * FROM exam_texts";
 $result = $conn->query($sql_select_data);
 
 if ($result->num_rows > 0) {
+    echo "<div class = 'passage_container'>";
     echo '<h2>지문 DATABASE</h2>';
     echo '<form action="" method="post">';
     echo '<table>';
@@ -115,7 +133,7 @@ if ($result->num_rows > 0) {
 } else {
     echo '<p>데이터가 없습니다.</p>';
 }
-
+echo '</div>';
 // 데이터베이스 연결 종료
 $conn->close();
 ?>
