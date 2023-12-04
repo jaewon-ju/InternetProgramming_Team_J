@@ -47,13 +47,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             header("Location: main.php");
             exit();
         } else {
-            $_SESSION['login-err'] = 1;
-            header("location:login.php");
+            echo "<script>alert('아이디 또는 비밀번호가 잘못되었습니다.'); window.location.href = 'login.php';</script>";
+            exit();
         }
     } else {
-        $_SESSION['login-err'] = 2;
-        echo "<script>alert('사용자가 존재하지 않습니다.');</script>";
-        header("location:login.php");
+        echo "<script>alert('아이디 또는 비밀번호가 잘못되었습니다.'); window.location.href = 'login.php';</script>";
+        exit();
     }
 }
 
