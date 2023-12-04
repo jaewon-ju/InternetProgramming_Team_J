@@ -11,6 +11,10 @@ $role = isset($_SESSION['role']) ? $_SESSION['role'] : '';
 function isTeacher() {
     return isset($_SESSION['role']) && $_SESSION['role'] === 'teacher';
 }
+if ($role === '') {
+    echo '<script>alert("로그인하십시오!"); window.location.href = "./login.php";</script>';
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -84,12 +88,6 @@ function isTeacher() {
             background-color: #45a049;
         }
     </style>
-    <script>
-        if ('<?php echo $role; ?>' === '') {
-            alert('로그인하십시오!');
-            window.location.href = './login.php';
-        }
-    </script>
 </head>
 <body>
     <div class="header">
@@ -190,8 +188,6 @@ function isTeacher() {
                             $sql_delete_data = "DELETE FROM board WHERE id IN ($selectedItems)";
                             if ($conn->query($sql_delete_data) === TRUE) {
                                 echo "<p>선택된 게시글이 삭제되었습니다.</p>";
-                    
-                                // Redirect to the same page after successful deletion
                                 header("Location: ".$_SERVER['PHP_SELF']);
                                 exit();
                             } else {
