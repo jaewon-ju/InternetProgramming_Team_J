@@ -11,7 +11,6 @@ $role = isset($_SESSION['role']) ? $_SESSION['role'] : '';
 function isTeacher() {
     return isset($_SESSION['role']) && $_SESSION['role'] === 'teacher';
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -85,6 +84,12 @@ function isTeacher() {
             background-color: #45a049;
         }
     </style>
+    <script>
+        if ('<?php echo $role; ?>' === '') {
+            alert('로그인하십시오!');
+            window.location.href = './login.php';
+        }
+    </script>
 </head>
 <body>
     <div class="header">

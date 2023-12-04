@@ -23,7 +23,7 @@
             border: 1px solid #ccc;
             border-radius: 10px; /* border radius 설정 */
             width: 50%;
-            height: 50%;
+            height: 80%;
             padding: 10px;
             display: flex; /* 추가: flex container로 설정 */
             flex-direction: column; /* 추가: 세로 방향으로 요소 배치 */
