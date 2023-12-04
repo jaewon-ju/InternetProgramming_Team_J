@@ -1,13 +1,3 @@
-<?php
-session_start();
-
-if(isset($_SESSION['login-err']) && $_SESSION['login-err'] > 0){
-    if($_SESSION['login-err'] == 1) echo "<script>alert('비밀번호가 올바르지 않습니다.');</script>";
-    else echo "<script>alert('사용자가 존재하지 않습니다.');</script>";
-    $_SESSION['login-err'] = 0;
-}
-
-?>
 <title>로그인</title>
 
 <script type="text/javascript">

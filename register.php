@@ -29,15 +29,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
     $role = $_POST['role'];
 
+    $same_id_sql = "SELECT id FROM users WHERE id='$id";
     $sql = "INSERT INTO users (id, username, password, role) VALUES ('$id', '$username', '$password', '$role')";
 
-    if ($conn->query($sql) === TRUE) {
-        // 회원가입이 완료되면 로그인 페이지로 이동
-        header("Location: login.php");
+    $result = $conn->query($same_id_sql);
+
+    // 중복된 아이디가 존재하면 회원가입 처리를 하지 않음
+    if ($result->num_rows > 0) {
+        echo "<script>alert('이미 사용중인 아이디입니다.'); window.location.href = 'register.php';</script>";
         exit();
-    } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
     }
+        
+    if ($conn->query($sql) === TRUE) {
+        echo "<script>alert('회원가입이 완료되었습니다.'); window.location.href = 'register.php';</script>";
+        exit();
+        } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+
+    
 }
 
 $conn->close();

@@ -2,11 +2,6 @@
 session_start();
 
 
-if(isset($_SESSION['change_password']) && $_SESSION['change_password'] == -1){
-    echo "<script>alert('비밀번호가 올바르지 않습니다.');</script>";
-    $_SESSION['change_password'] = 0;
-}
-
 // 예시로 사용할 데이터베이스 연결 설정
 $servername = "localhost";
 $username = "root";
@@ -36,15 +31,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $row = $result->fetch_assoc();
             if (password_verify($pre_password, $row['password'])) {
                 if ($conn->query($sql) === TRUE) {
-                    $_SESSION['change_password'] = 1;
-                    header("Location: main.php");
+                    echo "<script>alert('비밀번호가 변경되었습니다.'); window.location.href = 'main.php';</script>";
                     exit();
                 } else {
 
                 }    
             } else {
-                $_SESSION['change_password'] = -1;
-                header("location:change_password.php");
+                echo "<script>alert('비밀번호가 일치하지 않습니다.'); window.location.href = 'change_password.php';</script>";
                 exit();
             }
          
@@ -130,6 +123,7 @@ $conn->close();
                 <label for="new_password">새로운 비밀번호</label>
                 <input type="password" id="new_password" name="new_password" required>
 
+                <button type="button" class="back-button" onclick="window.location.href='main.php'">이전으로</button>
                 <button type="submit">비밀번호 변경</button>
             </form>
         </div>
